@@ -14,40 +14,13 @@ const DATA = {};
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
     chorister: { name: 'Ward Chorister' },
-    organist: { name: 'Ward Organist' },
+    organist: { name: 'Keili Malohifoou' },
     tbd: { name: 'TBD' },
-    stakeRepresentative: { name: 'Stake Representative' },
-    jasonFaga: { name: 'Jason Faga' },
-    gursteenMoeai: { name: 'Gursteen Moeai' },
-    jaredAva: { name: 'Jared Ava' },
-    samBrown: { name: 'Sam Brown' },
-    jacksonKaka: { name: 'Jackson Kaka' },
-    adamChase: { name: 'Adam Chase' },
-    mekeFinau: { name: 'Meke Finau' },
-    keliiUnga: { name: 'Kelii Unga' },
-    natalieUnga: { name: 'Natalie Unga' },
-    saaneQoro: { name: 'Saane Qoro' },
-    folauKaveinga: { name: 'Folau Kaveinga' },
-    kikiAmosa: { name: 'Kiki Amosa' },
-    melekisetekiFetokai: { name: 'Melekiseteki Fetokai' },
-    felofiakiFetokai: { name: 'Felofiaki Fetokai' },
-    koloFunaki: { name: 'Kolo Funaki' },
-    sioneBrown: { name: 'Sione Brown' },
-    amberBrown: { name: 'Amber Brown' },
-    kaiRaas: { name: 'Kai Raas' },
-    patricRipley: { name: 'Patrick Ripley' },
-    joshTune: { name: 'Josh Tune' },
-    moneAfu: { name: 'Mone Afu' },
-    charlotteAfu: { name: 'Charlotte Afu' },
-    kelepiFinau: { name: 'Kelepi Finau' },
-    carmaBrown: { name: 'Carma Brown' },
-    tuaTeriipaia: { name: 'Tua Teriipaia' },
-    ionaTeriipaia: { name: 'Iona Teriipaia' },
-    rockyKalamafoni: { name: 'Rocky Kalamafoni' },
-    mckenzieNeiufi: { name: 'Mckenzie Neiufi' },
-    lesieliHalafuka: { name: 'Lesieli Halafuka' },
-    suniaHalafuka: { name: 'Sunia Halafuka' },
-    vakaTuifua: { name: 'Vaka Tuifua' },
+    hc: { name: 'Stake Representative' },
+    bp1stc: { name: 'Salesi Sika' },
+    bp2ndc: { name: 'Jackson Kaka' },
+    wc: { name: 'Adam Chase' },
+    bp: { name: 'Wayne Tarawhiti' },
 };
 DATA.addresses = {
     chapel: {
@@ -189,14 +162,14 @@ DATA.hymns = {
 };
 //This is for the announcement section
 DATA.announcements = [
-    {
-        title: 'Testing Announcement',
-        date: new Date(2021, 1, 4).toUTCString(),
-        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
-            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions',
-    },
+    //{
+    //title: 'Testing Announcement',
+    //date: new Date(2021, 1, 4).toUTCString(),
+    //description: 'Saratoga Spring 12 Branch Parking Lot, ' +
+    //'<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+    //'8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+    //'Instructions',
+    //}, 
     {
         title: '8:00am - Utah Food Bank Delivery',
         date: new Date(2021, 0, 28).toUTCString(),
@@ -210,11 +183,6 @@ DATA.announcements = [
         date: new Date(2021, 0, 28).toUTCString(),
         description: 'YSA Institute, 7:00pm, Stake Office, <a href="https://goo.gl/maps/dZp2sggqW8aEaEQLA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
     },
-    {
-        title: '6:00pm - Primary - Great to be 8',
-        date: new Date(2021, 0, 28).toUTCString(),
-        description: 'Details to follow soon',
-    },
 ];
 DATA.broadcastLinks = [
     // ---------------------------------------------------------------------
@@ -224,9 +192,9 @@ DATA.broadcastLinks = [
         //active means will show on site
         active: true,
         label: 'Sunday 12:00noon - Sacrament',
-        link: 'https://us02web.zoom.us/j/82672066854',
+        link: 'https://us02web.zoom.us/j/83961021451',
         passcode: '',
-        meetingId: '826 7206 6854',
+        meetingId: '839 6102 1451',
     },
     // ---------------------------------------------------------------------
     // NOT Sunday School
@@ -317,40 +285,26 @@ DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [];
 DATA.baptisms = [];
 DATA.babyBlessing = [];
-DATA.missionaries = [
-    {
-        name: 'Jarom Brown',
-        mission: 'Arizona Temple',
-        startDate: new Date(2019, 11, 25),
-        endDate: new Date(2021, 11, 15),
-        photoUrl: './assets/people/jarom-brown.png',
-    },
-    {
-        name: 'Peni Mounga',
-        mission: 'New Jersey Morristown',
-        startDate: new Date(2019, 12, 18),
-        endDate: new Date(2022, 1, 4),
-        photoUrl: './assets/people/peni-mounga.png',
-    },
-    {
-        name: 'Kaden Nahinu',
-        mission: 'California San Diego',
-        startDate: new Date(2020, 10, 7),
-        endDate: new Date(2022, 10, 11),
-        photoUrl: './assets/people/kaden-nahinu.png',
-    },
-];
+//DATA.missionaries = [
+//{
+//name: 'Jarom Brown',
+//mission: 'Arizona Temple',
+//startDate: new Date(2019, 11, 25),
+//endDate: new Date(2021, 11, 15),
+//photoUrl: './assets/people/jarom-brown.png',
+//},
+//];
 DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 0, 24),
+        date: new Date(2021, 0, 31),
         startTime: '12:00 PM',
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.samBrown,
-        conducting: DATA.people.samBrown,
-        chorister: DATA.people.kelepiFinau,
+        presiding: DATA.people.bp,
+        conducting: DATA.people.bp,
+        chorister: DATA.people.tbd,
         organist: {
             name: 'Heather Ngawaka'
         },
@@ -361,7 +315,7 @@ DATA.cheatSheet = {
         speakers: [
             {
                 person: {
-                    name: 'Kim Nahinu'
+                    name: 'Haley Sika'
                 },
                 role: 'speaker',
                 index: 1,
@@ -369,15 +323,23 @@ DATA.cheatSheet = {
             },
             {
                 person: {
-                    name: 'Saratoga 9 Quartet'
+                    name: 'Salesi Sika'
                 },
-                role: 'musical',
+                role: 'speaker',
                 index: 1,
                 beforeRestHymn: true
             },
             {
                 person: {
-                    name: 'Aaron Nahinu'
+                    name: 'Jaiden Kaka'
+                },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true
+            },
+            {
+                person: {
+                    name: 'Jackson Kaka'
                 },
                 role: 'speaker',
                 index: 1,
@@ -388,7 +350,7 @@ DATA.cheatSheet = {
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
-    stakeBusinessAssignment: DATA.people.keliiUnga,
+    stakeBusinessAssignment: DATA.people.tbd,
     announcements: DATA.announcements,
     releases: DATA.releases,
     sustaining: DATA.sustaining,
