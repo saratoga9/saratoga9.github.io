@@ -20,36 +20,8 @@ DATA.announcements = [
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     {
-        title: '10:00am - Ward Council Leadership Training (via Zoom)',
-        date: new Date(2021, 2, 14).toUTCString(),
-        description: 'This is for the Bishopric and Ward Council Leaders in each organization. Zoom meeting info is under the <b>"Zoom Meeting Links"</b> section.' +
-            '<br /><br /><b>12:00pm - Saratoga Springs 9th Ward Conference </b>' +
-            '<br />Zoom meeting info is under the <b>"Zoom Meeting Links"</b> section.' +
-            //date: new Date(2021, 2, 14).toUTCString(),
-            '<br /><br /><b>2:00pm - Saratoga Springs 9th 2nd Hour with the Stake Presidency </b>' +
-            //date: new Date(2021, 2, 14).toUTCString(),
-            'This is a class for the Elders Quorum/Relief Society and Youth hosted by the Stake Presidency. Zoom meeting info is under the <b>"Zoom Meeting Links"</b> section.' +
-            '<br /><br /><b>7:00pm - BYU-Pathway Devotional for Pacific Islanders</b>. <a href="http://bit.ly/PWPacific" target="_blank">Registration Here!</a>',
-    },
-    //{
-    //title: 'Temple & Family History Night ',
-    //date: new Date(2021, 2, 9).toUTCString(),
-    //description: 'Family Search - Indexing Night | <a href="https://www.familysearch.org/indexing/get-started-indexer#/web" target="_blank">Click Here</a> ' +
-    //' to get started. Also, try this new application called <b>Deep Nostalgia</b> with your family. This animates the faces in still photos, and gives family history a fresh new perspective by producing a realistic depiction of how a' +
-    //' person could have moved and looked if they were captured on video. <a href="https://www.google.com/amp/s/www.firstpost.com/tech/news-analysis/how-to-use-deep-nostalgia-feature-to-animate-old-pictures-9365681.html/amp" target="_blank">Click here to try! <br /><br /></a>' +
-    //'<b>6:30pm - Stake Young Women Leadership training </b><br /> '+
-    //date: new Date(2021, 2, 9).toUTCString(),
-    //'The Zoom meeting info is under the <b>"Zoom Meeting Links"</b> section. '
-    //},
-    {
-        title: 'Youth Music Festival a Virtual Global Concert ',
-        date: new Date(2021, 2, 17).toUTCString(),
-        description: 'Churchwide Event, <a href="https://www.youtube.com/channel/UCciPSR2honmSdLAN2PAJujA" target="_blank">YouTube.com/StrivetoBe</a>.' +
-            ' It will also be available on <a href="https://www.churchofjesuschrist.org/?lang=eng" target="_blank">ChurchofJesusChrist.org</a> or Facebook Live',
-    },
-    {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 2, 18).toUTCString(),
+        date: new Date(2021, 2, 25).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -62,7 +34,18 @@ DATA.announcements = [
         title: '8:00am - Stake Primary Baptism',
         date: new Date(2021, 2, 27).toUTCString(),
         description: 'Ward Level,' +
-            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a>',
+            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />' +
+            '<b>12:30pm-4:30pm - Covid-19 Mobile Vaccine Clinic for Pacific Islanders</b>' +
+            '<br />By appointment, call <a href="tel:8018517183" target="_blank"> (801)851-7183</a>' +
+            ' or <a href="tel:8018517197" target="_blank">(801)851-7197</a>, HillCrest Stake Center, ' +
+            '<a href="https://goo.gl/maps/GrxNNdWxpxWA22Ed7" target="_blank">165 N 350 W, American Fork</a><br /><br />',
+    },
+    {
+        title: '7:30am - Stake Missionary Correlation Meeting',
+        date: new Date(2021, 2, 28).toUTCString(),
+        description: 'Via Zoom @7:30am, for Lehi 42nd, American Fork 2nd, Pleasant Grove 10th, Orem 8th &amp; 13th' +
+            ' are invited to attend and represent their wards – EQ/RS Counselor over missionary work; Quorum Mission Leaders,' +
+            ' Stake Leaders and Full-time Missionaries.',
     },
 ];
 DATA.broadcastLinks = [
@@ -225,6 +208,11 @@ DATA.hymns = {
         page: 7,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/israel-israel-god-is-calling?lang=eng',
     },
+    18: {
+        title: 'Haʻu Kāinga ʻOua Manavahē',
+        page: 18,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/come-come-ye-saints?lang=ton',
+    },
     19: {
         title: 'We Thank Thee, O God, for a Prophet',
         page: 19,
@@ -254,6 +242,11 @@ DATA.hymns = {
         title: 'Rejoice, the Lord Is King!',
         page: 66,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/rejoice-the-lord-is-king?lang=eng',
+    },
+    81: {
+        title: 'Press Forward Saints',
+        page: 81,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/press-forward-saints?lang=eng',
     },
     83: {
         title: 'Guide Us, O Thou Great Jehovah',
@@ -316,10 +309,16 @@ DATA.hymns = {
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/upon-the-cross-of-calvary?lang=eng',
     },
     187: {
-        title: 'Ofa ʻi ʻApi [Love at Home]',
+        title: 'God Loved Us, So He Sent His Son',
         page: 187,
-        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/love-at-home?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/god-loved-us-so-he-sent-his-son?lang=eng',
     },
+    // 187: {
+    // title: 'Ofa ʻi ʻApi [Love at Home]',
+    //page: 187,
+    //link:
+    //  'https://www.churchofjesuschrist.org/study/manual/hymns/love-at-home?lang=ton',
+    //},
     192: {
         title: 'He Died! The Great Redeemer Died',
         page: 192,
@@ -406,12 +405,12 @@ DATA.hymns = {
 //];
 DATA.sustaining = [
     {
-        name: 'Brother Algernon Brown',
-        calling: 'Priest Advisor',
+        name: '',
+        calling: '',
     },
     {
-        name: 'Brother Feleti and Claire Taufa',
-        calling: 'Sunday School Teachers',
+        name: '',
+        calling: '',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
@@ -434,7 +433,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 2, 14),
+        date: new Date(2021, 2, 21),
         startTime: '12:00 PM',
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
@@ -443,13 +442,13 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[58],
-        sacramentSong: DATA.hymns[181],
+        openingSong: DATA.hymns[18],
+        sacramentSong: DATA.hymns[187],
         testimonySunday: false,
         speakers: [
             {
                 person: {
-                    name: 'Bishop Wayne Tarawhiti',
+                    name: 'Sister Gwendolyn Purcell',
                 },
                 role: 'speaker',
                 index: 1,
@@ -457,14 +456,14 @@ DATA.cheatSheet = {
             },
             {
                 person: {
-                    name: 'President Richard Paongo',
+                    name: 'Brother James Purcell',
                 },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[220],
+        closingSong: DATA.hymns[81],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
