@@ -413,6 +413,10 @@ DATA.sustaining = [
         name: 'Sister Anna Tuiloma',
         calling: 'Primary Music Leader',
     },
+    {
+        name: 'Brother Panasai Soaki Jr.',
+        calling: 'Ward Mission Leader',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [];
