@@ -406,12 +406,12 @@ DATA.hymns = {
 //];
 DATA.sustaining = [
     {
-        name: '',
-        calling: '',
+        name: 'Sister Nancy & Brother Christopher Bell',
+        calling: 'Sunday School Teachers',
     },
     {
-        name: '',
-        calling: '',
+        name: 'Sister Anna Tuiloma',
+        calling: 'Primary Music Leader',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
