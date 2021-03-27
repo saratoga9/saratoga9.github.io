@@ -19,34 +19,58 @@ DATA.announcements = [
         description: 'All leaders and teachers of children or youth are to complete this training within one month of being called. We also invite the parents to do the same.' +
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
-    {
-        title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 2, 25).toUTCString(),
-        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
-            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions. <br /><br />' +
-            '<b>7:00pm - YSA Institute</b>' +
-            '<br />Stake Office,' +
-            '<a href="https://goo.gl/maps/cPecK6CQJDqn2YvK9" target="_blank">680 E Cedar Hollow Road, Lehi</a><br />',
-    },
-    {
-        title: '8:00am - Stake Primary Baptism',
-        date: new Date(2021, 2, 27).toUTCString(),
-        description: 'Ward Level,' +
-            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />' +
-            '<b>12:30pm-4:30pm - Covid-19 Mobile Vaccine Clinic for Pacific Islanders</b>' +
-            '<br />By appointment, call <a href="tel:8018517183" target="_blank"> (801)851-7183</a>' +
-            ' or <a href="tel:8018517197" target="_blank">(801)851-7197</a>, HillCrest Stake Center, ' +
-            '<a href="https://goo.gl/maps/GrxNNdWxpxWA22Ed7" target="_blank">165 N 350 W, American Fork.</a>' +
-            '<br />Please bring an ID to your appointment. <i>(NOTE: You do not need health insurance to receive the vaccine.)</i><br />',
-    },
+    //{
+    //title: '8:00am - Utah Food Bank Delivery',
+    //date: new Date(2021, 2, 25).toUTCString(),
+    //description:
+    //'Saratoga Spring 12 Branch Parking Lot, ' +
+    //'<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+    //'8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+    //'Instructions. <br /><br />' +
+    //'<b>7:00pm - YSA Institute</b>' +
+    //'<br />Stake Office,' +
+    //'<a href="https://goo.gl/maps/cPecK6CQJDqn2YvK9" target="_blank">680 E Cedar Hollow Road, Lehi</a><br />',
+    //},
+    //{
+    //title: '8:00am - Stake Primary Baptism',
+    //date: new Date(2021, 2, 27).toUTCString(),
+    //description:
+    //'Ward Level,' +
+    //'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />' +
+    //'<b>12:30pm-4:30pm - Covid-19 Mobile Vaccine Clinic for Pacific Islanders</b>' +
+    //'<br />By appointment, call <a href="tel:8018517183" target="_blank"> (801)851-7183</a>' +
+    //' or <a href="tel:8018517197" target="_blank">(801)851-7197</a>, HillCrest Stake Center, ' +
+    //'<a href="https://goo.gl/maps/GrxNNdWxpxWA22Ed7" target="_blank">165 N 350 W, American Fork.</a>' +
+    //'<br />Please bring an ID to your appointment. <i>(NOTE: You do not need health insurance to receive the vaccine.)</i><br />',
+    //},
     {
         title: '7:30am - Stake Missionary Correlation Meeting',
         date: new Date(2021, 2, 28).toUTCString(),
         description: 'Via Zoom @7:30am, for Lehi 42nd, American Fork 2nd, Pleasant Grove 10th, Orem 8th &amp; 13th' +
             ' are invited to attend and represent their wards – EQ/RS Counselor over missionary work; Quorum Mission Leaders,' +
             ' Stake Leaders and Full-time Missionaries.',
+    },
+    {
+        title: '10:00am | 2:00pm | 6:00pm MDT - General Conference',
+        date: new Date(2021, 3, 3).toUTCString(),
+        description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
+    },
+    {
+        title: '10:00am | 2:00pm MDT - General Conference',
+        date: new Date(2021, 3, 4).toUTCString(),
+        description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
+    },
+    {
+        title: '8:00pm - STAKE PRIMARY ACTIVITY- DRIVE-IN MOVIE (Raya and the Last Dragon)',
+        date: new Date(2021, 3, 7).toUTCString(),
+        description: 'Water Garden Cinema, <a href="https://goo.gl/maps/L4gwYePMouZWwbt56" target="_blank">912 W Garden Drive PG, UT 84062</a>,' +
+            ' arrive at the theater between 7-7:30pm. <br />FOR TICKETS: Text Sis. Nau Simeona at <a href="tel:8015743184" target="_blank">801-574-3184</a>' +
+            '<br /> For more information, <b><a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://docs.google.com/document/d/1hUhQ_lXC8wBTmK5iGC22leRH-IKDBNiIR3ntDngrXcA/edit?usp=sharing">Click Here!</a></b>',
+    },
+    {
+        title: '6:00pm - Stake Youth Fireside',
+        date: new Date(2021, 3, 18).toUTCString(),
+        description: 'Fireside ith President Gabriel &amp; Heather Reid, Australia Sydney Mission, Lehi Stake Center <a href="https://goo.gl/maps/VR4EHR1KB8KVsB3fA" target="_blank">(680 N 350 W American Fork)</a>',
     },
 ];
 DATA.broadcastLinks = [
@@ -55,6 +79,13 @@ DATA.broadcastLinks = [
     // ---------------------------------------------------------------------
     {
         //active means will show on site
+        active: true,
+        label: 'Sunday 10:00am - 2nd/4th Sunday Primary Singing Time',
+        link: 'https://us02web.zoom.us/j/89005274966?pwd=dEZMcnd3NFZBaDBiRlJJbVRPdCtjZz09',
+        passcode: '927525',
+        meetingId: '890 0527 4966',
+    },
+    {
         active: true,
         label: 'Sunday 12:00noon - Sacrament Meeting',
         link: 'https://us02web.zoom.us/j/83961021451?pwd=SVdNL2xpWDc0VXdGaDBRekswb2hlUT09',
@@ -65,21 +96,21 @@ DATA.broadcastLinks = [
     // Sunday School
     // ---------------------------------------------------------------------
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Sunday School Gospel Doctrine (English)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Sunday School Gospel Doctrine (Tongan)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Sunday School (Youth Class)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
@@ -104,42 +135,42 @@ DATA.broadcastLinks = [
     //meetingId: '839 0304 6539',
     //},
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Relief Society (English)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Relief Society (Tongan)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Elders Quorum (English)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Elders Quorum (Tongan)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Young Women Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Young Men Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -209,6 +240,11 @@ DATA.hymns = {
         page: 7,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/israel-israel-god-is-calling?lang=eng',
     },
+    10: {
+        title: 'Fakamālō ki he ʻOtua',
+        page: 10,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/we-thank-thee-o-god-for-a-prophet?lang=ton',
+    },
     18: {
         title: 'Haʻu Kāinga ʻOua Manavahē',
         page: 18,
@@ -218,6 +254,11 @@ DATA.hymns = {
         title: 'We Thank Thee, O God, for a Prophet',
         page: 19,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/we-thank-thee-o-god-for-a-prophet?lang=eng',
+    },
+    21: {
+        title: 'Come Listen to a Prophetʻs Voice',
+        page: 21,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-listen-to-a-prophets-voice?lang=eng',
     },
     25: {
         title: 'Siʻoku Kāinga ke Mou Tokanga',
@@ -258,6 +299,11 @@ DATA.hymns = {
         title: 'How Firm a Foundation',
         page: 85,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/how-firm-a-foundation?lang=eng',
+    },
+    92: {
+        title: 'Ne Fai pē mei Kālevale',
+        page: 92,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/take-the-name-of-jesus-with-you?lang=ton',
     },
     129: {
         title: 'Where Can I Turn for Peace?',
@@ -405,18 +451,18 @@ DATA.hymns = {
 //}
 //];
 DATA.sustaining = [
-    {
-        name: 'Sister Nancy & Brother Christopher Bell',
-        calling: 'Sunday School Teachers',
-    },
-    {
-        name: 'Sister Anna Tuiloma',
-        calling: 'Primary Music Leader',
-    },
-    {
-        name: 'Brother Panasai Soaki Jr.',
-        calling: 'Ward Mission Leader',
-    },
+//{
+//name: 'Sister Nancy & Brother Christopher Bell',
+//calling: 'Sunday School Teachers',
+//},
+//{
+//name: 'Sister Anna Tuiloma',
+//calling: 'Primary Music Leader',
+//},
+//{
+//name: 'Brother Panasai Soaki Jr.',
+//calling: 'Ward Mission Leader',
+//},
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [];
@@ -438,7 +484,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 2, 21),
+        date: new Date(2021, 2, 28),
         startTime: '12:00 PM',
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
@@ -447,13 +493,13 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[18],
-        sacramentSong: DATA.hymns[187],
+        openingSong: DATA.hymns[21],
+        sacramentSong: DATA.hymns[92],
         testimonySunday: false,
         speakers: [
             {
                 person: {
-                    name: 'Sister Gwendolyn Purcell',
+                    name: 'Sister Naomi Pulu',
                 },
                 role: 'speaker',
                 index: 1,
@@ -461,14 +507,14 @@ DATA.cheatSheet = {
             },
             {
                 person: {
-                    name: 'Brother James Purcell',
+                    name: 'Brother Adam Chase',
                 },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[81],
+        closingSong: DATA.hymns[10],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
