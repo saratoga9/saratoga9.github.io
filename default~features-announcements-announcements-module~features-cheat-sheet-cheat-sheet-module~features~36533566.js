@@ -77,6 +77,13 @@ DATA.broadcastLinks = [
     // Sacrament
     // ---------------------------------------------------------------------
     {
+        active: true,
+        label: 'Sunday 9:00am - Ward Youth Council Meeting',
+        link: 'https://us02web.zoom.us/j/81274737972?pwd=SkdqUGtaRDFjN0MxYnpsVHBHRUV5UT09',
+        passcode: '884917',
+        meetingId: '812 7473 7972',
+    },
+    {
         //active means will show on site
         active: true,
         label: 'Sunday 10:00am - 2nd/4th Sunday Primary Singing Time',
