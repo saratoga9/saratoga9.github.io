@@ -31,18 +31,17 @@ DATA.announcements = [
     //'<br />Stake Office,' +
     //'<a href="https://goo.gl/maps/cPecK6CQJDqn2YvK9" target="_blank">680 E Cedar Hollow Road, Lehi</a><br />',
     //},
-    //{
-    //title: '8:00am - Stake Primary Baptism',
-    //date: new Date(2021, 2, 27).toUTCString(),
-    //description:
-    //'Ward Level,' +
-    //'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />' +
-    //'<b>12:30pm-4:30pm - Covid-19 Mobile Vaccine Clinic for Pacific Islanders</b>' +
-    //'<br />By appointment, call <a href="tel:8018517183" target="_blank"> (801)851-7183</a>' +
-    //' or <a href="tel:8018517197" target="_blank">(801)851-7197</a>, HillCrest Stake Center, ' +
-    //'<a href="https://goo.gl/maps/GrxNNdWxpxWA22Ed7" target="_blank">165 N 350 W, American Fork.</a>' +
-    //'<br />Please bring an ID to your appointment. <i>(NOTE: You do not need health insurance to receive the vaccine.)</i><br />',
-    //},
+    {
+        title: '8:00am - Stake Primary Baptism',
+        date: new Date(2021, 2, 27).toUTCString(),
+        description: 'Ward Level,' +
+            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />' +
+            '<b>12:30pm-4:30pm - Covid-19 Mobile Vaccine Clinic for Pacific Islanders</b>' +
+            '<br />By appointment, call <a href="tel:8018517183" target="_blank"> (801)851-7183</a>' +
+            ' or <a href="tel:8018517197" target="_blank">(801)851-7197</a>, HillCrest Stake Center, ' +
+            '<a href="https://goo.gl/maps/GrxNNdWxpxWA22Ed7" target="_blank">165 N 350 W, American Fork.</a>' +
+            '<br />Please bring an ID to your appointment. <i>(NOTE: You do not need health insurance to receive the vaccine.)</i><br />',
+    },
     {
         title: '7:30am - Stake Missionary Correlation Meeting',
         date: new Date(2021, 2, 28).toUTCString(),
