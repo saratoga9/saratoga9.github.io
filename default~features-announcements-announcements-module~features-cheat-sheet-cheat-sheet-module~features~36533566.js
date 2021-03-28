@@ -67,11 +67,6 @@ DATA.announcements = [
             '<br /> For more information, <b><a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://docs.google.com/document/d/1hUhQ_lXC8wBTmK5iGC22leRH-IKDBNiIR3ntDngrXcA/edit?usp=sharing">Click Here!</a></b>',
     },
     {
-        title: 'Fast & Testimony Sunday',
-        date: new Date(2021, 3, 11).toUTCString(),
-        description: '',
-    },
-    {
         title: '6:00pm - Stake Youth Fireside',
         date: new Date(2021, 3, 18).toUTCString(),
         description: 'Fireside ith President Gabriel &amp; Heather Reid, Australia Sydney Mission, Lehi Stake Center <a href="https://goo.gl/maps/VR4EHR1KB8KVsB3fA" target="_blank">(680 N 350 W American Fork)</a>',
