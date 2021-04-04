@@ -20,18 +20,6 @@ DATA.announcements = [
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     //{
-    //title: '8:00am - Utah Food Bank Delivery',
-    //date: new Date(2021, 2, 25).toUTCString(),
-    //description:
-    //'Saratoga Spring 12 Branch Parking Lot, ' +
-    //'<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-    //'8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-    //'Instructions. <br /><br />' +
-    //'<b>7:00pm - YSA Institute</b>' +
-    //'<br />Stake Office,' +
-    //'<a href="https://goo.gl/maps/cPecK6CQJDqn2YvK9" target="_blank">680 E Cedar Hollow Road, Lehi</a><br />',
-    //},
-    //{
     //title: '8:00am - Stake Primary Baptism',
     //date: new Date(2021, 2, 27).toUTCString(),
     //description:
@@ -43,21 +31,13 @@ DATA.announcements = [
     //'<a href="https://goo.gl/maps/GrxNNdWxpxWA22Ed7" target="_blank">165 N 350 W, American Fork.</a>' +
     //'<br />Please bring an ID to your appointment. <i>(NOTE: You do not need health insurance to receive the vaccine.)</i><br />',
     //},
-    //{
-    //title: '7:30am - Stake Missionary Correlation Meeting',
-    //date: new Date(2021, 2, 28).toUTCString(),
-    //description:
-    //'Via Zoom @7:30am, for Lehi 42nd, American Fork 2nd, Pleasant Grove 10th, Orem 8th &amp; 13th' +
-    //' are invited to attend and represent their wards – EQ/RS Counselor over missionary work; Quorum Mission Leaders,' +
-    //' Stake Leaders and Full-time Missionaries.',
-    //},
     {
         title: '10:00am | 2:00pm | 6:00pm MDT - General Conference',
         date: new Date(2021, 3, 3).toUTCString(),
         description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
     },
     {
-        title: '10:00am | 2:00pm MDT - General Conference',
+        title: '10:00am | 2:00pm MDT - General Conference | Easter Sunday',
         date: new Date(2021, 3, 4).toUTCString(),
         description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
     },
@@ -67,6 +47,24 @@ DATA.announcements = [
         description: 'Water Garden Cinema, <a href="https://goo.gl/maps/L4gwYePMouZWwbt56" target="_blank">912 W Garden Drive PG, UT 84062</a>,' +
             ' arrive at the theater between 7-7:30pm. <br />FOR TICKETS: Text Sis. Nau Simeona at <a href="tel:8015743184" target="_blank">801-574-3184</a>' +
             '<br /> For more information, <b><a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://docs.google.com/document/d/1hUhQ_lXC8wBTmK5iGC22leRH-IKDBNiIR3ntDngrXcA/edit?usp=sharing">Click Here!</a></b>',
+    },
+    {
+        title: '8:00am - Utah Food Bank Delivery',
+        date: new Date(2021, 3, 8).toUTCString(),
+        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
+            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+            'Instructions. <br /><br />' +
+            '<b>7:00pm - YSA Institute</b>' +
+            '<br />Stake Office,' +
+            '<a href="https://goo.gl/maps/cPecK6CQJDqn2YvK9" target="_blank">680 E Cedar Hollow Road, Lehi</a><br />',
+    },
+    {
+        title: '7:30am - Stake Missionary Correlation Meeting',
+        date: new Date(2021, 3, 11).toUTCString(),
+        description: 'Via Zoom @7:30am, for Lehi 42nd, American Fork 2nd, Pleasant Grove 10th, Orem 8th &amp; 13th' +
+            ' are invited to attend and represent their wards – EQ/RS Counselor over missionary work; Quorum Mission Leaders,' +
+            ' Stake Leaders and Full-time Missionaries.',
     },
     {
         title: '6:00pm - Stake Youth Fireside',
@@ -79,7 +77,7 @@ DATA.broadcastLinks = [
     // Sacrament
     // ---------------------------------------------------------------------
     {
-        active: true,
+        active: false,
         label: 'Sunday 9:00am - Ward Youth Council Meeting',
         link: 'https://us02web.zoom.us/j/81274737972?pwd=SkdqUGtaRDFjN0MxYnpsVHBHRUV5UT09',
         passcode: '884917',
@@ -144,6 +142,20 @@ DATA.broadcastLinks = [
     //},
     {
         active: true,
+        label: 'Sunday 2:00pm - Elders Quorum (English)',
+        link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
+        passcode: '381721',
+        meetingId: '883 8140 8577',
+    },
+    {
+        active: false,
+        label: 'Sunday 2:00pm - Elders Quorum (Tongan)',
+        link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
+        passcode: '381721',
+        meetingId: '883 8140 8577',
+    },
+    {
+        active: true,
         label: 'Sunday 2:00pm - Relief Society (English)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -152,20 +164,6 @@ DATA.broadcastLinks = [
     {
         active: true,
         label: 'Sunday 2:00pm - Relief Society (Tongan)',
-        link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
-        passcode: '381721',
-        meetingId: '883 8140 8577',
-    },
-    {
-        active: true,
-        label: 'Sunday 2:00pm - Elders Quorum (English)',
-        link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
-        passcode: '381721',
-        meetingId: '883 8140 8577',
-    },
-    {
-        active: true,
-        label: 'Sunday 2:00pm - Elders Quorum (Tongan)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
@@ -510,8 +508,8 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[21],
-        sacramentSong: DATA.hymns[92],
+        openingSong: DATA.hymns.tbd,
+        sacramentSong: DATA.hymns.tbd,
         testimonySunday: true,
         speakers: [
             {
