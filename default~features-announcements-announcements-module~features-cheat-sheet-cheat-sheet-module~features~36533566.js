@@ -31,26 +31,28 @@ DATA.announcements = [
     //'<a href="https://goo.gl/maps/GrxNNdWxpxWA22Ed7" target="_blank">165 N 350 W, American Fork.</a>' +
     //'<br />Please bring an ID to your appointment. <i>(NOTE: You do not need health insurance to receive the vaccine.)</i><br />',
     //},
+    //{
+    //title: '10:00am | 2:00pm | 6:00pm MDT - General Conference',
+    //date: new Date(2021, 3, 3).toUTCString(),
+    //description:
+    //  'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
+    //},
+    //{
+    //title: '10:00am | 2:00pm MDT - General Conference | Easter Sunday',
+    //date: new Date(2021, 3, 4).toUTCString(),
+    //description:
+    //'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
+    //},
     {
-        title: '10:00am | 2:00pm | 6:00pm MDT - General Conference',
-        date: new Date(2021, 3, 3).toUTCString(),
-        description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
-    },
-    {
-        title: '10:00am | 2:00pm MDT - General Conference | Easter Sunday',
-        date: new Date(2021, 3, 4).toUTCString(),
-        description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
-    },
-    {
-        title: '8:00pm - STAKE PRIMARY ACTIVITY- DRIVE-IN MOVIE (Raya and the Last Dragon)',
-        date: new Date(2021, 3, 7).toUTCString(),
-        description: 'Water Garden Cinema, <a href="https://goo.gl/maps/L4gwYePMouZWwbt56" target="_blank">912 W Garden Drive PG, UT 84062</a>,' +
-            ' arrive at the theater between 7-7:30pm. <br />FOR TICKETS: Text Sis. Nau Simeona at <a href="tel:8015743184" target="_blank">801-574-3184</a>' +
-            '<br /> For more information, <b><a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://docs.google.com/document/d/1hUhQ_lXC8wBTmK5iGC22leRH-IKDBNiIR3ntDngrXcA/edit?usp=sharing">Click Here!</a></b>',
+        title: '7:30am - Stake Missionary Correlation Meeting',
+        date: new Date(2021, 3, 11).toUTCString(),
+        description: 'Via Zoom @7:30am, for Lehi 42nd, American Fork 2nd, Pleasant Grove 10th, Orem 8th &amp; 13th' +
+            ' are invited to attend and represent their wards – EQ/RS Counselor over missionary work; Quorum Mission Leaders,' +
+            ' Stake Leaders and Full-time Missionaries.',
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 3, 8).toUTCString(),
+        date: new Date(2021, 3, 15).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -60,16 +62,35 @@ DATA.announcements = [
             '<a href="https://goo.gl/maps/cPecK6CQJDqn2YvK9" target="_blank">680 E Cedar Hollow Road, Lehi</a><br />',
     },
     {
-        title: '7:30am - Stake Missionary Correlation Meeting',
-        date: new Date(2021, 3, 11).toUTCString(),
-        description: 'Via Zoom @7:30am, for Lehi 42nd, American Fork 2nd, Pleasant Grove 10th, Orem 8th &amp; 13th' +
-            ' are invited to attend and represent their wards – EQ/RS Counselor over missionary work; Quorum Mission Leaders,' +
-            ' Stake Leaders and Full-time Missionaries.',
-    },
-    {
         title: '6:00pm - Stake Youth Fireside',
         date: new Date(2021, 3, 18).toUTCString(),
         description: 'Fireside ith President Gabriel &amp; Heather Reid, Australia Sydney Mission, Lehi Stake Center <a href="https://goo.gl/maps/VR4EHR1KB8KVsB3fA" target="_blank">(680 N 350 W American Fork)</a>',
+    },
+    {
+        title: '8:00am - Stake Primary Baptism',
+        date: new Date(2021, 3, 24).toUTCString(),
+        description: 'Ward Level, Lehi YSA Stake Building,<a href="https://goo.gl/maps/FTYi1eAkokbozodC6" target="_blank">1550 South 1100 West, Lehi</a>',
+    },
+    {
+        title: 'FAST SUNDAY',
+        date: new Date(2021, 3, 25).toUTCString(),
+        description: 'Stake Presidency invites ALL stake members to fast for stake conference and for all members of our stake.',
+    },
+    //{
+    //title: '6:00pm - Catch The Vision ',
+    //date: new Date(2021, 2, 21).toUTCString(),
+    //description: '6:00-8:00pm, Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a> ' +
+    //'All Ward Primary Presidency members & Bishopric Member assigned to the Primary are invited. This will be available in-person and via Zoom.',
+    //},
+    {
+        title: 'Stake Conference',
+        date: new Date(2021, 4, 1).toUTCString(),
+        description: '',
+    },
+    {
+        title: 'Stake Conference',
+        date: new Date(2021, 4, 2).toUTCString(),
+        description: '',
     },
 ];
 DATA.broadcastLinks = [
@@ -306,6 +327,11 @@ DATA.hymns = {
         page: 85,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/how-firm-a-foundation?lang=eng',
     },
+    90: {
+        title: 'Sīsū Homau Huhuʻi',
+        page: 90,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/in-humility-our-savior?lang=eng&clang=ton',
+    },
     92: {
         title: 'Ne Fai pē mei Kālevale',
         page: 92,
@@ -398,6 +424,11 @@ DATA.hymns = {
         page: 196,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/jesus-once-of-humble-birth?lang=eng',
     },
+    199: {
+        title: 'He Is Risen!',
+        page: 199,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/he-is-risen?lang=eng',
+    },
     200: {
         title: 'Ke Mou Feʻofaʻaki',
         page: 200,
@@ -450,12 +481,12 @@ DATA.hymns = {
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/love-at-home?lang=eng',
     },
 };
-//DATA.releases = [
+DATA.releases = [
 //{
 //name: 'test name',
 //calling: 'test calling'
 //}
-//];
+];
 DATA.sustaining = [
 //{
 //name: 'Sister Nancy & Brother Christopher Bell',
@@ -472,14 +503,7 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'Ofa Fifita Faulua' },
-    { name: 'Lole Justina Finau' },
-    { name: 'Jermaine Fifita' },
-    { name: 'Nofokaualu Oʻkaleilani Amelia Tavalu-Fifita' },
-    { name: 'Soane Pongi Faulua' },
-    { name: 'Taukatelata Solomone Folau-i-Price Faulua' },
-    { name: 'Moti Halafuka' },
-    { name: 'Ngalu Pikula Pikula' },
+//{ name: 'Ofa Fifita Faulua' },
 ];
 DATA.baptisms = [
 // {name:'Elizaneth Pasepa Fakalelu Toki'
@@ -504,17 +528,17 @@ DATA.cheatSheet = {
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp2ndc,
+        conducting: DATA.people.bp,
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns.tbd,
-        sacramentSong: DATA.hymns.tbd,
-        testimonySunday: true,
+        openingSong: DATA.hymns[199],
+        sacramentSong: DATA.hymns[90],
+        testimonySunday: false,
         speakers: [
             {
                 person: {
-                    name: 'Sister Naomi Pulu',
+                    name: 'Sister Brooke Tuʻifua',
                 },
                 role: 'speaker',
                 index: 1,
@@ -522,14 +546,14 @@ DATA.cheatSheet = {
             },
             {
                 person: {
-                    name: 'Brother Adam Chase',
+                    name: 'Sister Lesieli Halafuka',
                 },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[10],
+        closingSong: DATA.hymns[83],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
