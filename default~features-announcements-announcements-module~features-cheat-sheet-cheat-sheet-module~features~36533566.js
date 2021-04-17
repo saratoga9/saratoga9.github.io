@@ -44,15 +44,13 @@ DATA.announcements = [
     //'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
     //},
     {
-        title: '7:30am - Stake Missionary Correlation Meeting',
-        date: new Date(2021, 3, 11).toUTCString(),
-        description: 'Via Zoom @7:30am, for Lehi 42nd, American Fork 2nd, Pleasant Grove 10th, Orem 8th &amp; 13th' +
-            ' are invited to attend and represent their wards – EQ/RS Counselor over missionary work; Quorum Mission Leaders,' +
-            ' Stake Leaders and Full-time Missionaries.',
+        title: '6:00pm - Stake Youth Fireside',
+        date: new Date(2021, 3, 18).toUTCString(),
+        description: 'Fireside ith President Gabriel &amp; Heather Reid, Australia Sydney Mission, Lehi Stake Center <a href="https://goo.gl/maps/VR4EHR1KB8KVsB3fA" target="_blank">(680 N 350 W American Fork)</a>',
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 3, 15).toUTCString(),
+        date: new Date(2021, 3, 22).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -60,11 +58,6 @@ DATA.announcements = [
             '<b>7:00pm - YSA Institute</b>' +
             '<br />Stake Office,' +
             '<a href="https://goo.gl/maps/cPecK6CQJDqn2YvK9" target="_blank">680 E Cedar Hollow Road, Lehi</a><br />',
-    },
-    {
-        title: '6:00pm - Stake Youth Fireside',
-        date: new Date(2021, 3, 18).toUTCString(),
-        description: 'Fireside ith President Gabriel &amp; Heather Reid, Australia Sydney Mission, Lehi Stake Center <a href="https://goo.gl/maps/VR4EHR1KB8KVsB3fA" target="_blank">(680 N 350 W American Fork)</a>',
     },
     {
         title: '8:00am - Stake Primary Baptism',
@@ -76,6 +69,36 @@ DATA.announcements = [
         date: new Date(2021, 3, 25).toUTCString(),
         description: 'Stake Presidency invites ALL stake members to fast for stake conference and for all members of our stake.',
     },
+    {
+        title: 'OREM UTAH 2ND STAKE CONFERENCE OUTLINE OF EVENTS',
+        date: '',
+        description: '',
+    },
+    {
+        title: 'Family Home Evening',
+        date: new Date(2021, 3, 26).toUTCString(),
+        description: 'Family Home Evening in individual homes, with a special request that families focus on President Nelson’s Message; “Let God Prevail” with your family in mind.',
+    },
+    {
+        title: 'Temple Night',
+        date: new Date(2021, 3, 27).toUTCString(),
+        description: 'with the temples in limited operation, we invite all families to complete their 4 Generation in Family Search, Index 50 names and research a family story for your family.',
+    },
+    {
+        title: '6:30pm - Youth 16-18 yrs old Face-to-Face with Stake Presidency',
+        date: new Date(2021, 3, 28).toUTCString(),
+        description: 'Lehi 41st chapel, <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>/Via Zoom',
+    },
+    {
+        title: '7:00pm - YSA FHE with Stake Presidency',
+        date: new Date(2021, 3, 29).toUTCString(),
+        description: 'Stake Office, <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>/Via Zoom',
+    },
+    {
+        title: '5:00pm - Stake Conference Service Project',
+        date: new Date(2021, 3, 30).toUTCString(),
+        description: '5 location, HCs in charge of setting up the service projects',
+    },
     //{
     //title: '6:00pm - Catch The Vision ',
     //date: new Date(2021, 2, 21).toUTCString(),
@@ -83,9 +106,12 @@ DATA.announcements = [
     //'All Ward Primary Presidency members & Bishopric Member assigned to the Primary are invited. This will be available in-person and via Zoom.',
     //},
     {
-        title: 'Stake Conference',
+        title: '4:00pm - Leadership Meeting',
         date: new Date(2021, 4, 1).toUTCString(),
-        description: '',
+        description: 'Those invited to the Leadership Session include: stake presidency, high council, stake clerk, ' +
+            'stake executive secretary, stake and ward relief society presidencies, young men and young women presidencies, ' +
+            'and primary presidencies, bishoprics, ward clerks, ward executive secretaries,' +
+            'and elders quorum presidencies—including all secretaries.',
     },
     {
         title: 'Stake Conference',
@@ -106,7 +132,7 @@ DATA.broadcastLinks = [
     },
     {
         //active means will show on site
-        active: true,
+        active: false,
         label: 'Sunday 10:00am - 2nd/4th Sunday Primary Singing Time',
         link: 'https://us02web.zoom.us/j/89005274966?pwd=dEZMcnd3NFZBaDBiRlJJbVRPdCtjZz09',
         passcode: '927525',
@@ -123,21 +149,21 @@ DATA.broadcastLinks = [
     // Sunday School
     // ---------------------------------------------------------------------
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Sunday School Gospel Doctrine (English)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Sunday School Gospel Doctrine (Tongan)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Sunday School (Youth Class)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
@@ -162,7 +188,7 @@ DATA.broadcastLinks = [
     //meetingId: '839 0304 6539',
     //},
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Elders Quorum (English)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -176,28 +202,28 @@ DATA.broadcastLinks = [
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Relief Society (English)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Relief Society (Tongan)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Young Women Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Young Men Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -272,6 +298,11 @@ DATA.hymns = {
         page: 10,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/we-thank-thee-o-god-for-a-prophet?lang=ton',
     },
+    15: {
+        title: 'Ko Sīsū ko e Maka-tuliki',
+        page: 15,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/merrily-merrily-over-the-sea?lang=eng&clang=ton',
+    },
     18: {
         title: 'Haʻu Kāinga ʻOua Manavahē',
         page: 18,
@@ -336,6 +367,11 @@ DATA.hymns = {
         title: 'Ne Fai pē mei Kālevale',
         page: 92,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/take-the-name-of-jesus-with-you?lang=ton',
+    },
+    116: {
+        title: 'Come, Follow Me',
+        page: 116,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-follow-me?lang=eng',
     },
     129: {
         title: 'Where Can I Turn for Peace?',
@@ -502,9 +538,7 @@ DATA.sustaining = [
 //},
 ];
 DATA.aaronicPriesthoodAdvancements = [];
-DATA.newMembers = [
-//{ name: 'Ofa Fifita Faulua' },
-];
+DATA.newMembers = [{ name: 'Brayden Funn' }, { name: 'Megan Funn' }];
 DATA.baptisms = [
 // {name:'Elizaneth Pasepa Fakalelu Toki'
 //},
@@ -523,7 +557,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 2, 28),
+        date: new Date(2021, 3, 18),
         startTime: '12:00 PM',
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
@@ -532,13 +566,13 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[199],
-        sacramentSong: DATA.hymns[90],
+        openingSong: DATA.hymns[15],
+        sacramentSong: DATA.hymns[169],
         testimonySunday: false,
         speakers: [
             {
                 person: {
-                    name: 'Sister Brooke Tuʻifua',
+                    name: 'TBD',
                 },
                 role: 'speaker',
                 index: 1,
@@ -546,14 +580,14 @@ DATA.cheatSheet = {
             },
             {
                 person: {
-                    name: 'Sister Lesieli Halafuka',
+                    name: 'TBD',
                 },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[83],
+        closingSong: DATA.hymns[116],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
