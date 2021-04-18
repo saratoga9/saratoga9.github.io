@@ -572,7 +572,7 @@ DATA.cheatSheet = {
         speakers: [
             {
                 person: {
-                    name: 'TBD',
+                    name: 'Brother Iona Teriipaia',
                 },
                 role: 'speaker',
                 index: 1,
@@ -580,7 +580,7 @@ DATA.cheatSheet = {
             },
             {
                 person: {
-                    name: 'TBD',
+                    name: 'Brother Westlee Tonga',
                 },
                 role: 'speaker',
                 index: 1,
