@@ -46,7 +46,9 @@ DATA.announcements = [
     {
         title: '6:00pm - Stake Youth Fireside',
         date: new Date(2021, 3, 18).toUTCString(),
-        description: 'Fireside ith President Gabriel &amp; Heather Reid, Australia Sydney Mission, Lehi Stake Center <a href="https://goo.gl/maps/VR4EHR1KB8KVsB3fA" target="_blank">(680 N 350 W American Fork)</a>',
+        description: 'Fireside ith President Gabriel &amp; Heather Reid, Australia Sydney Mission, Lehi Stake Center <a href="https://goo.gl/maps/VR4EHR1KB8KVsB3fA" target="_blank">(680 N 350 W American Fork)</a>/Webcast. ' +
+            'The fireside will be broadcasted to the EM13/14 and Orem 8/13 buildings. <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://mywebcast.churchofjesuschrist.org/view/84E4" target="_blank">Click Here!</a> ' +
+            'to watch it via WebCast. <b>Event code:</b> <u>35850</u>',
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
@@ -57,7 +59,9 @@ DATA.announcements = [
             'Instructions. <br /><br />' +
             '<b>7:00pm - YSA Institute</b>' +
             '<br />Stake Office,' +
-            '<a href="https://goo.gl/maps/cPecK6CQJDqn2YvK9" target="_blank">680 E Cedar Hollow Road, Lehi</a><br />',
+            '<a href="https://goo.gl/maps/cPecK6CQJDqn2YvK9" target="_blank">680 E Cedar Hollow Road, Lehi</a><br />' +
+            '<br /><b>7:00pm - YW Class Presidency Training</b>' +
+            '<br />Chapel, <a href="https://goo.gl/maps/Q8Wokb5q3tfGxuRZA target="_blank">220 W 200 S, Lehi</a>',
     },
     {
         title: '8:00am - Stake Primary Baptism',
