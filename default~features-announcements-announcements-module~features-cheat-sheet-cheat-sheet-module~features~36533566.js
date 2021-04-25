@@ -566,10 +566,7 @@ DATA.newMembers = [
     { name: 'Brayden Funn' },
     { name: 'Meghan Funn' },
 ];
-DATA.baptisms = [
-// {name:'Elizaneth Pasepa Fakalelu Toki'
-//},
-];
+DATA.baptisms = [{ name: 'Sila Tu’ivai' }];
 DATA.babyBlessing = [
     { name: 'Finn Israel Martin' },
     { name: 'Penni Lynn Tonga' },
