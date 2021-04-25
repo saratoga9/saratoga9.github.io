@@ -104,7 +104,9 @@ DATA.announcements = [
     {
         title: '5:00pm - Stake Conference Service Project',
         date: new Date(2021, 3, 30).toUTCString(),
-        description: '5 location, HCs in charge of setting up the service projects',
+        description: 'Saratoga Boat Harbor, <a href="https://goo.gl/maps/7qPZdqqFzqqwHprt8" target="_blank">1566 Harbor Park Way, Saratoga Springs</a>, <br />' +
+            'Repainting/Staining fence and Park clean up. Please bring gardening gloves. Wear clothes that you dont mind getting stain/paint on. Saratoga city will provide tools for our project.' +
+            ' Refreshments (Hamburger/hotdogs, chips, cookies, and water) will be served.',
     },
     //{
     //title: '6:00pm - Catch The Vision ',
