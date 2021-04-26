@@ -244,7 +244,7 @@ DATA.broadcastLinks = [
     {
         active: true,
         label: 'Sunday 6:30pm - Great to be 8 | Primary Baptism Preview',
-        link: 'https://us02web.zoom.us/j/89005274966?pwd=dEZMcnd3NFZBaDBiRlJJbVRPdCtjZz09',
+        link: 'https://us02web.zoom.us/j/82801962455?pwd=TXZIYkRmSGkwemRzdzh0QS9QR1FOZz09',
         passcode: '876390',
         meetingId: '828 0196 2455',
     },
