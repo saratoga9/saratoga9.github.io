@@ -65,7 +65,7 @@ DATA.announcements = [
         description: 'Stake Presidency invites ALL stake members to fast for stake conference and for all members of our stake.' +
             '<br /><br /> <b>6:30pm - Great to be 8 | Primary Baptism Preview</b>' +
             '<br />Saratoga Springs 9th Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi</a>' +
-            '<br />To attend via Zoom, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://us02web.zoom.us/j/89005274966?pwd=dEZMcnd3NFZBaDBiRlJJbVRPdCtjZz09" target="_blank">Click Here</a>',
+            '<br />To attend via Zoom, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://us02web.zoom.us/j/82801962455?pwd=TXZIYkRmSGkwemRzdzh0QS9QR1FOZz09" target="_blank">Click Here</a>',
     },
     {
         title: 'OREM UTAH 2ND STAKE CONFERENCE OUTLINE OF EVENTS',
