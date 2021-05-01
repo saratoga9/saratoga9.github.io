@@ -136,7 +136,7 @@ DATA.broadcastLinks = [
     // Sacrament
     // ---------------------------------------------------------------------
     {
-        active: true,
+        active: false,
         label: 'Sunday 9:00am - Ward Youth Council Meeting',
         link: 'https://us02web.zoom.us/j/81274737972?pwd=SkdqUGtaRDFjN0MxYnpsVHBHRUV5UT09',
         passcode: '884917',
@@ -144,14 +144,14 @@ DATA.broadcastLinks = [
     },
     {
         //active means will show on site
-        active: true,
+        active: false,
         label: 'Sunday 10:00am - 2nd/4th Sunday Primary Singing Time',
         link: 'https://us02web.zoom.us/j/89005274966?pwd=dEZMcnd3NFZBaDBiRlJJbVRPdCtjZz09',
         passcode: '927525',
         meetingId: '890 0527 4966',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 12:00noon - Sacrament Meeting',
         link: 'https://us02web.zoom.us/j/83961021451?pwd=SVdNL2xpWDc0VXdGaDBRekswb2hlUT09',
         passcode: '531783',
@@ -200,7 +200,7 @@ DATA.broadcastLinks = [
     //meetingId: '839 0304 6539',
     //},
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Elders Quorum',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -214,39 +214,52 @@ DATA.broadcastLinks = [
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Relief Society (English)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Relief Society (Tongan)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Young Women Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Young Men Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 6:30pm - Great to be 8 | Primary Baptism Preview',
         link: 'https://us02web.zoom.us/j/82801962455?pwd=TXZIYkRmSGkwemRzdzh0QS9QR1FOZz09',
         passcode: '876390',
         meetingId: '828 0196 2455',
+    },
+    {
+        active: true,
+        label: 'Saturday 4:00pm - Leadership Training Meeting',
+        link: 'https://us02web.zoom.us/j/85061001578?pwd=aGhVYkVNSkxLaUROMGtmdlpGWE5sdz09',
+        passcode: 'OU2Stake',
+        meetingId: '850 6100 1578',
+    },
+    {
+        active: true,
+        label: 'Sunday 10:00am - Stake Conference General Session',
+        link: 'http://mywebcast.churchofjesuschrist.org/oremutah2ndstake',
+        passcode: '86077',
     },
 ];
 DATA.people = {
@@ -563,15 +576,15 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'Likio Pope' },
-    { name: 'Mariah Janelle Pope' },
-    { name: 'Brayden Funn' },
-    { name: 'Meghan Funn' },
+// { name: 'Likio Pope' },
+//{ name: 'Mariah Janelle Pope' },
+//{ name: 'Brayden Funn' },
+//{ name: 'Meghan Funn' },
 ];
 DATA.baptisms = [{ name: 'Sila Tu’ivai' }];
 DATA.babyBlessing = [
-    { name: 'Finn Israel Martin' },
-    { name: 'Penni Lynn Tonga' },
+//{ name: 'Finn Israel Martin' },
+//{ name: 'Penni Lynn Tonga' },
 ];
 //DATA.missionaries = [
 //{
@@ -586,7 +599,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 3, 25),
+        date: new Date(2021, 4, 9),
         startTime: '12:00 PM',
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
@@ -595,9 +608,9 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[173],
-        sacramentSong: DATA.hymns[194],
-        testimonySunday: true,
+        openingSong: DATA.hymns.tbd,
+        sacramentSong: DATA.hymns.tbd,
+        testimonySunday: false,
         speakers: [
             {
                 person: {
@@ -616,7 +629,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[85],
+        closingSong: DATA.hymns.tbd,
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
