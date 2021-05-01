@@ -257,7 +257,7 @@ DATA.broadcastLinks = [
     },
     {
         active: true,
-        label: 'Sunday 10:00am - Stake Conference General Session | (click on "Details" for Event Code)',
+        label: 'Sunday 10:00am - Stake Conference General Session - (Event Code: 86077)',
         link: 'http://mywebcast.churchofjesuschrist.org/oremutah2ndstake',
         passcode: '86077',
     },
