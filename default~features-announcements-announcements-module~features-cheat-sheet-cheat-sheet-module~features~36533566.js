@@ -117,13 +117,13 @@ DATA.broadcastLinks = [
     },
     {
         active: true,
-        label: 'Sunday 2:00pm - Relief Society (English)',
+        label: 'Sunday 2:00pm - Relief Society',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Relief Society (Tongan)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
