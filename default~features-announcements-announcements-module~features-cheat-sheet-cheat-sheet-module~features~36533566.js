@@ -53,7 +53,7 @@ DATA.broadcastLinks = [
         meetingId: '890 0527 4966',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 12:00noon - Sacrament Meeting',
         link: 'https://us02web.zoom.us/j/83961021451?pwd=SVdNL2xpWDc0VXdGaDBRekswb2hlUT09',
         passcode: '531783',
