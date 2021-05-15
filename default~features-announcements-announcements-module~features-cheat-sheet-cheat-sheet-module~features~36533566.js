@@ -20,17 +20,23 @@ DATA.announcements = [
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     {
+        title: '6:00pm - Seminary Graduation',
+        date: new Date(2021, 4, 16).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>',
+    },
+    {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 4, 13).toUTCString(),
+        date: new Date(2021, 4, 20).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
             'Instructions.',
     },
     {
-        title: '6:00pm - Seminary Graduation',
-        date: new Date(2021, 4, 16).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>',
+        title: '8:00am - Stake Primary Baptism',
+        date: new Date(2021, 5, 5).toUTCString(),
+        description: 'Ward Level,' +
+            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     },
 ];
 DATA.broadcastLinks = [
@@ -46,7 +52,7 @@ DATA.broadcastLinks = [
     },
     {
         //active means will show on site
-        active: true,
+        active: false,
         label: 'Sunday 10:00am - 2nd/4th Sunday Primary Singing Time',
         link: 'https://us02web.zoom.us/j/89005274966?pwd=dEZMcnd3NFZBaDBiRlJJbVRPdCtjZz09',
         passcode: '927525',
@@ -63,22 +69,29 @@ DATA.broadcastLinks = [
     // Sunday School
     // ---------------------------------------------------------------------
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Sunday School Gospel Doctrine (English)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Sunday School Gospel Doctrine (Tongan)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
     },
     {
-        active: false,
-        label: 'Sunday 2:00pm - Sunday School (Youth Class)',
+        active: true,
+        label: 'Sunday 2:00pm - Sunday School - Youth Class (12-14)',
+        link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
+        passcode: '019419',
+        meetingId: '814 2895 4869',
+    },
+    {
+        active: true,
+        label: 'Sunday 2:00pm - Sunday School - Youth Class (15-18)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
@@ -102,7 +115,7 @@ DATA.broadcastLinks = [
     //meetingId: '839 0304 6539',
     //},
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Elders Quorum',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -116,7 +129,7 @@ DATA.broadcastLinks = [
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Relief Society',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -130,14 +143,14 @@ DATA.broadcastLinks = [
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Young Women Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Young Men Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -252,6 +265,11 @@ DATA.hymns = {
         page: 21,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-listen-to-a-prophets-voice?lang=eng',
     },
+    22: {
+        title: 'ʻE Saione ʻi ʻOlunga',
+        page: 22,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/beautiful-zion-built-above?lang=ton',
+    },
     25: {
         title: 'Siʻoku Kāinga ke Mou Tokanga',
         page: 25,
@@ -267,10 +285,16 @@ DATA.hymns = {
         page: 57,
         link: 'https://www.churchofjesuschrist.org/music/text/hymns/come-follow-me?lang=ton',
     },
+    //58: {
+    //title: 'Ka Faingataʻa Ho Hala Feinga',
+    //page: 58,
+    //link:
+    //'https://www.churchofjesuschrist.org/study/manual/hymns/if-the-way-be-full-of-trial?lang=ton',
+    //},
     58: {
-        title: 'Ka Faingataʻa Ho Hala Feinga',
+        title: 'Come, Ye Children of the Lord',
         page: 58,
-        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/if-the-way-be-full-of-trial?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-ye-children-of-the-lord?lang=eng',
     },
     66: {
         title: 'Rejoice, the Lord Is King!',
@@ -341,6 +365,11 @@ DATA.hymns = {
         title: 'As Now We Take the Sacrament',
         page: 169,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/as-now-we-take-the-sacrament?lang=eng',
+    },
+    170: {
+        title: 'God, Our Father, Hear Us Pray',
+        page: 170,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/god-our-father-hear-us-pray?lang=eng',
     },
     173: {
         title: 'Fetaulaki Fiefia',
@@ -514,7 +543,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 4, 9),
+        date: new Date(2021, 4, 16),
         startTime: '12:00 PM',
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
@@ -523,32 +552,32 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[196],
-        sacramentSong: DATA.hymns[193],
+        openingSong: DATA.hymns[58],
+        sacramentSong: DATA.hymns[170],
         testimonySunday: false,
         speakers: [
             {
                 person: {
-                    name: 'Sister Allana Teriipaia',
+                    name: 'Sister Misiona Prasad',
                 },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
+            //{
+            //person: { name: 'Song for Mothers - Primary Children' },
+            //role: 'musical',
+            //index: 1,
+            //beforeRestHymn: true,
+            //} as Speaker,
             {
-                person: { name: 'Song for Mothers - Primary Children' },
-                role: 'musical',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Feliti Taufa' },
+                person: { name: 'Brother Viliami Pita' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[293],
+        closingSong: DATA.hymns[22],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
