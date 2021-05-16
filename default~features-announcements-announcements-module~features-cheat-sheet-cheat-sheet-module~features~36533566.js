@@ -177,7 +177,7 @@ DATA.broadcastLinks = [
     },
     {
         active: true,
-        label: 'Sunday 10:00am - Seminary Graduation - (Event Code: 45296)',
+        label: 'Sunday 6:00pm - Seminary Graduation - (Event Code: 45296)',
         link: 'http://mywebcast.churchofjesuschrist.org/oremutah2ndstake',
         passcode: '45296',
     },
