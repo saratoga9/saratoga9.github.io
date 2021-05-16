@@ -22,7 +22,8 @@ DATA.announcements = [
     {
         title: '6:00pm - Seminary Graduation',
         date: new Date(2021, 4, 16).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>',
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>' +
+            '<br />To attend via Webcast, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://mywebcast.churchofjesuschrist.org/oremutah2ndstake" target="_blank">Click Here</a> <b>Event Code:</b> 45296',
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
@@ -30,7 +31,11 @@ DATA.announcements = [
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions.',
+            'Instructions.' +
+            '<br /> <br /> <b>6:00pm - Relief Society Picnic and Pickleball</b>' +
+            '<br /> Bring your gear and your appetite as we spend the evening together. Invite another sister,' +
+            'the more sisters we can get, the more teams we will be able to create. Please bring a dessert or side dish to share.' +
+            ' Info flyer is also posted on our Facebook group. If you have any questions or concerns please feel free to msg, text/call Sister Misiona Prasad(808-372-9472).',
     },
     {
         title: '8:00am - Stake Primary Baptism',
@@ -171,10 +176,10 @@ DATA.broadcastLinks = [
         meetingId: '850 6100 1578',
     },
     {
-        active: false,
-        label: 'Sunday 10:00am - Stake Conference General Session - (Event Code: 86077)',
+        active: true,
+        label: 'Sunday 10:00am - Seminary Graduation - (Event Code: 45296)',
         link: 'http://mywebcast.churchofjesuschrist.org/oremutah2ndstake',
-        passcode: '86077',
+        passcode: '45296',
     },
 ];
 DATA.people = {
