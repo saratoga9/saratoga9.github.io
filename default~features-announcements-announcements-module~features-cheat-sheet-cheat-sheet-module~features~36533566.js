@@ -74,28 +74,28 @@ DATA.broadcastLinks = [
     // Sunday School
     // ---------------------------------------------------------------------
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Sunday School Gospel Doctrine (English)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Sunday School Gospel Doctrine (Tongan)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Sunday School - Youth Class (12-14)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Sunday School - Youth Class (15-18)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
@@ -548,7 +548,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 4, 16),
+        date: new Date(2021, 4, 23),
         startTime: '12:00 PM',
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
@@ -557,13 +557,13 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[58],
-        sacramentSong: DATA.hymns[170],
+        openingSong: DATA.hymns.tbd,
+        sacramentSong: DATA.hymns.tbd,
         testimonySunday: false,
         speakers: [
             {
                 person: {
-                    name: 'Sister Misiona Prasad',
+                    name: 'TBD',
                 },
                 role: 'speaker',
                 index: 1,
@@ -576,13 +576,13 @@ DATA.cheatSheet = {
             //beforeRestHymn: true,
             //} as Speaker,
             {
-                person: { name: 'Brother Viliami Pita' },
+                person: { name: 'TBD' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[22],
+        closingSong: DATA.hymns.tbd,
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
