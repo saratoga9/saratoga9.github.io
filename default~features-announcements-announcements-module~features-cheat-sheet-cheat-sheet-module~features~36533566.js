@@ -49,7 +49,7 @@ DATA.broadcastLinks = [
     // Sacrament
     // ---------------------------------------------------------------------
     {
-        active: false,
+        active: true,
         label: 'Sunday 9:00am - Ward Youth Council Meeting',
         link: 'https://us02web.zoom.us/j/81274737972?pwd=SkdqUGtaRDFjN0MxYnpsVHBHRUV5UT09',
         passcode: '884917',
@@ -57,7 +57,7 @@ DATA.broadcastLinks = [
     },
     {
         //active means will show on site
-        active: false,
+        active: true,
         label: 'Sunday 10:00am - 2nd/4th Sunday Primary Singing Time',
         link: 'https://us02web.zoom.us/j/89005274966?pwd=dEZMcnd3NFZBaDBiRlJJbVRPdCtjZz09',
         passcode: '927525',
@@ -120,7 +120,7 @@ DATA.broadcastLinks = [
     //meetingId: '839 0304 6539',
     //},
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Elders Quorum',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -134,7 +134,7 @@ DATA.broadcastLinks = [
         meetingId: '883 8140 8577',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Relief Society',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -148,14 +148,14 @@ DATA.broadcastLinks = [
         meetingId: '883 8140 8577',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Young Women Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 2:00pm - Young Men Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -176,7 +176,7 @@ DATA.broadcastLinks = [
         meetingId: '850 6100 1578',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 6:00pm - Seminary Graduation - (Event Code: 45296)',
         link: 'http://mywebcast.churchofjesuschrist.org/oremutah2ndstake',
         passcode: '45296',
@@ -184,7 +184,7 @@ DATA.broadcastLinks = [
 ];
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
-    chorister: { name: 'Sister Manu Harris' },
+    chorister: { name: 'Sister Genesis Toki' },
     organist: { name: 'Sister Keili Malohifoʻou' },
     tbd: { name: 'TBD' },
     pray1: { name: 'Sister Lesieli Halafuka' },
@@ -361,6 +361,11 @@ DATA.hymns = {
         page: 143,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/let-the-holy-spirit-guide?lang=eng',
     },
+    145: {
+        title: 'Faitotonu Neongo ʻa e Luma',
+        page: 145,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/do-what-is-right?lang=ton',
+    },
     152: {
         title: 'God Be with You Till We Meet Again',
         page: 152,
@@ -427,6 +432,11 @@ DATA.hymns = {
         title: 'There Is a Green Hill Far Away',
         page: 194,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/there-is-a-green-hill-far-away?lang=eng',
+    },
+    195: {
+        title: 'How Great the Wisdom and the Love',
+        page: 195,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/how-great-the-wisdom-and-the-love?lang=eng',
     },
     //196: {
     //title: 'Jesus, Once of Humble Birth',
@@ -557,13 +567,13 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns.tbd,
-        sacramentSong: DATA.hymns.tbd,
+        openingSong: DATA.hymns[227],
+        sacramentSong: DATA.hymns[195],
         testimonySunday: false,
         speakers: [
             {
                 person: {
-                    name: 'TBD',
+                    name: 'Sister Jill Chase',
                 },
                 role: 'speaker',
                 index: 1,
@@ -576,13 +586,13 @@ DATA.cheatSheet = {
             //beforeRestHymn: true,
             //} as Speaker,
             {
-                person: { name: 'TBD' },
+                person: { name: 'Sister Lisa Naʻa' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns.tbd,
+        closingSong: DATA.hymns[145],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
