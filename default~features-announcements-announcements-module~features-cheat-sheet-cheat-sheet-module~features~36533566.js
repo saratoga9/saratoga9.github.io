@@ -25,7 +25,10 @@ DATA.announcements = [
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions.',
+            'Instructions.<br /><br />' +
+            '<b> 7:30pm - Youth Dance</b>' +
+            '<br /> Saratoga Springs 9th Ward Chapel, <a href="https://goo.gl/maps/TLrPMMT1CpjijHnE7" target="_blank">220 W 200 S, Lehi</a>' +
+            '<br />More info will be posted in the Ward Facebook Page.',
     },
     {
         title: '8:00am - Stake Primary Baptism',
@@ -521,18 +524,46 @@ DATA.releases = [
 //}
 ];
 DATA.sustaining = [
-//{
-//name: 'Sister Nancy & Brother Christopher Bell',
-//calling: 'Sunday School Teachers',
-//},
-//{
-//name: 'Sister Anna Tuiloma',
-//calling: 'Primary Music Leader',
-//},
-//{
-//name: 'Brother Panasai Soaki Jr.',
-//calling: 'Ward Mission Leader',
-//},
+    {
+        name: 'Sister Aimee Endicott',
+        calling: 'Primary Activity Leader',
+    },
+    {
+        name: 'Sister Wyndee Olayan',
+        calling: 'Primary Activity Leader',
+    },
+    {
+        name: 'Sister Stephanie Ripley',
+        calling: 'Primary Activity Leader',
+    },
+    {
+        name: 'Sister Jill Chase',
+        calling: 'Primary Worker - Valiant 10',
+    },
+    {
+        name: 'Sister Jaiden Kaka',
+        calling: 'Primary Worker - Valiant 10',
+    },
+    {
+        name: 'Sister Janelle Prescott',
+        calling: 'Primary Worker - Valiant 8',
+    },
+    {
+        name: 'Sister Haley Sika',
+        calling: 'Primary Worker - Valiant 8',
+    },
+    {
+        name: 'Sister Meghan & Brother Brayden Funn',
+        calling: 'Primary Workers - CTR4',
+    },
+    {
+        name: 'Sister Summer & Brother Langi Hola',
+        calling: 'Primary Workers - Sunbeams',
+    },
+    {
+        name: 'Sister Katie Tuʻivai',
+        calling: 'Primary Worker',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
