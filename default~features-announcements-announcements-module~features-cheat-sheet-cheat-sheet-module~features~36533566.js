@@ -533,10 +533,12 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-// { name: 'Likio Pope' },
-//{ name: 'Mariah Janelle Pope' },
-//{ name: 'Brayden Funn' },
-//{ name: 'Meghan Funn' },
+    { name: 'Nesi Pulotu' },
+    { name: 'Lupi Pulotu' },
+    { name: 'Talakoni Pulotu' },
+    { name: 'Meghan Funn' },
+    { name: 'Lokelani Toki' },
+    { name: 'Jessica Pukahi' },
 ];
 DATA.baptisms = [
 //{ name: 'Sila Tu’ivai' }
