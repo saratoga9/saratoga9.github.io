@@ -536,7 +536,7 @@ DATA.newMembers = [
     { name: 'Nesi Pulotu' },
     { name: 'Lupi Pulotu' },
     { name: 'Talakoni Pulotu' },
-    { name: 'Meghan Funn' },
+    { name: 'Viliami Tupola' },
     { name: 'Lokelani Toki' },
     { name: 'Jessica Pukahi' },
 ];
