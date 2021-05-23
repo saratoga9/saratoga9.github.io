@@ -20,28 +20,31 @@ DATA.announcements = [
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     {
-        title: '6:00pm - Seminary Graduation',
-        date: new Date(2021, 4, 16).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>' +
-            '<br />To attend via Webcast, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://mywebcast.churchofjesuschrist.org/oremutah2ndstake" target="_blank">Click Here</a> <b>Event Code:</b> 45296',
-    },
-    {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 4, 20).toUTCString(),
+        date: new Date(2021, 4, 27).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions.' +
-            '<br /> <br /> <b>6:00pm - Relief Society Picnic and Pickleball</b>' +
-            '<br /> Bring your gear and your appetite as we spend the evening together. Invite another sister,' +
-            'the more sisters we can get, the more teams we will be able to create. Please bring a dessert or side dish to share.' +
-            ' Info flyer is also posted on our Facebook group. If you have any questions or concerns please feel free to msg, text/call Sister Misiona Prasad(808-372-9472).',
+            'Instructions.',
     },
     {
         title: '8:00am - Stake Primary Baptism',
         date: new Date(2021, 5, 5).toUTCString(),
         description: 'Ward Level,' +
             'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
+    },
+    {
+        title: '7:30am - Stake Stake Missionary Correlation Meeting',
+        date: new Date(2021, 5, 13).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a> ' +
+            'those invited to attend and represent their wards – EQ/RS Counselor over missionary work; Quorum' +
+            'Mission Leaders, Stake Leaders and Full-time <br /><br />' +
+            '<b> 4:00pm - Single Adult Face to Face with Elder Neil L. Andersen, Sister Jean B. Bingham, and Sister Sharon Eubank </b>' +
+            '<br />Single adults ages 31 and older are invited to join Elder Neil L. Andersen of the Quorum of the Twelve Apostles' +
+            ' and President Jean B. Bingham and Sister Sharon Eubank of the Relief Society General Presidency,' +
+            ' live on <a href="https://www.churchofjesuschrist.org/broadcasts/face-to-face/archive?lang=eng" target="_blank">Face2Face.ChurchofJesusChrist.org</a>,' +
+            '<a href="https://www.youtube.com/channel/UCdNjexbIS_NKJC4ZRwKf9ag target="_blank">  YouTube, Latter-day Saints Channel</a>,' +
+            ' and other media.',
     },
 ];
 DATA.broadcastLinks = [
