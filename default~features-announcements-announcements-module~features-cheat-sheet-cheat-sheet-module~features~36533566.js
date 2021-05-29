@@ -21,14 +21,11 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 4, 27).toUTCString(),
+        date: new Date(2021, 5, 3).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions.<br /><br />' +
-            '<b> 7:30pm - Youth Dance</b>' +
-            '<br /> Saratoga Springs 9th Ward Chapel, <a href="https://goo.gl/maps/TLrPMMT1CpjijHnE7" target="_blank">220 W 200 S, Lehi</a>' +
-            '<br />More info will be posted in the Ward Facebook Page.',
+            'Instructions.',
     },
     {
         title: '8:00am - Stake Primary Baptism',
@@ -55,7 +52,7 @@ DATA.broadcastLinks = [
     // Sacrament
     // ---------------------------------------------------------------------
     {
-        active: true,
+        active: false,
         label: 'Sunday 9:00am - Ward Youth Council Meeting',
         link: 'https://us02web.zoom.us/j/81274737972?pwd=SkdqUGtaRDFjN0MxYnpsVHBHRUV5UT09',
         passcode: '884917',
@@ -63,7 +60,7 @@ DATA.broadcastLinks = [
     },
     {
         //active means will show on site
-        active: true,
+        active: false,
         label: 'Sunday 10:00am - 2nd/4th Sunday Primary Singing Time',
         link: 'https://us02web.zoom.us/j/89005274966?pwd=dEZMcnd3NFZBaDBiRlJJbVRPdCtjZz09',
         passcode: '927525',
@@ -126,7 +123,7 @@ DATA.broadcastLinks = [
     //meetingId: '839 0304 6539',
     //},
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Elders Quorum',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -140,7 +137,7 @@ DATA.broadcastLinks = [
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Relief Society',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -154,14 +151,14 @@ DATA.broadcastLinks = [
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Young Women Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 2:00pm - Young Men Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
@@ -190,7 +187,7 @@ DATA.broadcastLinks = [
 ];
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
-    chorister: { name: 'Sister Genesis Toki' },
+    chorister: { name: 'Sister Manu Harris' },
     organist: { name: 'Sister Keili Malohifoʻou' },
     tbd: { name: 'TBD' },
     pray1: { name: 'Sister Lesieli Halafuka' },
@@ -337,6 +334,11 @@ DATA.hymns = {
         page: 92,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/take-the-name-of-jesus-with-you?lang=ton',
     },
+    98: {
+        title: 'I Need Thee Every Hour',
+        page: 98,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-need-thee-every-hour?lang=eng',
+    },
     116: {
         title: 'Come, Follow Me',
         page: 116,
@@ -382,6 +384,11 @@ DATA.hymns = {
         page: 169,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/as-now-we-take-the-sacrament?lang=eng',
     },
+    160: {
+        title: 'Sīsū ne Ne Huhuʻi',
+        page: 160,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/o-thou-rock-of-our-salvation?lang=ton',
+    },
     170: {
         title: 'God, Our Father, Hear Us Pray',
         page: 170,
@@ -401,6 +408,11 @@ DATA.hymns = {
         title: 'Jesus of Nazareth, Savior and King',
         page: 181,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/jesus-of-nazareth-savior-and-king?lang=eng',
+    },
+    182: {
+        title: 'We’ll Sing All Hail to Jesus’ Name',
+        page: 182,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/well-sing-all-hail-to-jesus-name?lang=eng',
     },
     184: {
         title: 'Upon the Cross of Calvary',
@@ -524,55 +536,32 @@ DATA.releases = [
 //}
 ];
 DATA.sustaining = [
-    {
-        name: 'Sister Aimee Endicott',
-        calling: 'Primary Activity Leader',
-    },
-    {
-        name: 'Sister Wyndee Olayan',
-        calling: 'Primary Activity Leader',
-    },
-    {
-        name: 'Sister Stephanie Ripley',
-        calling: 'Primary Activity Leader',
-    },
-    {
-        name: 'Sister Jill Chase',
-        calling: 'Primary Worker - Valiant 10',
-    },
-    {
-        name: 'Sister Jaiden Kaka',
-        calling: 'Primary Worker - Valiant 10',
-    },
-    {
-        name: 'Sister Janelle Prescott',
-        calling: 'Primary Worker - Valiant 8',
-    },
-    {
-        name: 'Sister Haley Sika',
-        calling: 'Primary Worker - Valiant 8',
-    },
-    {
-        name: 'Sister Meghan & Brother Brayden Funn',
-        calling: 'Primary Workers - CTR4',
-    },
-    {
-        name: 'Sister Summer & Brother Langi Hola',
-        calling: 'Primary Workers - Sunbeams',
-    },
-    {
-        name: 'Sister Katie Tuʻivai',
-        calling: 'Primary Worker',
-    },
+//{
+//name: 'Sister Aimee Endicott',
+//calling: 'Primary Activity Leader',
+//},
+//{
+//name: 'Sister Wyndee Olayan',
+//calling: 'Primary Activity Leader',
+//},
+//{
+//name: 'Sister Stephanie Ripley',
+//calling: 'Primary Activity Leader',
+//},
+//{
+//name: 'Sister Jill Chase',
+//calling: 'Primary Worker - Valiant 10',
+//},
+//{
+//name: 'Sister Jaiden Kaka',
+//calling: 'Primary Worker - Valiant 10',
+//},
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'Nesi Pulotu' },
-    { name: 'Lupi Pulotu' },
-    { name: 'Talakoni Pulotu' },
-    { name: 'Viliami Tupola' },
-    { name: 'Lokelani Toki' },
-    { name: 'Jessica Pukahi' },
+    { name: 'Adre Ngatikaura' },
+    { name: 'Paige Ngatikaura' },
+    { name: 'Tamatoa Lynn Teinakore' },
 ];
 DATA.baptisms = [
 //{ name: 'Sila Tu’ivai' }
@@ -594,7 +583,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 4, 23),
+        date: new Date(2021, 4, 30),
         startTime: '12:00 PM',
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
@@ -603,13 +592,13 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[227],
-        sacramentSong: DATA.hymns[195],
+        openingSong: DATA.hymns[160],
+        sacramentSong: DATA.hymns[182],
         testimonySunday: false,
         speakers: [
             {
                 person: {
-                    name: 'Sister Jill Chase',
+                    name: 'Sister Carma Brown',
                 },
                 role: 'speaker',
                 index: 1,
@@ -622,13 +611,13 @@ DATA.cheatSheet = {
             //beforeRestHymn: true,
             //} as Speaker,
             {
-                person: { name: 'Sister Lisa Naʻa' },
+                person: { name: 'Brother Andrew Simeona' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[145],
+        closingSong: DATA.hymns[98],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
