@@ -412,7 +412,7 @@ BroadcastListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " Please make sure to label your zoom name with your real name to be allowed to join.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " Starting May 30,2021, the 2nd-hour classes will be held in-person. The Zoom broadcast option for sacrament will ONLY be availble throughout the month of June 2021. Then, in July, sacrament and 2nd hour classes will be held in-person. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " Starting May 30,2021, the 2nd-hour classes will be held in-person. The Zoom broadcast option for sacrament will ONLY be availble throughout the month of June 2021. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "ul", 7);
