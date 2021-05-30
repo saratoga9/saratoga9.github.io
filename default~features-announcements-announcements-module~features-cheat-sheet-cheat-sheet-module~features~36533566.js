@@ -536,26 +536,10 @@ DATA.releases = [
 //}
 ];
 DATA.sustaining = [
-//{
-//name: 'Sister Aimee Endicott',
-//calling: 'Primary Activity Leader',
-//},
-//{
-//name: 'Sister Wyndee Olayan',
-//calling: 'Primary Activity Leader',
-//},
-//{
-//name: 'Sister Stephanie Ripley',
-//calling: 'Primary Activity Leader',
-//},
-//{
-//name: 'Sister Jill Chase',
-//calling: 'Primary Worker - Valiant 10',
-//},
-//{
-//name: 'Sister Jaiden Kaka',
-//calling: 'Primary Worker - Valiant 10',
-//},
+    {
+        name: 'Sister Kalli Norman',
+        calling: 'Primary Worker',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
