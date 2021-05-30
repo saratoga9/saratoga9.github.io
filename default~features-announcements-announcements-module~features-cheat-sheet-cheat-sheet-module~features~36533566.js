@@ -554,15 +554,29 @@ DATA.babyBlessing = [
 //{ name: 'Finn Israel Martin' },
 //{ name: 'Penni Lynn Tonga' },
 ];
-//DATA.missionaries = [
-//{
-//name: 'Jarom Brown',
-//mission: 'Arizona Temple',
-//startDate: new Date(2019, 11, 25),
-//endDate: new Date(2021, 11, 15),
-//photoUrl: './assets/people/jarom-brown.png',
-//},
-//];
+DATA.missionaries = [
+    {
+        name: 'Jarom Brown',
+        mission: 'Arizona Tempe',
+        startDate: new Date(2019, 8, 25),
+        endDate: new Date(2021, 7, 26),
+        photoUrl: './assets/people/jarom-brown.png',
+    },
+    {
+        name: 'Peni Mounga',
+        mission: 'New Jersey Morristown / Church-Service Mission',
+        startDate: new Date(2019, 11, 18),
+        endDate: new Date(2022, 0, 4),
+        photoUrl: './assets/people/peni-mounga.png',
+    },
+    {
+        name: 'Naomi Pulu',
+        mission: 'Minnesota Minneapolis',
+        startDate: new Date(2021, 2, 10),
+        endDate: new Date(2022, 8, 28),
+        photoUrl: './assets/people/SisterPulu.jpg',
+    },
+];
 DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
