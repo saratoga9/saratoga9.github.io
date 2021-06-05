@@ -304,6 +304,11 @@ DATA.hymns = {
         page: 58,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-ye-children-of-the-lord?lang=eng',
     },
+    62: {
+        title: 'All Creatures of Our God and King',
+        page: 62,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/all-creatures-of-our-god-and-king?lang=eng',
+    },
     66: {
         title: 'Rejoice, the Lord Is King!',
         page: 66,
@@ -354,6 +359,11 @@ DATA.hymns = {
         page: 136,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-know-that-my-redeemer-lives?lang=eng',
     },
+    139: {
+        title: 'Lau ʻEni ko e Tofiʻa',
+        page: 139,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/this-your-inheritance?lang=ton',
+    },
     142: {
         title: 'Sweet Hour of Prayer',
         page: 142,
@@ -398,6 +408,11 @@ DATA.hymns = {
         title: 'Fetaulaki Fiefia',
         page: 173,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/gladly-meeting?lang=ton',
+    },
+    174: {
+        title: 'While of These Emblems We Partake',
+        page: 174,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/while-of-these-emblems-we-partake-aeolian?lang=eng',
     },
     180: {
         title: 'Father in Heaven, We Do Believe',
@@ -536,20 +551,29 @@ DATA.releases = [
 //}
 ];
 DATA.sustaining = [
-    {
-        name: 'Sister Kalli Norman',
-        calling: 'Primary Worker',
-    },
+//{
+//name: 'Sister Wyndee Olayan',
+//calling: 'Primary Activity Leader',
+//},
+//{
+//name: 'Sister Stephanie Ripley',
+//calling: 'Primary Activity Leader',
+//},
+//{
+//name: 'Sister Jill Chase',
+//calling: 'Primary Worker - Valiant 10',
+//},
+//{
+//name: 'Sister Jaiden Kaka',
+//calling: 'Primary Worker - Valiant 10',
+//},
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'Adre Ngatikaura' },
-    { name: 'Paige Ngatikaura' },
-    { name: 'Tamatoa Lynn Teinakore' },
+    { name: 'Cliff Chase' },
+    { name: 'Jane Chase' },
 ];
-DATA.baptisms = [
-//{ name: 'Sila Tu’ivai' }
-];
+DATA.baptisms = [{ name: 'Eternity Kona’i Malohifo’ou' }];
 DATA.babyBlessing = [
 //{ name: 'Finn Israel Martin' },
 //{ name: 'Penni Lynn Tonga' },
@@ -581,18 +605,18 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 4, 30),
+        date: new Date(2021, 5, 6),
         startTime: '12:00 PM',
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp1stc,
+        conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[160],
-        sacramentSong: DATA.hymns[182],
-        testimonySunday: false,
+        openingSong: DATA.hymns[62],
+        sacramentSong: DATA.hymns[174],
+        testimonySunday: true,
         speakers: [
             {
                 person: {
@@ -615,7 +639,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[98],
+        closingSong: DATA.hymns[139],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],

@@ -473,7 +473,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](34, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](35, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](37, "NOTE: Starting today, we will have our 2nd hour in-person. Then, we will ONLY have the Zoom broadcast option for the sacrament thru the month of June. Starting July 11th, we will have both Sacrament and 2nd hour in-person only.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](37, "NOTE: We are now doing our 2nd hour in-person. We will ONLY have the Zoom broadcast option for the sacrament until July 4th. Starting July 11th, we will have both Sacrament and 2nd hour in-person only.");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
