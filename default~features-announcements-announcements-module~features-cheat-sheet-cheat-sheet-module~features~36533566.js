@@ -588,11 +588,17 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-//{ name: 'Cliff Chase' },
-//{ name: 'Jane Chase' },
-//{ name: 'Viliami Tupola' },
-//{ name: 'Lokelani Toki' },
-//{ name: 'Jessica Pukahi' },
+    { name: 'Jakeen Hingano' },
+    { name: 'Frances Leigh de Asis Hingano' },
+    { name: 'Malosi Asher' },
+    { name: 'Rina Asher' },
+    { name: 'Liam Paul Asher' },
+    { name: 'Sage Kilali Oaklynn Asher' },
+    { name: 'Koa Malosi Asher' },
+    { name: 'Kaifah Detoles' },
+    { name: 'Amber Detoles' },
+    { name: 'Celeste Renee Detoles' },
+    { name: 'Kaizen James Detoles' },
 ];
 DATA.baptisms = [
 //{ name: 'Eternity Kona’i Malohifo’ou' },
@@ -644,7 +650,7 @@ DATA.cheatSheet = {
         speakers: [
             {
                 person: {
-                    name: 'TBD',
+                    name: 'Sister CC Malohifoʻou',
                 },
                 role: 'speaker',
                 index: 1,
@@ -657,7 +663,7 @@ DATA.cheatSheet = {
             //beforeRestHymn: true,
             //} as Speaker,
             {
-                person: { name: 'TBD' },
+                person: { name: 'Brother Natua Teriipaia' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
