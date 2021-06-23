@@ -19,53 +19,32 @@ DATA.announcements = [
         description: 'All leaders and teachers of children or youth are to complete this training within one month of being called. We also invite the parents to do the same.' +
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
-    //{
-    //title: '7:30am - Stake Stake Missionary Correlation Meeting',
-    //date: new Date(2021, 5, 13).toUTCString(),
-    //description:
-    //'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a> ' +
-    //'those invited to attend and represent their wards – EQ/RS Counselor over missionary work; Quorum' +
-    //'Mission Leaders, Stake Leaders and Full-time <br /><br />' +
-    //'<b> 4:00pm - Single Adult Face to Face with Elder Neil L. Andersen, Sister Jean B. Bingham, and Sister Sharon Eubank </b>' +
-    //'<br />Single adults ages 31 and older are invited to join Elder Neil L. Andersen of the Quorum of the Twelve Apostles' +
-    //' and President Jean B. Bingham and Sister Sharon Eubank of the Relief Society General Presidency,' +
-    //' live on <a href="https://www.churchofjesuschrist.org/broadcasts/face-to-face/archive?lang=eng" target="_blank">Face2Face.ChurchofJesusChrist.org</a>,' +
-    //'<a href="https://www.youtube.com/channel/UCdNjexbIS_NKJC4ZRwKf9ag target="_blank">  YouTube, Latter-day Saints Channel</a>,' +
-    //' and other media.',
-    //},
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 5, 24).toUTCString(),
+        date: new Date(2021, 5, 3).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions.<br /><br />' +
-            '<b>7:00pm - Stake YSA Institute</b>' +
-            '<br /> Stake Office,' +
-            '<a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank"> 680 E Cedar Hollow Road, Lehi</a>',
+            'Instructions.',
     },
     {
         title: '8:00am - Stake Primary Baptism',
-        date: new Date(2021, 6, 3).toUTCString(),
+        date: new Date(2021, 5, 5).toUTCString(),
         description: 'Ward Level,' +
-            ' Lehi YSA Stake Building, <a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
+            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     },
     {
-        title: '7:00am - Stake PickleBall Activity',
-        date: new Date(2021, 6, 5).toUTCString(),
-        description: 'Patriot Park, <a href="https://goo.gl/maps/mPWmywfQ23uCuA789" target="_blank">391 S Saratoga Rd, Saratoga Springs</a><br /><br />',
-    },
-    {
-        title: 'YSA Overnight Campout',
-        date: new Date(2021, 6, 16).toUTCString(),
-        description: 'To register, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.eventbrite.com/e/iosepa-reunion-2021-tickets-153785060255" target="_blank">click here!</a>' +
-            ' The password is 2NEPHI953.' +
-            ' <b>Registration ends Friday, June 25th.</b> Questions Contact Kaili - deoriana.ili1@gmail.com, 385-260-1558',
-    },
-    {
-        title: 'Stake Young Women Camp (Aug. 4-6)',
-        date: new Date(2021, 7, 4).toUTCString(),
-        description: 'Location: Mutual Dell, Utah',
+        title: '7:30am - Stake Stake Missionary Correlation Meeting',
+        date: new Date(2021, 5, 13).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a> ' +
+            'those invited to attend and represent their wards – EQ/RS Counselor over missionary work; Quorum' +
+            'Mission Leaders, Stake Leaders and Full-time <br /><br />' +
+            '<b> 4:00pm - Single Adult Face to Face with Elder Neil L. Andersen, Sister Jean B. Bingham, and Sister Sharon Eubank </b>' +
+            '<br />Single adults ages 31 and older are invited to join Elder Neil L. Andersen of the Quorum of the Twelve Apostles' +
+            ' and President Jean B. Bingham and Sister Sharon Eubank of the Relief Society General Presidency,' +
+            ' live on <a href="https://www.churchofjesuschrist.org/broadcasts/face-to-face/archive?lang=eng" target="_blank">Face2Face.ChurchofJesusChrist.org</a>,' +
+            '<a href="https://www.youtube.com/channel/UCdNjexbIS_NKJC4ZRwKf9ag target="_blank">  YouTube, Latter-day Saints Channel</a>,' +
+            ' and other media.',
     },
 ];
 DATA.broadcastLinks = [
@@ -233,16 +212,10 @@ DATA.hymns = {
         page: 0,
         link: 'null',
     },
-    //2: {
-    //title: 'Ko e Laumālie ʻo e ʻOtuá',
-    //page: 2,
-    //link:
-    //'https://www.churchofjesuschrist.org/study/manual/hymns/the-spirit-of-god?lang=ton',
-    //},
     2: {
-        title: 'The Spirit of God',
+        title: 'Ko e Laumālie ʻo e ʻOtuá',
         page: 2,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/the-spirit-of-god?lang=eng',
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/the-spirit-of-god?lang=ton',
     },
     3: {
         title: 'Now Let Us Rejoice',
@@ -341,11 +314,6 @@ DATA.hymns = {
         page: 66,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/rejoice-the-lord-is-king?lang=eng',
     },
-    78: {
-        title: 'Monū ka ko ha Monū ne Tō',
-        page: 78,
-        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/of-all-blessings-received?lang=ton',
-    },
     81: {
         title: 'Press Forward Saints',
         page: 81,
@@ -411,11 +379,6 @@ DATA.hymns = {
         page: 143,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/let-the-holy-spirit-guide?lang=eng',
     },
-    144: {
-        title: 'Secret Prayer',
-        page: 144,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/secret-prayer?lang=eng',
-    },
     145: {
         title: 'Faitotonu Neongo ʻa e Luma',
         page: 145,
@@ -450,11 +413,6 @@ DATA.hymns = {
         title: 'While of These Emblems We Partake',
         page: 174,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/while-of-these-emblems-we-partake-aeolian?lang=eng',
-    },
-    175: {
-        title: 'O God, the Eternal Father',
-        page: 175,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/o-god-the-eternal-father?lang=eng',
     },
     180: {
         title: 'Father in Heaven, We Do Believe',
@@ -585,11 +543,6 @@ DATA.hymns = {
         page: 294,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/love-at-home?lang=eng',
     },
-    319: {
-        title: 'Ye Elders of Israel',
-        page: 319,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/ye-elders-of-israel-men?lang=eng',
-    },
 };
 DATA.releases = [
 //{
@@ -617,20 +570,12 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'Takilesi Uluilakepa Jr' },
-    { name: 'Ann Uluilakepa' },
-    { name: 'Danny Uluilakepa' },
-    { name: 'Takilesi Uluilakepa' },
-    { name: 'LeiLani Uluilakepa' },
-    { name: 'Keana Failuma Uluilakepa' },
-    { name: 'Ako Ripley' },
-    { name: 'Aiyana Ripley' },
-    { name: 'Manu Maui David Ripley' },
-    { name: 'Malia Zen Ripley' },
+    { name: 'Cliff Chase' },
+    { name: 'Jane Chase' },
 ];
 DATA.baptisms = [
-//{ name: 'Eternity Kona’i Malohifo’ou' },
-//{ name: 'Vika Fai’ana Ninthavong Lomu' },
+    { name: 'Eternity Kona’i Malohifo’ou' },
+    { name: 'Vika Fai’ana Ninthavong Lomu' },
 ];
 DATA.babyBlessing = [
 //{ name: 'Finn Israel Martin' },
@@ -663,7 +608,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 5, 20),
+        date: new Date(2021, 5, 6),
         startTime: '12:00 PM',
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
@@ -672,40 +617,32 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[2],
-        sacramentSong: DATA.hymns[90],
-        testimonySunday: false,
+        openingSong: DATA.hymns[62],
+        sacramentSong: DATA.hymns[174],
+        testimonySunday: true,
         speakers: [
             {
                 person: {
-                    name: 'Brother Nalu Santiago',
+                    name: 'Sister Carma Brown',
                 },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
+            //{
+            //person: { name: 'Song for Mothers - Primary Children' },
+            //role: 'musical',
+            //index: 1,
+            //beforeRestHymn: true,
+            //} as Speaker,
             {
-                person: { name: 'Primary Children - Musical Number' },
-                role: 'musical',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: {
-                    name: 'Sister Summer Santiago',
-                },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Von Santiago' },
+                person: { name: 'Brother Andrew Simeona' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[319],
+        closingSong: DATA.hymns[139],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],

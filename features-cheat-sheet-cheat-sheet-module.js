@@ -480,7 +480,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](38, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](39, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](40, "span", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](41, " For the sacrament program and Ward/Stake announcements, please go to the ward website \"saratoga9.com\" ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](41, " For programs, announcements, and Zoom meeting links (including 2nd Hour Classes), please go to the ward website \"saratoga9.com\" ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](42, "br");
