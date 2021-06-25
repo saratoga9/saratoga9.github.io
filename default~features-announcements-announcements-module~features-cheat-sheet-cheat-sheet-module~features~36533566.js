@@ -37,10 +37,10 @@ DATA.announcements = [
             'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     },
     {
-        title: '7:00am - Stake Primary Baptism',
+        title: '7:00am - Stake Pickleball Activity/Park Day',
         date: new Date(2021, 6, 5).toUTCString(),
         description: 'Stake Pickleball Activity/Park Day, “Making Connections”,' +
-            '<a href="https://goo.gl/maps/dCdmPVoAswxBx2f18" target="_blank">Patriot Park, Saratoga Springs</a><br /><br />',
+            ' <a href="https://goo.gl/maps/dCdmPVoAswxBx2f18" target="_blank">Patriot Park, Saratoga Springs</a><br /><br />',
     },
     {
         title: 'YSA Overnight Campout (July 16-17)',
