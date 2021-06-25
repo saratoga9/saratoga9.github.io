@@ -21,30 +21,38 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 5, 3).toUTCString(),
+        date: new Date(2021, 6, 1).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions.',
+            'Instructions.<br /><br />' +
+            '<b>7:00pm - YSA Institute</b>' +
+            '<br />Stake Office,' +
+            '<a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
     },
     {
         title: '8:00am - Stake Primary Baptism',
-        date: new Date(2021, 5, 5).toUTCString(),
+        date: new Date(2021, 6, 3).toUTCString(),
         description: 'Ward Level,' +
             'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     },
     {
-        title: '7:30am - Stake Stake Missionary Correlation Meeting',
-        date: new Date(2021, 5, 13).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a> ' +
-            'those invited to attend and represent their wards – EQ/RS Counselor over missionary work; Quorum' +
-            'Mission Leaders, Stake Leaders and Full-time <br /><br />' +
-            '<b> 4:00pm - Single Adult Face to Face with Elder Neil L. Andersen, Sister Jean B. Bingham, and Sister Sharon Eubank </b>' +
-            '<br />Single adults ages 31 and older are invited to join Elder Neil L. Andersen of the Quorum of the Twelve Apostles' +
-            ' and President Jean B. Bingham and Sister Sharon Eubank of the Relief Society General Presidency,' +
-            ' live on <a href="https://www.churchofjesuschrist.org/broadcasts/face-to-face/archive?lang=eng" target="_blank">Face2Face.ChurchofJesusChrist.org</a>,' +
-            '<a href="https://www.youtube.com/channel/UCdNjexbIS_NKJC4ZRwKf9ag target="_blank">  YouTube, Latter-day Saints Channel</a>,' +
-            ' and other media.',
+        title: '7:00am - Stake Primary Baptism',
+        date: new Date(2021, 6, 5).toUTCString(),
+        description: 'Stake Pickleball Activity/Park Day, “Making Connections”,' +
+            '<a href="https://goo.gl/maps/dCdmPVoAswxBx2f18" target="_blank">Patriot Park, Saratoga Springs</a><br /><br />',
+    },
+    {
+        title: 'YSA Overnight Campout (July 16-17)',
+        date: new Date(2021, 6, 16).toUTCString(),
+        description: 'To register, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.eventbrite.com/e/iosepa-reunion-2021-tickets-153785060255" target="_blank">click here!</a>' +
+            ' Registration ends Friday June 25th. The password is <b>2NEPHI953>/b>.' +
+            ' Questions Contact Kaili - deoriana.ili1@gmail.com, 385-260-1558.',
+    },
+    {
+        title: 'Stake Young Women Camp (Aug. 4-6)',
+        date: new Date(2021, 7, 4).toUTCString(),
+        description: '<a href="https://goo.gl/maps/yueQzMVWWFPV4a2c6" target="_blank">Mutual Dell, UT</a>',
     },
 ];
 DATA.broadcastLinks = [
@@ -570,12 +578,15 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'Cliff Chase' },
-    { name: 'Jane Chase' },
+//{ name: 'Cliff Chase' },
+//{ name: 'Jane Chase' },
+//{ name: 'Viliami Tupola' },
+//{ name: 'Lokelani Toki' },
+//{ name: 'Jessica Pukahi' },
 ];
 DATA.baptisms = [
-    { name: 'Eternity Kona’i Malohifo’ou' },
-    { name: 'Vika Fai’ana Ninthavong Lomu' },
+//{ name: 'Eternity Kona’i Malohifo’ou' },
+//{ name: 'Vika Fai’ana Ninthavong Lomu' },
 ];
 DATA.babyBlessing = [
 //{ name: 'Finn Israel Martin' },
@@ -608,7 +619,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 5, 6),
+        date: new Date(2021, 5, 27),
         startTime: '12:00 PM',
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
@@ -617,13 +628,13 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[62],
-        sacramentSong: DATA.hymns[174],
+        openingSong: DATA.hymns.tbd,
+        sacramentSong: DATA.hymns.tbd,
         testimonySunday: true,
         speakers: [
             {
                 person: {
-                    name: 'Sister Carma Brown',
+                    name: 'tbd',
                 },
                 role: 'speaker',
                 index: 1,
@@ -636,13 +647,13 @@ DATA.cheatSheet = {
             //beforeRestHymn: true,
             //} as Speaker,
             {
-                person: { name: 'Brother Andrew Simeona' },
+                person: { name: 'tbd' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[139],
+        closingSong: DATA.hymns.tbd,
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
