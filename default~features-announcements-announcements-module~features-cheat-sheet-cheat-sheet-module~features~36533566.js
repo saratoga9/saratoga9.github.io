@@ -46,8 +46,8 @@ DATA.announcements = [
         title: 'YSA Overnight Campout (July 16-17)',
         date: new Date(2021, 6, 16).toUTCString(),
         description: 'To register, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.eventbrite.com/e/iosepa-reunion-2021-tickets-153785060255" target="_blank">click here!</a>' +
-            ' Registration ends Friday June 25th. The password is <b>2NEPHI953</b>.' +
-            ' Questions Contact Kaili - deoriana.ili1@gmail.com, 385-260-1558.',
+            ' The password is <b>2NEPHI953</b>. <b>Registration ends Friday June 25th</b>.' +
+            ' Questions, contact Kaili - deoriana.ili1@gmail.com, 385-260-1558.',
     },
     {
         title: 'Stake Young Women Camp (Aug. 4-6)',
