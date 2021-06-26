@@ -230,6 +230,11 @@ DATA.hymns = {
         page: 3,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/now-let-us-rejoice?lang=eng',
     },
+    4: {
+        title: 'Vakai ʻe Kāinga',
+        page: 4,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/high-on-the-mountain-top?lang=ton',
+    },
     //184: {
     //title: 'Fakahā ʻe he ʻOtua',
     //page: 184,
@@ -536,6 +541,11 @@ DATA.hymns = {
         page: 239,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng',
     },
+    256: {
+        title: 'As Zion’s Youth in Latter Days',
+        page: 256,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/as-zions-youth-in-latter-days?lang=eng',
+    },
     264: {
         title: 'Hark All Ye Nations',
         page: 264,
@@ -578,11 +588,8 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-//{ name: 'Cliff Chase' },
-//{ name: 'Jane Chase' },
-//{ name: 'Viliami Tupola' },
-//{ name: 'Lokelani Toki' },
-//{ name: 'Jessica Pukahi' },
+    { name: 'Joseph Olayan' },
+    { name: 'Geralyn Olayan' },
 ];
 DATA.baptisms = [
 //{ name: 'Eternity Kona’i Malohifo’ou' },
@@ -628,32 +635,32 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns.tbd,
-        sacramentSong: DATA.hymns.tbd,
-        testimonySunday: true,
+        openingSong: DATA.hymns[256],
+        sacramentSong: DATA.hymns[181],
+        testimonySunday: false,
         speakers: [
             {
                 person: {
-                    name: 'tbd',
+                    name: 'Brother Brayden Funn',
                 },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
-            //{
-            //person: { name: 'Song for Mothers - Primary Children' },
-            //role: 'musical',
-            //index: 1,
-            //beforeRestHymn: true,
-            //} as Speaker,
             {
-                person: { name: 'tbd' },
+                person: { name: 'Young Women - Musical Number' },
+                role: 'musical',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Brother Adam Chase' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns.tbd,
+        closingSong: DATA.hymns[4],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
