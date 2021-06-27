@@ -20,6 +20,11 @@ DATA.announcements = [
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     {
+        title: '6:00pm - Ward Musical Fireside',
+        date: new Date(2021, 5, 27).toUTCString(),
+        description: 'Chapel, <a href="https://goo.gl/maps/TLrPMMT1CpjijHnE7" target="_blank">220 W 200 S, Lehi</a><br /><br />',
+    },
+    {
         title: '8:00am - Utah Food Bank Delivery',
         date: new Date(2021, 6, 1).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
