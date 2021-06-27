@@ -578,10 +578,6 @@ DATA.sustaining = [
         calling: 'RS Activity Coordinator',
     },
     {
-        name: 'Sister Summer Hola',
-        calling: 'YW Activity Specialist',
-    },
-    {
         name: 'Sister Keili Malohifoʻou',
         calling: 'Primary Pianist',
     },
