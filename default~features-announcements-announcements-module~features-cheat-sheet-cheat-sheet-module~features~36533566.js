@@ -617,8 +617,11 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'Joseph Olayan' },
-    { name: 'Geralyn Olayan' },
+//{ name: 'Joseph Olayan' },
+//{ name: 'Geralyn Olayan' },
+//{ name: 'Viliami Tupola' },
+//{ name: 'Lokelani Toki' },
+//{ name: 'Jessica Pukahi' },
 ];
 DATA.baptisms = [
 //{ name: 'Eternity Kona’i Malohifo’ou' },
