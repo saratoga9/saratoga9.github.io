@@ -569,22 +569,46 @@ DATA.releases = [
 //}
 ];
 DATA.sustaining = [
-//{
-//name: 'Sister Wyndee Olayan',
-//calling: 'Primary Activity Leader',
-//},
-//{
-//name: 'Sister Stephanie Ripley',
-//calling: 'Primary Activity Leader',
-//},
-//{
-//name: 'Sister Jill Chase',
-//calling: 'Primary Worker - Valiant 10',
-//},
-//{
-//name: 'Sister Jaiden Kaka',
-//calling: 'Primary Worker - Valiant 10',
-//},
+    {
+        name: 'Brother Adre & Sister Paige Ngatikaura',
+        calling: 'Youth Sunday School',
+    },
+    {
+        name: 'Sister Kailey Uluilakepa',
+        calling: 'RS Activity Coordinator',
+    },
+    {
+        name: 'Sister Summer Hola',
+        calling: 'YW Activity Specialist',
+    },
+    {
+        name: 'Sister Keili Malohifoʻou',
+        calling: 'Primary Pianist',
+    },
+    {
+        name: 'Sister Jen Teriipaia',
+        calling: 'Primary Worker',
+    },
+    {
+        name: 'Brother Nesi & Sister Lupi Pulotu',
+        calling: 'Primary Workers',
+    },
+    {
+        name: 'Sister Shanley Kaufusi',
+        calling: 'Primary Worker',
+    },
+    {
+        name: 'Brother Likio & Sister Mariah Pope',
+        calling: 'Primary Workers',
+    },
+    {
+        name: 'Brother Taki & Sister Ann Uluilakepa',
+        calling: 'Primary Workers',
+    },
+    {
+        name: 'Sister Miriam Teriipaia',
+        calling: 'Primary Worker - Nursery',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
