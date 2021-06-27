@@ -591,6 +591,10 @@ DATA.sustaining = [
         calling: 'Primary Worker',
     },
     {
+        name: 'Sister Sadie Vaʻenuku',
+        calling: 'Primary Worker',
+    },
+    {
         name: 'Brother Nesi & Sister Lupi Pulotu',
         calling: 'Primary Workers',
     },
