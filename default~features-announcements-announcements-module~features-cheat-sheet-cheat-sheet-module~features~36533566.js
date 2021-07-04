@@ -613,8 +613,9 @@ DATA.newMembers = [
     { name: 'Geralyn Olayan' },
 ];
 DATA.baptisms = [
-//{ name: 'Eternity Kona’i Malohifo’ou' },
-//{ name: 'Vika Fai’ana Ninthavong Lomu' },
+    { name: 'Joseph Prasad Jr.' },
+    { name: 'Sosiua Hola' },
+    { name: 'Owen Martin' },
 ];
 DATA.babyBlessing = [
 //{ name: 'Finn Israel Martin' },
