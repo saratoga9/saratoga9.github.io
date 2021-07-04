@@ -20,26 +20,9 @@ DATA.announcements = [
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     {
-        title: '6:00pm - Ward Musical Fireside',
-        date: new Date(2021, 5, 27).toUTCString(),
-        description: 'Chapel, <a href="https://goo.gl/maps/TLrPMMT1CpjijHnE7" target="_blank">220 W 200 S, Lehi</a><br /><br />',
-    },
-    {
-        title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 6, 1).toUTCString(),
-        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
-            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions.<br /><br />' +
-            '<b>7:00pm - YSA Institute</b>' +
-            '<br />Stake Office,' +
-            '<a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
-    },
-    {
-        title: '8:00am - Stake Primary Baptism',
-        date: new Date(2021, 6, 3).toUTCString(),
-        description: 'Ward Level,' +
-            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
+        title: '6:00am - Stake Training for EQ/RS Presidency',
+        date: new Date(2021, 6, 4).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
     {
         title: '7:00am - Stake Pickleball Activity/Park Day',
@@ -48,11 +31,32 @@ DATA.announcements = [
             ' <a href="https://goo.gl/maps/dCdmPVoAswxBx2f18" target="_blank">Patriot Park, Saratoga Springs</a><br /><br />',
     },
     {
+        title: '8:00am - Utah Food Bank Delivery',
+        date: new Date(2021, 6, 8).toUTCString(),
+        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
+            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+            'Instructions.<br /><br />' +
+            '<b>7:00pm - YSA Institute</b>' +
+            '<br />Stake Office,' +
+            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
+    },
+    {
+        title: '6:00pm - Hill Cumorah Pageant Devotional and Broadcast with Elder D. Todd Christofferson',
+        date: new Date(2021, 6, 9).toUTCString(),
+        description: '<a href="https://www.churchofjesuschrist.org/broadcasts?lang=eng&cid=rdb_v_broadcasts_eng&video=12369994232836635445&mode=watch" target="_blank">broadcasts.ChurchofJesusChrist.org</a>',
+    },
+    {
         title: 'YSA Overnight Campout (July 16-17)',
         date: new Date(2021, 6, 16).toUTCString(),
         description: 'To register, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.eventbrite.com/e/iosepa-reunion-2021-tickets-153785060255" target="_blank">click here!</a>' +
             ' The password is <b>2NEPHI953</b>. <b>Registration ends Friday June 25th</b>.' +
             ' Questions, contact Kaili - deoriana.ili1@gmail.com, 385-260-1558.',
+    },
+    {
+        title: '6:00am - Stake Primary Training',
+        date: new Date(2021, 6, 18).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
     {
         title: 'Stake Young Women Camp (Aug. 4-6)',
@@ -566,6 +570,16 @@ DATA.hymns = {
         page: 294,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/love-at-home?lang=eng',
     },
+    338: {
+        title: 'America the Beautiful',
+        page: 338,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/america-the-beautiful?lang=eng',
+    },
+    339: {
+        title: 'My Country, ’Tis of Thee',
+        page: 339,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/my-country-tis-of-thee?lang=eng',
+    },
 };
 DATA.releases = [
 //{
@@ -574,54 +588,23 @@ DATA.releases = [
 //}
 ];
 DATA.sustaining = [
-    {
-        name: 'Brother Adre & Sister Paige Ngatikaura',
-        calling: 'Youth Sunday School',
-    },
-    {
-        name: 'Sister Kailey Uluilakepa',
-        calling: 'RS Activity Coordinator',
-    },
-    {
-        name: 'Sister Keili Malohifoʻou',
-        calling: 'Primary Pianist',
-    },
-    {
-        name: 'Sister Jen Teriipaia',
-        calling: 'Primary Worker',
-    },
-    {
-        name: 'Sister Sadie Vaʻenuku',
-        calling: 'Primary Worker',
-    },
-    {
-        name: 'Brother Nesi & Sister Lupi Pulotu',
-        calling: 'Primary Workers',
-    },
-    {
-        name: 'Sister Shanley Kaufusi',
-        calling: 'Primary Worker',
-    },
-    {
-        name: 'Brother Likio & Sister Mariah Pope',
-        calling: 'Primary Workers',
-    },
-    {
-        name: 'Brother Taki & Sister Ann Uluilakepa',
-        calling: 'Primary Workers',
-    },
-    {
-        name: 'Sister Miriam Teriipaia',
-        calling: 'Primary Worker - Nursery',
-    },
+//{
+//name: 'Brother Adre & Sister Paige Ngatikaura',
+//calling: 'Youth Sunday School',
+//},
+//{
+//name: 'Sister Kailey Uluilakepa',
+//calling: 'RS Activity Coordinator',
+//},
+//{
+//name: 'Sister Keili Malohifoʻou',
+//calling: 'Primary Pianist',
+//},
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-//{ name: 'Joseph Olayan' },
-//{ name: 'Geralyn Olayan' },
-//{ name: 'Viliami Tupola' },
-//{ name: 'Lokelani Toki' },
-//{ name: 'Jessica Pukahi' },
+    { name: 'Joseph Olayan' },
+    { name: 'Geralyn Olayan' },
 ];
 DATA.baptisms = [
 //{ name: 'Eternity Kona’i Malohifo’ou' },
@@ -658,18 +641,18 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 5, 27),
+        date: new Date(2021, 6, 4),
         startTime: '12:00 PM',
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp2ndc,
+        conducting: DATA.people.bp,
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[256],
-        sacramentSong: DATA.hymns[181],
-        testimonySunday: false,
+        openingSong: DATA.hymns[338],
+        sacramentSong: DATA.hymns[180],
+        testimonySunday: true,
         speakers: [
             {
                 person: {
@@ -692,7 +675,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[4],
+        closingSong: DATA.hymns[339],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
