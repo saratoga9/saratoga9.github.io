@@ -98,7 +98,7 @@ __webpack_require__.r(__webpack_exports__);
 class AlertsComponent {
 }
 AlertsComponent.ɵfac = function AlertsComponent_Factory(t) { return new (t || AlertsComponent)(); };
-AlertsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AlertsComponent, selectors: [["s9-alerts"]], decls: 28, vars: 0, consts: [["role", "info", 1, "alert", "alert-primary", "p-3", "d-flex", "align-content-between"], ["role", "info", 1, "alert", "alert-info", "p-3", "d-flex", "align-content-between"], [1, "fas", "fa-user-clock", "fa-3x", "mr-3"], [1, "alert-heading"], [1, "text-right", "mb-0"], ["href", "https://docs.google.com/document/d/1G3mnJlq8E-Oulx9DJriYcuYt7uae02BHe48d11_yrgY/edit?usp=sharing", "target", "_blank", 1, "btn", "btn-info", "btn-sm"]], template: function AlertsComponent_Template(rf, ctx) { if (rf & 1) {
+AlertsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AlertsComponent, selectors: [["s9-alerts"]], decls: 28, vars: 0, consts: [["role", "primary", 1, "alert", "alert-primary", "p-3", "d-flex", "align-content-between"], ["role", "info", 1, "alert", "alert-info", "p-3", "d-flex", "align-content-between"], [1, "fas", "fa-user-clock", "fa-3x", "mr-3"], [1, "alert-heading"], [1, "text-right", "mb-0"], ["href", "https://docs.google.com/document/d/1G3mnJlq8E-Oulx9DJriYcuYt7uae02BHe48d11_yrgY/edit?usp=sharing", "target", "_blank", 1, "btn", "btn-info", "btn-sm"]], template: function AlertsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "b");

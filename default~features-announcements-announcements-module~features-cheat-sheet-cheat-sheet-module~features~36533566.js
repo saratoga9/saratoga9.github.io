@@ -14,6 +14,12 @@ const DATA = {};
 //This is for the announcement section
 DATA.announcements = [
     {
+        title: 'Planning to go to the Temple?',
+        //date: new Date(2021, 1, 4).toUTCString(),
+        description: 'If you want to attend the temple, please <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng" target="_blank">Click Here!</a>' +
+            ' to schedule an appointment online. You will need to sign in with your LDS church account.',
+    },
+    {
         title: 'Protecting Children and Youth Training',
         //date: new Date(2021, 1, 4).toUTCString(),
         description: 'All leaders and teachers of children or youth are to complete this training within one month of being called. We also invite the parents to do the same.' +
