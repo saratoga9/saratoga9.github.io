@@ -13,12 +13,13 @@ __webpack_require__.r(__webpack_exports__);
 const DATA = {};
 //This is for the announcement section
 DATA.announcements = [
-    {
-        title: 'Planning to go to the Temple?',
-        //date: new Date(2021, 1, 4).toUTCString(),
-        description: 'If you want to attend the temple, please <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng" target="_blank">Click Here!</a>' +
-            ' to schedule an appointment online. You will need to sign in with your LDS church account.',
-    },
+    //{
+    //title: 'Planning to go to the Temple?',
+    //date: new Date(2021, 1, 4).toUTCString(),
+    //description:
+    //'If you want to attend the temple, please <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng" target="_blank">Click Here!</a>' +
+    //' to schedule an appointment online. You will need to sign in with your LDS church account.',
+    //},
     {
         title: 'Protecting Children and Youth Training',
         //date: new Date(2021, 1, 4).toUTCString(),
@@ -90,7 +91,7 @@ DATA.broadcastLinks = [
         meetingId: '890 0527 4966',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 12:00noon - Sacrament Meeting',
         link: 'https://us02web.zoom.us/j/83961021451?pwd=SVdNL2xpWDc0VXdGaDBRekswb2hlUT09',
         passcode: '531783',
