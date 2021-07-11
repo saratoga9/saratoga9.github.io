@@ -320,7 +320,7 @@ DATA.hymns = {
         link: 'https://www.churchofjesuschrist.org/music/text/hymns/come-follow-me?lang=ton',
     },
     48: {
-        title: 'Muimui ‘Iate Au',
+        title: '‘Oku Ou Fie Ma’u Koe',
         page: 48,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/i-need-thee-every-hour?lang=ton',
     },
