@@ -27,19 +27,13 @@ DATA.announcements = [
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     {
-        title: '6:00am - Stake Training for EQ/RS Presidency',
-        date: new Date(2021, 6, 4).toUTCString(),
+        title: '7:30am - Stake Missionary Correlation',
+        date: new Date(2021, 6, 11).toUTCString(),
         description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
     {
-        title: '7:00am - Stake Pickleball Activity/Park Day',
-        date: new Date(2021, 6, 5).toUTCString(),
-        description: 'Stake Pickleball Activity/Park Day, “Making Connections”,' +
-            ' <a href="https://goo.gl/maps/dCdmPVoAswxBx2f18" target="_blank">Patriot Park, Saratoga Springs</a><br /><br />',
-    },
-    {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 6, 8).toUTCString(),
+        date: new Date(2021, 6, 15).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -47,11 +41,6 @@ DATA.announcements = [
             '<b>7:00pm - YSA Institute</b>' +
             '<br />Stake Office,' +
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
-    },
-    {
-        title: '6:00pm - Hill Cumorah Pageant Devotional and Broadcast with Elder D. Todd Christofferson',
-        date: new Date(2021, 6, 9).toUTCString(),
-        description: '<a href="https://www.churchofjesuschrist.org/broadcasts?lang=eng&cid=rdb_v_broadcasts_eng&video=12369994232836635445&mode=watch" target="_blank">broadcasts.ChurchofJesusChrist.org</a>',
     },
     {
         title: 'YSA Overnight Campout (July 16-17)',
@@ -63,12 +52,20 @@ DATA.announcements = [
     {
         title: '6:00am - Stake Primary Training',
         date: new Date(2021, 6, 18).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
+            '<b>7:00pm - Stake YSA Firedside</b>' +
+            '<br />' +
+            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
     },
     {
         title: 'Stake Young Women Camp (Aug. 4-6)',
         date: new Date(2021, 7, 4).toUTCString(),
         description: '<a href="https://goo.gl/maps/yueQzMVWWFPV4a2c6" target="_blank">Mutual Dell, UT</a>',
+    },
+    {
+        title: '6:00pm - Stake General Priesthood Meeting',
+        date: new Date(2021, 7, 15).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
 ];
 DATA.broadcastLinks = [
@@ -322,6 +319,11 @@ DATA.hymns = {
         page: 57,
         link: 'https://www.churchofjesuschrist.org/music/text/hymns/come-follow-me?lang=ton',
     },
+    48: {
+        title: 'Muimui ‘Iate Au',
+        page: 48,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/i-need-thee-every-hour?lang=ton',
+    },
     //58: {
     //title: 'Ka Faingataʻa Ho Hala Feinga',
     //page: 58,
@@ -442,6 +444,11 @@ DATA.hymns = {
         title: 'While of These Emblems We Partake',
         page: 174,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/while-of-these-emblems-we-partake-aeolian?lang=eng',
+    },
+    178: {
+        title: 'O Lord of Hosts',
+        page: 178,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/o-lord-of-hosts?lang=eng',
     },
     180: {
         title: 'Father in Heaven, We Do Believe',
@@ -610,13 +617,16 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'Joseph Olayan' },
-    { name: 'Geralyn Olayan' },
+//{ name: 'Joseph Olayan' },
+//{ name: 'Geralyn Olayan' },
+//{ name: 'Viliami Tupola' },
+//{ name: 'Lokelani Toki' },
+//{ name: 'Jessica Pukahi' },
 ];
 DATA.baptisms = [
-    { name: 'Joseph Prasad Jr.' },
-    { name: 'Sosiua Hola' },
-    { name: 'Owen Martin' },
+//{ name: 'Joseph Prasad Jr.' },
+//{ name: 'Sosiua Hola' },
+//{ name: 'Owen Martin' },
 ];
 DATA.babyBlessing = [
 //{ name: 'Finn Israel Martin' },
@@ -649,7 +659,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 6, 4),
+        date: new Date(2021, 6, 11),
         startTime: '12:00 PM',
         endTime: '12:40 PM',
         address: DATA.addresses.chapel,
@@ -658,32 +668,32 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[338],
-        sacramentSong: DATA.hymns[180],
-        testimonySunday: true,
+        openingSong: DATA.hymns[48],
+        sacramentSong: DATA.hymns[178],
+        testimonySunday: false,
         speakers: [
             {
                 person: {
-                    name: 'Brother Brayden Funn',
+                    name: 'Sister Ana Fonua',
                 },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
+            //{
+            //person: { name: 'Young Women - Musical Number' },
+            //role: 'musical',
+            //index: 1,
+            //beforeRestHymn: true,
+            //} as Speaker,
             {
-                person: { name: 'Young Women - Musical Number' },
-                role: 'musical',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Adam Chase' },
+                person: { name: 'Brother Imelia Fonua' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[339],
+        closingSong: DATA.hymns[58],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
