@@ -26,14 +26,23 @@ DATA.announcements = [
         description: 'All leaders and teachers of children or youth are to complete this training within one month of being called. We also invite the parents to do the same.' +
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
+    //{
+    //title: '7:30am - Stake Missionary Correlation',
+    //date: new Date(2021, 6, 11).toUTCString(),
+    //description:
+    //'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+    //},
     {
-        title: '7:30am - Stake Missionary Correlation',
-        date: new Date(2021, 6, 11).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+        title: '6:00am - Stake Primary Training',
+        date: new Date(2021, 6, 18).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
+            '<b>7:00pm - Stake YSA Firedside</b>' +
+            '<br />' +
+            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 6, 15).toUTCString(),
+        date: new Date(2021, 6, 22).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -43,19 +52,10 @@ DATA.announcements = [
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
     },
     {
-        title: 'YSA Overnight Campout (July 16-17)',
-        date: new Date(2021, 6, 16).toUTCString(),
-        description: 'To register, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.eventbrite.com/e/iosepa-reunion-2021-tickets-153785060255" target="_blank">click here!</a>' +
-            ' The password is <b>2NEPHI953</b>. <b>Registration ends Friday June 25th</b>.' +
-            ' Questions, contact Kaili - deoriana.ili1@gmail.com, 385-260-1558.',
-    },
-    {
-        title: '6:00am - Stake Primary Training',
-        date: new Date(2021, 6, 18).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
-            '<b>7:00pm - Stake YSA Firedside</b>' +
-            '<br />' +
-            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
+        title: '8:00am - Stake Primary Baptism',
+        date: new Date(2021, 6, 31).toUTCString(),
+        description: 'Ward Level,' +
+            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     },
     {
         title: 'Stake Young Women Camp (Aug. 4-6)',
@@ -314,27 +314,32 @@ DATA.hymns = {
         page: 27,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/thus-sayeth-the-lord?lang=ton',
     },
-    57: {
-        title: 'Muimui ‘Iate Au',
-        page: 57,
-        link: 'https://www.churchofjesuschrist.org/music/text/hymns/come-follow-me?lang=ton',
+    30: {
+        title: 'Come Come Ye Saints',
+        page: 30,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-come-ye-saints?lang=eng',
     },
     48: {
         title: '‘Oku Ou Fie Ma’u Koe',
         page: 48,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/i-need-thee-every-hour?lang=ton',
     },
+    57: {
+        title: 'Muimui ‘Iate Au',
+        page: 57,
+        link: 'https://www.churchofjesuschrist.org/music/text/hymns/come-follow-me?lang=ton',
+    },
+    58: {
+        title: 'Ka Faingataʻa Ho Hala Feinga',
+        page: 58,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/if-the-way-be-full-of-trial?lang=ton',
+    },
     //58: {
-    //title: 'Ka Faingataʻa Ho Hala Feinga',
+    //title: 'Come, Ye Children of the Lord',
     //page: 58,
     //link:
-    //'https://www.churchofjesuschrist.org/study/manual/hymns/if-the-way-be-full-of-trial?lang=ton',
+    //'https://www.churchofjesuschrist.org/music/library/hymns/come-ye-children-of-the-lord?lang=eng',
     //},
-    58: {
-        title: 'Come, Ye Children of the Lord',
-        page: 58,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-ye-children-of-the-lord?lang=eng',
-    },
     62: {
         title: 'All Creatures of Our God and King',
         page: 62,
@@ -659,22 +664,22 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 6, 11),
+        date: new Date(2021, 6, 18),
         startTime: '12:00 PM',
-        endTime: '12:40 PM',
+        endTime: '1:00 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
         conducting: DATA.people.bp,
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[48],
-        sacramentSong: DATA.hymns[178],
+        openingSong: DATA.hymns[30],
+        sacramentSong: DATA.hymns[170],
         testimonySunday: false,
         speakers: [
             {
                 person: {
-                    name: 'Sister Ana Fonua',
+                    name: 'Sister Vea Manumaleuna',
                 },
                 role: 'speaker',
                 index: 1,
@@ -687,7 +692,7 @@ DATA.cheatSheet = {
             //beforeRestHymn: true,
             //} as Speaker,
             {
-                person: { name: 'Brother Imelia Fonua' },
+                person: { name: 'Brother Eathyn Manumaleuna' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
