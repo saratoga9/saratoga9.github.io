@@ -601,24 +601,24 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-//{
-//name: 'test name',
-//calling: 'test calling'
-//}
+    {
+        name: 'Sister Salome Pita',
+        calling: 'Primary Second Counselor',
+    },
 ];
 DATA.sustaining = [
-//{
-//name: 'Brother Adre & Sister Paige Ngatikaura',
-//calling: 'Youth Sunday School',
-//},
-//{
-//name: 'Sister Kailey Uluilakepa',
-//calling: 'RS Activity Coordinator',
-//},
-//{
-//name: 'Sister Keili Malohifoʻou',
-//calling: 'Primary Pianist',
-//},
+    //{
+    //name: 'Brother Adre & Sister Paige Ngatikaura',
+    //calling: 'Youth Sunday School',
+    //},
+    {
+        name: 'Sister Salome Pita',
+        calling: 'Assistant Ward Chorister',
+    },
+    {
+        name: 'Patriarch Samuel Brown',
+        calling: 'Welfare and Self-Reliance Specialist',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
