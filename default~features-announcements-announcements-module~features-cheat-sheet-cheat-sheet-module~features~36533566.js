@@ -701,12 +701,12 @@ DATA.cheatSheet = {
                 index: 1,
                 beforeRestHymn: true,
             },
-            //{
-            //person: { name: 'Young Women - Musical Number' },
-            //role: 'musical',
-            //index: 1,
-            //beforeRestHymn: true,
-            //} as Speaker,
+            {
+                person: { name: 'Sister Tami Teriipaia' },
+                role: 'musical',
+                index: 1,
+                beforeRestHymn: true,
+            },
             {
                 person: { name: 'Brother Sai Soakai' },
                 role: 'speaker',
