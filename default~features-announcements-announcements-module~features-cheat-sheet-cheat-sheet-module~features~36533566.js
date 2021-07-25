@@ -675,7 +675,7 @@ DATA.cheatSheet = {
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp1stc,
-        conducting: DATA.people.bp1stc,
+        conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
