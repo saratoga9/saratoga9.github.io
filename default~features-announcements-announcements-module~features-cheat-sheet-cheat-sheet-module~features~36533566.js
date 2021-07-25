@@ -702,7 +702,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Tami Teriipaia' },
+                person: { name: 'Sister Tami Teriipaia - Musical Number' },
                 role: 'musical',
                 index: 1,
                 beforeRestHymn: true,
