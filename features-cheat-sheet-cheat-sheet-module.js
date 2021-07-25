@@ -498,7 +498,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](46, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](47, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](48, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](49, " There will be a Stake Tongan Temple session at the Timpanogos Temple on September 7 at 8:15pm. Please go to our ward website and to sign up for the temple appointment online. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](49, " There will be a Stake Tongan Temple session at the Timpanogos Temple on September 7 at 8:15pm. To sign up for that specific date and time, please go to our ward website under the \"Planning to go to the Temple?\" section. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();

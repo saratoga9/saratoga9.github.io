@@ -55,8 +55,18 @@ DATA.announcements = [
         description: '<a href="https://goo.gl/maps/yueQzMVWWFPV4a2c6" target="_blank">Mutual Dell, UT</a>',
     },
     {
-        title: '6:00pm - Stake General Priesthood Meeting',
+        title: '6:00pm - Seminary Kickoff Fireside',
         date: new Date(2021, 7, 15).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+    },
+    {
+        title: '8:00am - Stake RS Training',
+        date: new Date(2021, 7, 21).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+    },
+    {
+        title: '6:00pm - Stake General Priesthood Meeting',
+        date: new Date(2021, 7, 29).toUTCString(),
         description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
 ];
