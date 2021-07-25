@@ -571,7 +571,7 @@ function InPersonProgramComponent_div_0_div_73_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", ctx_r3.data.cheatSheet.sacrament.restSong.title, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"](" (Hymn #", ctx_r3.data.cheatSheet.sacrament.restSong.page, ") ", ctx_r3.data.cheatSheet.sacrament.restSong.title, " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ctx_r3.data.cheatSheet.sacrament.restSong.link, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
@@ -738,7 +738,7 @@ function InPersonProgramComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](71, InPersonProgramComponent_div_0_div_71_Template, 3, 0, "div", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](72, InPersonProgramComponent_div_0_div_72_Template, 2, 1, "div", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](73, InPersonProgramComponent_div_0_div_73_Template, 9, 2, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](73, InPersonProgramComponent_div_0_div_73_Template, 9, 3, "div", 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](74, InPersonProgramComponent_div_0_div_74_Template, 2, 1, "div", 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](75, "div", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](76, "div", 6);
@@ -779,7 +779,7 @@ function InPersonProgramComponent_div_0_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate3"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](13, 21, ctx_r0.data.cheatSheet.sacrament.date), ", ", ctx_r0.data.cheatSheet.sacrament.startTime, " to ", ctx_r0.data.cheatSheet.sacrament.endTime, ", ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate3"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](13, 24, ctx_r0.data.cheatSheet.sacrament.date), ", ", ctx_r0.data.cheatSheet.sacrament.startTime, " to ", ctx_r0.data.cheatSheet.sacrament.endTime, ", ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ctx_r0.data.cheatSheet.sacrament.address.link, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
@@ -793,13 +793,13 @@ function InPersonProgramComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.data.cheatSheet.sacrament.organist.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", ctx_r0.data.cheatSheet.sacrament.openingSong.title, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"](" (Hymn #", ctx_r0.data.cheatSheet.sacrament.openingSong.page, ") ", ctx_r0.data.cheatSheet.sacrament.openingSong.title, " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ctx_r0.data.cheatSheet.sacrament.openingSong.link, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.data.cheatSheet.sacrament.invocation.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", ctx_r0.data.cheatSheet.sacrament.sacramentSong.title, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"](" (Hymn #", ctx_r0.data.cheatSheet.sacrament.sacramentSong.page, ") ", ctx_r0.data.cheatSheet.sacrament.sacramentSong.title, " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ctx_r0.data.cheatSheet.sacrament.sacramentSong.link, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](7);
@@ -811,7 +811,7 @@ function InPersonProgramComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx_r0.data.cheatSheet.sacrament.testimonySunday);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", ctx_r0.data.cheatSheet.sacrament.closingSong.title, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"](" (Hymn #", ctx_r0.data.cheatSheet.sacrament.closingSong.page, ") ", ctx_r0.data.cheatSheet.sacrament.closingSong.title, " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ctx_r0.data.cheatSheet.sacrament.closingSong.link, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](7);
@@ -824,7 +824,7 @@ class InPersonProgramComponent extends _sacrament_base__WEBPACK_IMPORTED_MODULE_
 }
 InPersonProgramComponent.ɵfac = function InPersonProgramComponent_Factory(t) { return ɵInPersonProgramComponent_BaseFactory(t || InPersonProgramComponent); };
 InPersonProgramComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: InPersonProgramComponent, selectors: [["s9-in-person-program"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵInheritDefinitionFeature"]], decls: 1, vars: 1, consts: [["class", "row", 4, "ngIf"], [1, "row"], [1, "col-12", "mb-2", "mt-2", "text-center"], [1, "h3", "mb-1"], ["target", "_blank", 3, "href"], [1, "col-12", "mb-2"], [1, "d-flex", "justify-content-between"], [1, "text-right"], [1, "col-12", "mb-4"], ["target", "_blank", 1, "btn", "btn-sm", "btn-info", "font-size-10", "text-capitalize", 3, "href"], ["class", "col-12 mb-4 mt-3", 4, "ngIf"], ["class", "col-12 mb-2", 4, "ngIf"], [1, "col-12", "mb-2", "text-center"], [1, "blockquote"], [1, "mb-0"], [1, "blockquote-footer"], [1, "col-12", "mb-4", "mt-3"], ["class", "d-flex justify-content-between mb-2", 4, "ngFor", "ngForOf"], [1, "d-flex", "justify-content-between", "mb-2"], [4, "ngIf"]], template: function InPersonProgramComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, InPersonProgramComponent_div_0_Template, 97, 23, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, InPersonProgramComponent_div_0_Template, 97, 26, "div", 0);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.data.cheatSheet.sacrament);
     } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["DatePipe"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJpbi1wZXJzb24tcHJvZ3JhbS5jb21wb25lbnQuc2NzcyJ9 */"] });

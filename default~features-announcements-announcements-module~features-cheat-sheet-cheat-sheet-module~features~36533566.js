@@ -33,16 +33,8 @@ DATA.announcements = [
     //'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     //},
     {
-        title: '6:00am - Stake Primary Training',
-        date: new Date(2021, 6, 18).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
-            '<b>7:00pm - Stake YSA Firedside</b>' +
-            '<br />' +
-            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
-    },
-    {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 6, 22).toUTCString(),
+        date: new Date(2021, 6, 29).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -375,6 +367,11 @@ DATA.hymns = {
         page: 92,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/take-the-name-of-jesus-with-you?lang=ton',
     },
+    97: {
+        title: 'Tau Fakamālō Kia Sīsū',
+        page: 97,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/well-sing-all-hail-to-jesus-name?lang=ton',
+    },
     98: {
         title: 'I Need Thee Every Hour',
         page: 98,
@@ -601,20 +598,20 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-    {
-        name: 'Sister Salome Pita',
-        calling: 'Primary Second Counselor',
-    },
+//{
+//name: 'Sister Salome Pita',
+//calling: 'Primary Second Counselor',
+//},
 ];
 DATA.sustaining = [
     //{
     //name: 'Brother Adre & Sister Paige Ngatikaura',
     //calling: 'Youth Sunday School',
     //},
-    {
-        name: 'Sister Salome Pita',
-        calling: 'Assistant Ward Chorister',
-    },
+    //{
+    //name: 'Sister Salome Pita',
+    //calling: 'Assistant Ward Chorister',
+    //},
     {
         name: 'Patriarch Samuel Brown',
         calling: 'Welfare and Self-Reliance Specialist',
@@ -622,11 +619,20 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-//{ name: 'Joseph Olayan' },
-//{ name: 'Geralyn Olayan' },
-//{ name: 'Viliami Tupola' },
-//{ name: 'Lokelani Toki' },
-//{ name: 'Jessica Pukahi' },
+    { name: 'Muao Joe Hafoka' },
+    { name: 'Shelli Hafoka' },
+    { name: 'Mahina Feahoaki Hafoka' },
+    { name: 'Aiseah Muao Hafoka' },
+    { name: 'Ezeriah Naomi Hafoka' },
+    { name: 'Liaila Rae Hafoka' },
+    { name: 'Elijah Kalani Hafoka' },
+    { name: 'Rockey Kalamafoni' },
+    { name: 'Candice Kalamafoni' },
+    { name: 'Kaylene Kalamafoni' },
+    { name: 'Malakai Kalamafoni' },
+    { name: 'Talena Kalamafoni' },
+    { name: 'Nahealani Dionne Amelisi Kalamafoni' },
+    { name: 'Solangaliua Langafuaina Kalamafoni' },
 ];
 DATA.baptisms = [
 //{ name: 'Joseph Prasad Jr.' },
@@ -664,22 +670,22 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 6, 18),
+        date: new Date(2021, 6, 25),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp,
-        conducting: DATA.people.bp,
+        presiding: DATA.people.bp1stc,
+        conducting: DATA.people.bp1stc,
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[30],
-        sacramentSong: DATA.hymns[170],
+        openingSong: DATA.hymns[3],
+        sacramentSong: DATA.hymns[97],
         testimonySunday: false,
         speakers: [
             {
                 person: {
-                    name: 'Sister Vea Manumaleuna',
+                    name: 'Sister Jamie Soakai',
                 },
                 role: 'speaker',
                 index: 1,
@@ -692,13 +698,13 @@ DATA.cheatSheet = {
             //beforeRestHymn: true,
             //} as Speaker,
             {
-                person: { name: 'Brother Eathyn Manumaleuna' },
+                person: { name: 'Brother Sai Soakai' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[58],
+        closingSong: DATA.hymns[81],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
