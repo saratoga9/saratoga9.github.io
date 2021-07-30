@@ -79,6 +79,13 @@ DATA.announcements = [
         date: new Date(2021, 7, 29).toUTCString(),
         description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
+    {
+        title: '8:15pm - Stake Tongan Temple Session',
+        date: new Date(2021, 8, 7).toUTCString(),
+        description: 'Mount Timpanogos Temple, <a href="https://goo.gl/maps/NLgtBmRvAA7GjtEL9" target="_blank">742 N 900 E, American Fork, UT</a>' +
+            '<br /> To sign up for the session online, please<a href="https://saratoga9.com/home" target="_blank"> click here</a> and go to the ' +
+            '"Planning to go to the Temple?" section',
+    },
 ];
 DATA.broadcastLinks = [
     // ---------------------------------------------------------------------
