@@ -32,12 +32,13 @@ DATA.announcements = [
     //description:
     //'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     //},
-    {
-        title: '8:00am - Stake Primary Baptism',
-        date: new Date(2021, 6, 31).toUTCString(),
-        description: 'Ward Level,' +
-            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
-    },
+    // {
+    //   title: '8:00am - Stake Primary Baptism',
+    //   date: new Date(2021, 6, 31).toUTCString(),
+    //   description:
+    //     'Ward Level,' +
+    //     'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
+    // },
     {
         title: 'Stake Primary “Come Follow Me” Calendar Activity (Aug. 1-31)',
         //date: new Date(2021, 7, 1).toUTCString(),
@@ -47,7 +48,7 @@ DATA.announcements = [
         title: '7:30am - Stake Missionary Correlation',
         date: new Date(2021, 7, 8).toUTCString(),
         description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
-            '<b>7:30pm - YSA Institute</b>' +
+            '<b>7:30am - Stake Temple &amp; Family History Correlation</b>' +
             '<br /> Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
     {
