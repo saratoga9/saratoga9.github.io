@@ -44,13 +44,15 @@ DATA.announcements = [
         description: 'For more information, please <a href="https://drive.google.com/file/d/1hhUgzzs8SHOlwJBgiyRqe_BOxVXLMgPE/view?usp=sharing" target="_blank">click here!</a>',
     },
     {
-        title: 'Stake Young Women Camp (Aug. 4-6)',
-        date: new Date(2021, 7, 4).toUTCString(),
-        description: '<a href="https://goo.gl/maps/yueQzMVWWFPV4a2c6" target="_blank">Mutual Dell, UT</a>',
+        title: '7:30am - Stake Missionary Correlation',
+        date: new Date(2021, 7, 8).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
+            '<b>7:30pm - YSA Institute</b>' +
+            '<br /> Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 7, 5).toUTCString(),
+        date: new Date(2021, 7, 12).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -60,9 +62,9 @@ DATA.announcements = [
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
     },
     {
-        title: '6:00am - Stake Missionary Correlation',
-        date: new Date(2021, 7, 8).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+        title: '7:00pm - Back to School Dance',
+        date: new Date(2021, 7, 14).toUTCString(),
+        description: '',
     },
     {
         title: '6:00pm - Seminary Kickoff Fireside',
@@ -267,17 +269,6 @@ DATA.hymns = {
         page: 4,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/high-on-the-mountain-top?lang=ton',
     },
-    //184: {
-    //title: 'Fakahā ʻe he ʻOtua',
-    //page: 184,
-    //link:
-    //'https://www.churchofjesuschrist.org/study/manual/hymns/god-is-willing-to-gather?lang=ton',
-    //},
-    96: {
-        title: 'Fakaʻofa Kiate Au',
-        page: 96,
-        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/he-who-was-crucified?lang=ton',
-    },
     5: {
         title: 'High on the Mountain Top',
         page: 6,
@@ -348,17 +339,17 @@ DATA.hymns = {
         page: 57,
         link: 'https://www.churchofjesuschrist.org/music/text/hymns/come-follow-me?lang=ton',
     },
-    58: {
-        title: 'Ka Faingataʻa Ho Hala Feinga',
-        page: 58,
-        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/if-the-way-be-full-of-trial?lang=ton',
-    },
     //58: {
     //title: 'Come, Ye Children of the Lord',
     //page: 58,
     //link:
     //'https://www.churchofjesuschrist.org/music/library/hymns/come-ye-children-of-the-lord?lang=eng',
     //},
+    58: {
+        title: 'Ka Faingataʻa Ho Hala Feinga',
+        page: 58,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/if-the-way-be-full-of-trial?lang=ton',
+    },
     62: {
         title: 'All Creatures of Our God and King',
         page: 62,
@@ -394,6 +385,11 @@ DATA.hymns = {
         page: 92,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/take-the-name-of-jesus-with-you?lang=ton',
     },
+    96: {
+        title: 'Fakaʻofa Kiate Au',
+        page: 96,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/he-who-was-crucified?lang=ton',
+    },
     97: {
         title: 'Tau Fakamālō Kia Sīsū',
         page: 97,
@@ -403,6 +399,11 @@ DATA.hymns = {
         title: 'I Need Thee Every Hour',
         page: 98,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-need-thee-every-hour?lang=eng',
+    },
+    107: {
+        title: 'Sīsū ē Ne ʻAloʻi',
+        page: 107,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/jesus-once-of-humble-birth?lang=por&clang=ton',
     },
     116: {
         title: 'Come, Follow Me',
@@ -499,6 +500,12 @@ DATA.hymns = {
         page: 184,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/upon-the-cross-of-calvary?lang=eng',
     },
+    //184: {
+    //title: 'Fakahā ʻe he ʻOtua',
+    //page: 184,
+    //link:
+    //'https://www.churchofjesuschrist.org/study/manual/hymns/god-is-willing-to-gather?lang=ton',
+    //},
     187: {
         title: 'God Loved Us, So He Sent His Son',
         page: 187,
@@ -598,6 +605,11 @@ DATA.hymns = {
         page: 256,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/as-zions-youth-in-latter-days?lang=eng',
     },
+    259: {
+        title: 'Hope of Israel',
+        page: 259,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/hope-of-israel?lang=eng',
+    },
     264: {
         title: 'Hark All Ye Nations',
         page: 264,
@@ -630,41 +642,40 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-//{
-//name: 'Sister Salome Pita',
-//calling: 'Primary Second Counselor',
-//},
+    {
+        name: 'Sister Langi Hola',
+        calling: 'Primary Worker',
+    },
+    {
+        name: 'Sister Jennifer Tuʻineau',
+        calling: 'Nursery Worker',
+    },
 ];
 DATA.sustaining = [
-//{
-//name: 'Brother Adre & Sister Paige Ngatikaura',
-//calling: 'Youth Sunday School',
-//},
-//{
-//name: 'Sister Salome Pita',
-//calling: 'Assistant Ward Chorister',
-//},
-//{
-//name: 'Patriarch Samuel Brown',
-//calling: 'Welfare and Self-Reliance Specialist',
-//},
+    {
+        name: 'Sister Jennifer Tuʻineau',
+        calling: 'Primary 2nd Counselor',
+    },
+    {
+        name: 'Sister Genesis Toki',
+        calling: 'Nursery Worker',
+    },
+    {
+        name: 'Sister Savannah Rivers',
+        calling: 'Primary Worker',
+    },
+    {
+        name: 'Sister Alexis Finau',
+        calling: 'Primary Worker',
+    },
+    {
+        name: 'Sister Malia Read',
+        calling: 'Sunday School Teacher',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-//{ name: 'Muao Joe Hafoka' },
-//{ name: 'Shelli Hafoka' },
-//{ name: 'Mahina Feahoaki Hafoka' },
-//{ name: 'Aiseah Muao Hafoka' },
-//{ name: 'Ezeriah Naomi Hafoka' },
-//{ name: 'Liaila Rae Hafoka' },
-//{ name: 'Elijah Kalani Hafoka' },
-//{ name: 'Rockey Kalamafoni' },
-//{ name: 'Candice Kalamafoni' },
-//{ name: 'Kaylene Kalamafoni' },
-//{ name: 'Malakai Kalamafoni' },
-//{ name: 'Talena Kalamafoni' },
-//{ name: 'Nahealani Dionne Amelisi Kalamafoni' },
-//{ name: 'Solangaliua Langafuaina Kalamafoni' },
+    { name: 'Kristy Sorenson' },
 ];
 DATA.baptisms = [
 //{ name: 'Joseph Prasad Jr.' },
@@ -702,41 +713,57 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 7, 1),
-        startTime: '12:00 PM',
-        endTime: '1:00 PM',
+        date: new Date(2021, 7, 8),
+        startTime: '1:00 PM',
+        endTime: '2:00 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp2ndc,
+        conducting: DATA.people.bp1stc,
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[15],
-        sacramentSong: DATA.hymns[308],
-        testimonySunday: true,
+        openingSong: DATA.hymns[256],
+        sacramentSong: DATA.hymns[107],
+        testimonySunday: false,
         speakers: [
             {
-                person: {
-                    name: 'Sister Jamie Soakai',
-                },
-                role: 'speaker',
+                person: { name: 'Sister Morgyn Martin' },
+                role: 'testimony',
                 index: 1,
                 beforeRestHymn: true,
             },
-            //{
-            //person: { name: 'Sister Tami Teriipaia - Musical Number' },
-            //role: 'musical',
-            //index: 1,
-            //beforeRestHymn: true,
-            //} as Speaker,
             {
-                person: { name: 'Brother Sai Soakai' },
-                role: 'speaker',
+                person: { name: 'Sister Mahina Hafoka' },
+                role: 'testimony',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Sister Celeste Detoles' },
+                role: 'testimony',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'YW Musical Number' },
+                role: 'musical',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Sister Sue Unutoa' },
+                role: 'testimony',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Sister Hika Rarick' },
+                role: 'testimony',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[184],
+        closingSong: DATA.hymns[259],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
