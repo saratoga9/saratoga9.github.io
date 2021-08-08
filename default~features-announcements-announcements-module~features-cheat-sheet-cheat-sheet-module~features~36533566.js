@@ -230,7 +230,8 @@ DATA.broadcastLinks = [
 ];
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
-    chorister: { name: 'Sister Manu Harris' },
+    chorister2: { name: 'Sister Manu Harris' },
+    chorister1: { name: 'Sister Salome Pita' },
     organist: { name: 'Sister Keili Malohifoʻou' },
     tbd: { name: 'TBD' },
     pray1: { name: 'Sister Lesieli Halafuka' },
@@ -676,6 +677,7 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
+    { name: 'John Raass' },
     { name: 'Kristy Sorenson' },
 ];
 DATA.baptisms = [
@@ -720,7 +722,7 @@ DATA.cheatSheet = {
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
         conducting: DATA.people.bp2ndc,
-        chorister: DATA.people.chorister,
+        chorister: DATA.people.chorister1,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
         openingSong: DATA.hymns[256],
