@@ -649,7 +649,7 @@ DATA.releases = [
     },
     {
         name: 'Sister Jennifer Tuʻineau',
-        calling: 'Nursery Worker',
+        calling: 'Relief Society Service Coordinator',
     },
 ];
 DATA.sustaining = [
@@ -719,7 +719,7 @@ DATA.cheatSheet = {
         endTime: '2:00 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp1stc,
+        conducting: DATA.people.bp,
         chorister: DATA.people.chorister,
         organist: DATA.people.organist,
         invocation: DATA.people.tbd,
