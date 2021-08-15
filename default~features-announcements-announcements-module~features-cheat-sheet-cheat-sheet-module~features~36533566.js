@@ -235,8 +235,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Lesieli Halafuka' },
-    pray2: { name: 'Brother Kuli Malohifoʻou' },
+    pray1: { name: 'Brother Patrick Ripley' },
+    pray2: { name: 'Sister Sadie Vaʻenuku' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -520,6 +520,11 @@ DATA.hymns = {
     //link:
     //  'https://www.churchofjesuschrist.org/study/manual/hymns/love-at-home?lang=ton',
     //},
+    190: {
+        title: 'In Memory of the Crucified',
+        page: 190,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/in-memory-of-the-crucified?lang=eng',
+    },
     192: {
         title: 'He Died! The Great Redeemer Died',
         page: 192,
@@ -603,6 +608,11 @@ DATA.hymns = {
         page: 239,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng',
     },
+    241: {
+        title: 'Count Your Blessings',
+        page: 241,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/count-your-blessings?lang=eng',
+    },
     256: {
         title: 'As Zion’s Youth in Latter Days',
         page: 256,
@@ -646,40 +656,46 @@ DATA.hymns = {
 };
 DATA.releases = [
     {
-        name: 'Sister Langi Hola',
-        calling: 'Primary Worker',
+        name: 'Sister Lupe Mounngaloa',
+        calling: 'Young Women First Counselor',
     },
     {
-        name: 'Sister Jennifer Tuʻineau',
-        calling: 'Relief Society Service Coordinator',
+        name: 'Sister Montello Naʻa',
+        calling: 'Young Women 2nd Counselor',
+    },
+    {
+        name: 'Sister Sue Unutoa',
+        calling: 'Young Women Activity Specialist',
     },
 ];
 DATA.sustaining = [
     {
-        name: 'Sister Jennifer Tuʻineau',
-        calling: 'Primary 2nd Counselor',
+        name: 'Sister Sue Unutoa',
+        calling: 'Young Women First Counselor',
     },
     {
-        name: 'Sister Genesis Toki',
-        calling: 'Nursery Worker',
+        name: 'Sister Candice Kalamafoni',
+        calling: 'Young Women 2nd Counselor',
     },
     {
-        name: 'Sister Savannah Rivers',
-        calling: 'Primary Worker',
-    },
-    {
-        name: 'Sister Alexis Finau',
-        calling: 'Primary Worker',
-    },
-    {
-        name: 'Sister Malia Read',
-        calling: 'Sunday School Teacher',
+        name: 'Brother Makoni Uluilakepa',
+        calling: 'Young Men Deacons Quorum Advisor',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'John Raass' },
-    { name: 'Kristy Sorenson' },
+//{ name: 'Mahina Feahoaki Hafoka' },
+//{ name: 'Aiseah Muao Hafoka' },
+//{ name: 'Ezeriah Naomi Hafoka' },
+//{ name: 'Liaila Rae Hafoka' },
+//{ name: 'Elijah Kalani Hafoka' },
+//{ name: 'Rockey Kalamafoni' },
+//{ name: 'Candice Kalamafoni' },
+//{ name: 'Kaylene Kalamafoni' },
+//{ name: 'Malakai Kalamafoni' },
+//{ name: 'Talena Kalamafoni' },
+//{ name: 'Nahealani Dionne Amelisi Kalamafoni' },
+//{ name: 'Solangaliua Langafuaina Kalamafoni' },
 ];
 DATA.baptisms = [
 //{ name: 'Joseph Prasad Jr.' },
@@ -717,58 +733,34 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 7, 8),
-        startTime: '1:00 PM',
-        endTime: '2:00 PM',
+        date: new Date(2021, 7, 15),
+        startTime: '12:00 PM',
+        endTime: '1:00 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp2ndc,
-        chorister: DATA.people.chorister1,
-        organist: DATA.people.organist2,
-        invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[256],
-        sacramentSong: DATA.hymns[107],
+        conducting: DATA.people.bp1stc,
+        chorister: DATA.people.chorister2,
+        organist: DATA.people.organist1,
+        invocation: DATA.people.pray1,
+        openingSong: DATA.hymns[241],
+        sacramentSong: DATA.hymns[190],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Morgyn Martin' },
-                role: 'testimony',
+                person: { name: 'Brother Wesley Tuiasoa' },
+                role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Mahina Hafoka' },
-                role: 'testimony',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Sister Celeste Detoles' },
-                role: 'testimony',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'YW Musical Number' },
-                role: 'musical',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Sister Sue Unutoa' },
-                role: 'testimony',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Sister Hika Rarick' },
-                role: 'testimony',
+                person: { name: 'Brother Kelii Unga' },
+                role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[259],
-        benediction: DATA.people.tbd,
+        closingSong: DATA.hymns[58],
+        benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.hc,
