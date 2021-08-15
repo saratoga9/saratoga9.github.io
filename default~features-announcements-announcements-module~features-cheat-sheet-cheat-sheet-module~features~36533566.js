@@ -44,16 +44,22 @@ DATA.announcements = [
         //date: new Date(2021, 7, 1).toUTCString(),
         description: 'For more information, please <a href="https://drive.google.com/file/d/1hhUgzzs8SHOlwJBgiyRqe_BOxVXLMgPE/view?usp=sharing" target="_blank">click here!</a>',
     },
+    // {
+    //   title: '7:30am - Stake Missionary Correlation',
+    //   date: new Date(2021, 7, 8).toUTCString(),
+    //   description:
+    //     'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
+    //     '<b>7:30am - Stake Temple &amp; Family History Correlation</b>' +
+    //     '<br /> Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+    // },
     {
-        title: '7:30am - Stake Missionary Correlation',
-        date: new Date(2021, 7, 8).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
-            '<b>7:30am - Stake Temple &amp; Family History Correlation</b>' +
-            '<br /> Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+        title: '6:00pm - Seminary Kickoff Fireside',
+        date: new Date(2021, 7, 15).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 7, 12).toUTCString(),
+        date: new Date(2021, 7, 19).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -63,19 +69,14 @@ DATA.announcements = [
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
     },
     {
-        title: '7:00pm - Back to School Dance',
-        date: new Date(2021, 7, 14).toUTCString(),
-        description: '',
-    },
-    {
-        title: '6:00pm - Seminary Kickoff Fireside',
-        date: new Date(2021, 7, 15).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
-    },
-    {
         title: '8:00am - Stake RS Training',
         date: new Date(2021, 7, 21).toUTCString(),
         description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+    },
+    {
+        title: '6:00pm - Righteous Branch Institute Young Adults Fireside',
+        date: new Date(2021, 7, 22).toUTCString(),
+        description: 'Jordan SLCC Institute of Religion, <a href="https://goo.gl/maps/b4gzUsGBnmNgDM1X6" target="_blank">3431 W Wights Fort Rd, West Jordan, UT</a><br /><br />',
     },
     {
         title: '6:00pm - Stake General Priesthood Meeting',
