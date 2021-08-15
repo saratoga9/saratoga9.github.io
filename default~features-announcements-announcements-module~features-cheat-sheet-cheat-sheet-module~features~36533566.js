@@ -685,18 +685,12 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-//{ name: 'Mahina Feahoaki Hafoka' },
-//{ name: 'Aiseah Muao Hafoka' },
-//{ name: 'Ezeriah Naomi Hafoka' },
-//{ name: 'Liaila Rae Hafoka' },
-//{ name: 'Elijah Kalani Hafoka' },
-//{ name: 'Rockey Kalamafoni' },
-//{ name: 'Candice Kalamafoni' },
-//{ name: 'Kaylene Kalamafoni' },
-//{ name: 'Malakai Kalamafoni' },
-//{ name: 'Talena Kalamafoni' },
-//{ name: 'Nahealani Dionne Amelisi Kalamafoni' },
-//{ name: 'Solangaliua Langafuaina Kalamafoni' },
+    { name: 'George Uyema' },
+    { name: 'Jennifer Uyema' },
+    { name: 'Carlos Uyema' },
+    { name: 'Isabel Yoshiko Lisia Uyema' },
+    { name: 'Marvin Aisea Uyema' },
+    { name: 'Lorenzo Uyema' },
 ];
 DATA.baptisms = [
 //{ name: 'Joseph Prasad Jr.' },
