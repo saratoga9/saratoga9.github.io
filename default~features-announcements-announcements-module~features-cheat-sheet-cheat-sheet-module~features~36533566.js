@@ -53,13 +53,13 @@ DATA.announcements = [
     //     '<br /> Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     // },
     {
-        title: '6:00pm - Seminary Kickoff Fireside',
-        date: new Date(2021, 7, 15).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+        title: '6:00pm - Righteous Branch Institute Young Adults Fireside',
+        date: new Date(2021, 7, 22).toUTCString(),
+        description: 'Jordan SLCC Institute of Religion, <a href="https://goo.gl/maps/b4gzUsGBnmNgDM1X6" target="_blank">3431 W Wights Fort Rd, West Jordan, UT</a><br /><br />',
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 7, 19).toUTCString(),
+        date: new Date(2021, 7, 26).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -69,26 +69,31 @@ DATA.announcements = [
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
     },
     {
-        title: '8:00am - Stake RS Training',
-        date: new Date(2021, 7, 21).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
-    },
-    {
-        title: '6:00pm - Righteous Branch Institute Young Adults Fireside',
-        date: new Date(2021, 7, 22).toUTCString(),
-        description: 'Jordan SLCC Institute of Religion, <a href="https://goo.gl/maps/b4gzUsGBnmNgDM1X6" target="_blank">3431 W Wights Fort Rd, West Jordan, UT</a><br /><br />',
-    },
-    {
         title: '6:00pm - Stake General Priesthood Meeting',
         date: new Date(2021, 7, 29).toUTCString(),
         description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
     {
-        title: '8:15pm - Stake Tongan Temple Session',
+        title: '7:00pm - Stake Primary Training (Pres. Jan Goodrich)',
         date: new Date(2021, 8, 7).toUTCString(),
-        description: 'Mount Timpanogos Temple, <a href="https://goo.gl/maps/NLgtBmRvAA7GjtEL9" target="_blank">742 N 900 E, American Fork, UT</a>' +
+        description: 'Orem UT Orchard Stake Center - <a href="https://goo.gl/maps/NqaMcRpQ73SkpkNY7" target="_blank">880 E 600 N, Orem, UT 84097</a><br />' +
+            'Those invited: Stake Presidency, High Councilor (Primary), Stake Primary Presidency including Secretary, Stake Primary Music Leader, Ward Bishoprics, Ward Primary Presidency including Secretary, Ward Primary Music Leader.<br /><br />' +
+            '<b>8:15pm - Stake Tongan Temple Session</b>' +
+            '<br />Mount Timpanogos Temple, <a href="https://goo.gl/maps/NLgtBmRvAA7GjtEL9" target="_blank">742 N 900 E, American Fork, UT</a>' +
             '<br /> To sign up for the session online, please<a href="https://saratoga9.com/home" target="_blank"> click here</a> and go to the ' +
             '"Planning to go to the Temple?" section',
+    },
+    {
+        title: '7:00 pm - Stake RS Training (Pres. Ben Beeson)',
+        date: new Date(2021, 8, 8).toUTCString(),
+        description: 'Orem UT Cascade Stake Center - <a href="https://goo.gl/maps/yKRR8xVtALtPeN4C6" target="_blank">481 E. Center St, Orem, UT 84097</a>,' +
+            'Those invited: Stake Presidency, High Councilor (RS), Stake RS Presidency including Secretary, Ward Bishoprics, Ward RS Presidency including Secretary.<br /><br />',
+    },
+    {
+        title: '7:00 pm - YW/YM Training (Pres. Mark Hansen)',
+        date: new Date(2021, 8, 9).toUTCString(),
+        description: 'Orem UT Canyon View Stake Center - <a href="https://goo.gl/maps/9Zz3f816o7hZqAc67" target="_blank">575 E 800 N, Orem, UT 84097</a>' +
+            'Those invited: Stake Presidency, High Councilors (YW/YM), Stake YW and YM Presidencies including Secretaries, Ward Bishoprics, Ward YW Presidency including Secretary.<br /><br />',
     },
 ];
 DATA.broadcastLinks = [
@@ -236,8 +241,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Patrick Ripley' },
-    pray2: { name: 'Sister Sadie Vaʻenuku' },
+    pray1: { name: 'Brother Adre Ngatikaura' },
+    pray2: { name: 'Sister Jane Chase' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -639,6 +644,11 @@ DATA.hymns = {
         page: 294,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/love-at-home?lang=eng',
     },
+    304: {
+        title: 'Teach Me to Walk in the Light',
+        page: 304,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/teach-me-to-walk-in-the-light?lang=eng',
+    },
     308: {
         title: 'Love One Another',
         page: 308,
@@ -656,41 +666,43 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-    {
-        name: 'Sister Lupe Mounngaloa',
-        calling: 'Young Women First Counselor',
-    },
-    {
-        name: 'Sister Montello Naʻa',
-        calling: 'Young Women 2nd Counselor',
-    },
-    {
-        name: 'Sister Sue Unutoa',
-        calling: 'Young Women Activity Specialist',
-    },
+// {
+//   name: 'Sister Lupe Mounngaloa',
+//   calling: 'Young Women First Counselor',
+// },
+// {
+//   name: 'Sister Montello Naʻa',
+//   calling: 'Young Women 2nd Counselor',
+// },
+// {
+//   name: 'Sister Sue Unutoa',
+//   calling: 'Young Women Activity Specialist',
+// },
 ];
 DATA.sustaining = [
     {
-        name: 'Sister Sue Unutoa',
-        calling: 'Young Women First Counselor',
+        name: 'Brother Muao & Sister Shelli Hafoka',
+        calling: 'Sunday School Teachers',
     },
     {
-        name: 'Sister Candice Kalamafoni',
-        calling: 'Young Women 2nd Counselor',
-    },
-    {
-        name: 'Brother Makoni Uluilakepa',
-        calling: 'Young Men Deacons Quorum Advisor',
+        name: 'Brother Paul Hola',
+        calling: 'Teachers Quorum Specialist',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'George Uyema' },
-    { name: 'Jennifer Uyema' },
-    { name: 'Carlos Uyema' },
-    { name: 'Isabel Yoshiko Lisia Uyema' },
-    { name: 'Marvin Aisea Uyema' },
-    { name: 'Lorenzo Uyema' },
+// { name: 'George Uyema' },
+// { name: 'Jennifer Uyema' },
+// { name: 'Carlos Uyema' },
+// { name: 'Isabel Yoshiko Lisia Uyema' },
+// { name: 'Marvin Aisea Uyema' },
+// { name: 'Lorenzo Uyema' },
+//{ name: 'Candice Kalamafoni' },
+//{ name: 'Kaylene Kalamafoni' },
+//{ name: 'Malakai Kalamafoni' },
+//{ name: 'Talena Kalamafoni' },
+//{ name: 'Nahealani Dionne Amelisi Kalamafoni' },
+//{ name: 'Solangaliua Langafuaina Kalamafoni' },
 ];
 DATA.baptisms = [
 //{ name: 'Joseph Prasad Jr.' },
@@ -728,7 +740,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 7, 15),
+        date: new Date(2021, 7, 22),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
@@ -737,24 +749,42 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister2,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[241],
-        sacramentSong: DATA.hymns[190],
+        openingSong: DATA.hymns[160],
+        sacramentSong: DATA.hymns[174],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Brother Wesley Tuiasoa' },
+                person: { name: 'Brother Noah Pahulu' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Kelii Unga' },
+                person: { name: 'Brother Manu Harris' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            // {
+            //   person: { name: 'Sister Celeste Detoles' },
+            //   role: 'testimony',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
+            {
+                person: { name: 'Pita Family - Musical NUmber “Folofola Mai a Sisu” ' },
+                role: 'musical',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Brother Kalama Molisi' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[58],
+        closingSong: DATA.hymns[304],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
