@@ -760,7 +760,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Manu Harris' },
+                person: { name: 'Sister Manu Harris' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
@@ -772,7 +772,9 @@ DATA.cheatSheet = {
             //   beforeRestHymn: true,
             // } as Speaker,
             {
-                person: { name: 'Pita Family - Musical NUmber “Folofola Mai a Sisu” ' },
+                person: {
+                    name: 'Sister Manu Harris - Musical NUmber “I Know that My Savior Loves Me” ',
+                },
                 role: 'musical',
                 index: 1,
                 beforeRestHymn: true,
