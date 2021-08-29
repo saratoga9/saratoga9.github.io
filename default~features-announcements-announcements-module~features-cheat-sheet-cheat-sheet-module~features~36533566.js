@@ -53,13 +53,13 @@ DATA.announcements = [
     //     '<br /> Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     // },
     {
-        title: '6:00pm - Righteous Branch Institute Young Adults Fireside',
-        date: new Date(2021, 7, 22).toUTCString(),
-        description: 'Jordan SLCC Institute of Religion, <a href="https://goo.gl/maps/b4gzUsGBnmNgDM1X6" target="_blank">3431 W Wights Fort Rd, West Jordan, UT</a><br /><br />',
+        title: '6:00pm - Stake General Priesthood Meeting',
+        date: new Date(2021, 7, 29).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 7, 26).toUTCString(),
+        date: new Date(2021, 8, 2).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -67,11 +67,6 @@ DATA.announcements = [
             '<b>7:00pm - YSA Institute</b>' +
             '<br />Stake Office,' +
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
-    },
-    {
-        title: '6:00pm - Stake General Priesthood Meeting',
-        date: new Date(2021, 7, 29).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
     {
         title: '7:00pm - Stake Primary Training (Pres. Jan Goodrich)',
@@ -241,8 +236,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Adre Ngatikaura' },
-    pray2: { name: 'Sister Jane Chase' },
+    pray1: { name: 'Brother Manase Tonga' },
+    pray2: { name: 'Sister Kailey Uluilakepa' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -634,6 +629,11 @@ DATA.hymns = {
         page: 264,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/hark-all-ye-nations?lang=eng',
     },
+    286: {
+        title: 'Oh, What Songs of the Heart',
+        page: 286,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/oh-what-songs-of-the-heart?lang=eng',
+    },
     293: {
         title: 'Each Life That Touches Ours for Good',
         page: 293,
@@ -680,29 +680,29 @@ DATA.releases = [
 // },
 ];
 DATA.sustaining = [
-    {
-        name: 'Brother Muao & Sister Shelli Hafoka',
-        calling: 'Sunday School Teachers',
-    },
-    {
-        name: 'Brother Paul Hola',
-        calling: 'Teachers Quorum Specialist',
-    },
+// {
+//   name: 'Brother Muao & Sister Shelli Hafoka',
+//   calling: 'Sunday School Teachers',
+// },
+// {
+//   name: 'Brother Paul Hola',
+//   calling: 'Teachers Quorum Specialist',
+// },
+// {
+//   name: 'Brother Makoni Uluilakepa',
+//   calling: 'Young Men Deacons Quorum Advisor',
+// },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-// { name: 'George Uyema' },
-// { name: 'Jennifer Uyema' },
-// { name: 'Carlos Uyema' },
-// { name: 'Isabel Yoshiko Lisia Uyema' },
-// { name: 'Marvin Aisea Uyema' },
-// { name: 'Lorenzo Uyema' },
-//{ name: 'Candice Kalamafoni' },
-//{ name: 'Kaylene Kalamafoni' },
-//{ name: 'Malakai Kalamafoni' },
-//{ name: 'Talena Kalamafoni' },
-//{ name: 'Nahealani Dionne Amelisi Kalamafoni' },
-//{ name: 'Solangaliua Langafuaina Kalamafoni' },
+    { name: 'Katinia Vicki' },
+    { name: 'Seamus Fitzgerald' },
+    { name: 'Jelaire Kaleinani Fitzgerald' },
+    { name: 'Piripi Fitzgerald' },
+    { name: 'Isabel Yoshiko Lisia Uyema' },
+    { name: 'Seamus Hone Iosepa Fitzgerald' },
+    { name: 'Te Kiato Fitzgerald' },
+    { name: 'Poutu Fitzgerald' },
 ];
 DATA.baptisms = [
 //{ name: 'Joseph Prasad Jr.' },
@@ -714,13 +714,13 @@ DATA.babyBlessing = [
 //{ name: 'Penni Lynn Tonga' },
 ];
 DATA.missionaries = [
-    {
-        name: 'Jarom Brown',
-        mission: 'Arizona Tempe',
-        startDate: new Date(2019, 8, 25),
-        endDate: new Date(2021, 7, 26),
-        photoUrl: './assets/people/jarom-brown.png',
-    },
+    // {
+    //   name: 'Jarom Brown',
+    //   mission: 'Arizona Tempe',
+    //   startDate: new Date(2019, 8, 25),
+    //   endDate: new Date(2021, 7, 26),
+    //   photoUrl: './assets/people/jarom-brown.png',
+    // },
     {
         name: 'Peni Mounga',
         mission: 'New Jersey Morristown / Church-Service Mission',
@@ -740,7 +740,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 7, 22),
+        date: new Date(2021, 7, 29),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
@@ -749,18 +749,18 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister2,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[160],
-        sacramentSong: DATA.hymns[174],
+        openingSong: DATA.hymns[48],
+        sacramentSong: DATA.hymns[193],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Brother Noah Pahulu' },
+                person: { name: 'Sister Losi Tuʻivai' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Manu Harris' },
+                person: { name: 'Sister Stephanie Singer' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
@@ -773,20 +773,20 @@ DATA.cheatSheet = {
             // } as Speaker,
             {
                 person: {
-                    name: 'Sister Manu Harris - Musical NUmber “I Know that My Savior Loves Me” ',
+                    name: 'Pita Family - Musical NUmber “Folofola Mai a Sisu” ',
                 },
                 role: 'musical',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Kalama Molisi' },
+                person: { name: 'Elder Jarom Brown' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[304],
+        closingSong: DATA.hymns[286],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
