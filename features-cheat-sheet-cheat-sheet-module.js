@@ -482,7 +482,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](37, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](38, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, " There will be a Stake General Priesthood Meeting toady at 6pm which will be held at the Stake Center. And for the rest of the calendar activities, please go to our ward website. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, " There will be a Stake General Priesthood Meeting today at 6pm which will be held at the Stake Center. And for the rest of the calendar activities, please go to our ward website. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
