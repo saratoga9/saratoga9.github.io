@@ -23,7 +23,7 @@ DATA.announcements = [
     {
         title: 'Utah County Emergency Rental Assistance Program',
         //date: new Date(2021, 1, 4).toUTCString(),
-        description: 'The Utah County Commission has reached out to make everyone aware of the Utah County Emergency Rental Assistance Programs. Our County has been alloacrted funds ' +
+        description: 'The Utah County Commission has reached out to make everyone aware of the Utah County Emergency Rental Assistance Programs. Our County has been allocated funds ' +
             'from the federal government specifically to assist individuals and families who are struggling to pay their rent and utilities. Information for this program and a link' +
             'to apply can be found at <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://https://rentrelief.utah.gov" target="_blank">rentrelief.utah.gov</a> ' +
             '<br />Application assistance can be found by contacting the Community Action Services at <b>(801)373-8200</b> or by walking in at the following address: ' +
@@ -79,6 +79,8 @@ DATA.announcements = [
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
             'Instructions.<br /><br />' +
+            '<b>5:00pm-8:00pm | Stake Primary "Come Follow Me" Carnival </b><br />' +
+            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />' +
             '<b>7:00pm - YSA Institute</b>' +
             '<br />Stake Office,' +
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />' +
@@ -690,32 +692,24 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: 'Sister Lupe Mounngaloa',
-//   calling: 'Young Women First Counselor',
-// },
-// {
-//   name: 'Sister Montello Naʻa',
-//   calling: 'Young Women 2nd Counselor',
-// },
-// {
-//   name: 'Sister Sue Unutoa',
-//   calling: 'Young Women Activity Specialist',
-// },
+    {
+        name: 'Sister Katie Tuvivai',
+        calling: 'Primary Worker',
+    },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Brother Muao & Sister Shelli Hafoka',
-//   calling: 'Sunday School Teachers',
-// },
-// {
-//   name: 'Brother Paul Hola',
-//   calling: 'Teachers Quorum Specialist',
-// },
-// {
-//   name: 'Brother Makoni Uluilakepa',
-//   calling: 'Young Men Deacons Quorum Advisor',
-// },
+    // {
+    //   name: 'Brother Muao & Sister Shelli Hafoka',
+    //   calling: 'Sunday School Teachers',
+    // },
+    {
+        name: 'Brother Seamus Fitzgerald',
+        calling: 'Sunday School Teacher',
+    },
+    {
+        name: 'Sister Stephanie Ripley',
+        calling: 'Self-Reliance Group Facilitator',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
