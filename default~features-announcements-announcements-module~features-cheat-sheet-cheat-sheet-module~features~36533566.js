@@ -21,6 +21,15 @@ DATA.announcements = [
     //' to schedule an appointment online. You will need to sign in with your LDS church account.',
     //},
     {
+        title: 'Utah County Emergency Rental Assistance Program',
+        //date: new Date(2021, 1, 4).toUTCString(),
+        description: 'The Utah County Commission has reached out to make everyone aware of the Utah County Emergency Rental Assistance Programs. Our County has been alloacrted funds ' +
+            'from the federal government specifically to assist individuals and families who are struggling to pay their rent and utilities. Information for this program and a link' +
+            'to apply can be found at <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://https://rentrelief.utah.gov" target="_blank">rentrelief.utah.gov</a> ' +
+            '<br />Application assistance can be found by contacting the Community Action Services at <b>(801)373-8200</b> or by walking in at the following address: ' +
+            '<a href="https://goo.gl/maps/Q1sLyYcY6eh9J16m7" target="_blank"><b>815 S Freedom Blvd #100, Provo, UT 84601</b></a>',
+    },
+    {
         title: 'Protecting Children and Youth Training',
         //date: new Date(2021, 1, 4).toUTCString(),
         description: 'All leaders and teachers of children or youth are to complete this training within one month of being called. We also invite the parents to do the same.' +
@@ -39,11 +48,6 @@ DATA.announcements = [
     //     'Ward Level,' +
     //     'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     // },
-    {
-        title: 'Stake Primary “Come Follow Me” Calendar Activity (Aug. 1-31)',
-        //date: new Date(2021, 7, 1).toUTCString(),
-        description: 'For more information, please <a href="https://drive.google.com/file/d/1hhUgzzs8SHOlwJBgiyRqe_BOxVXLMgPE/view?usp=sharing" target="_blank">click here!</a>',
-    },
     // {
     //   title: '7:30am - Stake Missionary Correlation',
     //   date: new Date(2021, 7, 8).toUTCString(),
@@ -52,22 +56,6 @@ DATA.announcements = [
     //     '<b>7:30am - Stake Temple &amp; Family History Correlation</b>' +
     //     '<br /> Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     // },
-    {
-        title: '6:00pm - Stake General Priesthood Meeting',
-        date: new Date(2021, 7, 29).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
-    },
-    {
-        title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 8, 2).toUTCString(),
-        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
-            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions.<br /><br />' +
-            '<b>7:00pm - YSA Institute</b>' +
-            '<br />Stake Office,' +
-            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>',
-    },
     {
         title: '7:00pm - Stake Primary Training (Pres. Jan Goodrich)',
         date: new Date(2021, 8, 7).toUTCString(),
@@ -82,13 +70,35 @@ DATA.announcements = [
         title: '7:00 pm - Stake RS Training (Pres. Ben Beeson)',
         date: new Date(2021, 8, 8).toUTCString(),
         description: 'Orem UT Cascade Stake Center - <a href="https://goo.gl/maps/yKRR8xVtALtPeN4C6" target="_blank">481 E. Center St, Orem, UT 84097</a>,' +
-            'Those invited: Stake Presidency, High Councilor (RS), Stake RS Presidency including Secretary, Ward Bishoprics, Ward RS Presidency including Secretary.<br /><br />',
+            'Those invited: Stake Presidency, High Councilor (RS), Stake RS Presidency including Secretary, Ward Bishoprics, Ward RS Presidency including Secretary.<br />',
     },
     {
-        title: '7:00 pm - YW/YM Training (Pres. Mark Hansen)',
+        title: '8:00am - Utah Food Bank Delivery',
         date: new Date(2021, 8, 9).toUTCString(),
-        description: 'Orem UT Canyon View Stake Center - <a href="https://goo.gl/maps/9Zz3f816o7hZqAc67" target="_blank">575 E 800 N, Orem, UT 84097</a>' +
-            'Those invited: Stake Presidency, High Councilors (YW/YM), Stake YW and YM Presidencies including Secretaries, Ward Bishoprics, Ward YW Presidency including Secretary.<br /><br />',
+        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
+            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+            'Instructions.<br /><br />' +
+            '<b>7:00pm - YSA Institute</b>' +
+            '<br />Stake Office,' +
+            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />' +
+            '<b>7:00 pm - YW/YM Training (Pres. Mark Hansen)</b>' +
+            'Orem UT Canyon View Stake Center - <a href="https://goo.gl/maps/9Zz3f816o7hZqAc67" target="_blank">575 E 800 N, Orem, UT 84097</a>' +
+            '<br />Those invited: Stake Presidency, High Councilors (YW/YM), Stake YW and YM Presidencies including Secretaries, Ward Bishoprics, Ward YW Presidency including Secretary.<br />',
+    },
+    {
+        title: 'Day of Service for our Stake',
+        date: new Date(2021, 8, 11).toUTCString(),
+        description: '5 Service Projects EM13/14, SS9/12, Le41/42, AF2/PG10, Or8/13, High Councilor will Announce Details.<br /><br />',
+    },
+    {
+        title: '7:30am - Stake Missionary Correlation',
+        date: new Date(2021, 8, 12).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a> Those invited: ward mission' +
+            'leader, EQ &amp; RS Presidency over Missionary Work<br /><br />' +
+            '<b>7:30am - Stake Temple &amp; Family History Correlation</b>' +
+            '<br /> Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a> Those invited:' +
+            'ward temple and family history consultant, EQ &amp; RS Presidency over Temple &amp; Family History <br /><br />',
     },
 ];
 DATA.broadcastLinks = [
@@ -231,8 +241,8 @@ DATA.broadcastLinks = [
 ];
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
-    chorister2: { name: 'Sister Manu Harris' },
-    chorister1: { name: 'Sister Salome Pita' },
+    chorister1: { name: 'Sister Manu Harris' },
+    chorister2: { name: 'Sister Salome Pita' },
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
@@ -454,15 +464,15 @@ DATA.hymns = {
         page: 152,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/god-be-with-you-till-we-meet-again?lang=eng',
     },
-    169: {
-        title: 'As Now We Take the Sacrament',
-        page: 169,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/as-now-we-take-the-sacrament?lang=eng',
-    },
     160: {
         title: 'Sīsū ne Ne Huhuʻi',
         page: 160,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/o-thou-rock-of-our-salvation?lang=ton',
+    },
+    169: {
+        title: 'As Now We Take the Sacrament',
+        page: 169,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/as-now-we-take-the-sacrament?lang=eng',
     },
     170: {
         title: 'God, Our Father, Hear Us Pray',
@@ -644,6 +654,11 @@ DATA.hymns = {
         page: 294,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/love-at-home?lang=eng',
     },
+    302: {
+        title: 'I Know My Father Lives',
+        page: 302,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-know-my-father-lives?lang=eng',
+    },
     304: {
         title: 'Teach Me to Walk in the Light',
         page: 304,
@@ -695,14 +710,9 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'Katinia Vicki' },
-    { name: 'Seamus Fitzgerald' },
-    { name: 'Jelaire Kaleinani Fitzgerald' },
-    { name: 'Piripi Fitzgerald' },
-    { name: 'Isabel Yoshiko Lisia Uyema' },
-    { name: 'Seamus Hone Iosepa Fitzgerald' },
-    { name: 'Te Kiato Fitzgerald' },
-    { name: 'Poutu Fitzgerald' },
+    { name: 'Kenneth Marvin Moleni' },
+    { name: 'Kathy Keauhelani Moleni' },
+    { name: 'Katinia Vicki Pulu' },
 ];
 DATA.baptisms = [
 //{ name: 'Joseph Prasad Jr.' },
@@ -710,7 +720,6 @@ DATA.baptisms = [
 //{ name: 'Owen Martin' },
 ];
 DATA.babyBlessing = [
-//{ name: 'Finn Israel Martin' },
 //{ name: 'Penni Lynn Tonga' },
 ];
 DATA.missionaries = [
@@ -740,18 +749,18 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 7, 29),
+        date: new Date(2021, 8, 5),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp1stc,
+        conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister2,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[48],
-        sacramentSong: DATA.hymns[193],
-        testimonySunday: false,
+        openingSong: DATA.hymns[2],
+        sacramentSong: DATA.hymns[169],
+        testimonySunday: true,
         speakers: [
             {
                 person: { name: 'Sister Losi Tuʻivai' },
@@ -786,7 +795,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[286],
+        closingSong: DATA.hymns[302],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
