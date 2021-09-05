@@ -87,9 +87,12 @@ DATA.announcements = [
             '<br />Those invited: Stake Presidency, High Councilors (YW/YM), Stake YW and YM Presidencies including Secretaries, Ward Bishoprics, Ward YW Presidency including Secretary.<br />',
     },
     {
-        title: 'Day of Service for our Stake',
+        title: '9:00-11:00am | 9/11 National Day of Service (Stake Service Project)',
         date: new Date(2021, 8, 11).toUTCString(),
-        description: '5 Service Projects EM13/14, SS9/12, Le41/42, AF2/PG10, Or8/13, High Councilor will Announce Details.<br /><br />',
+        description: 'Shay Park, <a href="https://goo.gl/maps/yh675RAMqPwhzCz47" target="_blank">516 W Aspen Hills Blvd. Saratoga Springs, UT</a><br />' +
+            '<b>Project #1:</b> Weeding/trash pickup surrounding old train berm and native area at Shay Park. <br />' +
+            '<b>Project #2:</b> Weed area surrounding public safety building <a href="https://goo.gl/maps/jtTHbUpbPJ4PV9g97" target="_blank">(367 S Saratoga Road)</a>. <br />' +
+            '<b>Tools to bring:</b> Gardening gloves, gardening tools <br />',
     },
     {
         title: '7:30am - Stake Missionary Correlation',
@@ -98,7 +101,13 @@ DATA.announcements = [
             'leader, EQ &amp; RS Presidency over Missionary Work<br /><br />' +
             '<b>7:30am - Stake Temple &amp; Family History Correlation</b>' +
             '<br /> Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a> Those invited:' +
-            'ward temple and family history consultant, EQ &amp; RS Presidency over Temple &amp; Family History <br /><br />',
+            'ward temple and family history consultant, EQ &amp; RS Presidency over Temple &amp; Family History <br />',
+    },
+    {
+        title: '6:00pm - Temple and Priesthood Preparation Meeting',
+        date: new Date(2021, 8, 19).toUTCString(),
+        description: 'Quail Cove Pavilion, <a href="https://goo.gl/maps/Bm8dmfgWoou9iTkm8" target="_blank">700 N 900 E American Fork, UT</a><br />' +
+            'All children turning 11 this year and their parents are invited to attend.',
     },
 ];
 DATA.broadcastLinks = [
