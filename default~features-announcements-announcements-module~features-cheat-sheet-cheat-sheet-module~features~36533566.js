@@ -48,14 +48,15 @@ DATA.announcements = [
     //     'Ward Level,' +
     //     'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     // },
-    // {
-    //   title: '7:30am - Stake Missionary Correlation',
-    //   date: new Date(2021, 7, 8).toUTCString(),
-    //   description:
-    //     'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
-    //     '<b>7:30am - Stake Temple &amp; Family History Correlation</b>' +
-    //     '<br /> Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
-    // },
+    {
+        title: '5:00pm - Stake Missionary Correlation',
+        date: new Date(2021, 8, 12).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br />' +
+            'invited, ward mission leader, EQ &amp; RS Presidency over Missionary Work.<br /><br />' +
+            '<b>5:00pm - Stake Temple &amp; Family History Correlation</b>' +
+            '<br /> Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br />' +
+            'invited, ward temple and family history consultant, EQ &amp; RS Presidency over Temple &amp; Family History. <br /><br />',
+    },
     {
         title: '8:00am - Utah Food Bank Delivery',
         date: new Date(2021, 8, 16).toUTCString(),
