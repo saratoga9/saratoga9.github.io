@@ -68,6 +68,11 @@ DATA.announcements = [
         date: new Date(2021, 9, 3).toUTCString(),
         description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
     },
+    {
+        title: 'Ward Primary Sacrament Program',
+        date: new Date(2021, 10, 14).toUTCString(),
+        description: 'More info will follow from the Primary organization. Stay tuned!',
+    },
 ];
 DATA.broadcastLinks = [
     // ---------------------------------------------------------------------
@@ -683,18 +688,10 @@ DATA.releases = [
 // },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Brother Muao & Sister Shelli Hafoka',
-//   calling: 'Sunday School Teachers',
-// },
-// {
-//   name: 'Brother Mau Mila',
-//   calling: 'Sunday School Secretary',
-// },
-// {
-//   name: 'Sister Stephanie Ripley',
-//   calling: 'Self-Reliance Group Facilitator',
-// },
+    {
+        name: 'Sister Lokelani Toki (not sure if need to be sustained in ward or is it a stake calling???)',
+        calling: 'YSA Representative',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
@@ -736,6 +733,10 @@ DATA.missionaries = [
         photoUrl: './assets/people/SisterPulu.jpg',
     },
 ];
+//THIS IS THE TEMPLATE OF THE SACRAMENT PROGRAM WHICH ALSO GOES TO THE CHEAT SHEET.
+//UPDATE THE FOLLOWING: date, conducting, chorister, organist, invocation & benediction, hymns, speakers/testimonies
+//NOTE: If it's a FAST SUNDAY, change the "testimonySunday" section to "true"
+//NOTE:
 DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
@@ -754,20 +755,20 @@ DATA.cheatSheet = {
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Brother Maika Tuʻifua' },
+                person: { name: 'Brother Maika Tuʻifua (Testimony)' },
                 role: 'testimony',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Manoa Tuʻifua' },
+                person: { name: 'Brother Manoa Tuʻifua (Testimony)' },
                 role: 'testimony',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Jacob Tuʻifua' },
-                role: 'testimony',
+                person: { name: 'Brother Jacob Tuʻifua (Musical Number)' },
+                role: 'musical',
                 index: 1,
                 beforeRestHymn: true,
             },
