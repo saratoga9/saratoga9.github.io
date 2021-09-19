@@ -13,13 +13,6 @@ __webpack_require__.r(__webpack_exports__);
 const DATA = {};
 //This is for the announcement section
 DATA.announcements = [
-    //{
-    //title: 'Planning to go to the Temple?',
-    //date: new Date(2021, 1, 4).toUTCString(),
-    //description:
-    //'If you want to attend the temple, please <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng" target="_blank">Click Here!</a>' +
-    //' to schedule an appointment online. You will need to sign in with your LDS church account.',
-    //},
     {
         title: 'Utah County Emergency Rental Assistance Program',
         //date: new Date(2021, 1, 4).toUTCString(),
@@ -34,28 +27,6 @@ DATA.announcements = [
         //date: new Date(2021, 1, 4).toUTCString(),
         description: 'All leaders and teachers of children or youth are to complete this training within one month of being called. We also invite the parents to do the same.' +
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
-    },
-    //{
-    //title: '7:30am - Stake Missionary Correlation',
-    //date: new Date(2021, 6, 11).toUTCString(),
-    //description:
-    //'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
-    //},
-    // {
-    //   title: '8:00am - Stake Primary Baptism',
-    //   date: new Date(2021, 6, 31).toUTCString(),
-    //   description:
-    //     'Ward Level,' +
-    //     'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
-    // },
-    {
-        title: '5:00pm - Stake Missionary Correlation',
-        date: new Date(2021, 8, 12).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br />' +
-            'invited, ward mission leader, EQ &amp; RS Presidency over Missionary Work.<br /><br />' +
-            '<b>5:00pm - Stake Temple &amp; Family History Correlation</b>' +
-            '<br /> Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br />' +
-            'invited, ward temple and family history consultant, EQ &amp; RS Presidency over Temple &amp; Family History. <br /><br />',
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
@@ -75,6 +46,27 @@ DATA.announcements = [
         date: new Date(2021, 8, 19).toUTCString(),
         description: 'Quail Cove Pavilion, <a href="https://goo.gl/maps/Bm8dmfgWoou9iTkm8" target="_blank">700 N 900 E American Fork, UT</a><br />' +
             'All children turning 11 this year and their parents are invited to attend.',
+    },
+    {
+        title: '8:00am - Stake Primary Baptism',
+        date: new Date(2021, 8, 25).toUTCString(),
+        description: 'Ward Level,' +
+            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
+    },
+    {
+        title: 'FAST SUNDAY',
+        date: new Date(2021, 8, 26).toUTCString(),
+        description: '',
+    },
+    {
+        title: '10:00am | 2:00pm | 6:00pm MDT - General Conference',
+        date: new Date(2021, 9, 2).toUTCString(),
+        description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
+    },
+    {
+        title: '10:00am | 2:00pm MDT - General Conference',
+        date: new Date(2021, 9, 3).toUTCString(),
+        description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
     },
 ];
 DATA.broadcastLinks = [
@@ -460,6 +452,11 @@ DATA.hymns = {
         page: 170,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/god-our-father-hear-us-pray?lang=eng',
     },
+    171: {
+        title: 'With Humble Heart',
+        page: 171,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/with-humble-heart?lang=eng',
+    },
     172: {
         title: 'We’ll Bring the World His Truth',
         page: 172,
@@ -686,18 +683,27 @@ DATA.releases = [
 // },
 ];
 DATA.sustaining = [
-    // {
-    //   name: 'Brother Muao & Sister Shelli Hafoka',
-    //   calling: 'Sunday School Teachers',
-    // },
-    {
-        name: 'Brother Mau Mila',
-        calling: 'Sunday School Secretary',
-    },
+// {
+//   name: 'Brother Muao & Sister Shelli Hafoka',
+//   calling: 'Sunday School Teachers',
+// },
+// {
+//   name: 'Brother Mau Mila',
+//   calling: 'Sunday School Secretary',
+// },
+// {
+//   name: 'Sister Stephanie Ripley',
+//   calling: 'Self-Reliance Group Facilitator',
+// },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'Moe Fanene' },
+// { name: 'Moe Fanene' },
+// { name: 'Piripi Fitzgerald' },
+// { name: 'Isabel Yoshiko Lisia Uyema' },
+// { name: 'Seamus Hone Iosepa Fitzgerald' },
+// { name: 'Te Kiato Fitzgerald' },
+// { name: 'Poutu Fitzgerald' },
 ];
 DATA.baptisms = [
 //{ name: 'Joseph Prasad Jr.' },
@@ -734,27 +740,39 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 8, 12),
+        date: new Date(2021, 8, 19),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp1stc,
+        conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[270],
-        sacramentSong: DATA.hymns[91],
+        openingSong: DATA.hymns[10],
+        sacramentSong: DATA.hymns[171],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Torri Smith (Full-Time Missionary)' },
-                role: 'speaker',
+                person: { name: 'Brother Maika Tuʻifua' },
+                role: 'testimony',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Genesis Maldonado (Full-Time Missionary)' },
+                person: { name: 'Brother Manoa Tuʻifua' },
+                role: 'testimony',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Brother Jacob Tuʻifua' },
+                role: 'testimony',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Sister Brooke Tuʻifua' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
@@ -765,22 +783,20 @@ DATA.cheatSheet = {
             //   index: 1,
             //   beforeRestHymn: true,
             // } as Speaker,
-            // {
-            //   person: {
-            //     name: 'Pita Family - Musical NUmber “Folofola Mai a Sisu” ',
-            //   },
-            //   role: 'musical',
-            //   index: 1,
-            //   beforeRestHymn: true,
-            // } as Speaker,
             {
-                person: { name: 'Sister Sara Howlett (Full-Time Missionary)' },
+                person: { name: 'Toki Family - Musical NUmber' },
+                role: 'musical',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Brother Vakameilalo Tuʻifua' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[172],
+        closingSong: DATA.hymns[129],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
