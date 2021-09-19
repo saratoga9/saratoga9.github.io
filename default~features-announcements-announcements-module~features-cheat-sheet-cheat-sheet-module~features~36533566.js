@@ -689,8 +689,8 @@ DATA.releases = [
 ];
 DATA.sustaining = [
     {
-        name: 'Sister Lokelani Toki (not sure if need to be sustained in ward or is it a stake calling???)',
-        calling: 'YSA Representative',
+        name: 'Sister Lokelani Toki',
+        calling: 'YSA Leader/Representative',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
