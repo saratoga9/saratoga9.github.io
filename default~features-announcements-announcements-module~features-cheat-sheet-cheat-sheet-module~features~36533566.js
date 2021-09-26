@@ -678,7 +678,7 @@ DATA.releases = [
 DATA.sustaining = [
     {
         name: 'Sister Jelaire Fitzgerald',
-        calling: 'YSA Leader/Representative',
+        calling: 'RS Teacher',
     },
     {
         name: 'Sister Lindy Tonga',
@@ -690,7 +690,7 @@ DATA.sustaining = [
     },
     {
         name: 'Sister Salome Pita',
-        calling: 'YW Advisor',
+        calling: 'YW Adviser',
     },
     {
         name: 'Sister Kristy Sorenson',
