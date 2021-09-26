@@ -29,8 +29,15 @@ DATA.announcements = [
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     {
+        title: 'FAST SUNDAY',
+        date: new Date(2021, 8, 26).toUTCString(),
+        description: '' +
+            '<br /> 6:00pm | Emotional Resilience Class' +
+            '<br />Saratoga Springs 9th Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi</a>',
+    },
+    {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 8, 16).toUTCString(),
+        date: new Date(2021, 8, 30).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -40,23 +47,6 @@ DATA.announcements = [
             '<b>7:00pm - YSA Institute</b>' +
             '<br />Stake Office,' +
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
-    },
-    {
-        title: '6:00pm - Temple and Priesthood Preparation Meeting',
-        date: new Date(2021, 8, 19).toUTCString(),
-        description: 'Quail Cove Pavilion, <a href="https://goo.gl/maps/Bm8dmfgWoou9iTkm8" target="_blank">700 N 900 E American Fork, UT</a><br />' +
-            'All children turning 11 this year and their parents are invited to attend.',
-    },
-    {
-        title: '8:00am - Stake Primary Baptism',
-        date: new Date(2021, 8, 25).toUTCString(),
-        description: 'Ward Level,' +
-            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
-    },
-    {
-        title: 'FAST SUNDAY',
-        date: new Date(2021, 8, 26).toUTCString(),
-        description: '',
     },
     {
         title: '10:00am | 2:00pm | 6:00pm MDT - General Conference',
@@ -306,10 +296,16 @@ DATA.hymns = {
         page: 25,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/take-heed-ye-saints?lang=ton',
     },
+    //27: {
+    //    title: 'Folofola Mai ʻa Sīsū',
+    //    page: 27,
+    //    link:
+    //      'https://www.churchofjesuschrist.org/study/manual/hymns/thus-sayeth-the-lord?lang=ton',
+    //  },
     27: {
-        title: 'Folofola Mai ʻa Sīsū',
+        title: 'Praise to the Man',
         page: 27,
-        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/thus-sayeth-the-lord?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/praise-to-the-man?lang=eng',
     },
     30: {
         title: 'Come Come Ye Saints',
@@ -674,23 +670,35 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: 'Sister Katie Tuvivai',
-//   calling: 'Primary Worker',
-// },
-// {
-//   name: 'Sister Montello Naʻa',
-//   calling: 'Young Women 2nd Counselor',
-// },
-// {
-//   name: 'Sister Sue Unutoa',
-//   calling: 'Young Women Activity Specialist',
-// },
+    {
+        name: 'Brother Isi Kaufusi',
+        calling: 'Sunday School Teacher',
+    },
 ];
 DATA.sustaining = [
     {
-        name: 'Sister Lokelani Toki',
+        name: 'Sister Jelaire Fitzgerald',
         calling: 'YSA Leader/Representative',
+    },
+    {
+        name: 'Sister Lindy Tonga',
+        calling: 'RS Activity Assitant Coordinator',
+    },
+    {
+        name: 'Sister Jane Chase',
+        calling: 'RS Ministering Secretary',
+    },
+    {
+        name: 'Sister Salome Pita',
+        calling: 'YW Advisor',
+    },
+    {
+        name: 'Sister Kristy Sorenson',
+        calling: 'YW Activity Specialist',
+    },
+    {
+        name: 'Brother Isi Kaufusi',
+        calling: 'Primary Teacher',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
@@ -741,7 +749,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 8, 19),
+        date: new Date(2021, 8, 26),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
@@ -750,9 +758,9 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[10],
-        sacramentSong: DATA.hymns[171],
-        testimonySunday: false,
+        openingSong: DATA.hymns[27],
+        sacramentSong: DATA.hymns[194],
+        testimonySunday: true,
         speakers: [
             {
                 person: { name: 'Brother Maika Tuʻifua (Testimony)' },
@@ -797,7 +805,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[129],
+        // closingSong: DATA.hymns[129],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
