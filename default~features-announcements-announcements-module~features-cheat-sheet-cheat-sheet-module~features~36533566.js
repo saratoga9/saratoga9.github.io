@@ -32,7 +32,7 @@ DATA.announcements = [
         title: 'FAST SUNDAY',
         date: new Date(2021, 8, 26).toUTCString(),
         description: '' +
-            '<br /> 6:00pm | Emotional Resilience Class' +
+            '<br /><b>6:00pm | Emotional Resilience Class</b>' +
             '<br />Saratoga Springs 9th Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi</a>',
     },
     {
