@@ -612,7 +612,7 @@ DATA.hymns = {
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/count-your-blessings?lang=eng',
     },
     252: {
-        title: 'As Zion’s Youth in Latter Days',
+        title: 'Put Your Shoulder to the Wheel',
         page: 252,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/put-your-shoulder-to-the-wheel?lang=eng',
     },
