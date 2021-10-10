@@ -29,15 +29,15 @@ DATA.announcements = [
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     {
-        title: 'FAST SUNDAY',
-        date: new Date(2021, 8, 26).toUTCString(),
-        description: '' +
-            '<br /><b>6:00pm | Emotional Resilience Class</b>' +
+        title: '7:30am - Stake Missionary Correlation',
+        date: new Date(2021, 9, 10).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>, invited, ward mission leader, EQ &amp; RS Presidency over Missionary Work' +
+            '<br /><b>6:00pm - Emotional Resilience Class</b>' +
             '<br />Saratoga Springs 9th Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi</a>',
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 8, 30).toUTCString(),
+        date: new Date(2021, 9, 14).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -47,14 +47,14 @@ DATA.announcements = [
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
     },
     {
-        title: '10:00am | 2:00pm | 6:00pm MDT - General Conference',
-        date: new Date(2021, 9, 2).toUTCString(),
-        description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
+        title: '6:00am - Stake Sunday School Training',
+        date: new Date(2021, 9, 17).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>, invited, ward mission leader, EQ &amp; RS Presidency over Missionary Work',
     },
     {
-        title: '10:00am | 2:00pm MDT - General Conference',
-        date: new Date(2021, 9, 3).toUTCString(),
-        description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
+        title: '6:00am - Stake Primary Baptism',
+        date: new Date(2021, 9, 30).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>, invited, ward mission leader, EQ &amp; RS Presidency over Missionary Work',
     },
     {
         title: 'Ward Primary Sacrament Program',
@@ -207,8 +207,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Manase Tonga' },
-    pray2: { name: 'Sister Kailey Uluilakepa' },
+    pray1: { name: 'Sister Malia Read' },
+    pray2: { name: 'Brother Likio Pope' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -436,6 +436,11 @@ DATA.hymns = {
         page: 152,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/god-be-with-you-till-we-meet-again?lang=eng',
     },
+    156: {
+        title: 'Sing We Now at Parting',
+        page: 156,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/sing-we-now-at-parting?lang=eng',
+    },
     160: {
         title: 'Sīsū ne Ne Huhuʻi',
         page: 160,
@@ -606,6 +611,11 @@ DATA.hymns = {
         page: 241,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/count-your-blessings?lang=eng',
     },
+    252: {
+        title: 'As Zion’s Youth in Latter Days',
+        page: 252,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/put-your-shoulder-to-the-wheel?lang=eng',
+    },
     256: {
         title: 'As Zion’s Youth in Latter Days',
         page: 256,
@@ -625,6 +635,11 @@ DATA.hymns = {
         title: 'I’ll Go Where You Want Me to Go',
         page: 270,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/ill-go-where-you-want-me-to-go?lang=eng',
+    },
+    280: {
+        title: 'Welcome Welcome Sabbath Morning',
+        page: 280,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/welcome-welcome-sabbath-morning?lang=eng',
     },
     286: {
         title: 'Oh, What Songs of the Heart',
@@ -668,35 +683,27 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-    {
-        name: 'Brother Isi Kaufusi',
-        calling: 'Sunday School Teacher',
-    },
+// {
+//   name: 'Sister Montello Naʻa',
+//   calling: 'Young Women 2nd Counselor',
+// },
+// {
+//   name: 'Sister Sue Unutoa',
+//   calling: 'Young Women Activity Specialist',
+// },
 ];
 DATA.sustaining = [
     {
-        name: 'Sister Jelaire Fitzgerald',
-        calling: 'RS Teacher',
+        name: 'Brother Rockey Kalamafoni',
+        calling: 'Temple and Family History Leader',
     },
     {
-        name: 'Sister Lindy Tonga',
-        calling: 'RS Activity Assitant Coordinator',
+        name: 'Sister Tami Teriipaia',
+        calling: 'Primary Worker',
     },
     {
-        name: 'Sister Jane Chase',
-        calling: 'RS Ministering Secretary',
-    },
-    {
-        name: 'Sister Salome Pita',
-        calling: 'YW Adviser',
-    },
-    {
-        name: 'Sister Kristy Sorenson',
-        calling: 'YW Activity Specialist',
-    },
-    {
-        name: 'Brother Isi Kaufusi',
-        calling: 'Primary Teacher',
+        name: 'Sister Jennifer Uyema ',
+        calling: 'Primary Worker',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
@@ -747,39 +754,33 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 8, 26),
+        date: new Date(2021, 9, 10),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp2ndc,
+        conducting: DATA.people.bp1stc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
-        invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[27],
-        sacramentSong: DATA.hymns[194],
-        testimonySunday: true,
+        invocation: DATA.people.pray1,
+        openingSong: DATA.hymns[280],
+        sacramentSong: DATA.hymns[90],
+        testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Brother Maika Tuʻifua (Testimony)' },
-                role: 'testimony',
+                person: { name: 'Sister Tia Soakai' },
+                role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
+            // {
+            //   person: { name: 'Brother Jacob Tuʻifua (Musical Number)' },
+            //   role: 'musical',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
             {
-                person: { name: 'Brother Manoa Tuʻifua (Testimony)' },
-                role: 'testimony',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Jacob Tuʻifua (Musical Number)' },
-                role: 'musical',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Sister Brooke Tuʻifua' },
+                person: { name: 'Sister Keili Malohifoʻou' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
@@ -791,20 +792,15 @@ DATA.cheatSheet = {
             //   beforeRestHymn: true,
             // } as Speaker,
             {
-                person: { name: 'Toki Family - Musical NUmber' },
-                role: 'musical',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Vakameilalo Tuʻifua' },
+                person: { name: 'Brother Rockey Kalamafoni' },
                 role: 'speaker',
                 index: 1,
-                beforeRestHymn: true,
+                beforeRestHymn: false,
             },
         ],
-        // closingSong: DATA.hymns[129],
-        benediction: DATA.people.tbd,
+        restSong: DATA.hymns[252],
+        closingSong: DATA.hymns[156],
+        benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.hc,
