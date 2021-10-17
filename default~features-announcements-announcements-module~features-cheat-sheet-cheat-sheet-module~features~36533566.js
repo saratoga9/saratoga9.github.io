@@ -29,15 +29,13 @@ DATA.announcements = [
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     {
-        title: '7:30am - Stake Missionary Correlation',
-        date: new Date(2021, 9, 10).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>, invited, ward mission leader, EQ &amp; RS Presidency over Missionary Work' +
-            '<br /><b>6:00pm - Emotional Resilience Class</b>' +
-            '<br />Saratoga Springs 9th Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi</a>',
+        title: '6:00pm | Emotional Resilience Class',
+        date: new Date(2021, 9, 17).toUTCString(),
+        description: '<br />Saratoga Springs 9th Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi</a>',
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 9, 14).toUTCString(),
+        date: new Date(2021, 9, 21).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -47,19 +45,27 @@ DATA.announcements = [
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
     },
     {
-        title: '6:00am - Stake Sunday School Training',
-        date: new Date(2021, 9, 17).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>, invited, ward mission leader, EQ &amp; RS Presidency over Missionary Work',
+        title: '8:00am - Stake Primary Baptism',
+        date: new Date(2021, 9, 30).toUTCString(),
+        description: 'Ward Level,' +
+            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     },
     {
-        title: '6:00am - Stake Primary Baptism',
-        date: new Date(2021, 9, 30).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>, invited, ward mission leader, EQ &amp; RS Presidency over Missionary Work',
+        title: 'Stake Conference',
+        date: new Date(2021, 10, 7).toUTCString(),
+        description: '',
     },
     {
         title: 'Ward Primary Sacrament Program',
         date: new Date(2021, 10, 14).toUTCString(),
         description: 'More info will follow from the Primary organization. Stay tuned!',
+    },
+    {
+        title: 'Nov.20-21 | 15th Year Tongan Stake Celebration',
+        date: new Date(2021, 10, 20).toUTCString(),
+        description: 'The Provo Utah 1st Stake will celebrate the stake’s 15th year anniversary to commemorate the' +
+            'establishment of our prior combined Provo Utah Wasatch (Tongan) Stake in 2006. There will be various' +
+            ' displays, entertainment, and a fireside on November 20-21. ',
     },
 ];
 DATA.broadcastLinks = [
@@ -207,8 +213,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Malia Read' },
-    pray2: { name: 'Brother Likio Pope' },
+    pray1: { name: 'Brother Manase Tonga' },
+    pray2: { name: 'Sister Kailey Uluilakepa' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -314,6 +320,11 @@ DATA.hymns = {
         title: '‘Oku Ou Fie Ma’u Koe',
         page: 48,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/i-need-thee-every-hour?lang=ton',
+    },
+    54: {
+        title: 'ʻEiki ko ʻEmau Kole',
+        page: 54,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/lord-accept-our-true-devotion?lang=ton',
     },
     57: {
         title: 'Muimui ‘Iate Au',
@@ -435,11 +446,6 @@ DATA.hymns = {
         title: 'God Be with You Till We Meet Again',
         page: 152,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/god-be-with-you-till-we-meet-again?lang=eng',
-    },
-    156: {
-        title: 'Sing We Now at Parting',
-        page: 156,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/sing-we-now-at-parting?lang=eng',
     },
     160: {
         title: 'Sīsū ne Ne Huhuʻi',
@@ -611,11 +617,6 @@ DATA.hymns = {
         page: 241,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/count-your-blessings?lang=eng',
     },
-    252: {
-        title: 'Put Your Shoulder to the Wheel',
-        page: 252,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/put-your-shoulder-to-the-wheel?lang=eng',
-    },
     256: {
         title: 'As Zion’s Youth in Latter Days',
         page: 256,
@@ -635,11 +636,6 @@ DATA.hymns = {
         title: 'I’ll Go Where You Want Me to Go',
         page: 270,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/ill-go-where-you-want-me-to-go?lang=eng',
-    },
-    280: {
-        title: 'Welcome Welcome Sabbath Morning',
-        page: 280,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/welcome-welcome-sabbath-morning?lang=eng',
     },
     286: {
         title: 'Oh, What Songs of the Heart',
@@ -684,6 +680,10 @@ DATA.hymns = {
 };
 DATA.releases = [
 // {
+//   name: 'Brother Isi Kaufusi',
+//   calling: 'Sunday School Teacher',
+// },
+// {
 //   name: 'Sister Montello Naʻa',
 //   calling: 'Young Women 2nd Counselor',
 // },
@@ -693,18 +693,30 @@ DATA.releases = [
 // },
 ];
 DATA.sustaining = [
-    {
-        name: 'Brother Rockey Kalamafoni',
-        calling: 'Temple and Family History Leader',
-    },
-    {
-        name: 'Sister Tami Teriipaia',
-        calling: 'Primary Worker',
-    },
-    {
-        name: 'Sister Jennifer Uyema ',
-        calling: 'Primary Worker',
-    },
+// {
+//   name: 'Sister Jelaire Fitzgerald',
+//   calling: 'RS Teacher',
+// },
+// {
+//   name: 'Sister Lindy Tonga',
+//   calling: 'RS Activity Assitant Coordinator',
+// },
+// {
+//   name: 'Sister Jane Chase',
+//   calling: 'RS Ministering Secretary',
+// },
+// {
+//   name: 'Sister Salome Pita',
+//   calling: 'YW Adviser',
+// },
+// {
+//   name: 'Sister Kristy Sorenson',
+//   calling: 'YW Activity Specialist',
+// },
+// {
+//   name: 'Brother Isi Kaufusi',
+//   calling: 'Primary Teacher',
+// },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
@@ -754,53 +766,52 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 9, 10),
+        date: new Date(2021, 9, 17),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
         conducting: DATA.people.bp,
-        chorister: DATA.people.chorister1,
+        chorister: DATA.people.chorister2,
         organist: DATA.people.organist1,
-        invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[280],
-        sacramentSong: DATA.hymns[90],
+        invocation: DATA.people.tbd,
+        openingSong: DATA.hymns[5],
+        sacramentSong: DATA.hymns[170],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Tia Soakai' },
+                person: { name: 'Brother Poutu Fitzgerald (Testimony)' },
+                role: 'testimony',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Sister Te Kiato Fitzgerald (Testimony)' },
+                role: 'testimony',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Brother Piripi Fitzgerald (Testimony)' },
+                role: 'testimony',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Sister Jelaire Fitzgerald' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
-            // {
-            //   person: { name: 'Brother Jacob Tuʻifua (Musical Number)' },
-            //   role: 'musical',
-            //   index: 1,
-            //   beforeRestHymn: true,
-            // } as Speaker,
             {
-                person: { name: 'Sister Keili Malohifoʻou' },
+                person: { name: 'Brother Seamus Fitzgerald' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
-            },
-            // {
-            //   person: { name: 'Sister Celeste Detoles' },
-            //   role: 'testimony',
-            //   index: 1,
-            //   beforeRestHymn: true,
-            // } as Speaker,
-            {
-                person: { name: 'Brother Rockey Kalamafoni' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: false,
             },
         ],
-        restSong: DATA.hymns[252],
-        closingSong: DATA.hymns[156],
-        benediction: DATA.people.pray2,
+        closingSong: DATA.hymns[54],
+        benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.hc,
