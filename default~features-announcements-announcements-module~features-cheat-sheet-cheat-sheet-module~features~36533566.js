@@ -28,32 +28,30 @@ DATA.announcements = [
         description: 'All leaders and teachers of children or youth are to complete this training within one month of being called. We also invite the parents to do the same.' +
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
-    {
-        title: '6:00pm | Emotional Resilience Class',
-        date: new Date(2021, 9, 24).toUTCString(),
-        description: '<br />Saratoga Springs 9th Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi</a>',
-    },
-    {
-        title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 9, 28).toUTCString(),
-        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
-            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions.<br /><br />' +
-            '<b>7:00pm - YSA Institute</b>' +
-            '<br />Stake Office,' +
-            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
-    },
-    {
-        title: '8:00am - Stake Primary Baptism',
-        date: new Date(2021, 9, 30).toUTCString(),
-        description: 'Ward Level,' +
-            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
-    },
+    // {
+    //   title: '6:00pm | Emotional Resilience Class',
+    //   date: new Date(2021, 9, 31).toUTCString(),
+    //   description:
+    //     '<br />Saratoga Springs 9th Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi</a>',
+    // },
+    // {
+    //   title: '8:00am - Utah Food Bank Delivery',
+    //   date: new Date(2021, 9, 28).toUTCString(),
+    //   description:
+    //     'Saratoga Spring 12 Branch Parking Lot, ' +
+    //     '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+    //     '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+    //     'Instructions.<br /><br />' +
+    //     '<b>7:00pm - YSA Institute</b>' +
+    //     '<br />Stake Office,' +
+    //     ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
+    // },
     {
         title: 'FAST SUNDAY',
         date: new Date(2021, 9, 31).toUTCString(),
-        description: 'The Stake Presidency invites you to include the Stake Conference in your fast.',
+        description: 'The Stake Presidency invites you to include the Stake Conference in your fast.<br /><br />' +
+            '<b>6:00pm - Emotional Resilience Class' +
+            '<br />Saratoga Springs 9th Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi</a>',
     },
     {
         title: 'OREM UTAH 2ND STAKE CONFERENCE OUTLINE OF EVENTS',
@@ -66,7 +64,7 @@ DATA.announcements = [
         description: 'Family Home Evening in individual homes, with a special request that families focus on the Stake Conference Theme.',
     },
     {
-        title: 'Temple Night',
+        title: '8:15pm - Temple Night',
         date: new Date(2021, 10, 2).toUTCString(),
         description: 'Stake temple session at Mount Timpanogos Temple.',
     },
@@ -83,8 +81,6 @@ DATA.announcements = [
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
             'Instructions. <br /><br />' +
-            '<b>6:30pm - YSA Institute</b>' +
-            '<br />Stake Office <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>/Via Zoom<br /><br />' +
             '<b>7:00pm - YSA FHE with the Stake Presidency</b>' +
             '<br />Lehi 41st Chapel,' +
             '<a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>/via Zoom.',
@@ -102,18 +98,25 @@ DATA.announcements = [
             'Ward Mission Leader, Sunday School Presidency <br /><br />' +
             '<b>6:00pm - General Adult Session </b>' +
             '<br />Lehi 41st Chapel,' +
-            '<a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>. Broadcast available',
+            '<a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>. <br />' +
+            'BROADCAST LINK: http://mywebcast.churchofjesuschrist.org/oremutah2ndstake CODE: 63665',
     },
     {
         title: '10:00am - Stake Conference',
         date: new Date(2021, 10, 7).toUTCString(),
         description: 'Stake Center<a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>' +
-            '<br /> (Note: Broadcast available)',
+            '<br /> BROADCAST LINK: http://mywebcast.churchofjesuschrist.org/oremutah2ndstake CODE: 25641' + //To attend via Webcast, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://mywebcast.churchofjesuschrist.org/oremutah2ndstake" target="_blank">Click Here</a> <b>Event Code:</b> 86077'
+            '<br />Stake Conference General Session will also be Broadcast to the Orem 8/13 Building.',
     },
     {
-        title: 'Ward Primary Sacrament Program',
+        title: '7:30am - Stake Missionary Correlation',
         date: new Date(2021, 10, 14).toUTCString(),
-        description: 'More info will follow from the Primary organization. Stay tuned!',
+        description: 'Stake Center <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>.' +
+            '<br />Those invited to the Leadership Session include: ward mission leader, EQ &amp; RS Presidency over Missionary Work,<br /><br />' +
+            '<b>7:30am - Stake Temple & Family History Correlation</b><br />' +
+            'Stake Center <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>.' +
+            '<br />Those invited to the Leadership Session include: ward temple and family history consultant, EQ &amp; RS Presidency over Temple &amp; Family History.<br /><br />' +
+            '<b>12:00 - Ward Primary Program</b>',
     },
     {
         title: 'Nov.20-21 | 15th Year Tongan Stake Celebration',
@@ -371,6 +374,11 @@ DATA.hymns = {
         page: 30,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-come-ye-saints?lang=eng',
     },
+    44: {
+        title: 'Beautiful Zion, Built Above',
+        page: 44,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/beautiful-zion-built-above?lang=eng',
+    },
     48: {
         title: '‘Oku Ou Fie Ma’u Koe',
         page: 48,
@@ -594,17 +602,17 @@ DATA.hymns = {
         page: 192,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/he-died-the-great-redeemer-died?lang=eng',
     },
+    // 193: {
+    //   title: 'I Stand All Amazed',
+    //   page: 193,
+    //   link:
+    //     'https://www.churchofjesuschrist.org/music/library/hymns/i-stand-all-amazed?lang=eng',
+    // },
     193: {
-        title: 'I Stand All Amazed',
+        title: 'Fanau ae ‘a e ‘Otua (I am a child of God)',
         page: 193,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-stand-all-amazed?lang=eng',
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/i-am-a-child-of-god?lang=ton',
     },
-    //193: {
-    //title: 'Fanau ae ‘a e ‘Otua (I am a child of God)',
-    //page: 193,
-    //link:
-    //'https://www.churchofjesuschrist.org/study/manual/hymns/i-am-a-child-of-god?lang=ton',
-    //},
     194: {
         title: 'There Is a Green Hill Far Away',
         page: 194,
@@ -753,30 +761,14 @@ DATA.releases = [
 // },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Sister Jelaire Fitzgerald',
-//   calling: 'RS Teacher',
-// },
-// {
-//   name: 'Sister Lindy Tonga',
-//   calling: 'RS Activity Assitant Coordinator',
-// },
-// {
-//   name: 'Sister Jane Chase',
-//   calling: 'RS Ministering Secretary',
-// },
-// {
-//   name: 'Sister Salome Pita',
-//   calling: 'YW Adviser',
-// },
-// {
-//   name: 'Sister Kristy Sorenson',
-//   calling: 'YW Activity Specialist',
-// },
-// {
-//   name: 'Brother Isi Kaufusi',
-//   calling: 'Primary Teacher',
-// },
+    {
+        name: 'Brother George Uyema',
+        calling: 'Primary Teacher',
+    },
+    {
+        name: 'Brother Ken and Sister Kathy Moleni',
+        calling: 'Primary Teachers',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
@@ -788,9 +780,7 @@ DATA.newMembers = [
 // { name: 'Poutu Fitzgerald' },
 ];
 DATA.baptisms = [
-//{ name: 'Joseph Prasad Jr.' },
-//{ name: 'Sosiua Hola' },
-//{ name: 'Owen Martin' },
+    { name: 'Milika Lolohea Sariah Tauteoli' },
 ];
 DATA.babyBlessing = [
 //{ name: 'Penni Lynn Tonga' },
@@ -826,18 +816,18 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 9, 24),
+        date: new Date(2021, 9, 31),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp1stc,
-        conducting: DATA.people.bp2ndc,
+        presiding: DATA.people.bp,
+        conducting: DATA.people.bp,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
-        invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[7],
-        sacramentSong: DATA.hymns[182],
-        testimonySunday: false,
+        invocation: DATA.people.tbd,
+        openingSong: DATA.hymns[44],
+        sacramentSong: DATA.hymns[192],
+        testimonySunday: true,
         speakers: [
             {
                 person: { name: 'Sister Paige Ngatikaura' },
@@ -852,8 +842,8 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[86],
-        benediction: DATA.people.pray2,
+        closingSong: DATA.hymns[193],
+        benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.hc,
