@@ -99,13 +99,13 @@ DATA.announcements = [
             '<b>6:00pm - General Adult Session </b>' +
             '<br />Lehi 41st Chapel,' +
             '<a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>. <br />' +
-            'BROADCAST LINK: http://mywebcast.churchofjesuschrist.org/oremutah2ndstake CODE: 63665',
+            'BROADCAST LINK: <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://mywebcast.churchofjesuschrist.org/oremutah2ndstake" target="_blank">Click here!</a> CODE: 63665',
     },
     {
         title: '10:00am - Stake Conference',
         date: new Date(2021, 10, 7).toUTCString(),
         description: 'Stake Center<a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>' +
-            '<br /> BROADCAST LINK: http://mywebcast.churchofjesuschrist.org/oremutah2ndstake CODE: 25641' + //To attend via Webcast, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://mywebcast.churchofjesuschrist.org/oremutah2ndstake" target="_blank">Click Here</a> <b>Event Code:</b> 86077'
+            '<br /> BROADCAST LINK: <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://mywebcast.churchofjesuschrist.org/oremutah2ndstake" target="_blank">Click here!</a> CODE: 25641' + //To attend via Webcast, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://mywebcast.churchofjesuschrist.org/oremutah2ndstake" target="_blank">Click Here</a> <b>Event Code:</b> 86077'
             '<br />Stake Conference General Session will also be Broadcast to the Orem 8/13 Building.',
     },
     {
