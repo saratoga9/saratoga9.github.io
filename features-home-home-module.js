@@ -98,7 +98,7 @@ __webpack_require__.r(__webpack_exports__);
 class AlertsComponent {
 }
 AlertsComponent.ɵfac = function AlertsComponent_Factory(t) { return new (t || AlertsComponent)(); };
-AlertsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AlertsComponent, selectors: [["s9-alerts"]], decls: 34, vars: 0, consts: [["role", "primary", 1, "alert", "alert-primary", "p-3", "d-flex", "align-content-between"], [1, "card", "border-light"], [1, "card-img-wrapper"], ["role", "info", 1, "alert", "alert-info", "p-3", "d-flex", "align-content-between"], [1, "fas", "fa-user-clock", "fa-3x", "mr-3"], [1, "alert-heading"], [1, "text-right", "mb-0"], ["href", "https://docs.google.com/document/d/1G3mnJlq8E-Oulx9DJriYcuYt7uae02BHe48d11_yrgY/edit?usp=sharing", "target", "_blank", 1, "btn", "btn-info", "btn-sm"]], template: function AlertsComponent_Template(rf, ctx) { if (rf & 1) {
+AlertsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AlertsComponent, selectors: [["s9-alerts"]], decls: 45, vars: 0, consts: [["role", "primary", 1, "alert", "alert-primary", "p-3", "d-flex", "align-content-between"], [1, "card", "border-light"], [1, "card-img-wrapper"], ["role", "info", 1, "alert", "alert-info", "p-3", "d-flex", "align-content-between"], [1, "fas", "fa-user-clock", "fa-3x", "mr-3"], [1, "alert-heading"], [1, "text-right", "mb-0"], ["href", "https://docs.google.com/document/d/1G3mnJlq8E-Oulx9DJriYcuYt7uae02BHe48d11_yrgY/edit?usp=sharing", "target", "_blank", 1, "btn", "btn-info", "btn-sm"], ["href", "https://docs.google.com/document/d/17Gx-PQEZxYquIPWjN32KvPy5KRlVAipSxbQTuUSjCdE/edit?usp=sharing", "target", "_blank", 1, "btn", "btn-info", "btn-sm"]], template: function AlertsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div");
@@ -144,6 +144,24 @@ AlertsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "p", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Schedule an appointment");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "i", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "h5", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Tithing Settlement Sign-up Sheet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " To sign-up for the year-end tithing settlement with the Bishop, just click the link below. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "p", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Sign-up Now!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
