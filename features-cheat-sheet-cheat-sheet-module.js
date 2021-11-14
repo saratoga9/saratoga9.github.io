@@ -490,7 +490,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](41, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](43, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](44, " For a copy of the sacrament program and ward/stake announcements, please go to the ward website \"saratoga9.com\" There are also QR codes posted at the doors that you can scan which will take you there. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](44, " Tithing Settelement interviews has now started. It is held every Wednesdays and Sundays. For more details and where to sign up, please go to the ward website \"saratoga9.com\" ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
