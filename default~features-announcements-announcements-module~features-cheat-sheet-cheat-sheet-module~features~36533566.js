@@ -46,47 +46,34 @@ DATA.announcements = [
     //     '<br />Stake Office,' +
     //     ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
     // },
-    {
-        title: '7:30am - Stake Missionary Correlation',
-        date: new Date(2021, 10, 14).toUTCString(),
-        description: 'Stake Center <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>.' +
-            '<br />Those invited to the Leadership Session include: ward mission leader, EQ &amp; RS Presidency over Missionary Work,<br /><br />' +
-            '<b>7:30am - Stake Temple & Family History Correlation</b><br />' +
-            'Stake Center <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>.' +
-            '<br />Those invited to the Leadership Session include: ward temple and family history consultant, EQ &amp; RS Presidency over Temple &amp; Family History.<br /><br />' +
-            '<b>12:00 - Ward Primary Program</b>',
-    },
-    {
-        title: '',
-        date: new Date(2021, 10, 18).toUTCString(),
-        description: '<b>8:00am - Utah Food Bank Delivery</b><br />' +
-            'Saratoga Spring 12 Branch Parking Lot, ' +
-            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions. <br /><br />' +
-            '<b>7:00pm - YSA Institute</b>' +
-            '<br />Stake Center,' +
-            '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
-            '<b>7:00pm - Utah Area Leadership Broadcast with Elder Christofferson' +
-            '<a href="https://www.churchofjesuschrist.org/broadcasts/languages/utah-area-fifth-sunday-leadership-broadcast-english/2021/11?lang=eng&mkt_tok=NTc4LVRUWC04NzQAAAGAJQzw9ifJchFHf0H_gu6yNpw9UDsdHO0bfL3LvkTKRVyf9a6n0An3BeHHgR784C7iLUMVDfsw5govyIkWBYoQtvNRAjOFt3swe9R8GGxnLPQcHg" target="_blank">Click here to watch! </a> ',
-    },
-    {
-        title: '6:00pm - 15 Year Celebration Senior Citizen Activity',
-        date: new Date(2021, 10, 19).toUTCString(),
-        description: 'The Provo Utah 1st Stake Center, <a href="https://goo.gl/maps/FdqjEosXCinrxTYV8" target="_blank">1625 S Canyon Drive, Provo</a>, ',
-    },
-    {
-        title: '7:00pm - 15 Year Celebration Combine Dual Stake Dance &amp; Cultural Performances,',
-        date: new Date(2021, 10, 20).toUTCString(),
-        description: 'Utah Valley Convention Center, <a href="https://goo.gl/maps/Au689zs5tMYNZEQ28" target="_blank">220 W Center St, Provo</a>' +
-            'The Provo Utah 1st Stake will celebrate the stake’s 15th year anniversary to commemorate the' +
-            'establishment of our prior combined Provo Utah Wasatch (Tongan) Stake in 2006. There will be various' +
-            ' displays and entertainment. ',
-    },
+    // {
+    //   title: '',
+    //   date: new Date(2021, 10, 18).toUTCString(),
+    //   description:
+    //     '<b>8:00am - Utah Food Bank Delivery</b><br />' +
+    //     'Saratoga Spring 12 Branch Parking Lot, ' +
+    //     '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+    //     '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+    //     'Instructions. <br /><br />' +
+    //     '<b>7:00pm - YSA Institute</b>' +
+    //     '<br />Stake Center,' +
+    //     '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
+    //     '<b>7:00pm - Utah Area Leadership Broadcast with Elder Christofferson' +
+    //     '<a href="https://www.churchofjesuschrist.org/broadcasts/languages/utah-area-fifth-sunday-leadership-broadcast-english/2021/11?lang=eng&mkt_tok=NTc4LVRUWC04NzQAAAGAJQzw9ifJchFHf0H_gu6yNpw9UDsdHO0bfL3LvkTKRVyf9a6n0An3BeHHgR784C7iLUMVDfsw5govyIkWBYoQtvNRAjOFt3swe9R8GGxnLPQcHg" target="_blank">Click here to watch! </a> ',
+    // },
     {
         title: '6:00pm - 15 Year Celebration Special Devotional',
         date: new Date(2021, 10, 21).toUTCString(),
-        description: 'The Provo Utah 1st Stake Center, <a href="https://goo.gl/maps/FdqjEosXCinrxTYV8" target="_blank">1625 S Canyon Drive, Provo</a>, ',
+        description: 'The Provo Utah 1st Stake Center, <a href="https://goo.gl/maps/FdqjEosXCinrxTYV8" target="_blank">1625 S Canyon Drive, Provo</a><br /> ' +
+            'Broadcast, General Viewing Link: <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://mywebcast.churchofjesuschrist.org/oremutah2ndstake" target="_blank">Click Here</a> <br /><b>Event Code:35850</b>',
+    },
+    {
+        title: '8:00am - Utah Food Bank Delivery',
+        date: new Date(2021, 10, 22).toUTCString(),
+        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
+            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+            'Instructions. <br /><br />',
     },
     {
         title: 'Thanksgiving Day',
@@ -98,6 +85,14 @@ DATA.announcements = [
         date: new Date(2021, 11, 4).toUTCString(),
         description: 'Ward Level,' +
             'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
+    },
+    {
+        title: 'FAST SUNDAY',
+        date: new Date(2021, 11, 5).toUTCString(),
+        description: '<br />' +
+            '<b>6:00am - EQ Presidency Training with the Stake Presidency</b>' +
+            '<br />Stake Center,' +
+            '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>',
     },
 ];
 DATA.broadcastLinks = [
@@ -245,8 +240,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Kalli Norman' },
-    pray2: { name: 'Sister Meghan Funn' },
+    pray1: { name: 'Brother Chris Bell' },
+    pray2: { name: 'Sister Brooke Molisi' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -358,6 +353,11 @@ DATA.hymns = {
         page: 48,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/i-need-thee-every-hour?lang=ton',
     },
+    52: {
+        title: 'Ko Hoku Tauhi ʻa Sihova',
+        page: 52,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/the-lord-is-my-keeper?lang=ton',
+    },
     54: {
         title: 'ʻEiki ko ʻEmau Kole',
         page: 54,
@@ -388,6 +388,11 @@ DATA.hymns = {
         title: 'Rejoice, the Lord Is King!',
         page: 66,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/rejoice-the-lord-is-king?lang=eng',
+    },
+    72: {
+        title: 'Praise to the Lord, the Almighty',
+        page: 72,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/praise-to-the-lord-the-almighty?lang=eng',
     },
     81: {
         title: 'Press Forward Saints',
@@ -768,9 +773,8 @@ DATA.newMembers = [
 // { name: 'Poutu Fitzgerald' },
 ];
 DATA.baptisms = [
-// { name: 'Milika Lolohea Sariah Tauteoli' },
-//{ name: 'Sosiua Hola' },
-//{ name: 'Owen Martin' },
+    { name: 'Ashlyn Renee Fenton' },
+    { name: 'Krew Lane Fenton' },
 ];
 DATA.babyBlessing = [
 //{ name: 'Penni Lynn Tonga' },
@@ -806,33 +810,45 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 10, 14),
+        date: new Date(2021, 10, 21),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp,
+        presiding: DATA.people.bp1stc,
         conducting: DATA.people.bp1stc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[10],
-        sacramentSong: DATA.hymns[172],
-        testimonySunday: true,
+        openingSong: DATA.hymns[72],
+        sacramentSong: DATA.hymns[180],
+        testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Paige Ngatikaura' },
+                person: { name: 'Brother William Harris' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Adre Ngatikaura' },
+                person: { name: 'Sister Kat Pahulu' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            //{
+            //   person: { name: 'Toki Family - Musical NUmber' },
+            //   role: 'musical',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
+            {
+                person: { name: 'Brother Isi Kaufusi' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[2],
+        closingSong: DATA.hymns[52],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
