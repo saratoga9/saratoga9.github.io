@@ -46,39 +46,17 @@ DATA.announcements = [
     //     '<br />Stake Office,' +
     //     ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
     // },
-    // {
-    //   title: '',
-    //   date: new Date(2021, 10, 18).toUTCString(),
-    //   description:
-    //     '<b>8:00am - Utah Food Bank Delivery</b><br />' +
-    //     'Saratoga Spring 12 Branch Parking Lot, ' +
-    //     '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-    //     '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-    //     'Instructions. <br /><br />' +
-    //     '<b>7:00pm - YSA Institute</b>' +
-    //     '<br />Stake Center,' +
-    //     '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
-    //     '<b>7:00pm - Utah Area Leadership Broadcast with Elder Christofferson' +
-    //     '<a href="https://www.churchofjesuschrist.org/broadcasts/languages/utah-area-fifth-sunday-leadership-broadcast-english/2021/11?lang=eng&mkt_tok=NTc4LVRUWC04NzQAAAGAJQzw9ifJchFHf0H_gu6yNpw9UDsdHO0bfL3LvkTKRVyf9a6n0An3BeHHgR784C7iLUMVDfsw5govyIkWBYoQtvNRAjOFt3swe9R8GGxnLPQcHg" target="_blank">Click here to watch! </a> ',
-    // },
     {
-        title: '6:00pm - 15 Year Celebration Special Devotional',
-        date: new Date(2021, 10, 21).toUTCString(),
-        description: 'The Provo Utah 1st Stake Center, <a href="https://goo.gl/maps/FdqjEosXCinrxTYV8" target="_blank">1625 S Canyon Drive, Provo</a><br /> ' +
-            'Broadcast, General Viewing Link: <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://mywebcast.churchofjesuschrist.org/oremutah2ndstake" target="_blank">Click Here</a> <br /><b>Event Code:35850</b>',
-    },
-    {
-        title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 10, 22).toUTCString(),
-        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
+        title: '',
+        date: new Date(2021, 10, 18).toUTCString(),
+        description: '<b>8:00am - Utah Food Bank Delivery</b><br />' +
+            'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions. <br /><br />',
-    },
-    {
-        title: 'Thanksgiving Day',
-        date: new Date(2021, 10, 26).toUTCString(),
-        description: '',
+            'Instructions. <br /><br />' +
+            '<b>7:00pm - YSA Institute</b>' +
+            '<br />Stake Center,' +
+            '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
     {
         title: '8:00am - Stake Primary Baptism',
@@ -92,7 +70,13 @@ DATA.announcements = [
         description: '<br />' +
             '<b>6:00am - EQ Presidency Training with the Stake Presidency</b>' +
             '<br />Stake Center,' +
-            '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>',
+            '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
+            '<b>6:00pm - 2021 First Presidency’s Christmas Devotional</b><br />' +
+            'This can be viewed via livestream on the following channels: <br />' +
+            '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/broadcasts" target="_blank">Live Watch Page</a><br /> ' +
+            '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.youtube.com/churchofjesuschrist" target="_blank">Church Youtube Channel</a><br /> ' +
+            '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://www.byutv.org/watch/livetv" target="_blank">BYUtv</a><br /> ' +
+            '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/media/collection/christmas-devotionals?lang=eng&collectionId=947da7183a51ff85dfdac16ddf289bb0ace2b6b8" target="_blank">Latter-day Saints Channel</a> ',
     },
 ];
 DATA.broadcastLinks = [
@@ -240,8 +224,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Chris Bell' },
-    pray2: { name: 'Sister Brooke Molisi' },
+    pray1: { name: 'Brother Brayden Funn' },
+    pray2: { name: 'Sister Ann Uluilakepa' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -429,6 +413,12 @@ DATA.hymns = {
         page: 92,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/take-the-name-of-jesus-with-you?lang=ton',
     },
+    // 92: {
+    //   title: 'For the Beauty of the Earth',
+    //   page: 92.,
+    //   link:
+    //     'https://www.churchofjesuschrist.org/music/library/hymns/for-the-beauty-of-the-earth?lang=eng',
+    // },
     96: {
         title: 'Fakaʻofa Kiate Au',
         page: 96,
@@ -644,12 +634,11 @@ DATA.hymns = {
         page: 209,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/hark-the-herald-angels-sing?lang=eng',
     },
-    //219: {
-    //title: 'Because I Have Been Given Much',
-    //page: 219,
-    //link:
-    //'https://lyricstranslate.com/en/mormon-hymns-because-i-have-been-given-much-lyrics.html',
-    //},
+    219: {
+        title: 'Because I Have Been Given Much',
+        page: 219,
+        link: 'https://lyricstranslate.com/en/mormon-hymns-because-i-have-been-given-much-lyrics.html',
+    },
     220: {
         title: 'Lord, I Would Follow Thee',
         page: 220,
@@ -765,16 +754,20 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-// { name: 'Moe Fanene' },
-// { name: 'Piripi Fitzgerald' },
-// { name: 'Isabel Yoshiko Lisia Uyema' },
-// { name: 'Seamus Hone Iosepa Fitzgerald' },
-// { name: 'Te Kiato Fitzgerald' },
-// { name: 'Poutu Fitzgerald' },
+    { name: 'Kaleinani Fitzgerald' },
+    { name: 'Conway Kaka' },
+    { name: 'Ema Kuʻumomimakamaeuhanemanalani Kaofoʻou Kaka' },
+    { name: 'Lyons Nainoa Ikahiʻilanihekealoha Kaka' },
+    { name: 'Lula-Rae Kaala Hahana Kaka' },
+    { name: 'Erick Funn' },
+    { name: 'Felisha Funn' },
+    { name: 'Beckett Coltrin' },
+    { name: 'Jett Coltrin' },
 ];
 DATA.baptisms = [
-    { name: 'Ashlyn Renee Fenton' },
-    { name: 'Krew Lane Fenton' },
+// { name: 'Ashlyn Renee Fenton' },
+// { name: 'Krew Lane Fenton' },
+//{ name: 'Owen Martin' },
 ];
 DATA.babyBlessing = [
 //{ name: 'Penni Lynn Tonga' },
@@ -810,7 +803,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 10, 21),
+        date: new Date(2021, 10, 28),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
@@ -819,18 +812,18 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[72],
-        sacramentSong: DATA.hymns[180],
+        openingSong: DATA.hymns[92],
+        sacramentSong: DATA.hymns[92],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Brother William Harris' },
+                person: { name: 'Sister Jordis Lomu' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Kat Pahulu' },
+                person: { name: 'Sister Kara Martin' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
@@ -842,13 +835,13 @@ DATA.cheatSheet = {
             //   beforeRestHymn: true,
             // } as Speaker,
             {
-                person: { name: 'Brother Isi Kaufusi' },
+                person: { name: 'Brother Manase Tonga' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[52],
+        closingSong: DATA.hymns[219],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
