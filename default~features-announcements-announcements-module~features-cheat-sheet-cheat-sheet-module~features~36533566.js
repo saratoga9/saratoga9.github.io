@@ -47,24 +47,6 @@ DATA.announcements = [
     //     ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
     // },
     {
-        title: '',
-        date: new Date(2021, 10, 18).toUTCString(),
-        description: '<b>8:00am - Utah Food Bank Delivery</b><br />' +
-            'Saratoga Spring 12 Branch Parking Lot, ' +
-            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions. <br /><br />' +
-            '<b>7:00pm - YSA Institute</b>' +
-            '<br />Stake Center,' +
-            '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
-    },
-    {
-        title: '8:00am - Stake Primary Baptism',
-        date: new Date(2021, 11, 4).toUTCString(),
-        description: 'Ward Level,' +
-            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
-    },
-    {
         title: 'FAST SUNDAY',
         date: new Date(2021, 11, 5).toUTCString(),
         description: '<br />' +
@@ -77,6 +59,24 @@ DATA.announcements = [
             '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.youtube.com/churchofjesuschrist" target="_blank">Church Youtube Channel</a><br /> ' +
             '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://www.byutv.org/watch/livetv" target="_blank">BYUtv</a><br /> ' +
             '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/media/collection/christmas-devotionals?lang=eng&collectionId=947da7183a51ff85dfdac16ddf289bb0ace2b6b8" target="_blank">Latter-day Saints Channel</a> ',
+    },
+    {
+        title: '',
+        date: new Date(2021, 11, 9).toUTCString(),
+        description: '<b>8:00am - Utah Food Bank Delivery</b><br />' +
+            'Saratoga Spring 12 Branch Parking Lot, ' +
+            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+            'Instructions. <br /><br />' +
+            '<b>7:00pm - YSA Institute</b>' +
+            '<br />Stake Center,' +
+            '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+    },
+    {
+        title: '6:00pm - Ward Christmas Party',
+        date: new Date(2021, 11, 10).toUTCString(),
+        description: 'North Chapel, <a href="https://goo.gl/maps/3A9vNFsQVuerWbP97" target="_blank">1550 S 1100 W, Lehi, UT</a>' +
+            '<br /> Dinner will be served. Special Santa visit for kids.',
     },
 ];
 DATA.broadcastLinks = [
@@ -434,6 +434,11 @@ DATA.hymns = {
         page: 98,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-need-thee-every-hour?lang=eng',
     },
+    105: {
+        title: 'Naʻe Lahi Fau ʻa e ʻOfa',
+        page: 105,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/how-great-the-wisdom-and-the-love?lang=ton',
+    },
     107: {
         title: 'Sīsū ē Ne ʻAloʻi',
         page: 107,
@@ -634,10 +639,20 @@ DATA.hymns = {
         page: 209,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/hark-the-herald-angels-sing?lang=eng',
     },
+    210: {
+        title: 'With Wondering Awe',
+        page: 210,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/with-wondering-awe?lang=eng',
+    },
     219: {
         title: 'Because I Have Been Given Much',
         page: 219,
         link: 'https://lyricstranslate.com/en/mormon-hymns-because-i-have-been-given-much-lyrics.html',
+    },
+    213: {
+        title: 'The First Noel',
+        page: 213,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/the-first-noel?lang=eng',
     },
     220: {
         title: 'Lord, I Would Follow Thee',
@@ -754,20 +769,17 @@ DATA.sustaining = [
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'Kaleinani Fitzgerald' },
-    { name: 'Conway Kaka' },
-    { name: 'Ema Kuʻumomimakamaeuhanemanalani Kaofoʻou Kaka' },
-    { name: 'Lyons Nainoa Ikahiʻilanihekealoha Kaka' },
-    { name: 'Lula-Rae Kaala Hahana Kaka' },
-    { name: 'Erick Funn' },
-    { name: 'Felisha Funn' },
-    { name: 'Beckett Coltrin' },
-    { name: 'Jett Coltrin' },
+    { name: 'Isaia Tuiloma' },
+    { name: 'Girishana Rajaratnam' },
+    { name: 'Logan MacKay' },
+    { name: 'Fatai Sioux MacKay' },
 ];
 DATA.baptisms = [
-// { name: 'Ashlyn Renee Fenton' },
-// { name: 'Krew Lane Fenton' },
-//{ name: 'Owen Martin' },
+    { name: 'Alta Chase' },
+    { name: 'Mya Teriipaia' },
+    { name: 'Owen Martin' },
+    { name: 'William Pita Jr.' },
+    { name: 'Isileli Pita' },
 ];
 DATA.babyBlessing = [
 //{ name: 'Penni Lynn Tonga' },
@@ -803,18 +815,18 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 10, 28),
+        date: new Date(2021, 11, 5),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp1stc,
-        conducting: DATA.people.bp1stc,
+        presiding: DATA.people.bp,
+        conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
-        invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[92],
-        sacramentSong: DATA.hymns[92],
-        testimonySunday: false,
+        invocation: DATA.people.tbd,
+        openingSong: DATA.hymns[213],
+        sacramentSong: DATA.hymns[105],
+        testimonySunday: true,
         speakers: [
             {
                 person: { name: 'Sister Jordis Lomu' },
@@ -841,8 +853,8 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[219],
-        benediction: DATA.people.pray2,
+        closingSong: DATA.hymns[210],
+        benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.hc,

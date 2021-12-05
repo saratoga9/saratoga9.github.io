@@ -78,7 +78,7 @@ MissionaryListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.missionaries);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"]], styles: [".photo[_ngcontent-%COMP%] {\n  border-radius: 50%;\n  height: 80px;\n}\n\n.card-img-wrapper[_ngcontent-%COMP%] {\n  background: url('missionaries-riding-bikes.jpeg');\n  background-size: cover;\n  height: 200px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uLy4uL21pc3Npb25hcnktbGlzdC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtCQUFBO0VBQ0EsWUFBQTtBQUNGOztBQUNBO0VBQ0UsaURBQUE7RUFDQSxzQkFBQTtFQUNBLGFBQUE7QUFFRiIsImZpbGUiOiJtaXNzaW9uYXJ5LWxpc3QuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGhvdG8ge1xuICBib3JkZXItcmFkaXVzOiA1MCU7XG4gIGhlaWdodDogODBweDtcbn1cbi5jYXJkLWltZy13cmFwcGVyIHtcbiAgYmFja2dyb3VuZDogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9pbWFnZXMvbWlzc2lvbmFyaWVzLXJpZGluZy1iaWtlcy5qcGVnKTtcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgaGVpZ2h0OiAyMDBweDtcbn1cbiJdfQ== */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"]], styles: [".photo[_ngcontent-%COMP%] {\n  border-radius: 50%;\n  height: 80px;\n}\n\n.card-img-wrapper[_ngcontent-%COMP%] {\n  background: url('missionaries-riding-bikes.jpeg');\n  background-size: cover;\n  height: 200px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFwuLlxcLi5cXC4uXFxtaXNzaW9uYXJ5LWxpc3QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxrQkFBQTtFQUNBLFlBQUE7QUFDRjs7QUFDQTtFQUNFLGlEQUFBO0VBQ0Esc0JBQUE7RUFDQSxhQUFBO0FBRUYiLCJmaWxlIjoibWlzc2lvbmFyeS1saXN0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBob3RvIHtcbiAgYm9yZGVyLXJhZGl1czogNTAlO1xuICBoZWlnaHQ6IDgwcHg7XG59XG4uY2FyZC1pbWctd3JhcHBlciB7XG4gIGJhY2tncm91bmQ6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvaW1hZ2VzL21pc3Npb25hcmllcy1yaWRpbmctYmlrZXMuanBlZyk7XG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gIGhlaWdodDogMjAwcHg7XG59XG4iXX0= */"] });
 
 
 /***/ }),
@@ -98,7 +98,7 @@ __webpack_require__.r(__webpack_exports__);
 class AlertsComponent {
 }
 AlertsComponent.ɵfac = function AlertsComponent_Factory(t) { return new (t || AlertsComponent)(); };
-AlertsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AlertsComponent, selectors: [["s9-alerts"]], decls: 45, vars: 0, consts: [["role", "primary", 1, "alert", "alert-primary", "p-3", "d-flex", "align-content-between"], [1, "card", "border-light"], [1, "card-img-wrapper"], ["role", "info", 1, "alert", "alert-info", "p-3", "d-flex", "align-content-between"], [1, "fas", "fa-user-clock", "fa-3x", "mr-3"], [1, "alert-heading"], [1, "text-right", "mb-0"], ["href", "https://docs.google.com/document/d/1G3mnJlq8E-Oulx9DJriYcuYt7uae02BHe48d11_yrgY/edit?usp=sharing", "target", "_blank", 1, "btn", "btn-info", "btn-sm"], ["href", "https://docs.google.com/document/d/17Gx-PQEZxYquIPWjN32KvPy5KRlVAipSxbQTuUSjCdE/edit?usp=sharing", "target", "_blank", 1, "btn", "btn-info", "btn-sm"]], template: function AlertsComponent_Template(rf, ctx) { if (rf & 1) {
+AlertsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AlertsComponent, selectors: [["s9-alerts"]], decls: 45, vars: 0, consts: [["role", "primary", 1, "alert", "alert-primary", "p-3", "d-flex", "align-content-between"], [1, "card", "border-light"], [1, "card-img-wrapper"], ["role", "info", 1, "alert", "alert-info", "p-3", "d-flex", "align-content-between"], [1, "fas", "fa-user-clock", "fa-3x", "mr-3"], [1, "alert-heading"], [1, "text-right", "mb-0"], ["href", "https://www.picktime.com/56473c2e-d1c0-46b8-a6cb-9743b8c0fcb7", 1, "ptbkbtn", 2, "float", "none"], ["border", "none", "src", "https://www.picktime.com/bookingPage/img/picktime-book-online.png", "alt", "Schedule an appointment with Saratoga Springs 9th Ward"], ["href", "https://calendly.com/ss9/tithing-settlements?back=1&month=2021-12", 1, "btn", "btn-info", "btn-sm"]], template: function AlertsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div");
@@ -143,7 +143,7 @@ AlertsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "p", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Schedule an appointment");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "img", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -160,14 +160,14 @@ AlertsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " To sign-up for the year-end tithing settlement with the Bishop, just click the link below. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "p", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "a", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Sign-up Now!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: [".card-img-wrapper[_ngcontent-%COMP%] {\n  background: url('ss9-bishopric-2.jpg');\n  background-size: cover;\n  height: 200px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uLy4uL2FsZXJ0cy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHNDQUFBO0VBQ0Esc0JBQUE7RUFDQSxhQUFBO0FBQ0YiLCJmaWxlIjoiYWxlcnRzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNhcmQtaW1nLXdyYXBwZXIge1xuICBiYWNrZ3JvdW5kOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy9zczktYmlzaG9wcmljLTIuanBnKTtcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgaGVpZ2h0OiAyMDBweDtcbn1cbiJdfQ== */"] });
+    } }, styles: [".card-img-wrapper[_ngcontent-%COMP%] {\n  background: url('ss9-bishopric-2.jpg');\n  background-size: cover;\n  height: 200px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFwuLlxcLi5cXC4uXFxhbGVydHMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxzQ0FBQTtFQUNBLHNCQUFBO0VBQ0EsYUFBQTtBQUNGIiwiZmlsZSI6ImFsZXJ0cy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkLWltZy13cmFwcGVyIHtcbiAgYmFja2dyb3VuZDogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9pbWFnZXMvc3M5LWJpc2hvcHJpYy0yLmpwZyk7XG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gIGhlaWdodDogMjAwcHg7XG59XG4iXX0= */"] });
 
 
 /***/ }),
@@ -189,7 +189,7 @@ __webpack_require__.r(__webpack_exports__);
 class SacramentListComponent {
 }
 SacramentListComponent.ɵfac = function SacramentListComponent_Factory(t) { return new (t || SacramentListComponent)(); };
-SacramentListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SacramentListComponent, selectors: [["s9-sacrament-list"]], decls: 77, vars: 1, consts: [[1, "card", "border-light"], [1, "card-img-wrapper"], ["role", "info", 1, "alert", "alert-info", "p-3", "d-flex", "align-content-between"], [1, "fas", "fa-user-friends", "fa-3x", "mr-3"], [1, "alert-heading"], [1, "text-right", "w-100"], [1, "btn", "btn-info", "btn-sm", 3, "routerLink"], [1, "card-img-wrapper2"], [1, "fas", "fa-book-reader", "fa-3x", "mr-3"], ["href", "https://store.churchofjesuschrist.org/magazines-3074457345616678843-1/subscriptions/new-friend-subscription", "target", "_blank"], ["href", "https://store.churchofjesuschrist.org/magazines-3074457345616678843-1/subscriptions/for-the-strength-of-youth-subscription", "target", "_blank"], ["href", "https://store.churchofjesuschrist.org/magazines-3074457345616678843-1/subscriptions/liahona-subscription-85059832-1", "target", "_blank"], ["href", "tel:18005375971", "target", "_blank"], ["href", "https://www.churchofjesuschrist.org/pages/mobileapps/gospellibrary?lang=eng", "target", "_blank"], ["href", "https://lds365.com/2020/02/14/new-gospel-living-app-now-available-worldwide/", "target", "_blank"], ["href", "https://store.churchofjesuschrist.org/magazinesfaq", "target", "_blank"]], template: function SacramentListComponent_Template(rf, ctx) { if (rf & 1) {
+SacramentListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SacramentListComponent, selectors: [["s9-sacrament-list"]], decls: 17, vars: 1, consts: [[1, "card", "border-light"], [1, "card-img-wrapper"], ["role", "info", 1, "alert", "alert-info", "p-3", "d-flex", "align-content-between"], [1, "fas", "fa-user-friends", "fa-3x", "mr-3"], [1, "alert-heading"], [1, "text-right", "w-100"], [1, "btn", "btn-info", "btn-sm", 3, "routerLink"], [1, "card-img-wrapper1"]], template: function SacramentListComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -213,100 +213,14 @@ SacramentListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "i", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "h4", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Church Magazines");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "\"The First Presidency encourages all members to read the Church magazines. The magazines can help members learn the gospel of Jesus Christ, study the teachings of living prophets, feel connected to the global Church family, face challenges with faith, and draw closer to God.\"");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "(For printed copies)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, " click here");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, ", to subscribe to the ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Friend");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, ". ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "click here");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, ", to subscribe to ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "For the Strength of Youth");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, ". ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "a", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "click here");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, ", to subscribe to the ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Liahona");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, ". ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](55, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "You can also subscribe by calling ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "1-800-537-5971");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, ". ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "(For online/digital copies)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, " Please download the ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "a", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Gospel Library");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, " and ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "a", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Gospel Living");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, " apps. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](72, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](73, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "Frequently Asked Questions");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "div", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", "/sacrament/in-person");
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".card-img-wrapper[_ngcontent-%COMP%] {\n  background: url('sacrament-blessers-wear-mask.jpg');\n  background-size: cover;\n  height: 200px;\n}\n\n.card-img-wrapper1[_ngcontent-%COMP%] {\n  background: url('tr-invite-letter.jpg');\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-position: center;\n  height: 500px;\n}\n\n.card-img-wrapper2[_ngcontent-%COMP%] {\n  background: url('women-sharing-magazine.jpeg');\n  background-size: cover;\n  height: 300px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uLy4uL3NhY3JhbWVudC1saXN0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsbURBQUE7RUFDQSxzQkFBQTtFQUNBLGFBQUE7QUFDRjs7QUFDQTtFQUNFLHVDQUFBO0VBQ0EsNEJBQUE7RUFDQSx3QkFBQTtFQUNBLDJCQUFBO0VBQ0EsYUFBQTtBQUVGOztBQUFBO0VBQ0UsOENBQUE7RUFDQSxzQkFBQTtFQUNBLGFBQUE7QUFHRiIsImZpbGUiOiJzYWNyYW1lbnQtbGlzdC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkLWltZy13cmFwcGVyIHtcbiAgYmFja2dyb3VuZDogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9pbWFnZXMvc2FmZS1zYWNyYW1lbnQvc2FjcmFtZW50LWJsZXNzZXJzLXdlYXItbWFzay5qcGcpO1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICBoZWlnaHQ6IDIwMHB4O1xufVxuLmNhcmQtaW1nLXdyYXBwZXIxIHtcbiAgYmFja2dyb3VuZDogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9pbWFnZXMvdHItaW52aXRlLWxldHRlci5qcGcpO1xuICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvbnRhaW47XG4gIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcbiAgaGVpZ2h0OiA1MDBweDtcbn1cbi5jYXJkLWltZy13cmFwcGVyMiB7XG4gIGJhY2tncm91bmQ6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvaW1hZ2VzL3dvbWVuLXNoYXJpbmctbWFnYXppbmUuanBlZyk7XG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gIGhlaWdodDogMzAwcHg7XG59XG4iXX0= */"] });
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".card-img-wrapper[_ngcontent-%COMP%] {\n  background: url('sacrament-blessers-wear-mask.jpg');\n  background-size: cover;\n  height: 200px;\n}\n\n.card-img-wrapper1[_ngcontent-%COMP%] {\n  background: url('xmas-party.jpg');\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-position: center;\n  height: 500px;\n}\n\n.card-img-wrapper2[_ngcontent-%COMP%] {\n  background: url('women-sharing-magazine.jpeg');\n  background-size: cover;\n  height: 300px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFwuLlxcLi5cXC4uXFxzYWNyYW1lbnQtbGlzdC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLG1EQUFBO0VBQ0Esc0JBQUE7RUFDQSxhQUFBO0FBQ0Y7O0FBQ0E7RUFDRSxpQ0FBQTtFQUNBLDRCQUFBO0VBQ0Esd0JBQUE7RUFDQSwyQkFBQTtFQUNBLGFBQUE7QUFFRjs7QUFBQTtFQUNFLDhDQUFBO0VBQ0Esc0JBQUE7RUFDQSxhQUFBO0FBR0YiLCJmaWxlIjoic2FjcmFtZW50LWxpc3QuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2FyZC1pbWctd3JhcHBlciB7XG4gIGJhY2tncm91bmQ6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvaW1hZ2VzL3NhZmUtc2FjcmFtZW50L3NhY3JhbWVudC1ibGVzc2Vycy13ZWFyLW1hc2suanBnKTtcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgaGVpZ2h0OiAyMDBweDtcbn1cbi5jYXJkLWltZy13cmFwcGVyMSB7XG4gIGJhY2tncm91bmQ6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvaW1hZ2VzL3htYXMtcGFydHkuanBnKTtcbiAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgYmFja2dyb3VuZC1zaXplOiBjb250YWluO1xuICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gIGhlaWdodDogNTAwcHg7XG59XG4uY2FyZC1pbWctd3JhcHBlcjIge1xuICBiYWNrZ3JvdW5kOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy93b21lbi1zaGFyaW5nLW1hZ2F6aW5lLmpwZWcpO1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICBoZWlnaHQ6IDMwMHB4O1xufVxuIl19 */"] });
 
 
 /***/ }),
@@ -415,7 +329,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("broadcastLinks", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](7, 2, ctx.broadcastLinks$));
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("missionaries", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](10, 4, ctx.missionaries$));
-    } }, directives: [_alerts_alerts_component__WEBPACK_IMPORTED_MODULE_3__["AlertsComponent"], _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentListComponent"], _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_5__["BroadcastListComponent"], _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_6__["MissionaryListComponent"], _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_7__["ContactInfoComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_8__["AsyncPipe"]], styles: ["#alert[_ngcontent-%COMP%]   .icon[_ngcontent-%COMP%] {\n  font-size: 50px;\n  height: 90px;\n  width: 90px;\n  border-radius: 50%;\n  border: #b8daff 1px solid;\n  background: #ebf4ff;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-right: 15px;\n}\n\n.card-header[_ngcontent-%COMP%] {\n  background: transparent;\n}\n\n#page-menu[_ngcontent-%COMP%]   .fa[_ngcontent-%COMP%], #menu-items[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  cursor: pointer;\n}\n\n#page-menu[_ngcontent-%COMP%]   .fa[_ngcontent-%COMP%]:hover, #menu-items[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:hover {\n  opacity: 0.6;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uL2hvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0U7RUFDRSxlQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7RUFDQSxrQkFBQTtFQUNBLHlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSxtQkFBQTtFQUNBLGtCQUFBO0FBQUo7O0FBSUE7RUFDRSx1QkFBQTtBQURGOztBQUlBOztFQUVFLGVBQUE7QUFERjs7QUFFRTs7RUFDRSxZQUFBO0FBQ0oiLCJmaWxlIjoiaG9tZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiNhbGVydCB7XG4gIC5pY29uIHtcbiAgICBmb250LXNpemU6IDUwcHg7XG4gICAgaGVpZ2h0OiA5MHB4O1xuICAgIHdpZHRoOiA5MHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgICBib3JkZXI6IGxpZ2h0ZW4oIzAwN2JmZiwgMzYlKSAxcHggc29saWQ7XG4gICAgYmFja2dyb3VuZDogbGlnaHRlbigjMDA3YmZmLCA0NiUpO1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBtYXJnaW4tcmlnaHQ6IDE1cHg7XG4gIH1cbn1cblxuLmNhcmQtaGVhZGVyIHtcbiAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7XG59XG5cbiNwYWdlLW1lbnUgLmZhLFxuI21lbnUtaXRlbXMgbGkge1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gICY6aG92ZXIge1xuICAgIG9wYWNpdHk6IDAuNjtcbiAgfVxufVxuIl19 */"] });
+    } }, directives: [_alerts_alerts_component__WEBPACK_IMPORTED_MODULE_3__["AlertsComponent"], _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentListComponent"], _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_5__["BroadcastListComponent"], _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_6__["MissionaryListComponent"], _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_7__["ContactInfoComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_8__["AsyncPipe"]], styles: ["#alert[_ngcontent-%COMP%]   .icon[_ngcontent-%COMP%] {\n  font-size: 50px;\n  height: 90px;\n  width: 90px;\n  border-radius: 50%;\n  border: #b8daff 1px solid;\n  background: #ebf4ff;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-right: 15px;\n}\n\n.card-header[_ngcontent-%COMP%] {\n  background: transparent;\n}\n\n#page-menu[_ngcontent-%COMP%]   .fa[_ngcontent-%COMP%], #menu-items[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  cursor: pointer;\n}\n\n#page-menu[_ngcontent-%COMP%]   .fa[_ngcontent-%COMP%]:hover, #menu-items[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:hover {\n  opacity: 0.6;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFwuLlxcLi5cXGhvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0U7RUFDRSxlQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7RUFDQSxrQkFBQTtFQUNBLHlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSxtQkFBQTtFQUNBLGtCQUFBO0FBQUo7O0FBSUE7RUFDRSx1QkFBQTtBQURGOztBQUlBOztFQUVFLGVBQUE7QUFERjs7QUFFRTs7RUFDRSxZQUFBO0FBQ0oiLCJmaWxlIjoiaG9tZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiNhbGVydCB7XG4gIC5pY29uIHtcbiAgICBmb250LXNpemU6IDUwcHg7XG4gICAgaGVpZ2h0OiA5MHB4O1xuICAgIHdpZHRoOiA5MHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgICBib3JkZXI6IGxpZ2h0ZW4oIzAwN2JmZiwgMzYlKSAxcHggc29saWQ7XG4gICAgYmFja2dyb3VuZDogbGlnaHRlbigjMDA3YmZmLCA0NiUpO1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBtYXJnaW4tcmlnaHQ6IDE1cHg7XG4gIH1cbn1cblxuLmNhcmQtaGVhZGVyIHtcbiAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7XG59XG5cbiNwYWdlLW1lbnUgLmZhLFxuI21lbnUtaXRlbXMgbGkge1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gICY6aG92ZXIge1xuICAgIG9wYWNpdHk6IDAuNjtcbiAgfVxufVxuIl19 */"] });
 
 
 /***/ }),
@@ -468,7 +382,7 @@ __webpack_require__.r(__webpack_exports__);
 class BroadcastListComponent {
 }
 BroadcastListComponent.ɵfac = function BroadcastListComponent_Factory(t) { return new (t || BroadcastListComponent)(); };
-BroadcastListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BroadcastListComponent, selectors: [["s9-broadcast-list"]], inputs: { broadcastLinks: "broadcastLinks" }, decls: 19, vars: 0, consts: [[1, "card", "border-light"], [1, "card-img-wrapper"], ["role", "info", 1, "alert", "alert-info", "p-3", "d-flex", "align-content-between"], [1, "fas", "fa-user-clock", "fa-3x", "mr-3"], [1, "alert-heading"], ["href", "https://account.churchofjesuschrist.org/register", "target", "_blank"], [1, "text-right", "mb-0"], ["href", "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng", "target", "_blank", 1, "btn", "btn-info", "btn-sm"]], template: function BroadcastListComponent_Template(rf, ctx) { if (rf & 1) {
+BroadcastListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BroadcastListComponent, selectors: [["s9-broadcast-list"]], inputs: { broadcastLinks: "broadcastLinks" }, decls: 82, vars: 0, consts: [[1, "card", "border-light"], [1, "card-img-wrapper"], ["role", "info", 1, "alert", "alert-info", "p-3", "d-flex", "align-content-between"], [1, "fas", "fa-user-clock", "fa-3x", "mr-3"], [1, "alert-heading"], ["href", "https://account.churchofjesuschrist.org/register", "target", "_blank"], ["href", "https://docs.google.com/document/d/1G3mnJlq8E-Oulx9DJriYcuYt7uae02BHe48d11_yrgY/edit?usp=sharing", "target", "_blank"], [1, "text-right", "mb-0"], ["href", "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng", "target", "_blank", 1, "btn", "btn-info", "btn-sm"], [1, "card-img-wrapper3"], [1, "fas", "fa-book-reader", "fa-3x", "mr-3"], ["href", "https://store.churchofjesuschrist.org/magazines-3074457345616678843-1/subscriptions/new-friend-subscription", "target", "_blank"], ["href", "https://store.churchofjesuschrist.org/magazines-3074457345616678843-1/subscriptions/for-the-strength-of-youth-subscription", "target", "_blank"], ["href", "https://store.churchofjesuschrist.org/magazines-3074457345616678843-1/subscriptions/liahona-subscription-85059832-1", "target", "_blank"], ["href", "tel:18005375971", "target", "_blank"], ["href", "https://www.churchofjesuschrist.org/pages/mobileapps/gospellibrary?lang=eng", "target", "_blank"], ["href", "https://lds365.com/2020/02/14/new-gospel-living-app-now-available-worldwide/", "target", "_blank"], ["href", "https://store.churchofjesuschrist.org/magazinesfaq", "target", "_blank"]], template: function BroadcastListComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -486,18 +400,110 @@ BroadcastListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Click Here!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " If you need to renew your temple recommend, schedule an appointment with the Bishopric above. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Schedule Temple Appointment ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " If you need to renew your temple recommend, schedule an appointment with the Bishopric above or ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " click here! ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Schedule Temple Appointment ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: [".broadcast-section[_ngcontent-%COMP%]   .details[_ngcontent-%COMP%] {\n  font-size: small;\n  opacity: 0.6;\n}\n\n.card-img-wrapper[_ngcontent-%COMP%] {\n  background: url('mount-timpanogos-temple-3.jpeg');\n  background-size: cover;\n  height: 300px;\n}\n\n.card-img-wrapper1[_ngcontent-%COMP%] {\n  background: url('tr-invite-letter.jpg');\n  background-size: cover;\n  height: 300px;\n}\n\n.card-img-wrapper2[_ngcontent-%COMP%] {\n  background: url('tr-invite-letter.jpg');\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-position: center;\n  height: 500px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uLy4uL2Jyb2FkY2FzdC1saXN0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNFO0VBQ0UsZ0JBQUE7RUFDQSxZQUFBO0FBQUo7O0FBSUE7RUFDRSxpREFBQTtFQUNBLHNCQUFBO0VBQ0EsYUFBQTtBQURGOztBQUdBO0VBQ0UsdUNBQUE7RUFDQSxzQkFBQTtFQUNBLGFBQUE7QUFBRjs7QUFFQTtFQUNFLHVDQUFBO0VBQ0EsNEJBQUE7RUFDQSx3QkFBQTtFQUNBLDJCQUFBO0VBQ0EsYUFBQTtBQUNGIiwiZmlsZSI6ImJyb2FkY2FzdC1saXN0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJyb2FkY2FzdC1zZWN0aW9uIHtcbiAgLmRldGFpbHMge1xuICAgIGZvbnQtc2l6ZTogc21hbGw7XG4gICAgb3BhY2l0eTogMC42O1xuICB9XG59XG5cbi5jYXJkLWltZy13cmFwcGVyIHtcbiAgYmFja2dyb3VuZDogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9pbWFnZXMvc2FmZS1zYWNyYW1lbnQvbW91bnQtdGltcGFub2dvcy10ZW1wbGUtMy5qcGVnKTtcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgaGVpZ2h0OiAzMDBweDtcbn1cbi5jYXJkLWltZy13cmFwcGVyMSB7XG4gIGJhY2tncm91bmQ6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvaW1hZ2VzL3RyLWludml0ZS1sZXR0ZXIuanBnKTtcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgaGVpZ2h0OiAzMDBweDtcbn1cbi5jYXJkLWltZy13cmFwcGVyMiB7XG4gIGJhY2tncm91bmQ6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvaW1hZ2VzL3RyLWludml0ZS1sZXR0ZXIuanBnKTtcbiAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgYmFja2dyb3VuZC1zaXplOiBjb250YWluO1xuICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gIGhlaWdodDogNTAwcHg7XG59XG5cbi8vLmNhcmQtaW1nLXdyYXBwZXIge1xuLy9iYWNrZ3JvdW5kOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy9zYWZlLXNhY3JhbWVudC9zYWNyYW1lbnQtc2VhdGluZy0wMS5qcGcpO1xuLy9iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuLy9oZWlnaHQ6IDIwMHB4O1xuLy99XG4iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "i", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "h4", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Church Magazines");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "\"The First Presidency encourages all members to read the Church magazines. The magazines can help members learn the gospel of Jesus Christ, study the teachings of living prophets, feel connected to the global Church family, face challenges with faith, and draw closer to God.\"");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "(For printed copies)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, " click here");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, ", to subscribe to the ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Friend");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, ". ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "click here");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, ", to subscribe to ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "For the Strength of Youth");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, ". ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "a", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "click here");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, ", to subscribe to the ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Liahona");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, ". ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](60, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "You can also subscribe by calling ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "1-800-537-5971");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, ". ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "(For online/digital copies)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, " Please download the ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "a", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "Gospel Library");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, " and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Gospel Living");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, " apps. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](77, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](78, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "a", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "Frequently Asked Questions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: [".broadcast-section[_ngcontent-%COMP%]   .details[_ngcontent-%COMP%] {\n  font-size: small;\n  opacity: 0.6;\n}\n\n.card-img-wrapper[_ngcontent-%COMP%] {\n  background: url('mount-timpanogos-temple-3.jpeg');\n  background-size: cover;\n  height: 300px;\n}\n\n.card-img-wrapper1[_ngcontent-%COMP%] {\n  background: url('tr-invite-letter.jpg');\n  background-size: cover;\n  height: 300px;\n}\n\n.card-img-wrapper2[_ngcontent-%COMP%] {\n  background: url('tr-invite-letter.jpg');\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-position: center;\n  height: 500px;\n}\n\n.card-img-wrapper3[_ngcontent-%COMP%] {\n  background: url('women-sharing-magazine.jpeg');\n  background-size: cover;\n  height: 300px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFwuLlxcLi5cXC4uXFxicm9hZGNhc3QtbGlzdC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDRTtFQUNFLGdCQUFBO0VBQ0EsWUFBQTtBQUFKOztBQUlBO0VBQ0UsaURBQUE7RUFDQSxzQkFBQTtFQUNBLGFBQUE7QUFERjs7QUFHQTtFQUNFLHVDQUFBO0VBQ0Esc0JBQUE7RUFDQSxhQUFBO0FBQUY7O0FBRUE7RUFDRSx1Q0FBQTtFQUNBLDRCQUFBO0VBQ0Esd0JBQUE7RUFDQSwyQkFBQTtFQUNBLGFBQUE7QUFDRjs7QUFDQTtFQUNFLDhDQUFBO0VBQ0Esc0JBQUE7RUFDQSxhQUFBO0FBRUYiLCJmaWxlIjoiYnJvYWRjYXN0LWxpc3QuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYnJvYWRjYXN0LXNlY3Rpb24ge1xuICAuZGV0YWlscyB7XG4gICAgZm9udC1zaXplOiBzbWFsbDtcbiAgICBvcGFjaXR5OiAwLjY7XG4gIH1cbn1cblxuLmNhcmQtaW1nLXdyYXBwZXIge1xuICBiYWNrZ3JvdW5kOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy9zYWZlLXNhY3JhbWVudC9tb3VudC10aW1wYW5vZ29zLXRlbXBsZS0zLmpwZWcpO1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICBoZWlnaHQ6IDMwMHB4O1xufVxuLmNhcmQtaW1nLXdyYXBwZXIxIHtcbiAgYmFja2dyb3VuZDogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9pbWFnZXMvdHItaW52aXRlLWxldHRlci5qcGcpO1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICBoZWlnaHQ6IDMwMHB4O1xufVxuLmNhcmQtaW1nLXdyYXBwZXIyIHtcbiAgYmFja2dyb3VuZDogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9pbWFnZXMvdHItaW52aXRlLWxldHRlci5qcGcpO1xuICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvbnRhaW47XG4gIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcbiAgaGVpZ2h0OiA1MDBweDtcbn1cbi5jYXJkLWltZy13cmFwcGVyMyB7XG4gIGJhY2tncm91bmQ6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvaW1hZ2VzL3dvbWVuLXNoYXJpbmctbWFnYXppbmUuanBlZyk7XG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gIGhlaWdodDogMzAwcHg7XG59XG5cbi8vLmNhcmQtaW1nLXdyYXBwZXIge1xuLy9iYWNrZ3JvdW5kOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy9zYWZlLXNhY3JhbWVudC9zYWNyYW1lbnQtc2VhdGluZy0wMS5qcGcpO1xuLy9iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuLy9oZWlnaHQ6IDIwMHB4O1xuLy99XG4iXX0= */"] });
 
 
 /***/ }),
@@ -664,7 +670,7 @@ ContactInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: [".card-img-wrapper[_ngcontent-%COMP%] {\n  background: url('chapel.jpeg');\n  background-size: cover;\n  height: 200px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uLy4uL2NvbnRhY3QtaW5mby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDhCQUFBO0VBQ0Esc0JBQUE7RUFDQSxhQUFBO0FBQ0YiLCJmaWxlIjoiY29udGFjdC1pbmZvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNhcmQtaW1nLXdyYXBwZXIge1xuICBiYWNrZ3JvdW5kOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL2ltYWdlcy9jaGFwZWwuanBlZyk7XG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gIGhlaWdodDogMjAwcHg7XG59XG4iXX0= */"] });
+    } }, styles: [".card-img-wrapper[_ngcontent-%COMP%] {\n  background: url('chapel.jpeg');\n  background-size: cover;\n  height: 200px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFwuLlxcLi5cXC4uXFxjb250YWN0LWluZm8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSw4QkFBQTtFQUNBLHNCQUFBO0VBQ0EsYUFBQTtBQUNGIiwiZmlsZSI6ImNvbnRhY3QtaW5mby5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkLWltZy13cmFwcGVyIHtcbiAgYmFja2dyb3VuZDogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9pbWFnZXMvY2hhcGVsLmpwZWcpO1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICBoZWlnaHQ6IDIwMHB4O1xufVxuIl19 */"] });
 
 
 /***/ })

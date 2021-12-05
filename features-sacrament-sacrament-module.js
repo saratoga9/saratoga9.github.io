@@ -696,7 +696,7 @@ function InPersonProgramComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](44, "Opening Song:");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](45, "span", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](46, " (Hymn #92) For the Beauty of the Earth");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](46);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](47, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](48, "a", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](49, " CLICK HERE FOR LYRICS ");
@@ -780,7 +780,7 @@ function InPersonProgramComponent_div_0_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate3"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](13, 21, ctx_r0.data.cheatSheet.sacrament.date), ", ", ctx_r0.data.cheatSheet.sacrament.startTime, " to ", ctx_r0.data.cheatSheet.sacrament.endTime, ", ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate3"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](13, 23, ctx_r0.data.cheatSheet.sacrament.date), ", ", ctx_r0.data.cheatSheet.sacrament.startTime, " to ", ctx_r0.data.cheatSheet.sacrament.endTime, ", ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ctx_r0.data.cheatSheet.sacrament.address.link, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
@@ -793,7 +793,9 @@ function InPersonProgramComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.data.cheatSheet.sacrament.chorister.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.data.cheatSheet.sacrament.organist.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("(Hymn #", ctx_r0.data.cheatSheet.sacrament.openingSong.page, ") ", ctx_r0.data.cheatSheet.sacrament.openingSong.title, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.data.cheatSheet.sacrament.invocation.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"](" (Hymn #", ctx_r0.data.cheatSheet.sacrament.sacramentSong.page, ") ", ctx_r0.data.cheatSheet.sacrament.sacramentSong.title, " ");
@@ -821,7 +823,7 @@ class InPersonProgramComponent extends _sacrament_base__WEBPACK_IMPORTED_MODULE_
 }
 InPersonProgramComponent.ɵfac = function InPersonProgramComponent_Factory(t) { return ɵInPersonProgramComponent_BaseFactory(t || InPersonProgramComponent); };
 InPersonProgramComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: InPersonProgramComponent, selectors: [["s9-in-person-program"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵInheritDefinitionFeature"]], decls: 1, vars: 1, consts: [["class", "row", 4, "ngIf"], [1, "row"], [1, "col-12", "mb-2", "mt-2", "text-center"], [1, "h3", "mb-1"], ["target", "_blank", 3, "href"], [1, "col-12", "mb-2"], [1, "d-flex", "justify-content-between"], [1, "text-right"], [1, "col-12", "mb-4"], ["target", "_blank", "href", "https://www.churchofjesuschrist.org/music/library/hymns/for-the-beauty-of-the-earth?lang=eng", 1, "btn", "btn-sm", "btn-info", "font-size-10", "text-capitalize"], ["target", "_blank", 1, "btn", "btn-sm", "btn-info", "font-size-10", "text-capitalize", 3, "href"], ["class", "col-12 mb-4 mt-3", 4, "ngIf"], ["class", "col-12 mb-2", 4, "ngIf"], [1, "col-12", "mb-2", "text-center"], [1, "blockquote"], [1, "mb-0"], [1, "blockquote-footer"], [1, "col-12", "mb-4", "mt-3"], ["class", "d-flex justify-content-between mb-2", 4, "ngFor", "ngForOf"], [1, "d-flex", "justify-content-between", "mb-2"], [4, "ngIf"]], template: function InPersonProgramComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, InPersonProgramComponent_div_0_Template, 97, 23, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, InPersonProgramComponent_div_0_Template, 97, 25, "div", 0);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.data.cheatSheet.sacrament);
     } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["DatePipe"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJpbi1wZXJzb24tcHJvZ3JhbS5jb21wb25lbnQuc2NzcyJ9 */"] });
