@@ -775,11 +775,10 @@ DATA.newMembers = [
     { name: 'Fatai Sioux MacKay' },
 ];
 DATA.baptisms = [
-    { name: 'Alta Chase' },
-    { name: 'Mya Teriipaia' },
-    { name: 'Owen Martin' },
-    { name: 'William Pita Jr.' },
-    { name: 'Isileli Pita' },
+    { name: 'Alta Naomi Chase' },
+    { name: 'Mya Mereani Kaleolaʻihoʻikemaupono Teriipaia' },
+    { name: 'William Christopher Pita' },
+    { name: 'Isileli George Pita' },
 ];
 DATA.babyBlessing = [
 //{ name: 'Penni Lynn Tonga' },
