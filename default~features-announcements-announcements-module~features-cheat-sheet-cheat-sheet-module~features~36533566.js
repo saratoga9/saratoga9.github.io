@@ -750,22 +750,14 @@ DATA.releases = [
 // },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Sister Jane Chase',
-//   calling: 'RS Ministering Secretary',
-// },
-// {
-//   name: 'Sister Salome Pita',
-//   calling: 'YW Adviser',
-// },
-// {
-//   name: 'Sister Kristy Sorenson',
-//   calling: 'YW Activity Specialist',
-// },
-// {
-//   name: 'Brother Isi Kaufusi',
-//   calling: 'Primary Teacher',
-// },
+    {
+        name: 'Brother Conway Kaka',
+        calling: 'Sunday School Teacher',
+    },
+    {
+        name: 'Sister ʻEma Kuʻumomimakamaeuhanemanalani Kaofoʻou Kaka',
+        calling: 'Sunday School Teacher',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
