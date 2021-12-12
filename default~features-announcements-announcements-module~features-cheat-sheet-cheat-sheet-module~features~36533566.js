@@ -798,6 +798,10 @@ DATA.sustaining = [
         name: 'Sister Kenra Tarawhiti',
         calling: 'Primary Worker',
     },
+    {
+        name: 'Sister Kara Martin',
+        calling: 'Primary Activity Days Leader',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
