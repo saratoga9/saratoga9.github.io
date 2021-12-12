@@ -46,23 +46,29 @@ DATA.announcements = [
     //     '<br />Stake Office,' +
     //     ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
     // },
+    // {
+    //   title: 'FAST SUNDAY',
+    //   date: new Date(2021, 11, 5).toUTCString(),
+    //   description:
+    //     '<br />' +
+    //     '<b>6:00am - EQ Presidency Training with the Stake Presidency</b>' +
+    //     '<br />Stake Center,' +
+    //     '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
+    //     '<b>6:00pm - 2021 First Presidency’s Christmas Devotional</b><br />' +
+    //     'This can be viewed via livestream on the following channels: <br />' +
+    //     '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/broadcasts" target="_blank">Live Watch Page</a><br /> ' +
+    //     '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.youtube.com/churchofjesuschrist" target="_blank">Church Youtube Channel</a><br /> ' +
+    //     '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://www.byutv.org/watch/livetv" target="_blank">BYUtv</a><br /> ' +
+    //     '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/media/collection/christmas-devotionals?lang=eng&collectionId=947da7183a51ff85dfdac16ddf289bb0ace2b6b8" target="_blank">Latter-day Saints Channel</a> ',
+    // },
     {
-        title: 'FAST SUNDAY',
-        date: new Date(2021, 11, 5).toUTCString(),
-        description: '<br />' +
-            '<b>6:00am - EQ Presidency Training with the Stake Presidency</b>' +
-            '<br />Stake Center,' +
-            '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
-            '<b>6:00pm - 2021 First Presidency’s Christmas Devotional</b><br />' +
-            'This can be viewed via livestream on the following channels: <br />' +
-            '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/broadcasts" target="_blank">Live Watch Page</a><br /> ' +
-            '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.youtube.com/churchofjesuschrist" target="_blank">Church Youtube Channel</a><br /> ' +
-            '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://www.byutv.org/watch/livetv" target="_blank">BYUtv</a><br /> ' +
-            '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/media/collection/christmas-devotionals?lang=eng&collectionId=947da7183a51ff85dfdac16ddf289bb0ace2b6b8" target="_blank">Latter-day Saints Channel</a> ',
+        title: '7:30am - Missionary & Temple Correlation Meeting',
+        date: new Date(2021, 11, 12).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
     {
         title: '',
-        date: new Date(2021, 11, 9).toUTCString(),
+        date: new Date(2021, 11, 16).toUTCString(),
         description: '<b>8:00am - Utah Food Bank Delivery</b><br />' +
             'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
@@ -73,10 +79,38 @@ DATA.announcements = [
             '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
     {
-        title: '6:00pm - Ward Christmas Party',
-        date: new Date(2021, 11, 10).toUTCString(),
-        description: 'North Chapel, <a href="https://goo.gl/maps/3A9vNFsQVuerWbP97" target="_blank">1550 S 1100 W, Lehi, UT</a>' +
-            '<br /> Dinner will be served. Special Santa visit for kids.',
+        title: '7:00pm - YSA Winter Wonderland Dance',
+        date: new Date(2021, 11, 12).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+    },
+    {
+        title: 'CHRISTMAS DAY',
+        date: new Date(2021, 11, 25).toUTCString(),
+        description: '',
+    },
+    {
+        title: '8:00am - Stake Primary Baptism',
+        date: new Date(2022, 0, 1).toUTCString(),
+        description: 'Ward Level,' +
+            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
+    },
+    {
+        title: '9:00am - Priesthood Leadership  Meeting',
+        date: new Date(2022, 0, 8).toUTCString(),
+        description: 'Orem UT Heatheridge Stake Center, <a href="https://goo.gl/maps/kdTgXsa6jn6azRfP9" target="_blank">450 E 2000 N</a><br />' +
+            'Attendees: Stake Presidents and Counselors, Bishops & Branch presidents, Elders Quorum Presidents.<br /><br />' +
+            '<b>1:00pm - Combined Leadership Meeting</b><br />' +
+            'Orem UT Heatheridge Stake Center, <a href="https://goo.gl/maps/kdTgXsa6jn6azRfP9" target="_blank">450 E 2000 N</a>' +
+            '<br />Attendees from the Priesthood Leadership meeting, Stake RS Presidency (incl. Secretary), Stake YW Presidency (incl. Secretary),' +
+            'Stake Primary Presidency (incl. Secretary), High Councilors serving with YM, YW, and Primary, Ward/Branch RS Presidents, Ward/Branch YW Presidents, Ward/Branch Primary Presidents.' +
+            '<br /><br /><b>6:00pm - Young Married Devotional</b><br /> Orem UT Heatheridge Stake Center, <a href="https://goo.gl/maps/kdTgXsa6jn6azRfP9" target="_blank">450 E 2000 N</a>' +
+            '<br /><br /><b>6:00pm - Youth Devotional</b><br />' +
+            'Orem UT Windsor Stake Center - <a href="https://goo.gl/maps/S376i7FyKLQZmuy66" target="_blank">60 E 1600 N, Orem</a><br />',
+    },
+    {
+        title: '10:00am - Special Stake Conference with General Authority Seventy',
+        date: new Date(2022, 0, 9).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
     },
 ];
 DATA.broadcastLinks = [
@@ -629,6 +663,11 @@ DATA.hymns = {
         page: 201,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/joy-to-the-world?lang=eng',
     },
+    202: {
+        title: 'Oh, Come, All Ye Faithful',
+        page: 202,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/oh-come-all-ye-faithful?lang=eng',
+    },
     204: {
         title: 'Silent Night',
         page: 204,
@@ -648,6 +687,11 @@ DATA.hymns = {
         title: 'Because I Have Been Given Much',
         page: 219,
         link: 'https://lyricstranslate.com/en/mormon-hymns-because-i-have-been-given-much-lyrics.html',
+    },
+    212: {
+        title: 'Far, Far Away on Judea’s Plains',
+        page: 212,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/far-far-away-on-judeas-plains?lang=eng',
     },
     213: {
         title: 'The First Noel',
@@ -751,26 +795,30 @@ DATA.releases = [
 ];
 DATA.sustaining = [
     {
-        name: 'Brother Conway Kaka',
-        calling: 'Sunday School Teacher',
-    },
-    {
-        name: 'Sister ʻEma Kuʻumomimakamaeuhanemanalani Kaofoʻou Kaka',
-        calling: 'Sunday School Teacher',
+        name: 'Sister Kenra Tarawhiti',
+        calling: 'Primary Worker',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'Isaia Tuiloma' },
-    { name: 'Girishana Rajaratnam' },
-    { name: 'Logan MacKay' },
-    { name: 'Fatai Sioux MacKay' },
+    { name: 'Filipe Ti Mausia' },
+    { name: 'Helena Vakehekakala Mausia' },
+    { name: 'Siale Ataongo Mausia' },
+    { name: 'FVaisiopa Anne Mausia' },
+    { name: 'Hailini Mausia' },
+    { name: 'Steve Mausia' },
+    { name: 'Lorenzo Raymond Mausia' },
+    { name: 'David Fayol' },
+    { name: 'Theyanna Fayol' },
+    { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
+    { name: 'Thierry Naʻaliʻi Fayol' },
+    { name: 'Remi NaʻKila Fayol' },
 ];
 DATA.baptisms = [
-    { name: 'Alta Naomi Chase' },
-    { name: 'Mya Mereani Kaleolaʻihoʻikemaupono Teriipaia' },
-    { name: 'William Christopher Pita' },
-    { name: 'Isileli George Pita' },
+// { name: 'Alta Naomi Chase' },
+// { name: 'Mya Mereani Kaleolaʻihoʻikemaupono Teriipaia' },
+// { name: 'William Christopher Pita' },
+// { name: 'Isileli George Pita' },
 ];
 DATA.babyBlessing = [
 //{ name: 'Penni Lynn Tonga' },
@@ -806,7 +854,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 11, 5),
+        date: new Date(2021, 11, 12),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
@@ -815,22 +863,23 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[213],
-        sacramentSong: DATA.hymns[105],
-        testimonySunday: true,
+        openingSong: DATA.hymns[202],
+        sacramentSong: DATA.hymns[107],
+        restSong: DATA.hymns[212],
+        testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Jordis Lomu' },
+                person: { name: 'Sister Mariah Pope' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
-            {
-                person: { name: 'Sister Kara Martin' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
+            // {
+            //   person: { name: 'Sister Kara Martin' },
+            //   role: 'speaker',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
             //{
             //   person: { name: 'Toki Family - Musical NUmber' },
             //   role: 'musical',
@@ -838,13 +887,13 @@ DATA.cheatSheet = {
             //   beforeRestHymn: true,
             // } as Speaker,
             {
-                person: { name: 'Brother Manase Tonga' },
+                person: { name: 'Brother Likio Pope' },
                 role: 'speaker',
                 index: 1,
-                beforeRestHymn: true,
+                beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[210],
+        closingSong: DATA.hymns[209],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
