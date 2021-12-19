@@ -256,7 +256,7 @@ DATA.people = {
     bp2ndc: { name: 'Brother Jackson Kaka' },
     wc: { name: 'Brother Adam Chase' },
     bp: { name: 'Bishop Wayne Tarawhiti' },
-    stkpres: { name: 'President Richard Paongo' },
+    stkpresc1: { name: 'President Darren Harris' },
     premusic: { name: 'TBD' },
 };
 DATA.addresses = {
@@ -864,7 +864,7 @@ DATA.cheatSheet = {
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp,
+        presiding: DATA.people.stkpresc1,
         conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
@@ -874,30 +874,30 @@ DATA.cheatSheet = {
         // restSong: DATA.hymns[212],
         testimonySunday: false,
         speakers: [
-            {
-                person: { name: 'Sister Mariah Pope' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            // {
-            //   person: { name: 'Sister Kara Martin' },
-            //   role: 'speaker',
-            //   index: 1,
-            //   beforeRestHymn: true,
-            // } as Speaker,
-            //{
-            //   person: { name: 'Toki Family - Musical NUmber' },
-            //   role: 'musical',
-            //   index: 1,
-            //   beforeRestHymn: true,
-            // } as Speaker,
-            {
-                person: { name: 'Brother Likio Pope' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: false,
-            },
+        // {
+        //   person: { name: 'Sister Mariah Pope' },
+        //   role: 'speaker',
+        //   index: 1,
+        //   beforeRestHymn: true,
+        // } as Speaker,
+        // {
+        //   person: { name: 'Sister Kara Martin' },
+        //   role: 'speaker',
+        //   index: 1,
+        //   beforeRestHymn: true,
+        // } as Speaker,
+        //{
+        //   person: { name: 'Toki Family - Musical NUmber' },
+        //   role: 'musical',
+        //   index: 1,
+        //   beforeRestHymn: true,
+        // } as Speaker,
+        // {
+        //   person: { name: 'Brother Likio Pope' },
+        //   role: 'speaker',
+        //   index: 1,
+        //   beforeRestHymn: false,
+        // } as Speaker,
         ],
         closingSong: DATA.hymns[203],
         benediction: DATA.people.tbd,
