@@ -61,28 +61,19 @@ DATA.announcements = [
     //     '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://www.byutv.org/watch/livetv" target="_blank">BYUtv</a><br /> ' +
     //     '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/media/collection/christmas-devotionals?lang=eng&collectionId=947da7183a51ff85dfdac16ddf289bb0ace2b6b8" target="_blank">Latter-day Saints Channel</a> ',
     // },
-    {
-        title: '7:30am - Missionary & Temple Correlation Meeting',
-        date: new Date(2021, 11, 12).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
-    },
-    {
-        title: '',
-        date: new Date(2021, 11, 16).toUTCString(),
-        description: '<b>8:00am - Utah Food Bank Delivery</b><br />' +
-            'Saratoga Spring 12 Branch Parking Lot, ' +
-            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions. <br /><br />' +
-            '<b>7:00pm - YSA Institute</b>' +
-            '<br />Stake Center,' +
-            '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
-    },
-    {
-        title: '7:00pm - YSA Winter Wonderland Dance',
-        date: new Date(2021, 11, 12).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
-    },
+    // {
+    //   title: '',
+    //   date: new Date(2021, 11, 16).toUTCString(),
+    //   description:
+    //     '<b>8:00am - Utah Food Bank Delivery</b><br />' +
+    //     'Saratoga Spring 12 Branch Parking Lot, ' +
+    //     '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+    //     '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+    //     'Instructions. <br /><br />' +
+    //     '<b>7:00pm - YSA Institute</b>' +
+    //     '<br />Stake Center,' +
+    //     '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+    // },
     {
         title: 'CHRISTMAS DAY',
         date: new Date(2021, 11, 25).toUTCString(),
@@ -110,7 +101,7 @@ DATA.announcements = [
     {
         title: '10:00am - Special Stake Conference with General Authority Seventy',
         date: new Date(2022, 0, 9).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />',
+        description: 'BYU Marriott Center, <a href="https://goo.gl/maps/uKSNHLN69MwbxBrN8" target="_blank">701 E University Pkwy, Provo</a><br /><br />',
     },
 ];
 DATA.broadcastLinks = [
@@ -468,6 +459,11 @@ DATA.hymns = {
         page: 98,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-need-thee-every-hour?lang=eng',
     },
+    100: {
+        title: 'ʻE Vakai Naʻe Pekia',
+        page: 100,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/behold-the-great-redeemer-die?lang=ton',
+    },
     105: {
         title: 'Naʻe Lahi Fau ʻa e ʻOfa',
         page: 105,
@@ -668,6 +664,11 @@ DATA.hymns = {
         page: 202,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/oh-come-all-ye-faithful?lang=eng',
     },
+    203: {
+        title: 'Angels We Have Heard On High',
+        page: 203,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/angels-we-have-heard-on-high?lang=eng',
+    },
     204: {
         title: 'Silent Night',
         page: 204,
@@ -697,6 +698,11 @@ DATA.hymns = {
         title: 'The First Noel',
         page: 213,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/the-first-noel?lang=eng',
+    },
+    214: {
+        title: 'I Heard the Bells on Christmas Day',
+        page: 214,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-heard-the-bells-on-christmas-day?lang=eng',
     },
     220: {
         title: 'Lord, I Would Follow Thee',
@@ -795,28 +801,24 @@ DATA.releases = [
 ];
 DATA.sustaining = [
     {
-        name: 'Sister Kenra Tarawhiti',
-        calling: 'Primary Worker',
-    },
-    {
-        name: 'Sister Kara Martin',
-        calling: 'Primary Activity Days Leader',
+        name: 'Sister Helena Mausia',
+        calling: 'FSY Advisor',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
-    { name: 'Filipe Ti Mausia' },
-    { name: 'Helena Vakehekakala Mausia' },
-    { name: 'Siale Ataongo Mausia' },
-    { name: 'FVaisiopa Anne Mausia' },
-    { name: 'Hailini Mausia' },
-    { name: 'Steve Mausia' },
-    { name: 'Lorenzo Raymond Mausia' },
-    { name: 'David Fayol' },
-    { name: 'Theyanna Fayol' },
-    { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
-    { name: 'Thierry Naʻaliʻi Fayol' },
-    { name: 'Remi NaʻKila Fayol' },
+// { name: 'Filipe Ti Mausia' },
+// { name: 'Helena Vakehekakala Mausia' },
+// { name: 'Siale Ataongo Mausia' },
+// { name: 'FVaisiopa Anne Mausia' },
+// { name: 'Hailini Mausia' },
+// { name: 'Steve Mausia' },
+// { name: 'Lorenzo Raymond Mausia' },
+// { name: 'David Fayol' },
+// { name: 'Theyanna Fayol' },
+// { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
+// { name: 'Thierry Naʻaliʻi Fayol' },
+// { name: 'Remi NaʻKila Fayol' },
 ];
 DATA.baptisms = [
 // { name: 'Alta Naomi Chase' },
@@ -836,11 +838,11 @@ DATA.missionaries = [
     //   photoUrl: './assets/people/jarom-brown.png',
     // },
     {
-        name: 'Peni Mounga',
-        mission: 'New Jersey Morristown / Church-Service Mission',
-        startDate: new Date(2019, 11, 18),
-        endDate: new Date(2022, 0, 4),
-        photoUrl: './assets/people/peni-mounga.png',
+        name: 'Seamus Fitzgerald',
+        mission: 'Arizona Gilbert',
+        startDate: new Date(2020, 9, 14),
+        endDate: new Date(2022, 8, 28),
+        photoUrl: './assets/people/elder-fitzgerald.png',
     },
     {
         name: 'Naomi Pulu',
@@ -858,7 +860,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 11, 12),
+        date: new Date(2021, 11, 19),
         startTime: '12:00 PM',
         endTime: '1:00 PM',
         address: DATA.addresses.chapel,
@@ -867,9 +869,9 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns[202],
-        sacramentSong: DATA.hymns[107],
-        restSong: DATA.hymns[212],
+        openingSong: DATA.hymns[214],
+        sacramentSong: DATA.hymns[100],
+        // restSong: DATA.hymns[212],
         testimonySunday: false,
         speakers: [
             {
@@ -897,7 +899,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[209],
+        closingSong: DATA.hymns[203],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
