@@ -798,18 +798,10 @@ DATA.releases = [
     },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Sister Helena Mausia',
-//   calling: 'FSY Advisor',
-// },
-// {
-//   name: 'Sister Salome Pita',
-//   calling: 'YW Adviser',
-// },
-// {
-//   name: 'Sister Kristy Sorenson',
-//   calling: 'YW Activity Specialist',
-// },
+    {
+        name: 'Brother Joseph & Geralyn Olayan',
+        calling: 'Family History Consultants',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
