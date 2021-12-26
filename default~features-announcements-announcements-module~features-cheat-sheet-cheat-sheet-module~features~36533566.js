@@ -799,7 +799,7 @@ DATA.releases = [
 ];
 DATA.sustaining = [
     {
-        name: 'Brother Joseph & Geralyn Olayan',
+        name: 'Brother Joseph & Sister Geralyn Olayan',
         calling: 'Family History Consultants',
     },
 ];
