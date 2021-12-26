@@ -392,7 +392,7 @@ function CheatSheetComponent_div_0_div_83_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"](" (Hymn #", ctx_r10.data.cheatSheet.sacrament.sacramentSong.page, ") ", ctx_r10.data.cheatSheet.sacrament.sacramentSong.title, " ");
 } }
-function CheatSheetComponent_div_0_div_84_li_45_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_div_84_li_8_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2);
@@ -412,72 +412,16 @@ function CheatSheetComponent_div_0_div_84_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, " Today, we will have a special program: ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, " Today, we will to hear from the following speakers: ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "span", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, " Congretation Hymn: Hymn #201 ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "a", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, "Joy to The World");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, " Testimony ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, " Congretation Hymn: Hymn #206 ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "a", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](17, "Away in a Manger");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, " Musical Number: Pita Family (Silent Night/I'm Trying to be Like Jesus) ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](21, " Testimony ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](23, " Congretation Hymn: Hymn #205 ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](24, "a", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](25, "Once in Royal David\u2019s City");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](27, " Musical Number: Manu Harris (This is the Christ) ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](29, " Testimony ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](30, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](31, " Congretation Hymn: Hymn #213 ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](32, "a", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](33, "The First Noel");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](34, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](35, " Testimony ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](37, " Musical Number: Priesthood Choir ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](38, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, " Congretation Hymn: Hymn #209 ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](40, "a", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](41, "Hark! The Herald Angels Sing");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](43, " Closing Remarks: Bishop Wayne Tarawhiti ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](44, "ul", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](45, CheatSheetComponent_div_0_div_84_li_45_Template, 3, 1, "li", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "ul", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](8, CheatSheetComponent_div_0_div_84_li_8_Template, 3, 1, "li", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](45);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx_r11.data.cheatSheet.sacrament.speakers);
 } }
 function CheatSheetComponent_div_0_div_85_Template(rf, ctx) { if (rf & 1) {
@@ -545,7 +489,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](37, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](38, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, " Tithing Settlement interviews are still going. For more details and where to sign up, please go to the ward website \"saratoga9.com\" ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, " Last day of Tithing Settlement intervies has been moved to Jan.2nd. For more details and where to sign up, please go to the ward website \"saratoga9.com\" ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -615,7 +559,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](83, CheatSheetComponent_div_0_div_83_Template, 17, 3, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](84, CheatSheetComponent_div_0_div_84_Template, 46, 1, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](84, CheatSheetComponent_div_0_div_84_Template, 9, 1, "div", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](85, CheatSheetComponent_div_0_div_85_Template, 4, 0, "div", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](86, "div", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](87, "div", 6);
@@ -693,7 +637,7 @@ class CheatSheetComponent {
     }
 }
 CheatSheetComponent.ɵfac = function CheatSheetComponent_Factory(t) { return new (t || CheatSheetComponent)(); };
-CheatSheetComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: CheatSheetComponent, selectors: [["s9-cheat-sheet"]], decls: 1, vars: 1, consts: [["class", "row", 4, "ngIf"], [1, "row"], [1, "col-12", "mb-2", "mt-2", "text-center"], [1, "h3", "mb-0"], [1, "col-12", "mt-2"], [1, "card", "mb-4"], [1, "card-header"], [1, "card-body"], [1, "highlight"], ["target", "_blank", 1, "highlight", 3, "href"], [4, "ngIf"], ["class", "pt-3", 4, "ngIf"], ["class", "card mb-4", 4, "ngIf"], [1, "pt-3"], [1, "h6"], [4, "ngFor", "ngForOf"], ["class", "highlight", 4, "ngFor", "ngForOf"], [1, "text-left"], ["href", "https://www.churchofjesuschrist.org/music/library/hymns/joy-to-the-world?lang=eng", "target", "_blank", 1, "btn", "btn-sm", "btn-info", "font-size-10", "text-capitalize"], ["href", "https://www.churchofjesuschrist.org/music/library/hymns/away-in-a-manger?lang=eng", "target", "_blank", 1, "btn", "btn-sm", "btn-info", "font-size-10", "text-capitalize"], ["href", "https://www.churchofjesuschrist.org/music/library/hymns/once-in-royal-davids-city?lang=eng", "target", "_blank", 1, "btn", "btn-sm", "btn-info", "font-size-10", "text-capitalize"], ["href", "https://www.churchofjesuschrist.org/music/library/hymns/the-first-noel?lang=eng", "target", "_blank", 1, "btn", "btn-sm", "btn-info", "font-size-10", "text-capitalize"], ["href", "https://www.churchofjesuschrist.org/music/library/hymns/hark-the-herald-angels-sing?lang=eng", "target", "_blank", 1, "btn", "btn-sm", "btn-info", "font-size-10", "text-capitalize"]], template: function CheatSheetComponent_Template(rf, ctx) { if (rf & 1) {
+CheatSheetComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: CheatSheetComponent, selectors: [["s9-cheat-sheet"]], decls: 1, vars: 1, consts: [["class", "row", 4, "ngIf"], [1, "row"], [1, "col-12", "mb-2", "mt-2", "text-center"], [1, "h3", "mb-0"], [1, "col-12", "mt-2"], [1, "card", "mb-4"], [1, "card-header"], [1, "card-body"], [1, "highlight"], ["target", "_blank", 1, "highlight", 3, "href"], [4, "ngIf"], ["class", "pt-3", 4, "ngIf"], ["class", "card mb-4", 4, "ngIf"], [1, "pt-3"], [1, "h6"], [4, "ngFor", "ngForOf"], ["class", "highlight", 4, "ngFor", "ngForOf"]], template: function CheatSheetComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, CheatSheetComponent_div_0_Template, 100, 24, "div", 0);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.data);
