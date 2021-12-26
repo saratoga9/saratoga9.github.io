@@ -245,7 +245,7 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Brayden Funn' },
+    pray1: { name: 'Sister Carma Brown' },
     pray2: { name: 'Brother Joseph Prasad' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
@@ -792,18 +792,10 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: 'Brother Isi Kaufusi',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: 'Sister Montello Naʻa',
-//   calling: 'Young Women 2nd Counselor',
-// },
-// {
-//   name: 'Sister Sue Unutoa',
-//   calling: 'Young Women Activity Specialist',
-// },
+    {
+        name: 'Sister Manu Harris',
+        calling: 'Music Leader',
+    },
 ];
 DATA.sustaining = [
 // {
@@ -882,12 +874,18 @@ DATA.cheatSheet = {
         conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
-        invocation: DATA.people.tbd,
+        invocation: DATA.people.pray1,
         openingSong: DATA.hymns[111],
         sacramentSong: DATA.hymns[97],
         // restSong: DATA.hymns[212],
         testimonySunday: false,
         speakers: [
+            {
+                person: { name: 'Brother Jackson Kaka' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
             {
                 person: {
                     name: 'Young Men/Young Women - Teach Me to Walk in the Light',
@@ -896,18 +894,12 @@ DATA.cheatSheet = {
                 index: 1,
                 beforeRestHymn: true,
             },
-            {
-                person: { name: 'Brother Jackson Kaka' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Kaka Family - Musical Number' },
-                role: 'musical',
-                index: 1,
-                beforeRestHymn: true,
-            },
+            // {
+            //   person: { name: 'Kaka Family - Musical Number' },
+            //   role: 'musical',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
             {
                 person: { name: 'Brother Salesi Sika' },
                 role: 'speaker',
