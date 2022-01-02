@@ -63,23 +63,12 @@ DATA.announcements = [
     // },
     {
         title: '',
-        date: new Date(2021, 11, 28).toUTCString(),
+        date: new Date(2022, 0, 6).toUTCString(),
         description: '<b>8:00am - Utah Food Bank Delivery</b><br />' +
             'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
             'Instructions. ',
-    },
-    {
-        title: 'Happy New Year!',
-        date: new Date(2021, 0, 1).toUTCString(),
-        description: '',
-    },
-    {
-        title: '8:00am - Stake Primary Baptism',
-        date: new Date(2022, 0, 1).toUTCString(),
-        description: 'Ward Level,' +
-            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     },
     {
         title: '9:00am - Priesthood Leadership  Meeting',
@@ -245,7 +234,7 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Carma Brown' },
+    pray1: { name: 'Sister Jelaire Fitzgerald' },
     pray2: { name: 'Brother Joseph Prasad' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
@@ -479,6 +468,11 @@ DATA.hymns = {
         title: 'Come, Follow Me',
         page: 116,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-follow-me?lang=eng',
+    },
+    126: {
+        title: 'Kuo Lahi Hoku Tapuaki',
+        page: 126,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/because-i-have-been-given-much?lang=ton',
     },
     129: {
         title: 'Where Can I Turn for Peace?',
@@ -792,16 +786,32 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-    {
-        name: 'Sister Manu Harris',
-        calling: 'Music Leader',
-    },
+// {
+//   name: 'Sister Manu Harris',
+//   calling: 'Music Leader',
+// },
+// {
+//   name: 'Sister Montello Naʻa',
+//   calling: 'Young Women 2nd Counselor',
+// },
+// {
+//   name: 'Sister Sue Unutoa',
+//   calling: 'Young Women Activity Specialist',
+// },
 ];
 DATA.sustaining = [
-    {
-        name: 'Brother Joseph & Sister Geralyn Olayan',
-        calling: 'Family History Consultants',
-    },
+// {
+//   name: 'Brother Joseph & Sister Geralyn Olayan',
+//   calling: 'Family History Consultants',
+// },
+// {
+//   name: 'Sister Salome Pita',
+//   calling: 'YW Adviser',
+// },
+// {
+//   name: 'Sister Kristy Sorenson',
+//   calling: 'YW Activity Specialist',
+// },
 ];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
@@ -858,19 +868,19 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2021, 11, 26),
-        startTime: '12:00 PM',
-        endTime: '1:00 PM',
+        date: new Date(2022, 0, 2),
+        startTime: '9:00 AM',
+        endTime: '10:00 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp1stc,
+        presiding: DATA.people.bp2ndc,
         conducting: DATA.people.bp2ndc,
-        chorister: DATA.people.chorister1,
+        chorister: DATA.people.chorister2,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[111],
-        sacramentSong: DATA.hymns[97],
+        openingSong: DATA.hymns[302],
+        sacramentSong: DATA.hymns[184],
         // restSong: DATA.hymns[212],
-        testimonySunday: false,
+        testimonySunday: true,
         speakers: [
             {
                 person: { name: 'Brother Jackson Kaka' },
@@ -899,8 +909,8 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[252],
-        benediction: DATA.people.pray2,
+        closingSong: DATA.hymns[126],
+        benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.hc,
