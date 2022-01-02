@@ -909,7 +909,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[126],
+        closingSong: DATA.hymns[219],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
