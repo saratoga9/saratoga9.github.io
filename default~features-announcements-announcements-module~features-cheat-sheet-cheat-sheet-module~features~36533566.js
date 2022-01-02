@@ -235,7 +235,7 @@ DATA.people = {
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
     pray1: { name: 'Sister Jelaire Fitzgerald' },
-    pray2: { name: 'Brother Joseph Prasad' },
+    pray2: { name: 'Brother Pate Prescott' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -682,7 +682,7 @@ DATA.hymns = {
     219: {
         title: 'Because I Have Been Given Much',
         page: 219,
-        link: 'https://lyricstranslate.com/en/mormon-hymns-because-i-have-been-given-much-lyrics.html',
+        link: 'https://dailyprayer.us/Christian_song_lyrics/Christian_song_lyrics.php?s=because_I_have_been_given_much',
     },
     212: {
         title: 'Far, Far Away on Judea’s Plains',
@@ -910,7 +910,7 @@ DATA.cheatSheet = {
             },
         ],
         closingSong: DATA.hymns[126],
-        benediction: DATA.people.tbd,
+        benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.hc,
