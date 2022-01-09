@@ -62,31 +62,58 @@ DATA.announcements = [
     //     '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/media/collection/christmas-devotionals?lang=eng&collectionId=947da7183a51ff85dfdac16ddf289bb0ace2b6b8" target="_blank">Latter-day Saints Channel</a> ',
     // },
     {
+        title: 'SARATOGA Springs 9th WARD CONFERENCE OUTLINE OF EVENTS',
+        date: '',
+        description: '',
+    },
+    {
+        title: 'Family Home Evening',
+        date: new Date(2022, 0, 10).toUTCString(),
+        description: '',
+    },
+    {
+        title: 'Temple Night',
+        date: new Date(2022, 0, 11).toUTCString(),
+        description: '',
+    },
+    {
+        title: 'Ministering Day',
+        date: new Date(2022, 0, 12).toUTCString(),
+        description: '',
+    },
+    {
         title: '',
-        date: new Date(2022, 0, 6).toUTCString(),
+        date: new Date(2022, 0, 13).toUTCString(),
         description: '<b>8:00am - Utah Food Bank Delivery</b><br />' +
             'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions. ',
+            'Instructions. </b><br /><br />' +
+            '<b>5:00pm - Youth Family Search Activity</b><br />' +
+            'Lehi FamilySearch Center, ' +
+            '<a href="https://goo.gl/maps/LmpAW7MDujwFE3cd9" target="_blank">3201 Garden Dr Lehi, UT 84043</a> ' +
+            'Refreshments will be provided at the Chapel afterwards.<br /><br />' +
+            '<b>7:00pm - YSA Institute</b>' +
+            '<br />Stake Center,' +
+            '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
+            '<b>8:00pm - Ward Temple Clean Up</b>' +
+            '<br />Mount Timpanogos Temple,' +
+            '<a href="https://goo.gl/maps/uRgq6SzHkLgEFQpF9" target="_blank">742 N 900 E, American Fork, UT 84003</a><br /><br />',
     },
     {
-        title: '9:00am - Priesthood Leadership  Meeting',
-        date: new Date(2022, 0, 8).toUTCString(),
-        description: 'Orem UT Heatheridge Stake Center, <a href="https://goo.gl/maps/kdTgXsa6jn6azRfP9" target="_blank">450 E 2000 N</a><br />' +
-            'Attendees: Stake Presidents and Counselors, Bishops & Branch presidents, Elders Quorum Presidents.<br /><br />' +
-            '<b>1:00pm - Combined Leadership Meeting</b><br />' +
-            'Orem UT Heatheridge Stake Center, <a href="https://goo.gl/maps/kdTgXsa6jn6azRfP9" target="_blank">450 E 2000 N</a>' +
-            '<br />Attendees from the Priesthood Leadership meeting, Stake RS Presidency (incl. Secretary), Stake YW Presidency (incl. Secretary),' +
-            'Stake Primary Presidency (incl. Secretary), High Councilors serving with YM, YW, and Primary, Ward/Branch RS Presidents, Ward/Branch YW Presidents, Ward/Branch Primary Presidents.' +
-            '<br /><br /><b>6:00pm - Young Married Devotional</b><br /> Orem UT Heatheridge Stake Center, <a href="https://goo.gl/maps/kdTgXsa6jn6azRfP9" target="_blank">450 E 2000 N</a>' +
-            '<br /><br /><b>6:00pm - Youth Devotional</b><br />' +
-            'Orem UT Windsor Stake Center - <a href="https://goo.gl/maps/S376i7FyKLQZmuy66" target="_blank">60 E 1600 N, Orem</a><br />',
+        title: 'Family Day',
+        date: new Date(2022, 0, 14).toUTCString(),
+        description: '',
     },
     {
-        title: '10:00am - Special Stake Conference with General Authority Seventy',
-        date: new Date(2022, 0, 9).toUTCString(),
-        description: 'BYU Marriott Center, <a href="https://goo.gl/maps/uKSNHLN69MwbxBrN8" target="_blank">701 E University Pkwy, Provo</a><br /><br />',
+        title: 'Chapel Clean Up',
+        date: new Date(2022, 0, 15).toUTCString(),
+        description: 'SS9 Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi.',
+    },
+    {
+        title: 'Ward Conference',
+        date: new Date(2022, 0, 16).toUTCString(),
+        description: 'SS9 Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi</a>',
     },
 ];
 DATA.broadcastLinks = [
@@ -229,12 +256,12 @@ DATA.broadcastLinks = [
 ];
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
-    chorister1: { name: 'Sister Manu Harris' },
-    chorister2: { name: 'Sister Salome Pita' },
+    chorister1: { name: 'Sister Salome Pita' },
+    // chorister2: { name: 'Sister ' },
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Jelaire Fitzgerald' },
+    pray1: { name: 'Brother Sai Soakai ' },
     pray2: { name: 'Brother Pate Prescott' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
@@ -509,6 +536,11 @@ DATA.hymns = {
         page: 145,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/do-what-is-right?lang=ton',
     },
+    146: {
+        title: 'Fili ʻa e Moʻoní',
+        page: 146,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=ton',
+    },
     152: {
         title: 'God Be with You Till We Meet Again',
         page: 152,
@@ -607,17 +639,17 @@ DATA.hymns = {
         page: 192,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/he-died-the-great-redeemer-died?lang=eng',
     },
+    193: {
+        title: 'I Stand All Amazed',
+        page: 193,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-stand-all-amazed?lang=eng',
+    },
     // 193: {
-    //   title: 'I Stand All Amazed',
+    //   title: 'Fanau ae ‘a e ‘Otua (I am a child of God)',
     //   page: 193,
     //   link:
-    //     'https://www.churchofjesuschrist.org/music/library/hymns/i-stand-all-amazed?lang=eng',
+    //     'https://www.churchofjesuschrist.org/study/manual/hymns/i-am-a-child-of-god?lang=ton',
     // },
-    193: {
-        title: 'Fanau ae ‘a e ‘Otua (I am a child of God)',
-        page: 193,
-        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/i-am-a-child-of-god?lang=ton',
-    },
     194: {
         title: 'There Is a Green Hill Far Away',
         page: 194,
@@ -786,34 +818,37 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: 'Sister Manu Harris',
-//   calling: 'Music Leader',
-// },
-// {
-//   name: 'Sister Montello Naʻa',
-//   calling: 'Young Women 2nd Counselor',
-// },
-// {
-//   name: 'Sister Sue Unutoa',
-//   calling: 'Young Women Activity Specialist',
-// },
+    {
+        name: 'Sister Salome Pita',
+        calling: 'Assistant Music Coordinator',
+    },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Brother Joseph & Sister Geralyn Olayan',
-//   calling: 'Family History Consultants',
-// },
-// {
-//   name: 'Sister Salome Pita',
-//   calling: 'YW Adviser',
-// },
-// {
-//   name: 'Sister Kristy Sorenson',
-//   calling: 'YW Activity Specialist',
-// },
+    {
+        name: 'Sister Salome',
+        calling: 'Music Coordinator',
+    },
 ];
-DATA.aaronicPriesthoodAdvancements = [];
+DATA.aaronicPriesthoodAdvancements = [
+    { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
+    { name: 'Brother Lyman (Mani) Rarick', calling: 'Deacon' },
+    { name: 'Brother Kaleo Teriipaia', calling: 'Deacon' },
+    { name: 'Brother Panasai Soakai', calling: 'Deacon' },
+    { name: 'Brother Malakai Kalamafoni', calling: 'Deacon' },
+    { name: 'Brother Finau Lomu', calling: 'Deacon' },
+    { name: 'Brother Tonga Tauteoli', calling: 'Deacon' },
+    { name: 'Brother Jared (Pono) Turner', calling: 'Teacher' },
+    { name: 'Brother Israel Pahulu', calling: 'Teacher' },
+    { name: 'Brother Malik Sika', calling: 'Teacher' },
+    { name: 'Brother David Toki', calling: 'Teacher' },
+    { name: 'Brother William Harris', calling: 'Priest' },
+];
+// DATA.aaronicPriesthoodAdvancementsTeacher = [
+//   { name: 'Brother Zealyn Unutoa' },
+//   ];
+// DATA.aaronicPriesthoodAdvancementsPriest = [
+//   { name: 'Brother Zealyn Unutoa' },
+// ];
 DATA.newMembers = [
 // { name: 'Filipe Ti Mausia' },
 // { name: 'Helena Vakehekakala Mausia' },
@@ -868,31 +903,29 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 0, 2),
+        date: new Date(2022, 0, 9),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp2ndc,
-        conducting: DATA.people.bp2ndc,
-        chorister: DATA.people.chorister2,
+        presiding: DATA.people.bp,
+        conducting: DATA.people.bp,
+        chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[302],
-        sacramentSong: DATA.hymns[184],
+        openingSong: DATA.hymns[146],
+        sacramentSong: DATA.hymns[193],
         // restSong: DATA.hymns[212],
-        testimonySunday: true,
+        testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Brother Jackson Kaka' },
+                person: { name: 'Sister Celine Pili' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: {
-                    name: 'Young Men/Young Women - Teach Me to Walk in the Light',
-                },
-                role: 'musical',
+                person: { name: 'Sister Rebecca Pili' },
+                role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
@@ -903,14 +936,14 @@ DATA.cheatSheet = {
             //   beforeRestHymn: true,
             // } as Speaker,
             {
-                person: { name: 'Brother Salesi Sika' },
+                person: { name: 'Brother Wayland Pili' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[219],
-        benediction: DATA.people.pray2,
+        closingSong: DATA.hymns[18],
+        benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.hc,
@@ -920,6 +953,8 @@ DATA.cheatSheet = {
     newMembers: DATA.newMembers,
     babyBlessing: DATA.babyBlessing,
     aaronicPriesthoodAdvancements: DATA.aaronicPriesthoodAdvancements,
+    // aaronicPriesthoodAdvancementsTeacher: DATA.aaronicPriesthoodAdvancementsTeacher,
+    // aaronicPriesthoodAdvancementsPriest: DATA.aaronicPriesthoodAdvancementsPriest,
     baptisms: DATA.baptisms,
 };
 
