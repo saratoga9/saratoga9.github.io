@@ -122,7 +122,7 @@ DATA.broadcastLinks = [
     // ---------------------------------------------------------------------
     {
         active: false,
-        label: 'Sunday 9:00am - Ward Youth Council Meeting',
+        label: 'Sunday 7:00am - Ward Youth Council Meeting',
         link: 'https://us02web.zoom.us/j/81274737972?pwd=SkdqUGtaRDFjN0MxYnpsVHBHRUV5UT09',
         passcode: '884917',
         meetingId: '812 7473 7972',
@@ -136,8 +136,8 @@ DATA.broadcastLinks = [
         meetingId: '890 0527 4966',
     },
     {
-        active: false,
-        label: 'Sunday 12:00noon - Sacrament Meeting',
+        active: true,
+        label: 'Sunday 09:00am - Sacrament Meeting',
         link: 'https://us02web.zoom.us/j/83961021451?pwd=SVdNL2xpWDc0VXdGaDBRekswb2hlUT09',
         passcode: '531783',
         meetingId: '839 6102 1451',
@@ -147,28 +147,28 @@ DATA.broadcastLinks = [
     // ---------------------------------------------------------------------
     {
         active: false,
-        label: 'Sunday 2:00pm - Sunday School Gospel Doctrine (English)',
+        label: 'Sunday 10:00am - Sunday School Gospel Doctrine (English)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
     },
     {
         active: false,
-        label: 'Sunday 2:00pm - Sunday School Gospel Doctrine (Tongan)',
+        label: 'Sunday 10:00am - Sunday School Gospel Doctrine (Tongan)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
     },
     {
         active: false,
-        label: 'Sunday 2:00pm - Sunday School - Youth Class (12-14)',
+        label: 'Sunday 10:00am - Sunday School - Youth Class (12-14)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
     },
     {
         active: false,
-        label: 'Sunday 2:00pm - Sunday School - Youth Class (15-18)',
+        label: 'Sunday 10:00am - Sunday School - Youth Class (15-18)',
         link: 'https://us02web.zoom.us/j/81428954869?pwd=NkNoTVViTHEzK3dXdWxWVzArVWo0UT09',
         passcode: '019419',
         meetingId: '814 2895 4869',
@@ -193,42 +193,42 @@ DATA.broadcastLinks = [
     //},
     {
         active: false,
-        label: 'Sunday 2:00pm - Elders Quorum',
+        label: 'Sunday 10:00am - Elders Quorum',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
         active: false,
-        label: 'Sunday 2:00pm - Elders Quorum (Tongan)',
+        label: 'Sunday 10:00am - Elders Quorum (Tongan)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
         active: false,
-        label: 'Sunday 2:00pm - Relief Society',
+        label: 'Sunday 10:00am - Relief Society',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
         active: false,
-        label: 'Sunday 2:00pm - Relief Society (Tongan)',
+        label: 'Sunday 10:00am - Relief Society (Tongan)',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
         active: false,
-        label: 'Sunday 2:00pm - Young Women Class',
+        label: 'Sunday 10:00am - Young Women Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
     },
     {
         active: false,
-        label: 'Sunday 2:00pm - Young Men Class',
+        label: 'Sunday 10:00am - Young Men Class',
         link: 'https://us02web.zoom.us/j/88381408577?pwd=ZEdIbFhIMVI4VFVZVGgzcVpzY1J1UT09',
         passcode: '381721',
         meetingId: '883 8140 8577',
@@ -268,7 +268,9 @@ DATA.people = {
     bp2ndc: { name: 'Brother Jackson Kaka' },
     wc: { name: 'Brother Adam Chase' },
     bp: { name: 'Bishop Wayne Tarawhiti' },
+    stkpresc2: { name: 'President Spencer Reid' },
     stkpresc1: { name: 'President Darren Harris' },
+    stkpres: { name: 'President Richard Paongo' },
     premusic: { name: 'TBD' },
 };
 DATA.addresses = {
@@ -364,6 +366,11 @@ DATA.hymns = {
         page: 30,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-come-ye-saints?lang=eng',
     },
+    37: {
+        title: 'ʻE Kāinga Kuo Langa Ha Tuʻunga (How Firm a Foundation)',
+        page: 37,
+        link: 'hhttps://www.churchofjesuschrist.org/music/library/hymns/how-firm-a-foundation?lang=ton',
+    },
     44: {
         title: 'Beautiful Zion, Built Above',
         page: 44,
@@ -414,6 +421,11 @@ DATA.hymns = {
         title: 'Praise to the Lord, the Almighty',
         page: 72,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/praise-to-the-lord-the-almighty?lang=eng',
+    },
+    74: {
+        title: 'Ko e Lotu Lilo (Secret Prayer)',
+        page: 74,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/secret-prayer?lang=ton',
     },
     81: {
         title: 'Press Forward Saints',
@@ -618,6 +630,11 @@ DATA.hymns = {
     //link:
     //'https://www.churchofjesuschrist.org/study/manual/hymns/god-is-willing-to-gather?lang=ton',
     //},
+    185: {
+        title: 'Reverently and Meekly Now',
+        page: 185,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/reverently-and-meekly-now?lang=eng',
+    },
     187: {
         title: 'God Loved Us, So He Sent His Son',
         page: 187,
@@ -736,6 +753,11 @@ DATA.hymns = {
         page: 220,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/lord-i-would-follow-thee?lang=eng',
     },
+    226: {
+        title: 'There Is Sunshine in My Soul Today',
+        page: 226,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/improve-the-shining-moments?lang=eng',
+    },
     227: {
         title: 'There Is Sunshine in My Soul Today',
         page: 227,
@@ -818,30 +840,46 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-    {
-        name: 'Sister Salome Pita',
-        calling: 'Assistant Music Coordinator',
-    },
+// {
+//   name: 'Sister Salome Pita',
+//   calling: 'Assistant Music Coordinator',
+// },
+// {
+//   name: 'Sister Montello Naʻa',
+//   calling: 'Young Women 2nd Counselor',
+// },
+// {
+//   name: 'Sister Sue Unutoa',
+//   calling: 'Young Women Activity Specialist',
+// },
 ];
 DATA.sustaining = [
-    {
-        name: 'Sister Salome',
-        calling: 'Music Coordinator',
-    },
+// {
+//   name: 'Sister Salome',
+//   calling: 'Music Coordinator',
+// },
+// {
+//   name: 'Sister Salome Pita',
+//   calling: 'YW Adviser',
+// },
+// {
+//   name: 'Sister Kristy Sorenson',
+//   calling: 'YW Activity Specialist',
+// },
 ];
 DATA.aaronicPriesthoodAdvancements = [
-    { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
-    { name: 'Brother Lyman (Mani) Rarick', calling: 'Deacon' },
-    { name: 'Brother Kaleo Teriipaia', calling: 'Deacon' },
-    { name: 'Brother Panasai Soakai', calling: 'Deacon' },
-    { name: 'Brother Malakai Kalamafoni', calling: 'Deacon' },
-    { name: 'Brother Finau Lomu', calling: 'Deacon' },
-    { name: 'Brother Tonga Tauteoli', calling: 'Deacon' },
-    { name: 'Brother Jared (Pono) Turner', calling: 'Teacher' },
-    { name: 'Brother Israel Pahulu', calling: 'Teacher' },
-    { name: 'Brother Malik Sika', calling: 'Teacher' },
-    { name: 'Brother David Toki', calling: 'Teacher' },
-    { name: 'Brother William Harris', calling: 'Priest' },
+// { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
+// { name: 'Brother Lyman (Mani) Rarick', calling: 'Deacon' },
+// { name: 'Brother Kaleo Teriipaia', calling: 'Deacon' },
+// { name: 'Brother Panasai Soakai', calling: 'Deacon' },
+// { name: 'Brother Malakai Kalamafoni', calling: 'Deacon' },
+// { name: 'Brother Finau Lomu', calling: 'Deacon' },
+// { name: 'Brother Tonga Tauteoli', calling: 'Deacon' },
+// { name: 'Brother Jared (Pono) Turner', calling: 'Teacher' },
+// { name: 'Brother Israel Pahulu', calling: 'Teacher' },
+// { name: 'Brother Malik Sika', calling: 'Teacher' },
+// { name: 'Brother David Toki', calling: 'Teacher' },
+// { name: 'Brother William Harris', calling: 'Priest' },
 ];
 // DATA.aaronicPriesthoodAdvancementsTeacher = [
 //   { name: 'Brother Zealyn Unutoa' },
@@ -903,46 +941,34 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 0, 9),
+        date: new Date(2022, 0, 12),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp,
+        presiding: DATA.people.stkpres,
         conducting: DATA.people.bp,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
-        invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[146],
-        sacramentSong: DATA.hymns[193],
-        // restSong: DATA.hymns[212],
+        invocation: DATA.people.tbd,
+        openingSong: DATA.hymns[74],
+        sacramentSong: DATA.hymns[185],
+        restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Celine Pili' },
+                person: { name: 'Bishop Wayne Tarawhiti' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Rebecca Pili' },
+                person: { name: 'President Richard Paongo' },
                 role: 'speaker',
                 index: 1,
-                beforeRestHymn: true,
-            },
-            // {
-            //   person: { name: 'Kaka Family - Musical Number' },
-            //   role: 'musical',
-            //   index: 1,
-            //   beforeRestHymn: true,
-            // } as Speaker,
-            {
-                person: { name: 'Brother Wayland Pili' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
+                beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[18],
+        closingSong: DATA.hymns[37],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
