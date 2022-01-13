@@ -369,7 +369,7 @@ DATA.hymns = {
     37: {
         title: 'ʻE Kāinga Kuo Langa Ha Tuʻunga (How Firm a Foundation)',
         page: 37,
-        link: 'hhttps://www.churchofjesuschrist.org/music/library/hymns/how-firm-a-foundation?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/how-firm-a-foundation?lang=ton',
     },
     44: {
         title: 'Beautiful Zion, Built Above',
