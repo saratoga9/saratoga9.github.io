@@ -868,18 +868,16 @@ DATA.sustaining = [
 // },
 ];
 DATA.aaronicPriesthoodAdvancements = [
-// { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
-// { name: 'Brother Lyman (Mani) Rarick', calling: 'Deacon' },
-// { name: 'Brother Kaleo Teriipaia', calling: 'Deacon' },
-// { name: 'Brother Panasai Soakai', calling: 'Deacon' },
-// { name: 'Brother Malakai Kalamafoni', calling: 'Deacon' },
-// { name: 'Brother Finau Lomu', calling: 'Deacon' },
-// { name: 'Brother Tonga Tauteoli', calling: 'Deacon' },
-// { name: 'Brother Jared (Pono) Turner', calling: 'Teacher' },
-// { name: 'Brother Israel Pahulu', calling: 'Teacher' },
-// { name: 'Brother Malik Sika', calling: 'Teacher' },
-// { name: 'Brother David Toki', calling: 'Teacher' },
-// { name: 'Brother William Harris', calling: 'Priest' },
+    // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
+    // { name: 'Brother Lyman (Mani) Rarick', calling: 'Deacon' },
+    // { name: 'Brother Kaleo Teriipaia', calling: 'Deacon' },
+    // { name: 'Brother Panasai Soakai', calling: 'Deacon' },
+    // { name: 'Brother Malakai Kalamafoni', calling: 'Deacon' },
+    // { name: 'Brother Finau Lomu', calling: 'Deacon' },
+    // { name: 'Brother Tonga Tauteoli', calling: 'Deacon' },
+    { name: 'Brother Jacob Tuʻifua', calling: 'Teacher' },
+    { name: 'Brother Semisi Tonga', calling: 'Teacher' },
+    { name: 'Brother Aiseah Hafoka', calling: 'Teacher' },
 ];
 // DATA.aaronicPriesthoodAdvancementsTeacher = [
 //   { name: 'Brother Zealyn Unutoa' },
