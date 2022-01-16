@@ -34,86 +34,21 @@ DATA.announcements = [
     //   description:
     //     '<br />Saratoga Springs 9th Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi</a>',
     // },
-    // {
-    //   title: '8:00am - Utah Food Bank Delivery',
-    //   date: new Date(2021, 9, 28).toUTCString(),
-    //   description:
-    //     'Saratoga Spring 12 Branch Parking Lot, ' +
-    //     '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-    //     '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-    //     'Instructions.<br /><br />' +
-    //     '<b>7:00pm - YSA Institute</b>' +
-    //     '<br />Stake Office,' +
-    //     ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
-    // },
-    // {
-    //   title: 'FAST SUNDAY',
-    //   date: new Date(2021, 11, 5).toUTCString(),
-    //   description:
-    //     '<br />' +
-    //     '<b>6:00am - EQ Presidency Training with the Stake Presidency</b>' +
-    //     '<br />Stake Center,' +
-    //     '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
-    //     '<b>6:00pm - 2021 First Presidency’s Christmas Devotional</b><br />' +
-    //     'This can be viewed via livestream on the following channels: <br />' +
-    //     '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/broadcasts" target="_blank">Live Watch Page</a><br /> ' +
-    //     '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.youtube.com/churchofjesuschrist" target="_blank">Church Youtube Channel</a><br /> ' +
-    //     '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="http://www.byutv.org/watch/livetv" target="_blank">BYUtv</a><br /> ' +
-    //     '<a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/media/collection/christmas-devotionals?lang=eng&collectionId=947da7183a51ff85dfdac16ddf289bb0ace2b6b8" target="_blank">Latter-day Saints Channel</a> ',
-    // },
     {
-        title: 'SARATOGA Springs 9th WARD CONFERENCE OUTLINE OF EVENTS',
-        date: '',
-        description: '',
+        title: '7:00pm - Stake Relief Society Training',
+        date: new Date(2021, 0, 19).toUTCString(),
+        description: 'Stake Center,<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br />for EM13, EM14, SS9 &amp; SS12 Ward RS Presidencies,',
     },
     {
-        title: 'Family Home Evening',
-        date: new Date(2022, 0, 10).toUTCString(),
-        description: '',
-    },
-    {
-        title: 'Temple Night',
-        date: new Date(2022, 0, 11).toUTCString(),
-        description: '',
-    },
-    {
-        title: 'Ministering Day',
-        date: new Date(2022, 0, 12).toUTCString(),
-        description: '',
-    },
-    {
-        title: '',
-        date: new Date(2022, 0, 13).toUTCString(),
-        description: '<b>8:00am - Utah Food Bank Delivery</b><br />' +
-            'Saratoga Spring 12 Branch Parking Lot, ' +
+        title: '8:00am - Utah Food Bank Delivery',
+        date: new Date(2021, 0, 20).toUTCString(),
+        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions. </b><br /><br />' +
-            '<b>5:00pm - Youth Family Search Activity</b><br />' +
-            'Lehi FamilySearch Center, ' +
-            '<a href="https://goo.gl/maps/LmpAW7MDujwFE3cd9" target="_blank">3201 Garden Dr Lehi, UT 84043</a> ' +
-            'Refreshments will be provided at the Chapel afterwards.<br /><br />' +
+            'Instructions.<br /><br />' +
             '<b>7:00pm - YSA Institute</b>' +
-            '<br />Stake Center,' +
-            '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br /><br />' +
-            '<b>8:00pm - Ward Temple Clean Up</b>' +
-            '<br />Mount Timpanogos Temple,' +
-            '<a href="https://goo.gl/maps/uRgq6SzHkLgEFQpF9" target="_blank">742 N 900 E, American Fork, UT 84003</a><br /><br />',
-    },
-    {
-        title: 'Family Day',
-        date: new Date(2022, 0, 14).toUTCString(),
-        description: '',
-    },
-    {
-        title: 'Chapel Clean Up',
-        date: new Date(2022, 0, 15).toUTCString(),
-        description: 'SS9 Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi.',
-    },
-    {
-        title: 'Ward Conference',
-        date: new Date(2022, 0, 16).toUTCString(),
-        description: 'SS9 Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi</a>',
+            '<br />Stake Office,' +
+            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
     },
 ];
 DATA.broadcastLinks = [
@@ -121,11 +56,11 @@ DATA.broadcastLinks = [
     // Sacrament
     // ---------------------------------------------------------------------
     {
-        active: false,
-        label: 'Sunday 7:00am - Ward Youth Council Meeting',
-        link: 'https://us02web.zoom.us/j/81274737972?pwd=SkdqUGtaRDFjN0MxYnpsVHBHRUV5UT09',
-        passcode: '884917',
-        meetingId: '812 7473 7972',
+        active: true,
+        label: 'Sunday 7:00am - Ward Council Training',
+        link: 'https://us02web.zoom.us/j/82237192584?pwd=d2tRb2V3TktjTDlzelNnRHNxNVg2UT09',
+        passcode: '690475',
+        meetingId: '822 3719 2584',
     },
     {
         //active means will show on site
@@ -840,18 +775,14 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: 'Sister Salome Pita',
-//   calling: 'Assistant Music Coordinator',
-// },
-// {
-//   name: 'Sister Montello Naʻa',
-//   calling: 'Young Women 2nd Counselor',
-// },
-// {
-//   name: 'Sister Sue Unutoa',
-//   calling: 'Young Women Activity Specialist',
-// },
+    {
+        name: 'Sister Wyndee Olayan',
+        calling: 'Primary Activity Days Leader',
+    },
+    {
+        name: 'Sister Aimee Endicott',
+        calling: 'Primary Activity Days Leader',
+    },
 ];
 DATA.sustaining = [
 // {
@@ -874,7 +805,7 @@ DATA.aaronicPriesthoodAdvancements = [
     // { name: 'Brother Panasai Soakai', calling: 'Deacon' },
     // { name: 'Brother Malakai Kalamafoni', calling: 'Deacon' },
     // { name: 'Brother Finau Lomu', calling: 'Deacon' },
-    // { name: 'Brother Tonga Tauteoli', calling: 'Deacon' },
+    { name: 'Brother Simeni Tuivai Jr.', calling: 'Deacon' },
     { name: 'Brother Jacob Tuʻifua', calling: 'Teacher' },
     { name: 'Brother Semisi Tonga', calling: 'Teacher' },
     { name: 'Brother Aiseah Hafoka', calling: 'Teacher' },
@@ -944,7 +875,7 @@ DATA.cheatSheet = {
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.stkpres,
-        conducting: DATA.people.bp,
+        conducting: DATA.people.bp1stc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
