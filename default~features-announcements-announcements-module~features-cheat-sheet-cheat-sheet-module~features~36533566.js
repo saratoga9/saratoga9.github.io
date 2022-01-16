@@ -689,7 +689,7 @@ DATA.hymns = {
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/lord-i-would-follow-thee?lang=eng',
     },
     226: {
-        title: 'There Is Sunshine in My Soul Today',
+        title: 'Improve the Shining Moments',
         page: 226,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/improve-the-shining-moments?lang=eng',
     },
