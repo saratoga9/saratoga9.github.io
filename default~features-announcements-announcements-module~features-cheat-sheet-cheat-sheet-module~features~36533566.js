@@ -34,14 +34,15 @@ DATA.announcements = [
     //   description:
     //     '<br />Saratoga Springs 9th Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi</a>',
     // },
-    {
-        title: '7:00pm - Stake Relief Society Training',
-        date: new Date(2021, 0, 19).toUTCString(),
-        description: 'Stake Center,<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br />for EM13, EM14, SS9 &amp; SS12 Ward RS Presidencies,',
-    },
+    // {
+    //   title: '7:00pm - Stake Relief Society Training',
+    //   date: new Date(2021, 0, 19).toUTCString(),
+    //   description:
+    //     'Stake Center,<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br />for EM13, EM14, SS9 &amp; SS12 Ward RS Presidencies,',
+    // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 0, 20).toUTCString(),
+        date: new Date(2022, 0, 20).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -49,6 +50,20 @@ DATA.announcements = [
             '<b>7:00pm - YSA Institute</b>' +
             '<br />Stake Office,' +
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
+    },
+    {
+        title: '8:00am - Stake Primary Baptism',
+        date: new Date(2022, 1, 5).toUTCString(),
+        description: 'Ward Level,' +
+            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
+    },
+    {
+        title: 'FAST SUNDAY',
+        date: new Date(2022, 1, 6).toUTCString(),
+        description: '<br />' +
+            '<b> 6:00am - EQ Presidency Training with the Stake Presidency</b>' +
+            '<br />Stake Center,' +
+            '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank"> 680 North 350 West, American Fork</a><br /><br />',
     },
 ];
 DATA.broadcastLinks = [
@@ -83,30 +98,30 @@ DATA.broadcastLinks = [
     {
         active: false,
         label: 'Sunday 10:00am - Sunday School Gospel Doctrine (English)',
-        link: '',
-        passcode: '',
-        meetingId: '',
+        link: 'https://zoom.us/j/99662113868?pwd=dU1nY1F0MUxHYWVoVHB0N2NocjhoQT09',
+        passcode: '228818',
+        meetingId: '996 6211 3868',
     },
     {
         active: false,
         label: 'Sunday 10:00am - Sunday School Gospel Doctrine (Tongan)',
-        link: '',
-        passcode: '',
-        meetingId: '',
+        link: 'https://zoom.us/j/99662113868?pwd=dU1nY1F0MUxHYWVoVHB0N2NocjhoQT09',
+        passcode: '228818',
+        meetingId: '996 6211 3868',
     },
     {
         active: false,
         label: 'Sunday 10:00am - Sunday School - Youth Class (12-14)',
-        link: '',
-        passcode: '',
-        meetingId: '',
+        link: 'https://zoom.us/j/99662113868?pwd=dU1nY1F0MUxHYWVoVHB0N2NocjhoQT09',
+        passcode: '228818',
+        meetingId: '996 6211 3868',
     },
     {
         active: false,
         label: 'Sunday 10:00am - Sunday School - Youth Class (15-18)',
-        link: '',
-        passcode: '',
-        meetingId: '',
+        link: 'https://zoom.us/j/99662113868?pwd=dU1nY1F0MUxHYWVoVHB0N2NocjhoQT09',
+        passcode: '228818',
+        meetingId: '996 6211 3868',
     },
     {
         active: false,
@@ -129,44 +144,44 @@ DATA.broadcastLinks = [
     {
         active: false,
         label: 'Sunday 10:00am - Elders Quorum',
-        link: '',
-        passcode: '',
-        meetingId: '',
+        link: 'https://zoom.us/j/99288707070?pwd=d24wdmtiSGtYOEVVNEM1bmRPTlhXUT09',
+        passcode: '523025',
+        meetingId: '992 8870 7070',
     },
     {
         active: false,
         label: 'Sunday 10:00am - Elders Quorum (Tongan)',
-        link: '',
-        passcode: '',
-        meetingId: '',
+        link: 'https://zoom.us/j/99288707070?pwd=d24wdmtiSGtYOEVVNEM1bmRPTlhXUT09',
+        passcode: '523025',
+        meetingId: '992 8870 7070',
     },
     {
         active: false,
         label: 'Sunday 10:00am - Relief Society',
-        link: '',
-        passcode: '',
-        meetingId: '',
+        link: 'https://zoom.us/j/99288707070?pwd=d24wdmtiSGtYOEVVNEM1bmRPTlhXUT09',
+        passcode: '523025',
+        meetingId: '992 8870 7070',
     },
     {
         active: false,
         label: 'Sunday 10:00am - Relief Society (Tongan)',
-        link: '',
-        passcode: '',
-        meetingId: '',
+        link: 'https://zoom.us/j/99288707070?pwd=d24wdmtiSGtYOEVVNEM1bmRPTlhXUT09',
+        passcode: '523025',
+        meetingId: '992 8870 7070',
     },
     {
         active: false,
         label: 'Sunday 10:00am - Young Women Class',
-        link: '',
-        passcode: '',
-        meetingId: '',
+        link: 'https://zoom.us/j/99288707070?pwd=d24wdmtiSGtYOEVVNEM1bmRPTlhXUT09',
+        passcode: '523025',
+        meetingId: '992 8870 7070',
     },
     {
         active: false,
         label: 'Sunday 10:00am - Young Men Class',
-        link: '',
-        passcode: '',
-        meetingId: '',
+        link: 'https://zoom.us/j/99288707070?pwd=d24wdmtiSGtYOEVVNEM1bmRPTlhXUT09',
+        passcode: '523025',
+        meetingId: '992 8870 7070',
     },
     {
         active: false,
@@ -903,7 +918,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Amelia Soakai' },
+                person: { name: 'Sister ʻAmelia Soakai' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
