@@ -382,18 +382,21 @@ function CheatSheetComponent_div_0_div_86_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](11, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, " Following the singing, the sacrament will be administered to the congregation by the priesthood. ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](13, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](14, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "b", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](16, "At that point, we will briefly pause our Zoom broadcast. Those who are attending via Zoom can then administer the sacrament by the priesthood in their respective homes. After the adminstration of sacrament, we will resume our Zoom broadcast.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](12, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "b", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14, "Following the singing, we will briefly pause our Zoom broadcast and the sacrament will be administered to the congregation by the priesthood.");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](15, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](16, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "b", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](18, "Those who are attending via Zoom can then administer the sacrament by the priesthood in their respective homes as well. After the adminstration of sacrament, we will resume our Zoom broadcast.");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](18, "[Hymn & Sacrament]");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](19, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](20, " We would like to thank the priesthood for administering the sacrament. We now excuse them to sit with their families. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](20, "[Hymn & Sacrament]");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](22, " We would like to thank the priesthood for administering the sacrament. We now excuse them to sit with their families. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -429,24 +432,12 @@ function CheatSheetComponent_div_0_div_87_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "ul", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](8, CheatSheetComponent_div_0_div_87_li_8_Template, 3, 1, "li", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, " Bishop Tarawhiti will be speaking first. Then, after that, we will sing a congregational hymn ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "a", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](13, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14, " Following the singing, our concluding speaker will be President Paongo. ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx_r11.data.cheatSheet.sacrament.speakers);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ctx_r11.data.cheatSheet.sacrament.restSong.link, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"](" (Hymn #", ctx_r11.data.cheatSheet.sacrament.restSong.page, ") ", ctx_r11.data.cheatSheet.sacrament.restSong.title, " ");
 } }
 function CheatSheetComponent_div_0_div_88_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 5);
@@ -588,8 +579,8 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](86, CheatSheetComponent_div_0_div_86_Template, 21, 3, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](87, CheatSheetComponent_div_0_div_87_Template, 15, 4, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](86, CheatSheetComponent_div_0_div_86_Template, 23, 3, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](87, CheatSheetComponent_div_0_div_87_Template, 9, 1, "div", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](88, CheatSheetComponent_div_0_div_88_Template, 4, 0, "div", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](89, "div", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](90, "div", 6);
