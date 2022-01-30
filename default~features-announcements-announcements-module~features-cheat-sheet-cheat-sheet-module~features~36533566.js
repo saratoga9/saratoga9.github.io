@@ -42,7 +42,7 @@ DATA.announcements = [
     // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 0, 20).toUTCString(),
+        date: new Date(2022, 0, 27).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -60,7 +60,7 @@ DATA.announcements = [
     {
         title: 'FAST SUNDAY',
         date: new Date(2022, 1, 6).toUTCString(),
-        description: '<br />' +
+        description: 'PLEASE include the people of Tonga in your fast and be generous in your donation to fast offering or humanitarian fund.<br /><br />' +
             '<b> 6:00am - EQ Presidency Training with the Stake Presidency</b>' +
             '<br />Stake Center,' +
             '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank"> 680 North 350 West, American Fork</a><br /><br />',
@@ -207,12 +207,12 @@ DATA.broadcastLinks = [
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
     chorister1: { name: 'Sister Salome Pita' },
-    chorister2: { name: 'Sister Tami Teriipaia' },
+    chorister2: { name: 'Sister Meke Finau' },
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Kara Martin' },
-    pray2: { name: 'Brother Filipe Mausia' },
+    pray1: { name: 'Sister Miriam Teriipaia' },
+    pray2: { name: 'Brother Malosi Asher' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -438,6 +438,11 @@ DATA.hymns = {
         page: 100,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/behold-the-great-redeemer-die?lang=ton',
     },
+    103: {
+        title: 'ʻOku ʻi ai ha Fonua',
+        page: 103,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/there-is-a-green-hill-far-away?lang=ton',
+    },
     105: {
         title: 'Naʻe Lahi Fau ʻa e ʻOfa',
         page: 105,
@@ -548,6 +553,11 @@ DATA.hymns = {
         title: 'While of These Emblems We Partake',
         page: 174,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/while-of-these-emblems-we-partake-aeolian?lang=eng',
+    },
+    175: {
+        title: 'Siʻoto ʻOfa Sāpate',
+        page: 175,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/welcome-welcome-sabbath-morning?lang=ton',
     },
     178: {
         title: 'O Lord of Hosts',
@@ -897,7 +907,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 0, 23),
+        date: new Date(2022, 0, 30),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
@@ -906,37 +916,37 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister2,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[5],
-        sacramentSong: DATA.hymns[195],
+        openingSong: DATA.hymns[175],
+        sacramentSong: DATA.hymns[103],
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
+            // {
+            //   person: { name: 'Sister Loline Soakai' },
+            //   role: 'speaker',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
             {
-                person: { name: 'Sister Loline Soakai' },
+                person: { name: 'Sister Emma Kaka' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister ʻAmelia Soakai' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Sai Soakai - Musical Number' },
+                person: { name: 'Kaka Family - Musical Number' },
                 role: 'musical',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Panasai Soakai' },
+                person: { name: 'Brother Conway Kaka' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[192],
+        closingSong: DATA.hymns[2],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
