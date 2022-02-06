@@ -41,17 +41,6 @@ DATA.announcements = [
     //     'Stake Center,<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br />for EM13, EM14, SS9 &amp; SS12 Ward RS Presidencies,',
     // },
     {
-        title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 0, 27).toUTCString(),
-        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
-            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions.<br /><br />' +
-            '<b>7:00pm - YSA Institute</b>' +
-            '<br />Stake Office,' +
-            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
-    },
-    {
         title: '8:00am - Stake Primary Baptism',
         date: new Date(2022, 1, 5).toUTCString(),
         description: 'Ward Level,' +
@@ -64,6 +53,17 @@ DATA.announcements = [
             '<b> 6:00am - EQ Presidency Training with the Stake Presidency</b>' +
             '<br />Stake Center,' +
             '<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank"> 680 North 350 West, American Fork</a><br /><br />',
+    },
+    {
+        title: '8:00am - Utah Food Bank Delivery',
+        date: new Date(2022, 1, 7).toUTCString(),
+        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
+            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+            'Instructions.<br /><br />' +
+            '<b>7:00pm - YSA Institute</b>' +
+            '<br />Stake Office,' +
+            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
     },
 ];
 DATA.broadcastLinks = [
@@ -198,10 +198,11 @@ DATA.broadcastLinks = [
         meetingId: '',
     },
     {
-        active: false,
-        label: 'Sunday 6:00pm - Seminary Graduation - (Event Code: 45296)',
-        link: '',
-        passcode: '',
+        active: true,
+        label: 'Sunday 5:00pm - Self-Reliance Class',
+        link: 'https://zoom.us/j/97387256111?pwd=SVhOdmVYNjF4RVl4SUI2cGFXMkxhUT09',
+        passcode: '171391',
+        meetingId: '973 8725 6111',
     },
 ];
 DATA.people = {
@@ -211,8 +212,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Miriam Teriipaia' },
-    pray2: { name: 'Brother Malosi Asher' },
+    pray1: { name: 'Brother Joe Olayan' },
+    pray2: { name: 'Sister Shelli Hafoka' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -291,7 +292,7 @@ DATA.hymns = {
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-listen-to-a-prophets-voice?lang=eng',
     },
     22: {
-        title: 'ʻE Saione ʻi ʻOlunga',
+        title: 'ʻE Saione ʻi ʻOlunga [Beautiful Zion, Built Above]',
         page: 22,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/beautiful-zion-built-above?lang=ton',
     },
@@ -595,17 +596,17 @@ DATA.hymns = {
         page: 185,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/reverently-and-meekly-now?lang=eng',
     },
-    187: {
-        title: 'God Loved Us, So He Sent His Son',
-        page: 187,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/god-loved-us-so-he-sent-his-son?lang=eng',
-    },
     // 187: {
-    // title: 'Ofa ʻi ʻApi [Love at Home]',
-    //page: 187,
-    //link:
-    //  'https://www.churchofjesuschrist.org/study/manual/hymns/love-at-home?lang=ton',
-    //},
+    //   title: 'God Loved Us, So He Sent His Son',
+    //   page: 187,
+    //   link:
+    //     'https://www.churchofjesuschrist.org/music/library/hymns/god-loved-us-so-he-sent-his-son?lang=eng',
+    // },
+    187: {
+        title: 'Ofa ʻi ʻApi [Love at Home]',
+        page: 187,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/love-at-home?lang=ton',
+    },
     190: {
         title: 'In Memory of the Crucified',
         page: 190,
@@ -907,19 +908,19 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 0, 30),
+        date: new Date(2022, 1, 6),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp,
-        conducting: DATA.people.bp,
-        chorister: DATA.people.chorister2,
+        presiding: DATA.people.bp1stc,
+        conducting: DATA.people.bp1stc,
+        chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[175],
-        sacramentSong: DATA.hymns[103],
+        openingSong: DATA.hymns[22],
+        sacramentSong: DATA.hymns[169],
         // restSong: DATA.hymns[226],
-        testimonySunday: false,
+        testimonySunday: true,
         speakers: [
             // {
             //   person: { name: 'Sister Loline Soakai' },
@@ -946,7 +947,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[2],
+        closingSong: DATA.hymns[187],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
