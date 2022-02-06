@@ -821,18 +821,14 @@ DATA.releases = [
 // },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Sister Salome',
-//   calling: 'Music Coordinator',
-// },
-// {
-//   name: 'Sister Salome Pita',
-//   calling: 'YW Adviser',
-// },
-// {
-//   name: 'Sister Kristy Sorenson',
-//   calling: 'YW Activity Specialist',
-// },
+    {
+        name: 'Sister Mele Prescott',
+        calling: 'Sunday School Teacher',
+    },
+    {
+        name: 'Brother Filipe Mausia',
+        calling: 'Sunday School Teacher',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
