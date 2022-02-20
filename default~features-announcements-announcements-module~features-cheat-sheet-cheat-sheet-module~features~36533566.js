@@ -857,18 +857,11 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-// { name: 'Filipe Ti Mausia' },
-// { name: 'Helena Vakehekakala Mausia' },
-// { name: 'Siale Ataongo Mausia' },
-// { name: 'FVaisiopa Anne Mausia' },
-// { name: 'Hailini Mausia' },
-// { name: 'Steve Mausia' },
-// { name: 'Lorenzo Raymond Mausia' },
-// { name: 'David Fayol' },
-// { name: 'Theyanna Fayol' },
-// { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
-// { name: 'Thierry Naʻaliʻi Fayol' },
-// { name: 'Remi NaʻKila Fayol' },
+    { name: 'Siosiua Militoni' },
+    { name: 'Kiersten Militoni' },
+    { name: 'Emmalee Militoni' },
+    { name: 'Siosiua Atlas Militoni' },
+    { name: 'Siosifa Titus Militoni' },
 ];
 DATA.baptisms = [
 // { name: 'Alta Naomi Chase' },
