@@ -42,7 +42,7 @@ DATA.announcements = [
     // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 1, 17).toUTCString(),
+        date: new Date(2022, 1, 24).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -52,15 +52,8 @@ DATA.announcements = [
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
     },
     {
-        title: '10:00am - Friend to Friend for children',
-        date: new Date(2022, 1, 19).toUTCString(),
-        description: 'Focused on Baptism, the Holy Ghost, & the Sacrament. <br />' +
-            'Tune in on <a href="https://www.churchofjesuschrist.org/?lang=eng" target="_blank">ChurchOfJesusChrist.org</a>,' +
-            ' <a href="https://www.youtube.com/c/GospelForKids/featured" target="_blank">Gospel for Kids Youtube Channel</a> or the Latter-day Saints Channel mobile app. <br /><br />',
-    },
-    {
         title: '6:00pm - Make & Keep Sacred Covenants (Baptism Preview)',
-        date: new Date(2022, 0, 15).toUTCString(),
+        date: new Date(2022, 1, 27).toUTCString(),
         description: 'Relieft Society Room, SS9 Chapel, <a href="https://goo.gl/maps/3GGjqSoP4KDLErPKA" target="_blank">220 W, 200 S, Lehi.',
     },
     {
@@ -216,8 +209,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Fui Kinikini' },
-    pray2: { name: 'Sister Hakey Sika' },
+    pray1: { name: 'Brother Taki Uluilakepa' },
+    pray2: { name: 'Sister Ana Tuiloma' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -454,6 +447,11 @@ DATA.hymns = {
         page: 100,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/behold-the-great-redeemer-die?lang=ton',
     },
+    102: {
+        title: 'ʻOku Fakaofo (I Stand All Amazed)',
+        page: 102,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-stand-all-amazed?lang=ton',
+    },
     103: {
         title: 'ʻOku ʻi ai ha Fonua',
         page: 103,
@@ -528,6 +526,11 @@ DATA.hymns = {
         title: 'God Be with You Till We Meet Again',
         page: 152,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/god-be-with-you-till-we-meet-again?lang=eng',
+    },
+    153: {
+        title: 'Fanongo ko e ʻEiki ʻoku Ui (Called to Serve)',
+        page: 153,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/called-to-serve?lang=ton',
     },
     160: {
         title: 'Sīsū ne Ne Huhuʻi',
@@ -822,27 +825,15 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: 'Sister Wyndee Olayan',
-//   calling: 'Primary Activity Days Leader',
-// },
-// {
-//   name: 'Sister Aimee Endicott',
-//   calling: 'Primary Activity Days Leader',
-// },
-// {
-//   name: 'Sister Sue Unutoa',
-//   calling: 'Young Women Activity Specialist',
-// },
+    {
+        name: 'Sister Meghan & Brayden Funn',
+        calling: 'Primary Workers',
+    },
 ];
 DATA.sustaining = [
     {
-        name: 'Sister Ana Fonua',
-        calling: 'ACtivity Days Leader (Girls)',
-    },
-    {
-        name: 'Sister Genesis Toki',
-        calling: 'ACtivity Days Leader (Girls)',
+        name: 'Sister Fatai & Logan Mackay',
+        calling: 'Primary Teachers',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [
@@ -919,46 +910,46 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 1, 13),
+        date: new Date(2022, 1, 20),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp1stc,
+        conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[97],
-        sacramentSong: DATA.hymns[105],
+        openingSong: DATA.hymns[153],
+        sacramentSong: DATA.hymns[102],
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Sipa Tauteoli' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Sister Miriam Teriipaia' },
+                person: { name: 'Sister Kaleilani Fitzgerald' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             // {
-            //   person: { name: 'Kaka Family - Musical Number' },
-            //   role: 'musical',
+            //   person: { name: 'Sister Miriam Teriipaia' },
+            //   role: 'speaker',
             //   index: 1,
             //   beforeRestHymn: true,
             // } as Speaker,
             {
-                person: { name: 'Brother Joe Prasad' },
+                person: { name: 'Fitzgerald Family - Musical Number' },
+                role: 'musical',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Brother Victor Narsimulu' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[63],
+        closingSong: DATA.hymns[220],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
