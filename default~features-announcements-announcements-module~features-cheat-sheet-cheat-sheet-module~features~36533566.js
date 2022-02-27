@@ -965,7 +965,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Soakai Family - Musical Number' },
+                person: { name: 'Sister Manu Harris - Musical Number' },
                 role: 'musical',
                 index: 1,
                 beforeRestHymn: true,
