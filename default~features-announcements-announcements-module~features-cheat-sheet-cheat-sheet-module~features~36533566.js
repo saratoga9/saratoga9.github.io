@@ -845,18 +845,14 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: 'Sister Meghan & Brayden Funn',
-//   calling: 'Primary Workers',
-// },
-// {
-//   name: 'Sister Aimee Endicott',
-//   calling: 'Primary Activity Days Leader',
-// },
-// {
-//   name: 'Sister Sue Unutoa',
-//   calling: 'Young Women Activity Specialist',
-// },
+    {
+        name: 'Brother Panasai Soakai',
+        calling: 'Sunday School Teacher',
+    },
+    {
+        name: 'Sister ’Amelia Soakai',
+        calling: 'Relief Society Teacher',
+    },
 ];
 DATA.sustaining = [
     {
