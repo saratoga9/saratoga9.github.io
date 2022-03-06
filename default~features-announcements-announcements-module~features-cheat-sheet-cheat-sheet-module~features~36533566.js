@@ -945,9 +945,7 @@ DATA.newMembers = [
 DATA.baptisms = [
     { name: 'Anika Amel Desiree Sika' },
 ];
-DATA.babyBlessing = [
-//{ name: 'Penni Lynn Tonga' },
-];
+DATA.babyBlessing = [{ name: 'Pulotu family' }];
 DATA.missionaries = [
     // {
     //   name: 'Jarom Brown',
