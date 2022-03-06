@@ -55,7 +55,10 @@ DATA.announcements = [
             'Instructions.<br /><br />' +
             '<b>7:00pm - YSA Institute</b>' +
             '<br />Stake Office,' +
-            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
+            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />' +
+            '<b>FSY Registration opens</b>' +
+            '<br />For the Strength of Youth Conference,' +
+            ' for more info and how to register, <a href="https://www.churchofjesuschrist.org/youth/childrenandyouth/fsy/about?lang=eng" target="_blank">click here!</a><br /><br />',
     },
     {
         title: '7:00am - Stake Missionary & Stake Temple & Family History Correlation Meetings',
@@ -940,10 +943,7 @@ DATA.newMembers = [
     { name: 'Tauveli Tofua Iongi Jr' },
 ];
 DATA.baptisms = [
-// { name: 'Alta Naomi Chase' },
-// { name: 'Mya Mereani Kaleolaʻihoʻikemaupono Teriipaia' },
-// { name: 'William Christopher Pita' },
-// { name: 'Isileli George Pita' },
+    { name: 'Anika Amel Desiree Sika' },
 ];
 DATA.babyBlessing = [
 //{ name: 'Penni Lynn Tonga' },

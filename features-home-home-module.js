@@ -601,7 +601,7 @@ __webpack_require__.r(__webpack_exports__);
 class ContactInfoComponent {
 }
 ContactInfoComponent.ɵfac = function ContactInfoComponent_Factory(t) { return new (t || ContactInfoComponent)(); };
-ContactInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactInfoComponent, selectors: [["s9-contact-info"]], decls: 93, vars: 0, consts: [[1, "card", "border-light"], [1, "card-img-wrapper"], [1, "card-body"], [1, "broadcast-section"], [1, "h4"], [1, "list-group", "list-group-flush"], [1, "list-group-item", "ml-2", "pl-0", "mr-0", "pr-0"], [1, "d-flex", "justify-content-start"], [1, "fa-3x"], [1, "fas", "fa-user-tie"], [1, "ml-4", "w-100"], [1, "p-0", "m-0"], [1, "mt-2", "d-flex", "justify-content-between"], ["href", "tel:3852242746", "target", "_blank"], [1, "fas", "fa-sms"], ["href", "https://www.facebook.com/groups/442332393472318", 1, "btn", "btn-sm", "btn-info", "font-size-12", "text-capitalize"], [1, "fas", "fa-place-of-worship"], [1, "ml-4", "mt-2"], ["href", "https://goo.gl/maps/TLrPMMT1CpjijHnE7", "target", "_blank"], ["href", "tel:8014718893", "target", "_blank"], ["href", "tel:8012434881", "target", "_blank"], ["href", "tel:8018306979", "target", "_blank"], ["href", "https://goo.gl/maps/yMNWPjvQtTMa179p6", "target", "_blank"]], template: function ContactInfoComponent_Template(rf, ctx) { if (rf & 1) {
+ContactInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactInfoComponent, selectors: [["s9-contact-info"]], decls: 93, vars: 0, consts: [[1, "card", "border-light"], [1, "card-img-wrapper"], [1, "card-body"], [1, "broadcast-section"], [1, "h4"], [1, "list-group", "list-group-flush"], [1, "list-group-item", "ml-2", "pl-0", "mr-0", "pr-0"], [1, "d-flex", "justify-content-start"], [1, "fa-3x"], [1, "fas", "fa-user-tie"], [1, "ml-4", "w-100"], [1, "p-0", "m-0"], [1, "mt-2", "d-flex", "justify-content-between"], ["href", "tel:3852242746", "target", "_blank"], [1, "fas", "fa-sms"], ["href", "https://www.facebook.com/groups/442332393472318", 1, "btn", "btn-sm", "btn-info", "font-size-12", "text-capitalize"], [1, "fas", "fa-place-of-worship"], [1, "ml-4", "mt-2"], ["href", "https://goo.gl/maps/TLrPMMT1CpjijHnE7", "target", "_blank"], ["id", "stake-info", 1, "h4"], ["href", "tel:8014718893", "target", "_blank"], ["href", "tel:8012434881", "target", "_blank"], ["href", "tel:8018306979", "target", "_blank"], ["href", "https://goo.gl/maps/yMNWPjvQtTMa179p6", "target", "_blank"]], template: function ContactInfoComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -666,7 +666,7 @@ ContactInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "section", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "h1", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "h1", 19);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Stake Information");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "ul", 5);
@@ -685,7 +685,7 @@ ContactInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "span");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "Viliami Fotu:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "a", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "a", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "801-471-8893");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -693,7 +693,7 @@ ContactInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "span");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "Tony Wolfgramm: ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "a", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "a", 21);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "801-243-4881");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -716,7 +716,7 @@ ContactInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "span");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "Mote Siufanua:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "a", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "a", 22);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, " 801-830-6979 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -734,7 +734,7 @@ ContactInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "Stake Presidency Office");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](86, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "a", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "a", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, " 680 E Cedar Hollow Rd ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](89, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, " Lehi UT 84043 ");
