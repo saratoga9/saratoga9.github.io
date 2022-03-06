@@ -503,7 +503,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](35, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](37, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](38, " Anyone that has recently been sustained to a calling and has not been set-apart yet, please drop by the Clerk's office after the 2nd hour and we will help take care of that. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](38, " Anyone that has recently been sustained to a calling and has not been set-apart yet, please drop by the Clerk's office and we will help take care of that. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
