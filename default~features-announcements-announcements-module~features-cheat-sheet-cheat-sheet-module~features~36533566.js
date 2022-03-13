@@ -993,13 +993,19 @@ DATA.cheatSheet = {
         testimonySunday: false,
         speakers: [
             {
+                person: { name: 'Sister LylaRae Mausia' },
+                role: 'testimony',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
                 person: { name: 'Brother Lorenzo Mausia' },
                 role: 'testimony',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Steve Mausia' },
+                person: { name: 'Brother Spencer Mausia' },
                 role: 'testimony',
                 index: 1,
                 beforeRestHymn: true,
@@ -1011,14 +1017,20 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Helena Mausia' },
-                role: 'speaker',
+                person: { name: 'Sister Vaiosiopa Mausia' },
+                role: 'testimony',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Pita children - Musical Number' },
+                person: { name: 'Mausia Family - Musical Number' },
                 role: 'musical',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Sister Helena Mausia' },
+                role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
