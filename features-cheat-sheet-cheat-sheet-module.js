@@ -503,7 +503,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](35, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](37, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](38, " FSY registration will open on Mar. 10th. For more info, please go to saratoga9.com under announcements. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](38, " FSY registration. For more info, please go to saratoga9.com. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
