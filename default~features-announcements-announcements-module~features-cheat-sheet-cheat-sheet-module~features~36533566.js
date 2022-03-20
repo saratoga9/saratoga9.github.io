@@ -979,6 +979,12 @@ DATA.cheatSheet = {
         testimonySunday: false,
         speakers: [
             {
+                person: { name: 'Brother Kasimea Tangi' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
                 person: { name: 'Brother Jared Keo' },
                 role: 'speaker',
                 index: 1,
@@ -986,12 +992,6 @@ DATA.cheatSheet = {
             },
             {
                 person: { name: 'Brother Westlee Tonga' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Kasimea Tangi' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
