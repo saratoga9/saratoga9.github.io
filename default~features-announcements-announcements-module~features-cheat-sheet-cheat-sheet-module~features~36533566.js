@@ -979,32 +979,20 @@ DATA.cheatSheet = {
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister LylaRae Mausia' },
+                person: { name: 'Brother Jared Keo' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Brother Westlee Tonga' },
                 role: 'testimony',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Lorenzo Mausia' },
-                role: 'testimony',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Spencer Mausia' },
-                role: 'testimony',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Sister Halini Mausia' },
-                role: 'testimony',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Sister Vaiosiopa Mausia' },
-                role: 'testimony',
+                person: { name: 'Brother Kasimea Tangi' },
+                role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
@@ -1015,13 +1003,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Helena Mausia' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Filipe Mausia' },
+                person: { name: 'Brother Uati Afele' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
