@@ -986,7 +986,7 @@ DATA.cheatSheet = {
             },
             {
                 person: { name: 'Brother Westlee Tonga' },
-                role: 'testimony',
+                role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
