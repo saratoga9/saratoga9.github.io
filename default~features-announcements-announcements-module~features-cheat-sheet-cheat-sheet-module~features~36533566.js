@@ -40,14 +40,16 @@ DATA.announcements = [
     //   description:
     //     'Stake Center,<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a><br />for EM13, EM14, SS9 &amp; SS12 Ward RS Presidencies,',
     // },
-    {
-        title: '7:00am - Stake Missionary & Stake Temple & Family History Correlation Meetings',
-        date: new Date(2022, 2, 13).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 N 350 W American Fork</a><br /><br />',
-    },
+    // {
+    //   title:
+    //     '7:00am - Stake Missionary & Stake Temple & Family History Correlation Meetings',
+    //   date: new Date(2022, 2, 13).toUTCString(),
+    //   description:
+    //     'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 N 350 W American Fork</a><br /><br />',
+    // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 2, 17).toUTCString(),
+        date: new Date(2022, 2, 24).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -55,11 +57,6 @@ DATA.announcements = [
             '<b>7:00pm - YSA Institute</b>' +
             '<br />Stake Office,' +
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
-    },
-    {
-        title: '10:00am - Stake Relief Society Birthday Celebration',
-        date: new Date(2022, 2, 19).toUTCString(),
-        description: '<a href="https://goo.gl/maps/3Yk5t9ih7DqTHFN78" target="_blank">825 E 500 N American Fork</a><br /><br />',
     },
     {
         title: '8:00am - Stake Primary Baptism',
@@ -243,8 +240,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Carma Brown' },
-    pray2: { name: 'Brother Josh Martin' },
+    pray1: { name: 'Brother Reid Vaʻenuku' },
+    pray2: { name: 'Brother Pate Prescott' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -530,6 +527,11 @@ DATA.hymns = {
         title: 'Where Can I Turn for Peace?',
         page: 129,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/where-can-i-turn-for-peace?lang=eng',
+    },
+    131: {
+        title: 'More Holiness Give Me',
+        page: 131,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/more-holiness-give-me?lang=eng',
     },
     136: {
         title: 'I Know That My Redeemer Lives',
@@ -884,36 +886,16 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: 'Brother Panasai Soakai',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: 'Sister ’Amelia Soakai',
-//   calling: 'Relief Society Teacher',
-// },
-// {
-//   name: 'Brother Natua Teriipaia',
-//   calling: 'Young Men Advisor',
-// },
-// {
-//   name: 'Sister Miriam Teriipaia',
-//   calling: 'Primary Worker',
-// },
+    {
+        name: 'Brother Sai Soakai',
+        calling: 'Ward Mission Leader',
+    },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Sister Lazel Gamil',
-//   calling: 'Assistant Music Leader (Primary)',
-// },
-// {
-//   name: 'Sister Felisha Funn',
-//   calling: 'Primary Worker (Nursery)',
-// },
-// {
-//   name: 'Brother Manase Tonga',
-//   calling: 'Temple & Family History Consultant',
-// },
+    {
+        name: 'Brother Sai Soakai',
+        calling: 'Priest Quorum Advisor',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
@@ -936,7 +918,11 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: 'Saumaniafaese Kapasu Atiifale' },
+    { name: '	Siotame Sisitoutai Likio' },
+    { name: 'Finau Tuiolalotonga Tonata ' },
+    { name: 'Viliami Kata Tonata Jr' },
+    { name: 'Viliami Tonata' },
+    { name: 'Mary Tonata' },
 ];
 DATA.baptisms = [
 //{ name: 'Anika Amel Desiree Sika' },
@@ -978,7 +964,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 2, 13),
+        date: new Date(2022, 2, 20),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
@@ -987,8 +973,8 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[56],
-        sacramentSong: DATA.hymns[103],
+        openingSong: DATA.hymns[37],
+        sacramentSong: DATA.hymns[105],
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
@@ -1023,7 +1009,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Mausia Family - Musical Number' },
+                person: { name: 'Pita Children - Musical Number' },
                 role: 'musical',
                 index: 1,
                 beforeRestHymn: true,
@@ -1041,7 +1027,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[220],
+        closingSong: DATA.hymns[131],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
