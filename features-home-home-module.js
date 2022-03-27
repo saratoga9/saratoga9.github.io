@@ -508,9 +508,9 @@ BroadcastListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Mar. 24th & Apr. 13th.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Apr. 13, 2022");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, " If you have any questions or concerns, please text Sister Ema Kaka at 808-785-1519. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, " - If you have any questions or concerns, please text Sister Ema Kaka at 808-785-1519. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "a", 19);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Sign up here! ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();

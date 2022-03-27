@@ -47,9 +47,16 @@ DATA.announcements = [
     //   description:
     //     'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 N 350 W American Fork</a><br /><br />',
     // },
+    // {
+    //   title: '8:00am - Stake Primary Baptism',
+    //   date: new Date(2022, 2, 26).toUTCString(),
+    //   description:
+    //     'Ward Level,' +
+    //     ' Lehi YSA Stake Building, <a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
+    // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 2, 24).toUTCString(),
+        date: new Date(2022, 2, 31).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -57,17 +64,6 @@ DATA.announcements = [
             '<b>7:00pm - YSA Institute</b>' +
             '<br />Stake Office,' +
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
-    },
-    {
-        title: '8:00am - Stake Primary Baptism',
-        date: new Date(2022, 2, 26).toUTCString(),
-        description: 'Ward Level,' +
-            ' Lehi YSA Stake Building, <a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
-    },
-    {
-        title: 'FAST SUNDAY',
-        date: new Date(2022, 2, 27).toUTCString(),
-        description: '<br /><br />',
     },
     {
         title: '10:00am | 2:00pm | 6:00pm MDT - General Conference',
@@ -78,6 +74,11 @@ DATA.announcements = [
         title: '10:00am | 2:00pm MDT - General Conference | Easter Sunday',
         date: new Date(2021, 3, 3).toUTCString(),
         description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
+    },
+    {
+        title: 'FAST SUNDAY',
+        date: new Date(2022, 3, 24).toUTCString(),
+        description: '<br /><br />',
     },
     {
         title: 'April 30 & May 1st - Stake Conference',
@@ -100,7 +101,7 @@ DATA.broadcastLinks = [
     },
     //4th Sundays
     {
-        active: false,
+        active: true,
         label: 'Sunday 7:30am - Youth Council Meeting',
         link: 'https://zoom.us/j/94703693144?pwd=ZHdLZkQ4WHBsRXd4TUFiazJUSFByUT09',
         passcode: '821617',
@@ -240,8 +241,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Reid Vaʻenuku' },
-    pray2: { name: 'Brother Pate Prescott' },
+    pray1: { name: 'Sister Kat Pahulu' },
+    pray2: { name: 'Brother Girish Rajaratnam' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -356,7 +357,7 @@ DATA.hymns = {
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/beautiful-zion-built-above?lang=eng',
     },
     48: {
-        title: '‘Oku Ou Fie Ma’u Koe',
+        title: '‘Oku Ou Fie Ma’u Koe (I Need Thee Every Hour)',
         page: 48,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/i-need-thee-every-hour?lang=ton',
     },
@@ -567,6 +568,11 @@ DATA.hymns = {
         title: 'Fili ʻa e Moʻoní',
         page: 146,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=ton',
+    },
+    149: {
+        title: 'Tuku ke Tau Faimālohi (Let Us All Press On)',
+        page: 149,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/let-us-all-press-on?lang=ton',
     },
     152: {
         title: 'God Be with You Till We Meet Again',
@@ -887,14 +893,22 @@ DATA.hymns = {
 };
 DATA.releases = [
     {
-        name: 'Brother Sai Soakai',
-        calling: 'Ward Mission Leader',
+        name: 'Brother Isi & Sister Shanley Kaufusi ',
+        calling: 'Primary Workers',
+    },
+    {
+        name: 'Brother Algie Brown',
+        calling: 'Priest Quorum Advisor',
+    },
+    {
+        name: 'Brother Makoni Uluilakepa',
+        calling: 'Deacon Quorum Advisor',
     },
 ];
 DATA.sustaining = [
     {
-        name: 'Brother Sai Soakai',
-        calling: 'Priest Quorum Advisor',
+        name: 'Brother Girish Rajaratnam',
+        calling: 'Ward Mission Leader',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [
@@ -918,11 +932,17 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: '	Siotame Sisitoutai Likio' },
-    { name: 'Finau Tuiolalotonga Tonata ' },
-    { name: 'Viliami Kata Tonata Jr' },
-    { name: 'Viliami Tonata' },
-    { name: 'Mary Tonata' },
+// { name: '	Siotame Sisitoutai Likio' },
+// { name: 'Finau Tuiolalotonga Tonata ' },
+// { name: 'Viliami Kata Tonata Jr' },
+// { name: 'Viliami Tonata' },
+// { name: 'Mary Tonata' },
+// { name: 'Lorenzo Raymond Mausia' },
+// { name: 'David Fayol' },
+// { name: 'Theyanna Fayol' },
+// { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
+// { name: 'Thierry Naʻaliʻi Fayol' },
+// { name: 'Remi NaʻKila Fayol' },
 ];
 DATA.baptisms = [
 //{ name: 'Anika Amel Desiree Sika' },
@@ -964,7 +984,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 2, 20),
+        date: new Date(2022, 2, 27),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
@@ -973,10 +993,10 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[37],
-        sacramentSong: DATA.hymns[105],
+        openingSong: DATA.hymns[48],
+        sacramentSong: DATA.hymns[170],
         // restSong: DATA.hymns[226],
-        testimonySunday: false,
+        testimonySunday: true,
         speakers: [
             {
                 person: { name: 'Brother Kasimea Tangi' },
@@ -1009,7 +1029,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[131],
+        closingSong: DATA.hymns[149],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
