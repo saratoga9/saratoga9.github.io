@@ -55,8 +55,13 @@ DATA.announcements = [
     //     ' Lehi YSA Stake Building, <a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     // },
     {
+        title: '7:00am - Stake Missionary & Stake Temple & Family History Correlation Meetings',
+        date: new Date(2022, 3, 10).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 N 350 W American Fork</a><br /><br />',
+    },
+    {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 2, 31).toUTCString(),
+        date: new Date(2022, 3, 14).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -66,14 +71,10 @@ DATA.announcements = [
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
     },
     {
-        title: '10:00am | 2:00pm | 6:00pm MDT - General Conference',
-        date: new Date(2021, 3, 2).toUTCString(),
-        description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
-    },
-    {
-        title: '10:00am | 2:00pm MDT - General Conference | Easter Sunday',
-        date: new Date(2021, 3, 3).toUTCString(),
-        description: 'Ways to Watch or Listen to General Conference Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
+        title: '8:00am - Stake Primary Baptism',
+        date: new Date(2022, 3, 23).toUTCString(),
+        description: 'Ward Level,' +
+            ' Lehi YSA Stake Building, <a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     },
     {
         title: 'FAST SUNDAY',
@@ -81,9 +82,53 @@ DATA.announcements = [
         description: '<br /><br />',
     },
     {
-        title: 'April 30 & May 1st - Stake Conference',
-        date: new Date(2021, 4, 1).toUTCString(),
+        title: 'OREM UTAH 2ND STAKE CONFERENCE OUTLINE OF EVENTS',
+        date: '',
+        description: '',
+    },
+    {
+        title: 'Family Home Evening',
+        date: new Date(2022, 3, 25).toUTCString(),
+        description: 'Family Home Evening in individual homes with the focus on (The Living Christ) and (The Restoration of the Fulness of the Gospel of Jesus Christ)',
+    },
+    {
+        title: '8:15pm - Temple Night',
+        date: new Date(2022, 3, 26).toUTCString(),
+        description: 'Stake Temple Session at Mount Timpanogos Temple',
+    },
+    {
+        title: '6:30pm - Youth Fireside',
+        date: new Date(2022, 3, 27).toUTCString(),
         description: 'Stake Center, <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>',
+    },
+    {
+        title: '',
+        date: new Date(2022, 3, 28).toUTCString(),
+        description: '<b>8:00am - Utah Food Bank Delivery</b><br />' +
+            'Saratoga Spring 12 Branch Parking Lot, ' +
+            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+            'Instructions. <br /><br />' +
+            '<b>7:00pm - YSA FHE with Stake Presidency</b>' +
+            '<br />Stake Center, <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>',
+    },
+    {
+        title: 'Stake Service Projects by Wards',
+        date: new Date(2022, 3, 29).toUTCString(),
+        description: 'High Councilors in Charge',
+    },
+    {
+        title: '3:00pm - Leadership Meeting',
+        date: new Date(2022, 3, 30).toUTCString(),
+        description: 'Stake Center <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>.' +
+            '<br />To attend Ward and stake councils, counselors, secretaries, and stake patriarch(s). Youth leaders (12 and older).<br /><br />' +
+            '<b>6:00pm - General Adult Session</b>' +
+            '<br />Stake Center, <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>',
+    },
+    {
+        title: '2:00pm - Stake Conference',
+        date: new Date(2022, 4, 1).toUTCString(),
+        description: 'Alpine Tabernacle<a href="https://goo.gl/maps/E8sn2XYwZaakM3ym8" target="_blank">110 E Main St, American Fork</a>',
     },
 ];
 DATA.broadcastLinks = [
@@ -101,7 +146,7 @@ DATA.broadcastLinks = [
     },
     //4th Sundays
     {
-        active: true,
+        active: false,
         label: 'Sunday 7:30am - Youth Council Meeting',
         link: 'https://zoom.us/j/94703693144?pwd=ZHdLZkQ4WHBsRXd4TUFiazJUSFByUT09',
         passcode: '821617',
@@ -356,6 +401,11 @@ DATA.hymns = {
         page: 44,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/beautiful-zion-built-above?lang=eng',
     },
+    45: {
+        title: 'Ko e ʻEikí ko ʻEku Maama (The Lord is My Light)',
+        page: 45,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/the-lord-is-my-light?lang=ton',
+    },
     48: {
         title: '‘Oku Ou Fie Ma’u Koe (I Need Thee Every Hour)',
         page: 48,
@@ -604,10 +654,16 @@ DATA.hymns = {
         page: 170,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/god-our-father-hear-us-pray?lang=eng',
     },
+    // 171: {
+    //   title: 'With Humble Heart',
+    //   page: 171,
+    //   link:
+    //     'https://www.churchofjesuschrist.org/music/library/hymns/with-humble-heart?lang=eng',
+    // },
     171: {
-        title: 'With Humble Heart',
+        title: 'Te U Fai Ho Finangaló (Iʻll Go Where You Want Me to Go)',
         page: 171,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/with-humble-heart?lang=eng',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/ill-go-where-you-want-me-to-go?lang=ton',
     },
     172: {
         title: 'In Humility, Our Savior',
@@ -892,24 +948,36 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-    {
-        name: 'Brother Isi & Sister Shanley Kaufusi ',
-        calling: 'Primary Workers',
-    },
-    {
-        name: 'Brother Algie Brown',
-        calling: 'Priest Quorum Advisor',
-    },
-    {
-        name: 'Brother Makoni Uluilakepa',
-        calling: 'Deacon Quorum Advisor',
-    },
-];
-DATA.sustaining = [
-    {
-        name: 'Brother Girish Rajaratnam',
-        calling: 'Ward Mission Leader',
-    },
+//   {
+//     name: 'Brother Isi & Sister Shanley Kaufusi ',
+//     calling: 'Primary Workers',
+//   },
+//   {
+//     name: 'Brother Algie Brown',
+//     calling: 'Priest Quorum Advisor',
+//   },
+//   {
+//     name: 'Brother Makoni Uluilakepa',
+//     calling: 'Deacon Quorum Advisor',
+//   },
+//   // {
+//   //   name: 'Sister Miriam Teriipaia',
+//   //   calling: 'Primary Worker',
+//   // },
+// ];
+// DATA.sustaining = [
+//   {
+//     name: 'Brother Girish Rajaratnam',
+//     calling: 'Ward Mission Leader',
+//   },
+// {
+//   name: 'Sister Felisha Funn',
+//   calling: 'Primary Worker (Nursery)',
+// },
+// {
+//   name: 'Brother Manase Tonga',
+//   calling: 'Temple & Family History Consultant',
+// },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
@@ -932,17 +1000,14 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-// { name: '	Siotame Sisitoutai Likio' },
-// { name: 'Finau Tuiolalotonga Tonata ' },
-// { name: 'Viliami Kata Tonata Jr' },
-// { name: 'Viliami Tonata' },
-// { name: 'Mary Tonata' },
-// { name: 'Lorenzo Raymond Mausia' },
-// { name: 'David Fayol' },
-// { name: 'Theyanna Fayol' },
-// { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
-// { name: 'Thierry Naʻaliʻi Fayol' },
-// { name: 'Remi NaʻKila Fayol' },
+    { name: 'Tulali Maru Laulu' },
+    { name: 'Leiva Sio’ata Laulu' },
+    { name: 'Sosefo ‘Eliesa Sime Laulu' },
+    { name: 'Mana Malu Laulu Laulu' },
+    { name: 'Rayne Asjahliere Laulu' },
+    { name: 'Sina Tanesia Laulu' },
+    { name: 'Siniva Laulu' },
+    { name: 'Tulali Maru Laulu Jr.' },
 ];
 DATA.baptisms = [
 //{ name: 'Anika Amel Desiree Sika' },
@@ -992,45 +1057,39 @@ DATA.cheatSheet = {
         conducting: DATA.people.bp,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
-        invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[48],
-        sacramentSong: DATA.hymns[170],
+        invocation: DATA.people.tbd,
+        openingSong: DATA.hymns[45],
+        sacramentSong: DATA.hymns[195],
         // restSong: DATA.hymns[226],
-        testimonySunday: true,
+        testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Brother Kasimea Tangi' },
+                person: { name: 'Brother Mani Atiifale' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Jared Keo' },
+                person: { name: 'Sister Felisha Funn' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Westlee Tonga' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Pita Children - Musical Number' },
+                person: { name: 'Musical Number' },
                 role: 'musical',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Uati Afele' },
+                person: { name: 'Brother Eric Funn' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[149],
-        benediction: DATA.people.pray2,
+        closingSong: DATA.hymns[171],
+        benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.hc,

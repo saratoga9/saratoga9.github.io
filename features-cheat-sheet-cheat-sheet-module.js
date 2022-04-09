@@ -511,7 +511,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](40, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](41, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](43, " Thank you for those youth and parents that attended the Youth Temple Day on last Thursday. Another one is scheduled on Apr. 13th (Draper Temple / 6am). Sign up sheet is posted in our ward website and FB page. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](43, " Youth Temple day is scheduled on Apr. 13th (Draper Temple / 6am). Sign up sheet is posted in our ward website and FB page. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
