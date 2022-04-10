@@ -120,7 +120,7 @@ DATA.announcements = [
     {
         title: '3:00pm - Leadership Meeting',
         date: new Date(2022, 3, 30).toUTCString(),
-        description: 'Stake Center <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>.' +
+        description: 'Stake Center, <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>.' +
             '<br />To attend Ward and stake councils, counselors, secretaries, and stake patriarch(s). Youth leaders (12 and older).<br /><br />' +
             '<b>6:00pm - General Adult Session</b>' +
             '<br />Stake Center, <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>',
@@ -128,7 +128,7 @@ DATA.announcements = [
     {
         title: '2:00pm - Stake Conference',
         date: new Date(2022, 4, 1).toUTCString(),
-        description: 'Alpine Tabernacle<a href="https://goo.gl/maps/E8sn2XYwZaakM3ym8" target="_blank">110 E Main St, American Fork</a>',
+        description: 'Alpine Tabernacle, <a href="https://goo.gl/maps/E8sn2XYwZaakM3ym8" target="_blank">110 E Main St, American Fork</a>',
     },
 ];
 DATA.broadcastLinks = [
@@ -286,8 +286,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Kat Pahulu' },
-    pray2: { name: 'Brother Girish Rajaratnam' },
+    pray1: { name: 'Brother Rockey Kalamafoni' },
+    pray2: { name: 'Sister Jaime Soakai' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -1000,6 +1000,8 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
+    { name: 'Wilbert Kekahuna Kaimikaua' },
+    { name: 'Teuila Kuuipo Kaimikaua' },
     { name: 'Tulali Maru Laulu' },
     { name: 'Leiva Sio’ata Laulu' },
     { name: 'Sosefo ‘Eliesa Sime Laulu' },
@@ -1057,7 +1059,7 @@ DATA.cheatSheet = {
         conducting: DATA.people.bp,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
-        invocation: DATA.people.tbd,
+        invocation: DATA.people.pray1,
         openingSong: DATA.hymns[45],
         sacramentSong: DATA.hymns[195],
         // restSong: DATA.hymns[226],
@@ -1075,12 +1077,12 @@ DATA.cheatSheet = {
                 index: 1,
                 beforeRestHymn: true,
             },
-            {
-                person: { name: 'Musical Number' },
-                role: 'musical',
-                index: 1,
-                beforeRestHymn: true,
-            },
+            // {
+            //   person: { name: 'Musical Number' },
+            //   role: 'musical',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
             {
                 person: { name: 'Brother Eric Funn' },
                 role: 'speaker',
@@ -1089,7 +1091,7 @@ DATA.cheatSheet = {
             },
         ],
         closingSong: DATA.hymns[171],
-        benediction: DATA.people.tbd,
+        benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.hc,
