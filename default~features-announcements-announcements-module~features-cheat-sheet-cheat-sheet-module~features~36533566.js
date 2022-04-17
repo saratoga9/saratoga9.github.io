@@ -55,13 +55,8 @@ DATA.announcements = [
     //     ' Lehi YSA Stake Building, <a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     // },
     {
-        title: '7:00am - Stake Missionary & Stake Temple & Family History Correlation Meetings',
-        date: new Date(2022, 3, 10).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 N 350 W American Fork</a><br /><br />',
-    },
-    {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 3, 14).toUTCString(),
+        date: new Date(2022, 3, 21).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -89,7 +84,8 @@ DATA.announcements = [
     {
         title: 'Family Home Evening',
         date: new Date(2022, 3, 25).toUTCString(),
-        description: 'Family Home Evening in individual homes with the focus on (The Living Christ) and (The Restoration of the Fulness of the Gospel of Jesus Christ)',
+        description: 'Family Home Evening in individual homes with the focus on (<a href="https://www.churchofjesuschrist.org/study/scriptures/the-living-christ-the-testimony-of-the-apostles/the-living-christ-the-testimony-of-the-apostles?lang=eng" target="_blank">The Living Christ</a>)' +
+            'and (<a href="https://www.churchofjesuschrist.org/study/scriptures/the-restoration-of-the-fulness-of-the-gospel-of-jesus-christ/a-bicentennial-proclamation-to-the-world?lang=eng" target="_blank">The Restoration of the Fulness of the Gospel of Jesus Christ</a>)',
     },
     {
         title: '8:15pm - Temple Night',
@@ -286,8 +282,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Rockey Kalamafoni' },
-    pray2: { name: 'Sister Jaime Soakai' },
+    pray1: { name: 'Brother Darren Olayan' },
+    pray2: { name: 'Sister Wyndee Olayan' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -401,11 +397,6 @@ DATA.hymns = {
         page: 44,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/beautiful-zion-built-above?lang=eng',
     },
-    45: {
-        title: 'Ko e ʻEikí ko ʻEku Maama (The Lord is My Light)',
-        page: 45,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/the-lord-is-my-light?lang=ton',
-    },
     48: {
         title: '‘Oku Ou Fie Ma’u Koe (I Need Thee Every Hour)',
         page: 48,
@@ -456,6 +447,11 @@ DATA.hymns = {
         title: 'Rejoice, the Lord Is King!',
         page: 66,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/rejoice-the-lord-is-king?lang=eng',
+    },
+    68: {
+        title: 'ʻOku Moʻui Hoku Huhuʻí (I Know that My Redeemer Lives)',
+        page: 68,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-know-that-my-redeemer-lives?lang=ton',
     },
     72: {
         title: 'Praise to the Lord, the Almighty',
@@ -654,16 +650,10 @@ DATA.hymns = {
         page: 170,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/god-our-father-hear-us-pray?lang=eng',
     },
-    // 171: {
-    //   title: 'With Humble Heart',
-    //   page: 171,
-    //   link:
-    //     'https://www.churchofjesuschrist.org/music/library/hymns/with-humble-heart?lang=eng',
-    // },
     171: {
-        title: 'Te U Fai Ho Finangaló (Iʻll Go Where You Want Me to Go)',
+        title: 'With Humble Heart',
         page: 171,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/ill-go-where-you-want-me-to-go?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/with-humble-heart?lang=eng',
     },
     172: {
         title: 'In Humility, Our Savior',
@@ -743,6 +733,11 @@ DATA.hymns = {
         page: 190,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/in-memory-of-the-crucified?lang=eng',
     },
+    191: {
+        title: 'Behold the Great Redeemer Die',
+        page: 191,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/behold-the-great-redeemer-die?lang=eng',
+    },
     192: {
         title: 'Ko e Fāmilí ke Taʻe Ngata',
         page: 192,
@@ -791,10 +786,16 @@ DATA.hymns = {
         page: 199,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/he-is-risen?lang=eng',
     },
+    // 200: {
+    //   title: 'Ke Mou Feʻofaʻaki (Love One Another)',
+    //   page: 200,
+    //   link:
+    //     'https://www.churchofjesuschrist.org/music/library/hymns/love-one-another?lang=ton',
+    // },
     200: {
-        title: 'Ke Mou Feʻofaʻaki (Love One Another)',
+        title: 'Christ the Lord Is Risen Today',
         page: 200,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/love-one-another?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/christ-the-lord-is-risen-today?lang=eng',
     },
     201: {
         title: 'Joy to the World',
@@ -948,28 +949,28 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-//   {
-//     name: 'Brother Isi & Sister Shanley Kaufusi ',
-//     calling: 'Primary Workers',
-//   },
-//   {
-//     name: 'Brother Algie Brown',
-//     calling: 'Priest Quorum Advisor',
-//   },
-//   {
-//     name: 'Brother Makoni Uluilakepa',
-//     calling: 'Deacon Quorum Advisor',
-//   },
-//   // {
-//   //   name: 'Sister Miriam Teriipaia',
-//   //   calling: 'Primary Worker',
-//   // },
-// ];
-// DATA.sustaining = [
-//   {
-//     name: 'Brother Girish Rajaratnam',
-//     calling: 'Ward Mission Leader',
-//   },
+// {
+//   name: 'Brother Isi & Sister Shanley Kaufusi ',
+//   calling: 'Primary Workers',
+// },
+// {
+//   name: 'Brother Algie Brown',
+//   calling: 'Priest Quorum Advisor',
+// },
+// {
+//   name: 'Brother Makoni Uluilakepa',
+//   calling: 'Deacon Quorum Advisor',
+// },
+// {
+//   name: 'Sister Miriam Teriipaia',
+//   calling: 'Primary Worker',
+// },
+];
+DATA.sustaining = [
+// {
+//   name: 'Brother Girish Rajaratnam',
+//   calling: 'Ward Mission Leader',
+// },
 // {
 //   name: 'Sister Felisha Funn',
 //   calling: 'Primary Worker (Nursery)',
@@ -1000,16 +1001,17 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: 'Wilbert Kekahuna Kaimikaua' },
-    { name: 'Teuila Kuuipo Kaimikaua' },
-    { name: 'Tulali Maru Laulu' },
-    { name: 'Leiva Sio’ata Laulu' },
-    { name: 'Sosefo ‘Eliesa Sime Laulu' },
-    { name: 'Mana Malu Laulu Laulu' },
-    { name: 'Rayne Asjahliere Laulu' },
-    { name: 'Sina Tanesia Laulu' },
-    { name: 'Siniva Laulu' },
-    { name: 'Tulali Maru Laulu Jr.' },
+// { name: '	Siotame Sisitoutai Likio' },
+// { name: 'Finau Tuiolalotonga Tonata ' },
+// { name: 'Viliami Kata Tonata Jr' },
+// { name: 'Viliami Tonata' },
+// { name: 'Mary Tonata' },
+// { name: 'Lorenzo Raymond Mausia' },
+// { name: 'David Fayol' },
+// { name: 'Theyanna Fayol' },
+// { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
+// { name: 'Thierry Naʻaliʻi Fayol' },
+// { name: 'Remi NaʻKila Fayol' },
 ];
 DATA.baptisms = [
 //{ name: 'Anika Amel Desiree Sika' },
@@ -1051,7 +1053,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 3, 10),
+        date: new Date(2022, 3, 17),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
@@ -1060,37 +1062,69 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[45],
-        sacramentSong: DATA.hymns[195],
+        openingSong: DATA.hymns[200],
+        sacramentSong: DATA.hymns[191],
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Brother Mani Atiifale' },
-                role: 'speaker',
+                person: { name: 'Musical Number | Pita Children - Jesus Has Risen' },
+                role: 'musical',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Felisha Funn' },
-                role: 'speaker',
+                person: { name: 'By Invitation' },
+                role: 'testimony',
                 index: 1,
                 beforeRestHymn: true,
             },
-            // {
-            //   person: { name: 'Musical Number' },
-            //   role: 'musical',
-            //   index: 1,
-            //   beforeRestHymn: true,
-            // } as Speaker,
             {
-                person: { name: 'Brother Eric Funn' },
+                person: { name: 'Musical Number | Westlee Tonga - Love At Home' },
+                role: 'musical',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'By Invitation' },
+                role: 'testimony',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: {
+                    name: 'Musical Number | Kinikini Brothers - I Heard Him Come',
+                },
+                role: 'musical',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'By Invitation' },
+                role: 'testimony',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Musical Number | Kaka Family - Refiners Fire' },
+                role: 'musical',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'By Invitation' },
+                role: 'testimony',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Bishop Wayne Tarawhiti' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[171],
+        closingSong: DATA.hymns[68],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
