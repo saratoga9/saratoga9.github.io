@@ -125,7 +125,7 @@ DATA.announcements = [
         title: '2:00pm - Stake Conference',
         date: new Date(2022, 4, 1).toUTCString(),
         description: 'Alpine Tabernacle <b>(In-Person)</b>, <a href="https://goo.gl/maps/E8sn2XYwZaakM3ym8" target="_blank">110 E Main St, American Fork</a>' +
-            ' <br /><b>(NOTE: No Zoom or Webcast option)</b> Stake Conference General Session will be in-person at the Alpine Tabernacle and <b>will be streamed live</b> at the <b>Stake Center</b> <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">(650 N 350 W, American Fork)</a>' +
+            ' <br /><b>(NOTE: No Zoom or Webcast option)</b> Stake Conference General Session will be in-person at the Alpine Tabernacle and <b>will be streamed/broadcasted live</b> at the <b>Stake Center</b> <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">(650 N 350 W, American Fork)</a>' +
             ' <b>for Lehi 41st &amp; Saratoga Springs 12 Wards</b> ' +
             '<br />AND at the <b>American Fork 2nd Ward Chapel</b> <a href="https://goo.gl/maps/exbrjeL664Ft2DQJ6" target="_blank">(825 E 500 N St. American Fork)</a> <b>for American Fork 2nd &amp; Lehi 42nd Wards</b>.',
     },
