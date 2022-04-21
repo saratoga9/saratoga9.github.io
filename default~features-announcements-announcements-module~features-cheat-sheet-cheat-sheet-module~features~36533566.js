@@ -85,7 +85,7 @@ DATA.announcements = [
         title: 'Family Home Evening',
         date: new Date(2022, 3, 25).toUTCString(),
         description: 'Family Home Evening in individual homes with the focus on (<a href="https://www.churchofjesuschrist.org/study/scriptures/the-living-christ-the-testimony-of-the-apostles/the-living-christ-the-testimony-of-the-apostles?lang=eng" target="_blank">The Living Christ</a>)' +
-            'and (<a href="https://www.churchofjesuschrist.org/study/scriptures/the-restoration-of-the-fulness-of-the-gospel-of-jesus-christ/a-bicentennial-proclamation-to-the-world?lang=eng" target="_blank">The Restoration of the Fulness of the Gospel of Jesus Christ</a>)',
+            ' and (<a href="https://www.churchofjesuschrist.org/study/scriptures/the-restoration-of-the-fulness-of-the-gospel-of-jesus-christ/a-bicentennial-proclamation-to-the-world?lang=eng" target="_blank">The Restoration of the Fulness of the Gospel of Jesus Christ</a>)',
     },
     {
         title: '8:15pm - Temple Night',
@@ -111,7 +111,7 @@ DATA.announcements = [
     {
         title: 'Stake Service Projects by Wards',
         date: new Date(2022, 3, 29).toUTCString(),
-        description: 'High Councilors in Charge',
+        description: 'Patriot Park Baseball Field Cleanup. <br /><a href="https://www.facebook.com/photo/?fbid=7802051889805682&set=gm.705331947172360" target="_blank">Click here for more info!</a>',
     },
     {
         title: '3:00pm - Leadership Meeting',
@@ -124,7 +124,10 @@ DATA.announcements = [
     {
         title: '2:00pm - Stake Conference',
         date: new Date(2022, 4, 1).toUTCString(),
-        description: 'Alpine Tabernacle, <a href="https://goo.gl/maps/E8sn2XYwZaakM3ym8" target="_blank">110 E Main St, American Fork</a>',
+        description: 'Alpine Tabernacle <b>(In-Person)</b>, <a href="https://goo.gl/maps/E8sn2XYwZaakM3ym8" target="_blank">110 E Main St, American Fork</a>' +
+            ' <br /><b>(NOTE: No Zoom or Webcast option)</b> Stake Conference General Session will be in-person at the Alpine Tabernacle and <b>will be streamed live</b> at the <b>Stake Center</b> <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">(650 N 350 W, American Fork)</a>' +
+            ' <b>for Lehi 41st &amp; Saratoga Springs 12 Wards</b> ' +
+            '<br />AND at the <b>American Fork 2nd Ward Chapel</b> <a href="https://goo.gl/maps/exbrjeL664Ft2DQJ6" target="_blank">(825 E 500 N St. American Fork)</a> <b>for American Fork 2nd &amp; Lehi 42nd Wards</b>.',
     },
 ];
 DATA.broadcastLinks = [
