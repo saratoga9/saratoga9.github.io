@@ -54,23 +54,18 @@ DATA.announcements = [
     //     'Ward Level,' +
     //     ' Lehi YSA Stake Building, <a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     // },
-    {
-        title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 3, 21).toUTCString(),
-        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
-            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions.<br /><br />' +
-            '<b>7:00pm - YSA Institute</b>' +
-            '<br />Stake Office,' +
-            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
-    },
-    {
-        title: '8:00am - Stake Primary Baptism',
-        date: new Date(2022, 3, 23).toUTCString(),
-        description: 'Ward Level,' +
-            ' Lehi YSA Stake Building, <a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
-    },
+    // {
+    //   title: '8:00am - Utah Food Bank Delivery',
+    //   date: new Date(2022, 3, 21).toUTCString(),
+    //   description:
+    //     'Saratoga Spring 12 Branch Parking Lot, ' +
+    //     '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+    //     '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+    //     'Instructions.<br /><br />' +
+    //     '<b>7:00pm - YSA Institute</b>' +
+    //     '<br />Stake Office,' +
+    //     ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
+    // },
     {
         title: 'FAST SUNDAY',
         date: new Date(2022, 3, 24).toUTCString(),
@@ -125,7 +120,7 @@ DATA.announcements = [
         title: '2:00pm - Stake Conference',
         date: new Date(2022, 4, 1).toUTCString(),
         description: 'Alpine Tabernacle <b>(In-Person)</b>, <a href="https://goo.gl/maps/E8sn2XYwZaakM3ym8" target="_blank">110 E Main St, American Fork</a>' +
-            ' <br /><b>(NOTE: No Zoom or Webcast option)</b> Stake Conference General Session will be in-person at the Alpine Tabernacle and <b>will be streamed/broadcasted live</b> at the <b>Stake Center</b> <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">(650 N 350 W, American Fork)</a>' +
+            ' <br /><b>(NOTE: No Zoom option)</b> Stake Conference General Session will be in-person at the Alpine Tabernacle and <b>will be streamed/broadcasted live</b> at the <b>Stake Center</b> <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">(650 N 350 W, American Fork)</a>' +
             ' <b>for Lehi 41st &amp; Saratoga Springs 12 Wards</b> ' +
             '<br />AND at the <b>American Fork 2nd Ward Chapel</b> <a href="https://goo.gl/maps/exbrjeL664Ft2DQJ6" target="_blank">(825 E 500 N St. American Fork)</a> <b>for American Fork 2nd &amp; Lehi 42nd Wards</b>.',
     },
@@ -145,7 +140,7 @@ DATA.broadcastLinks = [
     },
     //4th Sundays
     {
-        active: false,
+        active: true,
         label: 'Sunday 7:30am - Youth Council Meeting',
         link: 'https://zoom.us/j/94703693144?pwd=ZHdLZkQ4WHBsRXd4TUFiazJUSFByUT09',
         passcode: '821617',
@@ -285,8 +280,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Darren Olayan' },
-    pray2: { name: 'Sister Wyndee Olayan' },
+    pray1: { name: 'Brother Iona Teriipaia' },
+    pray2: { name: 'Sister Candice Kalamafoni' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -340,7 +335,7 @@ DATA.hymns = {
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/israel-israel-god-is-calling?lang=eng',
     },
     10: {
-        title: 'Fakamālō ki he ʻOtua',
+        title: 'Fakamālō ki he ʻOtua (We Thank Thee, O God, for a Prophet)',
         page: 10,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/we-thank-thee-o-god-for-a-prophet?lang=ton',
     },
@@ -583,6 +578,11 @@ DATA.hymns = {
         page: 131,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/more-holiness-give-me?lang=eng',
     },
+    132: {
+        title: 'Tokanga ki he Taimi (Improve the Shining Moments)',
+        page: 132,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/improve-the-shining-moments?lang=ton',
+    },
     136: {
         title: 'I Know That My Redeemer Lives',
         page: 136,
@@ -720,17 +720,17 @@ DATA.hymns = {
         page: 185,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/reverently-and-meekly-now?lang=eng',
     },
+    187: {
+        title: 'God Loved Us, So He Sent His Son',
+        page: 187,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/god-loved-us-so-he-sent-his-son?lang=eng',
+    },
     // 187: {
-    //   title: 'God Loved Us, So He Sent His Son',
+    //   title: 'Ofa ʻi ʻApi (Love at Home)',
     //   page: 187,
     //   link:
-    //     'https://www.churchofjesuschrist.org/music/library/hymns/god-loved-us-so-he-sent-his-son?lang=eng',
+    //     'https://www.churchofjesuschrist.org/study/manual/hymns/love-at-home?lang=ton',
     // },
-    187: {
-        title: 'Ofa ʻi ʻApi [Love at Home]',
-        page: 187,
-        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/love-at-home?lang=ton',
-    },
     190: {
         title: 'In Memory of the Crucified',
         page: 190,
@@ -1056,19 +1056,19 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 3, 17),
+        date: new Date(2022, 3, 24),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp,
-        conducting: DATA.people.bp,
+        presiding: DATA.people.bp1stc,
+        conducting: DATA.people.bp1stc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[200],
-        sacramentSong: DATA.hymns[191],
+        openingSong: DATA.hymns[10],
+        sacramentSong: DATA.hymns[187],
         // restSong: DATA.hymns[226],
-        testimonySunday: false,
+        testimonySunday: true,
         speakers: [
             {
                 person: { name: 'Musical Number | Pita Children - Jesus Has Risen' },
@@ -1120,14 +1120,8 @@ DATA.cheatSheet = {
                 index: 1,
                 beforeRestHymn: true,
             },
-            {
-                person: { name: 'Bishop Wayne Tarawhiti' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
         ],
-        closingSong: DATA.hymns[68],
+        closingSong: DATA.hymns[132],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
