@@ -970,18 +970,18 @@ DATA.releases = [
 // },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Brother Girish Rajaratnam',
-//   calling: 'Ward Mission Leader',
-// },
-// {
-//   name: 'Sister Felisha Funn',
-//   calling: 'Primary Worker (Nursery)',
-// },
-// {
-//   name: 'Brother Manase Tonga',
-//   calling: 'Temple & Family History Consultant',
-// },
+    {
+        name: 'Brother Kuli Malohifo’ou',
+        calling: ' Primary Worker (Valiant 8 Teacher)',
+    },
+    {
+        name: 'Brother Chase Rarick',
+        calling: 'Primary Worker (Valiant 8 Teacher)',
+    },
+    {
+        name: 'Brother Erick Funn',
+        calling: 'Sunday School 2nd Counselor',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
