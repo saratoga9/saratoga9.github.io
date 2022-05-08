@@ -729,7 +729,7 @@ DATA.hymns = {
     187: {
         title: 'Ofa ʻi ʻApi (Love at Home)',
         page: 187,
-        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/love-at-home?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/love-at-home?lang=ton',
     },
     190: {
         title: 'In Memory of the Crucified',
@@ -761,7 +761,7 @@ DATA.hymns = {
     193: {
         title: 'Fanau ae ‘a e ‘Otua (I am a child of God)',
         page: 193,
-        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/i-am-a-child-of-god?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-am-a-child-of-god?lang=ton',
     },
     194: {
         title: 'There Is a Green Hill Far Away',
