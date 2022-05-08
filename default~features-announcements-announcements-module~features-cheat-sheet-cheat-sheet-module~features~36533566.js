@@ -54,75 +54,28 @@ DATA.announcements = [
     //     'Ward Level,' +
     //     ' Lehi YSA Stake Building, <a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     // },
-    // {
-    //   title: '8:00am - Utah Food Bank Delivery',
-    //   date: new Date(2022, 3, 21).toUTCString(),
-    //   description:
-    //     'Saratoga Spring 12 Branch Parking Lot, ' +
-    //     '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-    //     '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-    //     'Instructions.<br /><br />' +
-    //     '<b>7:00pm - YSA Institute</b>' +
-    //     '<br />Stake Office,' +
-    //     ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
-    // },
     {
-        title: 'FAST SUNDAY',
-        date: new Date(2022, 3, 24).toUTCString(),
-        description: '<br /><br />',
-    },
-    {
-        title: 'OREM UTAH 2ND STAKE CONFERENCE OUTLINE OF EVENTS',
-        date: '',
-        description: '',
-    },
-    {
-        title: 'Family Home Evening',
-        date: new Date(2022, 3, 25).toUTCString(),
-        description: 'Family Home Evening in individual homes with the focus on (<a href="https://www.churchofjesuschrist.org/study/scriptures/the-living-christ-the-testimony-of-the-apostles/the-living-christ-the-testimony-of-the-apostles?lang=eng" target="_blank">The Living Christ</a>)' +
-            ' and (<a href="https://www.churchofjesuschrist.org/study/scriptures/the-restoration-of-the-fulness-of-the-gospel-of-jesus-christ/a-bicentennial-proclamation-to-the-world?lang=eng" target="_blank">The Restoration of the Fulness of the Gospel of Jesus Christ</a>)',
-    },
-    {
-        title: '8:15pm - Temple Night',
-        date: new Date(2022, 3, 26).toUTCString(),
-        description: 'Stake Temple Session at Mount Timpanogos Temple',
-    },
-    {
-        title: '6:30pm - Youth Fireside',
-        date: new Date(2022, 3, 27).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>',
-    },
-    {
-        title: '',
-        date: new Date(2022, 3, 28).toUTCString(),
-        description: '<b>8:00am - Utah Food Bank Delivery</b><br />' +
-            'Saratoga Spring 12 Branch Parking Lot, ' +
+        title: '8:00am - Utah Food Bank Delivery',
+        date: new Date(2022, 4, 12).toUTCString(),
+        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions. <br /><br />' +
-            '<b>7:00pm - YSA FHE with Stake Presidency</b>' +
-            '<br />Stake Center, <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>',
+            'Instructions.<br /><br />' +
+            '<b>7:00pm - YSA Institute</b>' +
+            '<br />Stake Office,' +
+            ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
     },
     {
-        title: 'Stake Service Projects by Wards',
-        date: new Date(2022, 3, 29).toUTCString(),
-        description: 'Patriot Park Baseball Field Cleanup. <br /><a href="https://www.facebook.com/photo/?fbid=7802051889805682&set=gm.705331947172360" target="_blank">Click here for more info!</a>',
+        title: '5:00pm - Youth FSY Kick Off &amp; Seminary Dance',
+        date: new Date(2022, 4, 14).toUTCString(),
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 N 350 W American Fork</a><br /><br />',
     },
     {
-        title: '3:00pm - Leadership Meeting',
-        date: new Date(2022, 3, 30).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>.' +
-            '<br />To attend Ward and stake councils, counselors, secretaries, and stake patriarch(s). Youth leaders (12 and older).<br /><br />' +
-            '<b>6:00pm - General Adult Session</b>' +
-            '<br />Stake Center, <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">650 N 350 W, American Fork</a>',
-    },
-    {
-        title: '2:00pm - Stake Conference',
-        date: new Date(2022, 4, 1).toUTCString(),
-        description: 'Alpine Tabernacle <b>(In-Person)</b>, <a href="https://goo.gl/maps/E8sn2XYwZaakM3ym8" target="_blank">110 E Main St, American Fork</a>' +
-            ' <br /><b>(NOTE: No Zoom option)</b> Stake Conference General Session will be in-person at the Alpine Tabernacle and <b>will be streamed/broadcasted live</b> at the <b>Stake Center</b> <a href="https://goo.gl/maps/WTogLbh8kxoK4Yxz5" target="_blank">(650 N 350 W, American Fork)</a>' +
-            ' <b>for Lehi 41st &amp; Saratoga Springs 12 Wards</b> ' +
-            '<br />AND at the <b>American Fork 2nd Ward Chapel</b> <a href="https://goo.gl/maps/exbrjeL664Ft2DQJ6" target="_blank">(825 E 500 N St. American Fork)</a> <b>for American Fork 2nd &amp; Lehi 42nd Wards</b>.',
+        title: '6:00pm - Worldwide Devotional for Young Adults with President Russell M. Nelson and Sister Wendy W. Nelson',
+        date: new Date(2022, 4, 15).toUTCString(),
+        description: 'To watch the Live Broadcast, <a href="https://www.churchofjesuschrist.org/broadcasts?lang=eng&video=78597422859626500340&mode=watch" target="_blank">click here!</a>' +
+            ' Or go to <a href="https://www.churchofjesuschrist.org/broadcasts?lang=eng&video=78597422859626500340&mode=watch" target="_blank">Youtube</a>' +
+            '<br /> For broadcast details, including streaming, available languages, and closed captioning for the hearing impaired, <a href="https://newsroom.churchofjesuschrist.org/multimedia/file/18912_eng.pdf" target="_blank">click here!</a> <br /><br />',
     },
 ];
 DATA.broadcastLinks = [
