@@ -55,8 +55,15 @@ DATA.announcements = [
     //     ' Lehi YSA Stake Building, <a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
     // },
     {
+        title: '6:00pm - Worldwide Devotional for Young Adults with President Russell M. Nelson and Sister Wendy W. Nelson',
+        date: new Date(2022, 4, 15).toUTCString(),
+        description: 'To watch the Live Broadcast, <a href="https://www.churchofjesuschrist.org/broadcasts?lang=eng&video=78597422859626500340&mode=watch" target="_blank">click here!</a>' +
+            ' Or go to <a href="https://www.churchofjesuschrist.org/broadcasts?lang=eng&video=78597422859626500340&mode=watch" target="_blank">Youtube</a>' +
+            '<br /> For broadcast details, including streaming, available languages, and closed captioning for the hearing impaired, <a href="https://newsroom.churchofjesuschrist.org/multimedia/file/18912_eng.pdf" target="_blank">click here!</a> <br /><br />',
+    },
+    {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 4, 12).toUTCString(),
+        date: new Date(2022, 4, 19).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -64,18 +71,6 @@ DATA.announcements = [
             '<b>7:00pm - YSA Institute</b>' +
             '<br />Stake Office,' +
             ' <a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a><br /><br />',
-    },
-    {
-        title: '5:00pm - Youth FSY Kick Off &amp; Seminary Dance',
-        date: new Date(2022, 4, 14).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 N 350 W American Fork</a><br /><br />',
-    },
-    {
-        title: '6:00pm - Worldwide Devotional for Young Adults with President Russell M. Nelson and Sister Wendy W. Nelson',
-        date: new Date(2022, 4, 15).toUTCString(),
-        description: 'To watch the Live Broadcast, <a href="https://www.churchofjesuschrist.org/broadcasts?lang=eng&video=78597422859626500340&mode=watch" target="_blank">click here!</a>' +
-            ' Or go to <a href="https://www.churchofjesuschrist.org/broadcasts?lang=eng&video=78597422859626500340&mode=watch" target="_blank">Youtube</a>' +
-            '<br /> For broadcast details, including streaming, available languages, and closed captioning for the hearing impaired, <a href="https://newsroom.churchofjesuschrist.org/multimedia/file/18912_eng.pdf" target="_blank">click here!</a> <br /><br />',
     },
 ];
 DATA.broadcastLinks = [
@@ -85,7 +80,7 @@ DATA.broadcastLinks = [
     //NOTE: if active=true, it means the info will show on site
     //1st & 3rd Sundays
     {
-        active: false,
+        active: true,
         label: 'Sunday 7:00am - Ward Council Meeting',
         link: 'https://zoom.us/j/93117919917?pwd=OTNWLy9qMzA0SHZpQ3VYNzlwQ3prQT09',
         passcode: '103839',
@@ -233,8 +228,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Salome Pita' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister ʻOfa Fifita' },
-    pray2: { name: 'Brother Kaleo Teriipaia' },
+    pray1: { name: 'Sister Felisha Funn' },
+    pray2: { name: 'Brother Paul Hola' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -586,6 +581,11 @@ DATA.hymns = {
         page: 153,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/called-to-serve?lang=ton',
     },
+    155: {
+        title: 'ʻE ʻAonga ki Māmani ha Kau Ngāue Lelei (Put Your Shoulder to the Wheel)',
+        page: 155,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/put-your-shoulder-to-the-wheel?lang=ton',
+    },
     160: {
         title: 'Sīsū ne Ne Huhuʻi',
         page: 160,
@@ -905,35 +905,15 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: 'Brother Isi & Sister Shanley Kaufusi ',
-//   calling: 'Primary Workers',
-// },
-// {
-//   name: 'Brother Algie Brown',
-//   calling: 'Priest Quorum Advisor',
-// },
-// {
-//   name: 'Brother Makoni Uluilakepa',
-//   calling: 'Deacon Quorum Advisor',
-// },
-// {
-//   name: 'Sister Miriam Teriipaia',
-//   calling: 'Primary Worker',
-// },
+    {
+        name: 'Brother Kaleo Teriipaia ',
+        calling: 'Sunday School Second Counselor',
+    },
 ];
 DATA.sustaining = [
     {
-        name: 'Brother Kuli Malohifo’ou',
-        calling: ' Primary Worker (Valiant 8 Teacher)',
-    },
-    {
-        name: 'Brother Chase Rarick',
-        calling: 'Primary Worker (Valiant 8 Teacher)',
-    },
-    {
-        name: 'Brother Erick Funn',
-        calling: 'Sunday School 2nd Counselor',
+        name: 'Brother Adre Ngatikaura',
+        calling: 'Deacons Quorum Advisor',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [
@@ -957,10 +937,17 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: 'Lavaka, Fetuʻufoʻou' },
-    { name: 'Lavaka, ʻAnau' },
-    { name: 'Lavaka, Hopoate' },
-    { name: 'Lavaka, Fangafitu Tapaita Helen' },
+// { name: 'Lavaka, Fetuʻufoʻou' },
+// { name: 'Lavaka, ʻAnau' },
+// { name: 'Lavaka, Hopoate' },
+// { name: 'Lavaka, Fangafitu Tapaita Helen' },
+// { name: 'Mary Tonata' },
+// { name: 'Lorenzo Raymond Mausia' },
+// { name: 'David Fayol' },
+// { name: 'Theyanna Fayol' },
+// { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
+// { name: 'Thierry Naʻaliʻi Fayol' },
+// { name: 'Remi NaʻKila Fayol' },
 ];
 DATA.baptisms = [
 //{ name: 'Anika Amel Desiree Sika' },
@@ -1002,17 +989,17 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 4, 8),
+        date: new Date(2022, 4, 15),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp2ndc,
-        chorister: DATA.people.chorister2,
-        organist: DATA.people.organist2,
+        conducting: DATA.people.bp1stc,
+        chorister: DATA.people.chorister1,
+        organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[193],
-        //sacramentSong: DATA.hymns[193],
+        openingSong: DATA.hymns[136],
+        sacramentSong: DATA.hymns[99],
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
@@ -1023,33 +1010,33 @@ DATA.cheatSheet = {
             //   beforeRestHymn: true,
             // } as Speaker,
             {
-                person: { name: 'Brother Colin Martin' },
+                person: { name: 'Brother Ryan Toki' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Allana Teriipaia ' },
+                person: { name: 'Sister Ana Tuiloma' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
+            // {
+            //   person: {
+            //     name: 'Musical Number | Primary & Youth',
+            //   },
+            //   role: 'musical',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
             {
-                person: {
-                    name: 'Musical Number | Primary & Youth',
-                },
-                role: 'musical',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Gabe Toki' },
+                person: { name: 'Brother Travis Tuiloma' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[187],
+        closingSong: DATA.hymns[155],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
