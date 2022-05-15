@@ -937,17 +937,8 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-// { name: 'Lavaka, Fetuʻufoʻou' },
-// { name: 'Lavaka, ʻAnau' },
-// { name: 'Lavaka, Hopoate' },
-// { name: 'Lavaka, Fangafitu Tapaita Helen' },
-// { name: 'Mary Tonata' },
-// { name: 'Lorenzo Raymond Mausia' },
-// { name: 'David Fayol' },
-// { name: 'Theyanna Fayol' },
-// { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
-// { name: 'Thierry Naʻaliʻi Fayol' },
-// { name: 'Remi NaʻKila Fayol' },
+    { name: 'Zayden Snyder' },
+    { name: 'Monika Jayde Balazategui Snyder' },
 ];
 DATA.baptisms = [
 //{ name: 'Anika Amel Desiree Sika' },
