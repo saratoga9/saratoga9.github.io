@@ -229,7 +229,7 @@ DATA.people = {
     organist2: { name: 'Sister Salome Pita' },
     tbd: { name: 'TBD' },
     pray1: { name: 'Sister Felisha Funn' },
-    pray2: { name: 'Brother Paul Hola' },
+    pray2: { name: 'Brother Andrew Simeona' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
