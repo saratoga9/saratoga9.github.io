@@ -29,13 +29,8 @@ DATA.announcements = [
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     {
-        title: '6:30pm - Seminary Graduation',
-        date: new Date(2022, 4, 22).toUTCString(),
-        description: 'Stake Center,<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>',
-    },
-    {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 4, 26).toUTCString(),
+        date: new Date(2021, 5, 2).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -49,6 +44,13 @@ DATA.announcements = [
         date: new Date(2022, 5, 4).toUTCString(),
         description: 'Ward Level,' +
             'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
+    },
+    {
+        title: '7:00am - Stake Missionary &amp; Stake Temple &amp; Family History Correlation Meetings,',
+        date: new Date(2022, 5, 12).toUTCString(),
+        description: 'Stake Center,<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>' +
+            '<br /><br /><b>6:00pm - Teaching in the Savior’s Way Broadcast with Elder Dieter F. Uchtdorf,</b>' +
+            '<br />To watch the broadcast, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
     },
 ];
 DATA.broadcastLinks = [
@@ -66,7 +68,7 @@ DATA.broadcastLinks = [
     },
     //4th Sundays
     {
-        active: true,
+        active: false,
         label: 'Sunday 7:30am - Youth Council Meeting',
         link: 'https://zoom.us/j/94703693144?pwd=ZHdLZkQ4WHBsRXd4TUFiazJUSFByUT09',
         passcode: '821617',
@@ -206,8 +208,8 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Stephanie Singer' },
-    pray2: { name: 'Brother Chase Rarick' },
+    pray1: { name: 'Sister Kaycee Kinikini' },
+    pray2: { name: 'Brother David Fayol' },
     hc: { name: 'Brother Vakameilalo Tuʻifua' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -433,17 +435,17 @@ DATA.hymns = {
         page: 96,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/he-who-was-crucified?lang=ton',
     },
+    97: {
+        title: 'Tau Fakamālō Kia Sīsū (Weʻll Sing All Hail to Jesusʻ Name)',
+        page: 97,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/well-sing-all-hail-to-jesus-name?lang=ton',
+    },
     // 97: {
-    //   title: 'Tau Fakamālō Kia Sīsū',
+    //   title: 'Lead, Kindly Light',
     //   page: 97,
     //   link:
-    //     'https://www.churchofjesuschrist.org/study/manual/hymns/well-sing-all-hail-to-jesus-name?lang=ton',
+    //     'https://www.churchofjesuschrist.org/music/library/hymns/lead-kindly-light?lang=eng',
     // },
-    97: {
-        title: 'Lead, Kindly Light',
-        page: 97,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/lead-kindly-light?lang=eng',
-    },
     98: {
         title: 'I Need Thee Every Hour',
         page: 98,
@@ -493,6 +495,11 @@ DATA.hymns = {
         title: 'Kuo Lahi Hoku Tapuaki',
         page: 126,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/because-i-have-been-given-much?lang=ton',
+    },
+    127: {
+        title: 'ʻEiki, Teu Muimui Atu (Lord, I Would Follow Thee)',
+        page: 127,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/lord-i-would-follow-thee?lang=ton',
     },
     129: {
         title: 'Where Can I Turn for Peace?',
@@ -888,24 +895,36 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-    {
-        name: 'Sister Kristy Raass',
-        calling: 'Young Women Specialist',
-    },
+// {
+//   name: 'Sister Kristy Raass',
+//   calling: 'Young Women Specialist',
+// },
+// {
+//   name: 'Brother Algie Brown',
+//   calling: 'Priest Quorum Advisor',
+// },
+// {
+//   name: 'Brother Makoni Uluilakepa',
+//   calling: 'Deacon Quorum Advisor',
+// },
+// {
+//   name: 'Sister Miriam Teriipaia',
+//   calling: 'Primary Worker',
+// },
 ];
 DATA.sustaining = [
-    {
-        name: 'Brother Braden and Sister Meghan Funn',
-        calling: 'Sunday School Teachers',
-    },
-    {
-        name: 'Sister Mariah Pope',
-        calling: 'Young Women Advisor',
-    },
-    {
-        name: 'Sister Summer Hola',
-        calling: 'Young Women Advisor',
-    },
+// {
+//   name: 'Brother Braden and Sister Meghan Funn',
+//   calling: 'Sunday School Teachers',
+// },
+// {
+//   name: 'Sister Mariah Pope',
+//   calling: 'Young Women Advisor',
+// },
+// {
+//   name: 'Sister Summer Hola',
+//   calling: 'Young Women Advisor',
+// },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
@@ -928,17 +947,11 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-// { name: 'Siotame Sisitoutai Likio' },
-// { name: 'Finau Tuiolalotonga Tonata ' },
-// { name: 'Viliami Kata Tonata Jr' },
-// { name: 'Viliami Tonata' },
-// { name: 'Mary Tonata' },
-// { name: 'Lorenzo Raymond Mausia' },
-// { name: 'David Fayol' },
-// { name: 'Theyanna Fayol' },
-// { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
-// { name: 'Thierry Naʻaliʻi Fayol' },
-// { name: 'Remi NaʻKila Fayol' },
+    { name: 'Raymond Terrell' },
+    { name: 'Holly Terrell' },
+    { name: 'Manoa Scott Terrell' },
+    { name: 'LaVieve Falekihetoa Vahaʻi Terrell' },
+    { name: 'Manase Ervin Terrell' },
 ];
 DATA.baptisms = [
 //{ name: 'Anika Amel Desiree Sika' },
@@ -980,7 +993,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 4, 22),
+        date: new Date(2022, 4, 29),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
@@ -989,25 +1002,31 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[243],
-        sacramentSong: DATA.hymns[105],
+        openingSong: DATA.hymns[219],
+        sacramentSong: DATA.hymns[97],
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Janelle Prescott' },
+                person: { name: 'Brother Carlos Uyema' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Alipate Prescott' },
+                person: { name: 'Sister Candice Kalamafoni' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Brother Paul Hola' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[277],
+        closingSong: DATA.hymns[127],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
