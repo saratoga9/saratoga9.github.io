@@ -30,7 +30,7 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2021, 5, 2).toUTCString(),
+        date: new Date(2022, 5, 9).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -40,10 +40,12 @@ DATA.announcements = [
             '<a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>/Via Zoom',
     },
     {
-        title: '8:00am - Stake Primary Baptism',
-        date: new Date(2022, 5, 4).toUTCString(),
-        description: 'Ward Level,' +
-            'Lehi YSA Stake Building,<a href="https://goo.gl/maps/pgs9DRn6sPpSEpcX9" target="_blank">1550 South 1100 West, Lehi</a><br /><br />',
+        title: '7:00am, Stake Missionary & Stake Temple & Family History Correlation Meetings',
+        date: new Date(2022, 5, 12).toUTCString(),
+        description: 'Stake Center, 680 N 350 W American Fork<br /><br />' +
+            '<b>6:00pm - Teaching in the Savior’s Way</b>' +
+            '<br />Broadcast with Elder Dieter F. Uchtdorf' +
+            '<a href=" http://broadcasts.churchofjesuschrist.org/',
     },
     {
         title: '7:00am - Stake Missionary &amp; Stake Temple &amp; Family History Correlation Meetings,',
@@ -208,9 +210,9 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Kaycee Kinikini' },
-    pray2: { name: 'Brother David Fayol' },
-    hc: { name: 'Brother Vakameilalo Tuʻifua' },
+    pray1: { name: 'Brother Raymond Terrell' },
+    pray2: { name: 'Brother Travis Tuiloma' },
+    hc: { name: '(Stake Visitor)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
     wc: { name: 'Brother Adam Chase' },
@@ -895,22 +897,14 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: 'Sister Kristy Raass',
-//   calling: 'Young Women Specialist',
-// },
-// {
-//   name: 'Brother Algie Brown',
-//   calling: 'Priest Quorum Advisor',
-// },
-// {
-//   name: 'Brother Makoni Uluilakepa',
-//   calling: 'Deacon Quorum Advisor',
-// },
-// {
-//   name: 'Sister Miriam Teriipaia',
-//   calling: 'Primary Worker',
-// },
+    {
+        name: 'Brother Christopher Bell',
+        calling: 'Sunday School Teacher',
+    },
+    {
+        name: 'Sister Nancy Bell',
+        calling: 'Sunday School Teacher',
+    },
 ];
 DATA.sustaining = [
 // {
@@ -947,11 +941,12 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: 'Raymond Terrell' },
-    { name: 'Holly Terrell' },
-    { name: 'Manoa Scott Terrell' },
-    { name: 'LaVieve Falekihetoa Vahaʻi Terrell' },
-    { name: 'Manase Ervin Terrell' },
+    { name: 'Julio Cesar Vasquez' },
+    { name: 'Lilie Ydalia Vasquez' },
+    { name: 'Robert Luis Vasquez' },
+    { name: 'Lilie Ydalia Vasquez' },
+    { name: 'Dominic Robinson Vasquez' },
+    { name: 'Isabella Jane Vasquez' },
 ];
 DATA.baptisms = [
 //{ name: 'Anika Amel Desiree Sika' },
@@ -993,19 +988,19 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 4, 29),
+        date: new Date(2022, 5, 5),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp1stc,
+        conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[219],
-        sacramentSong: DATA.hymns[97],
+        openingSong: DATA.hymns[241],
+        sacramentSong: DATA.hymns[102],
         // restSong: DATA.hymns[226],
-        testimonySunday: false,
+        testimonySunday: true,
         speakers: [
             {
                 person: { name: 'Brother Carlos Uyema' },
@@ -1026,7 +1021,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[127],
+        closingSong: DATA.hymns[4],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
