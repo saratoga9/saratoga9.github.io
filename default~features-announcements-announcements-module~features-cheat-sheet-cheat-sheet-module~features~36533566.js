@@ -40,17 +40,9 @@ DATA.announcements = [
             '<a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>/Via Zoom',
     },
     {
-        title: '7:00am, Stake Missionary & Stake Temple & Family History Correlation Meetings',
+        title: '7:00am - Stake Missionary & Stake Temple & Family History Correlation Meetings',
         date: new Date(2022, 5, 12).toUTCString(),
-        description: 'Stake Center, 680 N 350 W American Fork<br /><br />' +
-            '<b>6:00pm - Teaching in the Savior’s Way</b>' +
-            '<br />Broadcast with Elder Dieter F. Uchtdorf' +
-            '<a href=" http://broadcasts.churchofjesuschrist.org/',
-    },
-    {
-        title: '7:00am - Stake Missionary &amp; Stake Temple &amp; Family History Correlation Meetings,',
-        date: new Date(2022, 5, 12).toUTCString(),
-        description: 'Stake Center,<a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>' +
+        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>' +
             '<br /><br /><b>6:00pm - Teaching in the Savior’s Way Broadcast with Elder Dieter F. Uchtdorf,</b>' +
             '<br />To watch the broadcast, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
     },
