@@ -30,7 +30,7 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 5, 9).toUTCString(),
+        date: new Date(2022, 5, 16).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -38,13 +38,6 @@ DATA.announcements = [
             '<b>7:00pm - YSA Institute</b>' +
             '<br />Stake Office,' +
             '<a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>/Via Zoom',
-    },
-    {
-        title: '7:00am - Stake Missionary & Stake Temple & Family History Correlation Meetings',
-        date: new Date(2022, 5, 12).toUTCString(),
-        description: 'Stake Center, <a href="https://goo.gl/maps/d7um7WS44iAtCqMV9" target="_blank">680 North 350 West, American Fork</a>' +
-            '<br /><br /><b>6:00pm - Teaching in the Savior’s Way Broadcast with Elder Dieter F. Uchtdorf,</b>' +
-            '<br />To watch the broadcast, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/learn/ways-to-watch-general-conference?lang=eng" target="_blank">click here!</a>',
     },
 ];
 DATA.broadcastLinks = [
