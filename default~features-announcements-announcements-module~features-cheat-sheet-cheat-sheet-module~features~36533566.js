@@ -54,7 +54,7 @@ DATA.broadcastLinks = [
     //NOTE: if active=true, it means the info will show on site
     //1st & 3rd Sundays
     {
-        active: false,
+        active: true,
         label: 'Sunday 7:00am - Ward Council Meeting',
         link: 'https://zoom.us/j/93117919917?pwd=OTNWLy9qMzA0SHZpQ3VYNzlwQ3prQT09',
         passcode: '103839',
@@ -76,7 +76,7 @@ DATA.broadcastLinks = [
         meetingId: '',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 09:00am - Sacrament Meeting',
         link: 'https://zoom.us/j/98949390101?pwd=TkJUT1FGWng5M2tka2daQTV6N2RCQT09',
         passcode: '914355',
@@ -202,9 +202,9 @@ DATA.people = {
     organist1: { name: 'Sister Keili Malohifoʻou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Raymond Terrell' },
-    pray2: { name: 'Brother Travis Tuiloma' },
-    hc: { name: '(Stake Visitor)' },
+    pray1: { name: 'Sister Sadie Vaenuku' },
+    pray2: { name: 'Brother Stan Raass' },
+    hc: { name: '(Vakameilalo Tuifua)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
     wc: { name: 'Brother Adam Chase' },
@@ -890,27 +890,83 @@ DATA.hymns = {
 };
 DATA.releases = [
     {
-        name: 'Brother Christopher Bell',
+        name: 'Sister Brooke Tuifua',
+        calling: 'Primary President',
+    },
+    {
+        name: 'Sister Stephanie Singer',
         calling: 'Sunday School Teacher',
     },
     {
-        name: 'Sister Nancy Bell',
+        name: 'Sister Jennifer Tuineau',
+        calling: '2nd Counselor Primary Presidency',
+    },
+    {
+        name: 'Sister Nau Simeona',
+        calling: 'Secretary Primary Presidency',
+    },
+    {
+        name: 'Sister Jill Chase',
+        calling: 'Primary Worker',
+    },
+    {
+        name: 'Brother Alipate Prescott',
+        calling: 'Sunday School President',
+    },
+    {
+        name: 'Brother Stan Raas',
+        calling: '1st Counselor Sunday School Presidency',
+    },
+    {
+        name: 'Brother Eric Funn',
+        calling: '2nd Counselor Sunday School Presidency',
+    },
+    {
+        name: 'Brother Esafe Mile',
+        calling: 'Secretary Sunday School Presidency',
+    },
+    {
+        name: 'Brother Joe Hafoka',
+        calling: 'Sunday School Teacher',
+    },
+    {
+        name: 'Sister Shelli Hafoka',
         calling: 'Sunday School Teacher',
     },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Brother Braden and Sister Meghan Funn',
-//   calling: 'Sunday School Teachers',
-// },
-// {
-//   name: 'Sister Mariah Pope',
-//   calling: 'Young Women Advisor',
-// },
-// {
-//   name: 'Sister Summer Hola',
-//   calling: 'Young Women Advisor',
-// },
+    {
+        name: 'Sister Stephanie Singer',
+        calling: 'Primary President',
+    },
+    {
+        name: 'Sister Jennifer Tuineau',
+        calling: '1st Counselor Primary Presidency',
+    },
+    {
+        name: 'Sister Jill Chase',
+        calling: '2nd Counselor Primary Presidency',
+    },
+    {
+        name: 'Sister Jennifer Tuineau',
+        calling: 'Secretary Primary Presidency',
+    },
+    {
+        name: 'Sister Jena Vasquez',
+        calling: 'Primary Worker',
+    },
+    {
+        name: 'Brother Eric Funn',
+        calling: 'Sunday School President',
+    },
+    {
+        name: 'Brother Raymond Terrell',
+        calling: 'Sunday School Teacher',
+    },
+    {
+        name: 'Sister Holly Terrell',
+        calling: 'Sunday School Teacher',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
@@ -933,12 +989,17 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: 'Julio Cesar Vasquez' },
-    { name: 'Lilie Ydalia Vasquez' },
-    { name: 'Robert Luis Vasquez' },
-    { name: 'Lilie Ydalia Vasquez' },
-    { name: 'Dominic Robinson Vasquez' },
-    { name: 'Isabella Jane Vasquez' },
+// { name: 'Julio Cesar Vasquez' },
+// { name: 'Lilie Ydalia Vasquez' },
+// { name: 'Robert Luis Vasquez' },
+// { name: 'Lilie Ydalia Vasquez' },
+// { name: 'Dominic Robinson Vasquez' },
+// { name: 'Isabella Jane Vasquez' },
+// { name: 'David Fayol' },
+// { name: 'Theyanna Fayol' },
+// { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
+// { name: 'Thierry Naʻaliʻi Fayol' },
+// { name: 'Remi NaʻKila Fayol' },
 ];
 DATA.baptisms = [
 //{ name: 'Anika Amel Desiree Sika' },
@@ -980,7 +1041,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 5, 5),
+        date: new Date(2022, 5, 12),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
@@ -989,31 +1050,37 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[241],
-        sacramentSong: DATA.hymns[102],
+        openingSong: DATA.hymns[270],
+        sacramentSong: DATA.hymns[180],
         // restSong: DATA.hymns[226],
-        testimonySunday: true,
+        testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Brother Carlos Uyema' },
+                person: { name: 'Sister Hefisipa Tauteoli' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Candice Kalamafoni' },
+                person: { name: 'Sister Valeti Tauteoli' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Paul Hola' },
+                person: { name: 'Elder DuBose' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Elder Kim' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[4],
+        closingSong: DATA.hymns[146],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
