@@ -887,26 +887,26 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-    {
-        name: 'Sister Brooke Tuifua',
-        calling: 'Primary President',
-    },
-    {
-        name: 'Sister Stephanie Singer',
-        calling: 'Sunday School Teacher',
-    },
-    {
-        name: 'Sister Jennifer Tuineau',
-        calling: '2nd Counselor Primary Presidency',
-    },
-    {
-        name: 'Sister Nau Simeona',
-        calling: 'Secretary Primary Presidency',
-    },
-    {
-        name: 'Sister Jill Chase',
-        calling: 'Primary Worker',
-    },
+    // {
+    //   name: '',
+    //   calling: '',
+    // },
+    // {
+    //   name: '',
+    //   calling: '',
+    // },
+    // {
+    //   name: '',
+    //   calling: '',
+    // },
+    // {
+    //   name: '',
+    //   calling: '',
+    // },
+    // {
+    //   name: '',
+    //   calling: '',
+    // },
     {
         name: 'Brother Alipate Prescott',
         calling: 'Sunday School President',
@@ -923,36 +923,28 @@ DATA.releases = [
         name: 'Brother Esafe Mile',
         calling: 'Secretary Sunday School Presidency',
     },
-    {
-        name: 'Brother Joe Hafoka',
-        calling: 'Sunday School Teacher',
-    },
-    {
-        name: 'Sister Shelli Hafoka',
-        calling: 'Sunday School Teacher',
-    },
 ];
 DATA.sustaining = [
-    {
-        name: 'Sister Stephanie Singer',
-        calling: 'Primary President',
-    },
-    {
-        name: 'Sister Jennifer Tuineau',
-        calling: '1st Counselor Primary Presidency',
-    },
-    {
-        name: 'Sister Jill Chase',
-        calling: '2nd Counselor Primary Presidency',
-    },
-    {
-        name: 'Sister Jennifer Tuineau',
-        calling: 'Secretary Primary Presidency',
-    },
-    {
-        name: 'Sister Jena Vasquez',
-        calling: 'Primary Worker',
-    },
+    // {
+    //   name: '',
+    //   calling: '',
+    // },
+    // {
+    //   name: '',
+    //   calling: '',
+    // },
+    // {
+    //   name: '',
+    //   calling: '',
+    // },
+    // {
+    //   name: '',
+    //   calling: '',
+    // },
+    // {
+    //   name: '',
+    //   calling: '',
+    // },
     {
         name: 'Brother Eric Funn',
         calling: 'Sunday School President',
@@ -1054,19 +1046,19 @@ DATA.cheatSheet = {
         testimonySunday: false,
         speakers: [
             {
+                person: { name: 'Kelly Ongoongotau' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
                 person: { name: 'Primary- Musical Number' },
                 role: 'musical',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'TBD' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'TBD' },
+                person: { name: 'Heivaha Ongoongotau' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
