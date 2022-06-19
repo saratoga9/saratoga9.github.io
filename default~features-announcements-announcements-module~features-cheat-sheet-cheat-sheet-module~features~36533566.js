@@ -1052,7 +1052,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Primary- Musical Number' },
+                person: { name: 'Primary with Ana Tuiloma' },
                 role: 'musical',
                 index: 1,
                 beforeRestHymn: true,
