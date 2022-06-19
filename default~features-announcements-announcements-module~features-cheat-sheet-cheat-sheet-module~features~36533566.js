@@ -1046,7 +1046,7 @@ DATA.cheatSheet = {
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Kelly Ongoongotau' },
+                person: { name: 'Sister Kelly Ongoongotau' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
@@ -1058,7 +1058,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Heivaha Ongoongotau' },
+                person: { name: 'Brother Heivaha Ongoongotau' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
