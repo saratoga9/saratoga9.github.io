@@ -30,7 +30,7 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 5, 16).toUTCString(),
+        date: new Date(2022, 5, 23).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
