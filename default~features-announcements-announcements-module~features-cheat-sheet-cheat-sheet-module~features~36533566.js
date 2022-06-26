@@ -30,7 +30,7 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 5, 23).toUTCString(),
+        date: new Date(2022, 5, 30).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -55,7 +55,7 @@ DATA.broadcastLinks = [
     },
     //4th Sundays
     {
-        active: false,
+        active: true,
         label: 'Sunday 7:30am - Youth Council Meeting',
         link: 'https://zoom.us/j/94703693144?pwd=ZHdLZkQ4WHBsRXd4TUFiazJUSFByUT09',
         passcode: '821617',
@@ -190,13 +190,13 @@ DATA.broadcastLinks = [
 ];
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
-    chorister1: { name: 'Sister Salome Pita' },
+    chorister1: { name: 'Brother Logan MacKay' },
     chorister2: { name: 'Brother Meke Finau' },
-    organist1: { name: 'Sister Keili Malohifoʻou' },
+    organist1: { name: 'Sister Salome Pita' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Jena Vasquez' },
-    pray2: { name: 'Brother Raymond Terrell' },
+    pray1: { name: 'By Invitation' },
+    pray2: { name: 'Sister Sue Unutoa' },
     hc: { name: '(Vakameilalo Tuifua)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -950,6 +950,14 @@ DATA.sustaining = [
         calling: 'Sunday School President',
     },
     {
+        name: 'Brother Julio Vasquez',
+        calling: 'First Counselor SS Presidency',
+    },
+    {
+        name: 'Brother Malosi Asher',
+        calling: 'Second Counnselor SS Presidency',
+    },
+    {
         name: 'Brother Raymond Terrell',
         calling: 'Sunday School Teacher',
     },
@@ -1031,7 +1039,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 5, 19),
+        date: new Date(2022, 5, 26),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
@@ -1040,31 +1048,43 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[84],
-        sacramentSong: DATA.hymns[170],
+        openingSong: DATA.hymns[131],
+        sacramentSong: DATA.hymns[92],
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Kelly Ongoongotau' },
+                person: { name: 'Brother Fulilangi Hola' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            // {
+            //   person: { name: 'Primary with Ana Tuiloma' },
+            //   role: 'musical',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
+            {
+                person: { name: 'Brother Makoni Uluilakepa' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Primary with Ana Tuiloma' },
-                role: 'musical',
+                person: { name: 'Sister Teuila Kaimikaua' },
+                role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Heivaha Ongoongotau' },
+                person: { name: 'Brother Wilbert Kaimikaua' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[185],
+        closingSong: DATA.hymns[48],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
