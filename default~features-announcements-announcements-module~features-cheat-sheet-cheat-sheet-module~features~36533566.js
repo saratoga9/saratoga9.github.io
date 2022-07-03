@@ -190,13 +190,13 @@ DATA.broadcastLinks = [
 ];
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
-    chorister1: { name: 'Brother Logan MacKay' },
+    chorister1: { name: 'Sister Salome Pita' },
     chorister2: { name: 'Brother Meke Finau' },
-    organist1: { name: 'Sister Salome Pita' },
+    organist1: { name: 'Sister Keili Malohifoou' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'By Invitation' },
-    pray2: { name: 'Sister Sue Unutoa' },
+    pray1: { name: 'Sister Allana Teriipaia' },
+    pray2: { name: 'Sister Lesieli Halafuka' },
     hc: { name: '(Vakameilalo Tuifua)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -396,10 +396,10 @@ DATA.hymns = {
         page: 85,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/how-firm-a-foundation?lang=eng',
     },
-    86: {
-        title: 'Afe Mai Kuo Poʻuli',
-        page: 86,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/abide-with-me-tis-eventide?lang=ton',
+    88: {
+        title: 'O ka Tau Tutuku Hiva Fiefia',
+        page: 88,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/sing-we-now-at-parting?lang=ton',
     },
     90: {
         title: 'Sīsū Homau Huhuʻi',
@@ -605,9 +605,9 @@ DATA.hymns = {
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/while-of-these-emblems-we-partake-aeolian?lang=eng',
     },
     175: {
-        title: 'Siʻoto ʻOfa Sāpate',
+        title: 'O God The Enternal Father',
         page: 175,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/welcome-welcome-sabbath-morning?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/o-god-the-eternal-father?lang=eng',
     },
     178: {
         title: 'O Lord of Hosts',
@@ -887,84 +887,96 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-    // {
-    //   name: '',
-    //   calling: '',
-    // },
-    // {
-    //   name: '',
-    //   calling: '',
-    // },
-    // {
-    //   name: '',
-    //   calling: '',
-    // },
-    // {
-    //   name: '',
-    //   calling: '',
-    // },
-    // {
-    //   name: '',
-    //   calling: '',
-    // },
-    {
-        name: 'Brother Alipate Prescott',
-        calling: 'Sunday School President',
-    },
-    {
-        name: 'Brother Stan Raas',
-        calling: '1st Counselor Sunday School Presidency',
-    },
-    {
-        name: 'Brother Eric Funn',
-        calling: '2nd Counselor Sunday School Presidency',
-    },
-    {
-        name: 'Brother Esafe Mile',
-        calling: 'Secretary Sunday School Presidency',
-    },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: 'Brother Alipate Prescott',
+//   calling: 'Sunday School President',
+// },
+// {
+//   name: 'Brother Stan Raas',
+//   calling: '1st Counselor Sunday School Presidency',
+// },
+// {
+//   name: 'Brother Eric Funn',
+//   calling: '2nd Counselor Sunday School Presidency',
+// },
+// {
+//   name: 'Brother Esafe Mile',
+//   calling: 'Secretary Sunday School Presidency',
+// },
+// {
+//   name: 'Brother Joe Hafoka',
+//   calling: 'Sunday School Teacher',
+// },
+// {
+//   name: 'Sister Shelli Hafoka',
+//   calling: 'Sunday School Teacher',
+// },
 ];
 DATA.sustaining = [
-    // {
-    //   name: '',
-    //   calling: '',
-    // },
-    // {
-    //   name: '',
-    //   calling: '',
-    // },
-    // {
-    //   name: '',
-    //   calling: '',
-    // },
-    // {
-    //   name: '',
-    //   calling: '',
-    // },
-    // {
-    //   name: '',
-    //   calling: '',
-    // },
-    {
-        name: 'Brother Eric Funn',
-        calling: 'Sunday School President',
-    },
-    {
-        name: 'Brother Julio Vasquez',
-        calling: 'First Counselor SS Presidency',
-    },
-    {
-        name: 'Brother Malosi Asher',
-        calling: 'Second Counnselor SS Presidency',
-    },
-    {
-        name: 'Brother Raymond Terrell',
-        calling: 'Sunday School Teacher',
-    },
-    {
-        name: 'Sister Holly Terrell',
-        calling: 'Sunday School Teacher',
-    },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: 'Brother Eric Funn',
+//   calling: 'Sunday School President',
+// },
+// {
+//   name: 'Brother Julio Vasquez',
+//   calling: 'First Counselor SS Presidency',
+// },
+// {
+//   name: 'Brother Malosi Asher',
+//   calling: 'Second Counnselor SS Presidency',
+// },
+// {
+//   name: 'Brother Raymond Terrell',
+//   calling: 'Sunday School Teacher',
+// },
+// {
+//   name: 'Sister Holly Terrell',
+//   calling: 'Sunday School Teacher',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
@@ -1005,9 +1017,7 @@ DATA.baptisms = [
 // { name: 'William Christopher Pita' },
 // { name: 'Isileli George Pita' },
 ];
-DATA.babyBlessing = [
-//{ name: 'Pulotu family' }
-];
+DATA.babyBlessing = [{ name: 'MacKay family' }];
 DATA.missionaries = [
     {
         name: 'Seamus Fitzgerald',
@@ -1044,14 +1054,14 @@ DATA.cheatSheet = {
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp2ndc,
+        conducting: DATA.people.bp,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[131],
-        sacramentSong: DATA.hymns[92],
+        openingSong: DATA.hymns[15],
+        sacramentSong: DATA.hymns[175],
         // restSong: DATA.hymns[226],
-        testimonySunday: false,
+        testimonySunday: true,
         speakers: [
             {
                 person: { name: 'Brother Fulilangi Hola' },
@@ -1084,7 +1094,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[48],
+        closingSong: DATA.hymns[88],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
