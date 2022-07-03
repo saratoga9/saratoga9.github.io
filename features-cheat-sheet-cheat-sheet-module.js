@@ -513,7 +513,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](45, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](46, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](47, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](48, " Assigned Ward Chapel Clean Up for Month of July. Every Saturday at 7am ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](48, " Assigned Ward Chapel Clean Up for Month of July. Every Saturday at 8am ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
