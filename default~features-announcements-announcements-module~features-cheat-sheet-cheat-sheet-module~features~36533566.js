@@ -30,7 +30,7 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 5, 30).toUTCString(),
+        date: new Date(2022, 6, 13).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -192,11 +192,11 @@ DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
     chorister1: { name: 'Sister Salome Pita' },
     chorister2: { name: 'Brother Meke Finau' },
-    organist1: { name: 'Sister Keili Malohifoou' },
+    organist1: { name: 'TBA' },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Allana Teriipaia' },
-    pray2: { name: 'Sister Lesieli Halafuka' },
+    pray1: { name: 'Brother Erick Funn' },
+    pray2: { name: 'Brother Viliami Tupola' },
     hc: { name: '(Vakameilalo Tuifua)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -1017,7 +1017,7 @@ DATA.baptisms = [
 // { name: 'William Christopher Pita' },
 // { name: 'Isileli George Pita' },
 ];
-DATA.babyBlessing = [{ name: 'MacKay family' }];
+DATA.babyBlessing = [{ name: 'None' }];
 DATA.missionaries = [
     {
         name: 'Seamus Fitzgerald',
@@ -1058,13 +1058,13 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[15],
-        sacramentSong: DATA.hymns[175],
+        openingSong: DATA.hymns[81],
+        sacramentSong: DATA.hymns[195],
         // restSong: DATA.hymns[226],
-        testimonySunday: true,
+        testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Brother Fulilangi Hola' },
+                person: { name: 'Sister Keilikki Rarick' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
@@ -1076,25 +1076,25 @@ DATA.cheatSheet = {
             //   beforeRestHymn: true,
             // } as Speaker,
             {
-                person: { name: 'Brother Makoni Uluilakepa' },
+                person: { name: 'Brother Stephen Teriipaia' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Teuila Kaimikaua' },
+                person: { name: 'Sister Jena Vasquez' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Wilbert Kaimikaua' },
+                person: { name: 'Brother Julio Vasquez' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[88],
+        closingSong: DATA.hymns[196],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
