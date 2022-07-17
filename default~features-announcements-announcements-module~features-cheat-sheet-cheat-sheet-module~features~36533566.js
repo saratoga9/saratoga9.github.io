@@ -30,7 +30,7 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 6, 13).toUTCString(),
+        date: new Date(2022, 6, 21).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -192,12 +192,12 @@ DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
     chorister1: { name: 'Sister Salome Pita' },
     chorister2: { name: 'Brother Meke Finau' },
-    organist1: { name: 'TBA' },
+    organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Erick Funn' },
-    pray2: { name: 'Brother Viliami Tupola' },
-    hc: { name: '(Vakameilalo Tuifua)' },
+    pray1: { name: 'Sister Teuila Kaimikaua' },
+    pray2: { name: 'Brother Fulilangi Hola' },
+    hc: { name: '(Stake High Councilmen)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
     wc: { name: 'Brother Adam Chase' },
@@ -780,6 +780,11 @@ DATA.hymns = {
         page: 220,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/lord-i-would-follow-thee?lang=eng',
     },
+    223: {
+        title: 'Have I Done Any Good?',
+        page: 223,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/have-i-done-any-good?lang=eng',
+    },
     226: {
         title: 'Improve the Shining Moments',
         page: 226,
@@ -999,17 +1004,12 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-// { name: 'Julio Cesar Vasquez' },
-// { name: 'Lilie Ydalia Vasquez' },
-// { name: 'Robert Luis Vasquez' },
-// { name: 'Lilie Ydalia Vasquez' },
-// { name: 'Dominic Robinson Vasquez' },
-// { name: 'Isabella Jane Vasquez' },
-// { name: 'David Fayol' },
-// { name: 'Theyanna Fayol' },
-// { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
-// { name: 'Thierry Naʻaliʻi Fayol' },
-// { name: 'Remi NaʻKila Fayol' },
+    { name: 'Sister Lisa Fotu' },
+    { name: "Sister Fatai Aganu'U Daligdig" },
+    { name: 'Brother Edmund Faimalo' },
+    { name: 'Sister Oriana Faimalo' },
+    { name: 'Brother Kaleo Angilau' },
+    { name: 'Sister Sarah Angilau' },
 ];
 DATA.baptisms = [
 //{ name: 'Anika Amel Desiree Sika' },
@@ -1017,7 +1017,9 @@ DATA.baptisms = [
 // { name: 'William Christopher Pita' },
 // { name: 'Isileli George Pita' },
 ];
-DATA.babyBlessing = [{ name: 'None' }];
+DATA.babyBlessing = [
+// { name: '' }
+];
 DATA.missionaries = [
     {
         name: 'Seamus Fitzgerald',
@@ -1049,7 +1051,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 6, 3),
+        date: new Date(2022, 6, 17),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
@@ -1058,43 +1060,37 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[81],
-        sacramentSong: DATA.hymns[195],
+        openingSong: DATA.hymns[243],
+        sacramentSong: DATA.hymns[97],
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Keilikki Rarick' },
+                person: { name: 'Brother Carlos Uyema' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             // {
-            //   person: { name: 'Primary with Ana Tuiloma' },
+            //   person: { name: '' },
             //   role: 'musical',
             //   index: 1,
             //   beforeRestHymn: true,
             // } as Speaker,
             {
-                person: { name: 'Brother Stephen Teriipaia' },
+                person: { name: 'Brother William Harris' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Jena Vasquez' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Julio Vasquez' },
+                person: { name: 'Brother Purcell' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[196],
+        closingSong: DATA.hymns[223],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
