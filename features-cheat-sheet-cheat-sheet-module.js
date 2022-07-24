@@ -166,7 +166,7 @@ function CheatSheetComponent_div_0_section_78_div_3_Template(rf, ctx) { if (rf &
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, " We ask the congregation to show by an uplifted hand in welcoming ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Ashlyn");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Brother Hopoate Lavaka");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, " into the ward. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
