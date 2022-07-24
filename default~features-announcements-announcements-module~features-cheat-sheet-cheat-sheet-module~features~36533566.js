@@ -897,96 +897,20 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: 'Brother Alipate Prescott',
-//   calling: 'Sunday School President',
-// },
-// {
-//   name: 'Brother Stan Raas',
-//   calling: '1st Counselor Sunday School Presidency',
-// },
-// {
-//   name: 'Brother Eric Funn',
-//   calling: '2nd Counselor Sunday School Presidency',
-// },
-// {
-//   name: 'Brother Esafe Mile',
-//   calling: 'Secretary Sunday School Presidency',
-// },
-// {
-//   name: 'Brother Joe Hafoka',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: 'Sister Shelli Hafoka',
-//   calling: 'Sunday School Teacher',
-// },
+    {
+        name: 'Conway Kaka',
+        calling: 'Sunday SChool Teacher',
+    },
+    {
+        name: 'Ema Kaka',
+        calling: 'Sunday School Teacher',
+    },
 ];
 DATA.sustaining = [
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: 'Brother Eric Funn',
-//   calling: 'Sunday School President',
-// },
-// {
-//   name: 'Brother Julio Vasquez',
-//   calling: 'First Counselor SS Presidency',
-// },
-// {
-//   name: 'Brother Malosi Asher',
-//   calling: 'Second Counnselor SS Presidency',
-// },
-// {
-//   name: 'Brother Raymond Terrell',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: 'Sister Holly Terrell',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
+    {
+        name: 'Afui Kinikini',
+        calling: 'Primary Music Leader',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
@@ -1018,10 +942,7 @@ DATA.newMembers = [
     { name: 'Sister Hannah Fiefia' },
 ];
 DATA.baptisms = [
-//{ name: 'Anika Amel Desiree Sika' },
-// { name: 'Mya Mereani Kaleolaʻihoʻikemaupono Teriipaia' },
-// { name: 'William Christopher Pita' },
-// { name: 'Isileli George Pita' },
+    { name: 'Hopoate Lavaka' },
 ];
 DATA.babyBlessing = [
 // { name: '' }
