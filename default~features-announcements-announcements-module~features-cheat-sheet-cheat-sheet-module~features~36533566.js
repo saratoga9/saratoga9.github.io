@@ -30,7 +30,7 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 6, 21).toUTCString(),
+        date: new Date(2022, 6, 28).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -47,7 +47,7 @@ DATA.broadcastLinks = [
     //NOTE: if active=true, it means the info will show on site
     //1st & 3rd Sundays
     {
-        active: true,
+        active: false,
         label: 'Sunday 7:00am - Ward Council Meeting',
         link: 'https://zoom.us/j/93117919917?pwd=OTNWLy9qMzA0SHZpQ3VYNzlwQ3prQT09',
         passcode: '103839',
@@ -55,7 +55,7 @@ DATA.broadcastLinks = [
     },
     //4th Sundays
     {
-        active: false,
+        active: true,
         label: 'Sunday 7:30am - Youth Council Meeting',
         link: 'https://zoom.us/j/94703693144?pwd=ZHdLZkQ4WHBsRXd4TUFiazJUSFByUT09',
         passcode: '821617',
@@ -195,8 +195,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Teuila Kaimikaua' },
-    pray2: { name: 'Brother Fulilangi Hola' },
+    pray1: { name: 'Brother Gabe Toki' },
+    pray2: { name: 'By Invitation' },
     hc: { name: '(Stake High Councilmen)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -507,6 +507,11 @@ DATA.hymns = {
         title: 'Tokanga ki he Taimi (Improve the Shining Moments)',
         page: 132,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/improve-the-shining-moments?lang=ton',
+    },
+    134: {
+        title: 'Let Us All Press On',
+        page: 134,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/let-us-all-press-on?lang=eng',
     },
     136: {
         title: 'I Know That My Redeemer Lives',
@@ -1004,12 +1009,13 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: 'Sister Lisa Fotu' },
-    { name: "Sister Fatai Aganu'U Daligdig" },
-    { name: 'Brother Edmund Faimalo' },
-    { name: 'Sister Oriana Faimalo' },
-    { name: 'Brother Kaleo Angilau' },
-    { name: 'Sister Sarah Angilau' },
+    { name: 'Brother Dymonte Aaren Misa' },
+    { name: 'Sister Drystle Joanne Misa' },
+    { name: 'Sister Sophie Laei Misa' },
+    { name: 'Brother Skyler Tonata ' },
+    { name: 'Brother Nicko Casuga' },
+    { name: 'Sister Jessica Wertner' },
+    { name: 'Sister Hannah Fiefia' },
 ];
 DATA.baptisms = [
 //{ name: 'Anika Amel Desiree Sika' },
@@ -1051,46 +1057,40 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 6, 17),
+        date: new Date(2022, 6, 24),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp,
-        conducting: DATA.people.bp,
+        presiding: DATA.people.bp1stc,
+        conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[243],
-        sacramentSong: DATA.hymns[97],
+        openingSong: DATA.hymns[134],
+        sacramentSong: DATA.hymns[102],
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Brother Carlos Uyema' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            // {
-            //   person: { name: '' },
-            //   role: 'musical',
-            //   index: 1,
-            //   beforeRestHymn: true,
-            // } as Speaker,
-            {
-                person: { name: 'Brother William Harris' },
+                person: { name: 'Brother Raymond Terrell' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Purcell' },
+                person: { name: "Refiner's Fire- Young Women & YW Leaders" },
+                role: 'musical',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Sister Holly Terrell' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[223],
+        closingSong: DATA.hymns[146],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
