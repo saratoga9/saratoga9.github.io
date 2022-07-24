@@ -196,7 +196,7 @@ DATA.people = {
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
     pray1: { name: 'Brother Conway Kaka' },
-    pray2: { name: 'By Invitation' },
+    pray2: { name: 'Brother George Uyema' },
     hc: { name: '(Stake High Councilmen)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
