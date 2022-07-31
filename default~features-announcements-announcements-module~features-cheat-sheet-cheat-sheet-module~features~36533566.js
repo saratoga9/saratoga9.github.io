@@ -30,7 +30,7 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 6, 28).toUTCString(),
+        date: new Date(2022, 7, 4).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -195,8 +195,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Conway Kaka' },
-    pray2: { name: 'Brother George Uyema' },
+    pray1: { name: 'Sister Lisa Fotu' },
+    pray2: { name: 'By Invitation' },
     hc: { name: '(Stake High Councilmen)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -726,9 +726,9 @@ DATA.hymns = {
     //     'https://www.churchofjesuschrist.org/music/library/hymns/love-one-another?lang=ton',
     // },
     200: {
-        title: 'Christ the Lord Is Risen Today',
+        title: 'Ke Mou Feʻofaʻaki',
         page: 200,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/christ-the-lord-is-risen-today?lang=eng',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/love-one-another?lang=ton',
     },
     201: {
         title: 'Joy to the World',
@@ -897,20 +897,96 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-    {
-        name: 'Conway Kaka',
-        calling: 'Sunday SChool Teacher',
-    },
-    {
-        name: 'Ema Kaka',
-        calling: 'Sunday School Teacher',
-    },
+// {
+//   name: 'Conway Kaka',
+//   calling: 'Sunday SChool Teacher',
+// },
+// {
+//   name: 'Ema Kaka',
+//   calling: 'Sunday School Teacher',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: 'Brother Alipate Prescott',
+//   calling: 'Sunday School President',
+// },
+// {
+//   name: 'Brother Stan Raas',
+//   calling: '1st Counselor Sunday School Presidency',
+// },
+// {
+//   name: 'Brother Eric Funn',
+//   calling: '2nd Counselor Sunday School Presidency',
+// },
+// {
+//   name: 'Brother Esafe Mile',
+//   calling: 'Secretary Sunday School Presidency',
+// },
+// {
+//   name: 'Brother Joe Hafoka',
+//   calling: 'Sunday School Teacher',
+// },
+// {
+//   name: 'Sister Shelli Hafoka',
+//   calling: 'Sunday School Teacher',
+// },
 ];
 DATA.sustaining = [
-    {
-        name: 'Afui Kinikini',
-        calling: 'Primary Music Leader',
-    },
+// {
+//   name: 'Afui Kinikini',
+//   calling: 'Primary Music Leader',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: 'Brother Eric Funn',
+//   calling: 'Sunday School President',
+// },
+// {
+//   name: 'Brother Julio Vasquez',
+//   calling: 'First Counselor SS Presidency',
+// },
+// {
+//   name: 'Brother Malosi Asher',
+//   calling: 'Second Counnselor SS Presidency',
+// },
+// {
+//   name: 'Brother Raymond Terrell',
+//   calling: 'Sunday School Teacher',
+// },
+// {
+//   name: 'Sister Holly Terrell',
+//   calling: 'Sunday School Teacher',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
@@ -933,16 +1009,23 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: 'Brother Dymonte Aaren Misa' },
-    { name: 'Sister Drystle Joanne Misa' },
-    { name: 'Sister Sophie Laei Misa' },
-    { name: 'Brother Skyler Tonata ' },
-    { name: 'Brother Nicko Casuga' },
-    { name: 'Sister Jessica Wertner' },
-    { name: 'Sister Hannah Fiefia' },
+// { name: 'Brother Dymonte Aaren Misa' },
+// { name: 'Sister Drystle Joanne Misa' },
+// { name: 'Sister Sophie Laei Misa' },
+// { name: 'Brother Skyler Tonata ' },
+// { name: 'Brother Nicko Casuga' },
+// { name: 'Sister Jessica Wertner' },
+// { name: 'Sister Hannah Fiefia' },
+// { name: 'Theyanna Fayol' },
+// { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
+// { name: 'Thierry Naʻaliʻi Fayol' },
+// { name: 'Remi NaʻKila Fayol' },
 ];
 DATA.baptisms = [
-    { name: 'Hopoate Lavaka' },
+// { name: 'Hopoate Lavaka' },
+// { name: 'Mya Mereani Kaleolaʻihoʻikemaupono Teriipaia' },
+// { name: 'William Christopher Pita' },
+// { name: 'Isileli George Pita' },
 ];
 DATA.babyBlessing = [
 // { name: '' }
@@ -978,40 +1061,52 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 6, 24),
+        date: new Date(2022, 6, 31),
         startTime: '9:00 AM',
         endTime: '10:00 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp1stc,
-        conducting: DATA.people.bp2ndc,
+        presiding: DATA.people.bp,
+        conducting: DATA.people.bp,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[134],
-        sacramentSong: DATA.hymns[102],
+        openingSong: DATA.hymns[219],
+        sacramentSong: DATA.hymns[107],
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Brother Raymond Terrell' },
+                person: { name: 'Sister Loline Soakaai' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            // {
+            //   person: { name: "Refiner's Fire- Young Women & YW Leaders" },
+            //   role: 'musical',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
+            {
+                person: { name: 'Sister Tia Soakai' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: "Refiner's Fire- Young Women & YW Leaders" },
-                role: 'musical',
+                person: { name: 'Brother Girishana Rajaratnam' },
+                role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Holly Terrell' },
+                person: { name: 'Brother Stan Raass' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[146],
+        closingSong: DATA.hymns[200],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
