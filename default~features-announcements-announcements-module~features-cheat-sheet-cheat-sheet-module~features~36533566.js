@@ -947,6 +947,14 @@ DATA.sustaining = [
         name: 'Sister Amiee Endicott',
         calling: 'Young Womens Advisor',
     },
+    {
+        name: 'Brother Junior Kaleopa',
+        calling: 'Primary Worker',
+    },
+    {
+        name: 'Sister Aly Kaleopa',
+        calling: 'Primary Worker',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
