@@ -1004,9 +1004,7 @@ DATA.baptisms = [
 // { name: 'William Christopher Pita' },
 // { name: 'Isileli George Pita' },
 ];
-DATA.babyBlessing = [
-// { name: '' }
-];
+DATA.babyBlessing = [{ name: 'Recognize Braden and Meghan Funn Family' }];
 DATA.missionaries = [
     {
         name: 'Seamus Fitzgerald',
