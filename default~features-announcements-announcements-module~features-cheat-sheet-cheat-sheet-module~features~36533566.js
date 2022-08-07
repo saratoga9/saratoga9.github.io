@@ -55,7 +55,7 @@ DATA.broadcastLinks = [
     },
     //4th Sundays
     {
-        active: true,
+        active: false,
         label: 'Sunday 7:30am - Youth Council Meeting',
         link: 'https://zoom.us/j/94703693144?pwd=ZHdLZkQ4WHBsRXd4TUFiazJUSFByUT09',
         passcode: '821617',
