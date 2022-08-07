@@ -513,7 +513,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](45, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](46, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](47, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](48, " Thursday July 4th, Utah Food Bank Delivery, Volunteers Meet at 6:30am ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](48, " Thursday Aug 11th, Utah Food Bank Delivery, Volunteers Meet at 6:30am ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -521,7 +521,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](51, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](52, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](53, " Sunday Aug 7th, We will meet at 1pm ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](53, " Aug 12th, Back to School \u201CTRAFFIC DANCE\u201D 7:00pm Dress Attire: Casual ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();

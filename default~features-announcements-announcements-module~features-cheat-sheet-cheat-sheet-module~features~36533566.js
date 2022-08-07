@@ -30,7 +30,7 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 7, 4).toUTCString(),
+        date: new Date(2022, 7, 11).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -195,8 +195,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Lisa Fotu' },
-    pray2: { name: 'By Invitation' },
+    pray1: { name: 'Sister Anau Lavaka' },
+    pray2: { name: "Brother Veni Tu'ivai" },
     hc: { name: '(Stake High Councilmen)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -943,50 +943,10 @@ DATA.releases = [
 // },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Afui Kinikini',
-//   calling: 'Primary Music Leader',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: 'Brother Eric Funn',
-//   calling: 'Sunday School President',
-// },
-// {
-//   name: 'Brother Julio Vasquez',
-//   calling: 'First Counselor SS Presidency',
-// },
-// {
-//   name: 'Brother Malosi Asher',
-//   calling: 'Second Counnselor SS Presidency',
-// },
-// {
-//   name: 'Brother Raymond Terrell',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: 'Sister Holly Terrell',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
+    {
+        name: 'Sister Amiee Endicott',
+        calling: 'Young Womens Advisor',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
@@ -1009,17 +969,26 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-// { name: 'Brother Dymonte Aaren Misa' },
-// { name: 'Sister Drystle Joanne Misa' },
-// { name: 'Sister Sophie Laei Misa' },
-// { name: 'Brother Skyler Tonata ' },
-// { name: 'Brother Nicko Casuga' },
-// { name: 'Sister Jessica Wertner' },
-// { name: 'Sister Hannah Fiefia' },
-// { name: 'Theyanna Fayol' },
-// { name: 'Celine Uʻilanikuʻuleimomi Fayol' },
-// { name: 'Thierry Naʻaliʻi Fayol' },
-// { name: 'Remi NaʻKila Fayol' },
+    { name: 'Brother Junior Kaleopa' },
+    { name: 'Sister Aly Kaleopa' },
+    { name: 'Sister Naia Lynn Kaleopa' },
+    { name: 'Brother Auka Fifita' },
+    { name: 'Sister Kathy Jo Fifita' },
+    { name: 'Sister Taumafa Jo Vai Fifita' },
+    { name: 'Brother Merrick Lie Fifita' },
+    { name: 'Brother Lolo Gioffi Fifita' },
+    { name: 'Brother Siosiua Ezra Bruce Fifita' },
+    { name: 'Sister Maleane Rose Fifita' },
+    { name: 'Brother Manoa Scott Terrell' },
+    { name: 'Brother Lucky Mataele' },
+    { name: 'Sister Lute Mataele' },
+    { name: 'Sister Nyoka Mataele' },
+    { name: 'Brother Lucky III Mataele' },
+    { name: 'Sister Sioulolovao Faletanu Mataele' },
+    { name: 'Brother Monson Moroni Mahonri Morancumer Mataele' },
+    { name: "Brother Samiuela Fungakava Fusitu'a Mataele" },
+    { name: 'Sister Kylie Rae Beaver' },
+    { name: 'Brother Joshua Cifuentes' },
 ];
 DATA.baptisms = [
 // { name: 'Hopoate Lavaka' },
@@ -1061,19 +1030,19 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 6, 31),
-        startTime: '9:00 AM',
-        endTime: '10:00 AM',
+        date: new Date(2022, 7, 7),
+        startTime: '1:00 PM',
+        endTime: '3:00 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp,
+        conducting: DATA.people.bp1stc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[219],
-        sacramentSong: DATA.hymns[107],
+        openingSong: DATA.hymns[149],
+        sacramentSong: DATA.hymns[182],
         // restSong: DATA.hymns[226],
-        testimonySunday: false,
+        testimonySunday: true,
         speakers: [
             {
                 person: { name: 'Sister Loline Soakaai' },
@@ -1106,7 +1075,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[200],
+        closingSong: DATA.hymns[58],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
