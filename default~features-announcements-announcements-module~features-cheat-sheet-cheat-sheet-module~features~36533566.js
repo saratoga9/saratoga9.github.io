@@ -30,7 +30,7 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 7, 11).toUTCString(),
+        date: new Date(2022, 7, 18).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
@@ -195,8 +195,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Anau Lavaka' },
-    pray2: { name: "Brother Veni Tu'ivai" },
+    pray1: { name: 'Brother Gabe Toki' },
+    pray2: { name: 'Brother Junior Kaleopa' },
     hc: { name: '(Stake High Councilmen)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -482,6 +482,11 @@ DATA.hymns = {
         title: 'Come, Follow Me',
         page: 116,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-follow-me?lang=eng',
+    },
+    124: {
+        title: 'Be Still, My Soul',
+        page: 124,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/be-still-my-soul?lang=eng',
     },
     126: {
         title: 'Kuo Lahi Hoku Tapuaki',
@@ -944,16 +949,8 @@ DATA.releases = [
 ];
 DATA.sustaining = [
     {
-        name: 'Sister Amiee Endicott',
-        calling: 'Young Womens Advisor',
-    },
-    {
-        name: 'Brother Junior Kaleopa',
-        calling: 'Primary Worker',
-    },
-    {
-        name: 'Sister Aly Kaleopa',
-        calling: 'Primary Worker',
+        name: 'Sister Kiersten Militoni',
+        calling: 'Nursery Leader',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [
@@ -977,26 +974,26 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: 'Brother Junior Kaleopa' },
-    { name: 'Sister Aly Kaleopa' },
-    { name: 'Sister Naia Lynn Kaleopa' },
-    { name: 'Brother Auka Fifita' },
-    { name: 'Sister Kathy Jo Fifita' },
-    { name: 'Sister Taumafa Jo Vai Fifita' },
-    { name: 'Brother Merrick Lie Fifita' },
-    { name: 'Brother Lolo Gioffi Fifita' },
-    { name: 'Brother Siosiua Ezra Bruce Fifita' },
-    { name: 'Sister Maleane Rose Fifita' },
-    { name: 'Brother Manoa Scott Terrell' },
-    { name: 'Brother Lucky Mataele' },
-    { name: 'Sister Lute Mataele' },
-    { name: 'Sister Nyoka Mataele' },
-    { name: 'Brother Lucky III Mataele' },
-    { name: 'Sister Sioulolovao Faletanu Mataele' },
-    { name: 'Brother Monson Moroni Mahonri Morancumer Mataele' },
-    { name: "Brother Samiuela Fungakava Fusitu'a Mataele" },
-    { name: 'Sister Kylie Rae Beaver' },
-    { name: 'Brother Joshua Cifuentes' },
+// { name: 'Brother Junior Kaleopa' },
+// { name: 'Sister Aly Kaleopa' },
+// { name: 'Sister Naia Lynn Kaleopa' },
+// { name: 'Brother Auka Fifita' },
+// { name: 'Sister Kathy Jo Fifita' },
+// { name: 'Sister Taumafa Jo Vai Fifita' },
+// { name: 'Brother Merrick Lie Fifita' },
+// { name: 'Brother Lolo Gioffi Fifita' },
+// { name: 'Brother Siosiua Ezra Bruce Fifita' },
+// { name: 'Sister Maleane Rose Fifita' },
+// { name: 'Brother Manoa Scott Terrell' },
+// { name: 'Brother Lucky Mataele' },
+// { name: 'Sister Lute Mataele' },
+// { name: 'Sister Nyoka Mataele' },
+// { name: 'Brother Lucky III Mataele' },
+// { name: 'Sister Sioulolovao Faletanu Mataele' },
+// { name: 'Brother Monson Moroni Mahonri Morancumer Mataele' },
+// { name: "Brother Samiuela Fungakava Fusitu'a Mataele" },
+// { name: 'Sister Kylie Rae Beaver' },
+// { name: 'Brother Joshua Cifuentes' },
 ];
 DATA.baptisms = [
 // { name: 'Hopoate Lavaka' },
@@ -1004,7 +1001,9 @@ DATA.baptisms = [
 // { name: 'William Christopher Pita' },
 // { name: 'Isileli George Pita' },
 ];
-DATA.babyBlessing = [{ name: 'Recognize Braden and Meghan Funn Family' }];
+DATA.babyBlessing = [
+// { name: 'None' },
+];
 DATA.missionaries = [
     {
         name: 'Seamus Fitzgerald',
@@ -1036,22 +1035,22 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 7, 7),
-        startTime: '1:00 PM',
-        endTime: '3:00 PM',
+        date: new Date(2022, 7, 14),
+        startTime: '9:00 AM',
+        endTime: '11:00 AM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
         conducting: DATA.people.bp1stc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[149],
-        sacramentSong: DATA.hymns[182],
+        openingSong: DATA.hymns[48],
+        sacramentSong: DATA.hymns[180],
         // restSong: DATA.hymns[226],
-        testimonySunday: true,
+        testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Loline Soakaai' },
+                person: { name: 'Brother Aiseah Hafoka' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
@@ -1063,25 +1062,19 @@ DATA.cheatSheet = {
             //   beforeRestHymn: true,
             // } as Speaker,
             {
-                person: { name: 'Sister Tia Soakai' },
+                person: { name: 'Sister Genesis Toki' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Girishana Rajaratnam' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Stan Raass' },
+                person: { name: "Brother Veni Tu'ivai" },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[58],
+        closingSong: DATA.hymns[124],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
