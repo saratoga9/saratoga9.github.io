@@ -1071,7 +1071,7 @@ DATA.cheatSheet = {
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Emalee M.' },
+                person: { name: 'Sister Emmalee Militoni' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
