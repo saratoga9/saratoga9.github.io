@@ -902,96 +902,16 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: 'Conway Kaka',
-//   calling: 'Sunday SChool Teacher',
-// },
-// {
-//   name: 'Ema Kaka',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: 'Brother Alipate Prescott',
-//   calling: 'Sunday School President',
-// },
-// {
-//   name: 'Brother Stan Raas',
-//   calling: '1st Counselor Sunday School Presidency',
-// },
-// {
-//   name: 'Brother Eric Funn',
-//   calling: '2nd Counselor Sunday School Presidency',
-// },
-// {
-//   name: 'Brother Esafe Mile',
-//   calling: 'Secretary Sunday School Presidency',
-// },
-// {
-//   name: 'Brother Joe Hafoka',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: 'Sister Shelli Hafoka',
-//   calling: 'Sunday School Teacher',
-// },
+    {
+        name: 'Brother Rockey Kalamafoni',
+        calling: 'Ward Temple and Family History Leader',
+    },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Sister Kiersten Militoni',
-//   calling: 'Nursery Leader',
-// },
-// {
-//   name: 'Brother Junior Kaleopa',
-//   calling: 'Primary Worker',
-// },
-// {
-//   name: 'Sister Aly Kaleopa',
-//   calling: 'Primary Worker',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: 'Brother Eric Funn',
-//   calling: 'Sunday School President',
-// },
-// {
-//   name: 'Brother Julio Vasquez',
-//   calling: 'First Counselor SS Presidency',
-// },
-// {
-//   name: 'Brother Malosi Asher',
-//   calling: 'Second Counnselor SS Presidency',
-// },
-// {
-//   name: 'Brother Raymond Terrell',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: 'Sister Holly Terrell',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
+    {
+        name: 'Brother Viliami Tonata',
+        calling: 'Ward Temple and Family History Leader',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
