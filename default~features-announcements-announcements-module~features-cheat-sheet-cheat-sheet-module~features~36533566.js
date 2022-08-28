@@ -1014,7 +1014,15 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: "Sister Muaulu Si'a Washington Amotai" },
+    { name: 'Brother Roderick Tuihalangingie' },
+    { name: 'Sister Baily Tuihalangingie' },
+    { name: 'Brother Manatu Tuihalangingie' },
+    { name: 'Brother Ezaie Tuihalangingie' },
+    { name: 'Brother Toafa Tuihalangingie' },
+    { name: 'Sister Siosiana Kalamafoni' },
+    { name: 'Brother Tai Rakuita' },
+    { name: 'Brother Jonah Rakuita' },
+    { name: 'Brother Rowan Rakuita' },
 ];
 DATA.baptisms = [
 // { name: 'Hopoate Lavaka' },
