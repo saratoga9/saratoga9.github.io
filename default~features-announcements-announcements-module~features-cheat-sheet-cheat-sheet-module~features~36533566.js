@@ -1011,16 +1011,16 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Teriipaia Family- All of my heart' },
-                role: 'musical',
+                person: { name: 'Sister Alana Teriipaia' },
+                role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Alana Teriipaia' },
-                role: 'speaker',
+                person: { name: 'Teriipaia Family- All of my heart' },
+                role: 'musical',
                 index: 1,
-                beforeRestHymn: false,
+                beforeRestHymn: true,
             },
             {
                 person: { name: 'Sister Amiee Endicott' },
