@@ -196,7 +196,7 @@ DATA.people = {
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
     pray1: { name: 'Sister Tami Teriipaia' },
-    pray2: { name: 'Brother Brayden Funn' },
+    pray2: { name: 'Sister Janelle Prescott' },
     hc: { name: '(Stake High Councilmen)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
