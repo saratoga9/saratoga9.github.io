@@ -903,14 +903,42 @@ DATA.hymns = {
 };
 DATA.releases = [
     {
-        name: 'Brother Rockey Kalamafoni',
-        calling: 'Ward Temple and Family History Leader',
+        name: 'Sister Teuila Kaimikua',
+        calling: 'Primary Teacher',
+    },
+    {
+        name: 'Brother Brayden Funn',
+        calling: 'Sunday School Teacher',
+    },
+    {
+        name: 'Sister Meghan Funn',
+        calling: 'Sunday School Teacher',
+    },
+    {
+        name: 'Brother Adre Nagtikaura',
+        calling: 'Sunday School Teacher',
+    },
+    {
+        name: 'Sister Paige Nagtikaura',
+        calling: 'Sunday School Teacher',
     },
 ];
 DATA.sustaining = [
     {
-        name: 'Brother Viliami Tonata',
-        calling: 'Ward Temple and Family History Leader',
+        name: "Brother Ricky Tu'ihalangingie",
+        calling: 'Sunday School Teacher',
+    },
+    {
+        name: "Sister Bailey Tu'ihalangingie",
+        calling: 'Sunday School Teacher',
+    },
+    {
+        name: 'Brother Wil Kaimikua',
+        calling: 'Sunday School Teacher',
+    },
+    {
+        name: 'Sister Teuila Kaimikua',
+        calling: 'Sunday School Teacher',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [
@@ -934,25 +962,31 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: 'Brother Roderick Tuihalangingie' },
-    { name: 'Sister Baily Tuihalangingie' },
-    { name: 'Brother Manatu Tuihalangingie' },
-    { name: 'Brother Ezaie Tuihalangingie' },
-    { name: 'Brother Toafa Tuihalangingie' },
-    { name: 'Sister Siosiana Kalamafoni' },
-    { name: 'Brother Tai Rakuita' },
-    { name: 'Brother Jonah Rakuita' },
-    { name: 'Brother Rowan Rakuita' },
+// { name: 'Brother Roderick Tuihalangingie' },
+// { name: 'Sister Baily Tuihalangingie' },
+// { name: 'Brother Manatu Tuihalangingie' },
+// { name: 'Brother Ezaie Tuihalangingie' },
+// { name: 'Brother Toafa Tuihalangingie' },
+// { name: 'Sister Siosiana Kalamafoni' },
+// { name: 'Brother Tai Rakuita' },
+// { name: 'Brother Jonah Rakuita' },
+// { name: 'Brother Rowan Rakuita' },
+// { name: 'Sister Maleane Rose Fifita' },
+// { name: 'Brother Manoa Scott Terrell' },
+// { name: 'Brother Lucky Mataele' },
+// { name: 'Sister Lute Mataele' },
+// { name: 'Sister Nyoka Mataele' },
+// { name: 'Brother Lucky III Mataele' },
+// { name: 'Sister Sioulolovao Faletanu Mataele' },
+// { name: 'Brother Monson Moroni Mahonri Morancumer Mataele' },
+// { name: "Brother Samiuela Fungakava Fusitu'a Mataele" },
+// { name: 'Sister Kylie Rae Beaver' },
+// { name: 'Brother Joshua Cifuentes' },
 ];
 DATA.baptisms = [
-// { name: 'Hopoate Lavaka' },
-// { name: 'Mya Mereani Kaleolaʻihoʻikemaupono Teriipaia' },
-// { name: 'William Christopher Pita' },
-// { name: 'Isileli George Pita' },
+    { name: 'Brother Marvin Uyema' },
 ];
-DATA.babyBlessing = [
-// { name: 'None' },
-];
+DATA.babyBlessing = [{ name: 'Neiufi Family' }];
 DATA.missionaries = [
     {
         name: 'Seamus Fitzgerald',
