@@ -47,7 +47,7 @@ DATA.broadcastLinks = [
     //NOTE: if active=true, it means the info will show on site
     //1st & 3rd Sundays
     {
-        active: false,
+        active: true,
         label: 'Sunday 7:00am - Ward Council Meeting',
         link: 'https://zoom.us/j/93117919917?pwd=OTNWLy9qMzA0SHZpQ3VYNzlwQ3prQT09',
         passcode: '103839',
@@ -55,7 +55,7 @@ DATA.broadcastLinks = [
     },
     //4th Sundays
     {
-        active: true,
+        active: false,
         label: 'Sunday 7:30am - Youth Council Meeting',
         link: 'https://zoom.us/j/94703693144?pwd=ZHdLZkQ4WHBsRXd4TUFiazJUSFByUT09',
         passcode: '821617',
@@ -195,9 +195,9 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Tami Teriipaia' },
-    pray2: { name: 'Sister Janelle Prescott' },
-    hc: { name: '(Stake High Councilmen)' },
+    pray1: { name: 'Brother Luis Vasquez' },
+    pray2: { name: 'Sister Ana Tuiloma' },
+    hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
     wc: { name: 'Brother Adam Chase' },
@@ -235,9 +235,9 @@ DATA.hymns = {
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/high-on-the-mountain-top?lang=ton',
     },
     5: {
-        title: 'High on the Mountain Top',
-        page: 6,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/high-on-the-mountain-top?lang=eng',
+        title: 'Huhuʻi ʻo ʻIsileli',
+        page: 5,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/redeemer-of-israel?lang=ton',
     },
     6: {
         title: 'Redeemer of Israel',
@@ -656,9 +656,9 @@ DATA.hymns = {
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/o-my-father?lang=ton',
     },
     187: {
-        title: 'God Loved Us, So He Sent His Son',
+        title: 'ʻOfa ʻi ʻApi',
         page: 187,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/god-loved-us-so-he-sent-his-son?lang=eng',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/love-at-home?lang=ton',
     },
     // 187: {
     //   title: 'Ofa ʻi ʻApi (Love at Home)',
@@ -984,19 +984,19 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 7, 28),
+        date: new Date(2022, 8, 4),
         startTime: '9:00 AM',
         endTime: '11:00 AM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp1stc,
+        conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[243],
-        sacramentSong: DATA.hymns[102],
+        openingSong: DATA.hymns[5],
+        sacramentSong: DATA.hymns[191],
         // restSong: DATA.hymns[226],
-        testimonySunday: false,
+        testimonySunday: true,
         speakers: [
             {
                 person: { name: 'Brother Pono Turner' },
@@ -1029,7 +1029,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[127],
+        closingSong: DATA.hymns[187],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
