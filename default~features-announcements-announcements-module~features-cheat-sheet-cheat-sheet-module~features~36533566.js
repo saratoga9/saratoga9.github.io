@@ -195,8 +195,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Luis Vasquez' },
-    pray2: { name: 'Sister Ana Tuiloma' },
+    pray1: { name: 'Sister Ann Uluilakepa' },
+    pray2: { name: 'Sister Meghan Funn' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -692,12 +692,11 @@ DATA.hymns = {
         page: 193,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-stand-all-amazed?lang=eng',
     },
-    // 193: {
-    //   title: 'Fanau ae ‘a e ‘Otua (I am a child of God)',
-    //   page: 193,
-    //   link:
-    //     'https://www.churchofjesuschrist.org/study/manual/hymns/i-am-a-child-of-god?lang=ton',
-    // },
+    1930: {
+        title: 'Fanau ae ‘a e ‘Otua (I am a child of God)',
+        page: 193,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/i-am-a-child-of-god?lang=ton',
+    },
     194: {
         title: 'There Is a Green Hill Far Away',
         page: 194,
@@ -903,42 +902,58 @@ DATA.hymns = {
 };
 DATA.releases = [
     {
-        name: 'Sister Teuila Kaimikua',
-        calling: 'Primary Teacher',
+        name: 'Sister Hika Rarick',
+        calling: 'YW President',
     },
     {
-        name: 'Brother Brayden Funn',
-        calling: 'Sunday School Teacher',
+        name: 'Sister Sue Unutoa',
+        calling: 'YW 1st counselor',
     },
     {
-        name: 'Sister Meghan Funn',
-        calling: 'Sunday School Teacher',
+        name: 'Sister Candice Kalamafoni',
+        calling: 'YW 2nd Counselor',
     },
     {
-        name: 'Brother Adre Nagtikaura',
-        calling: 'Sunday School Teacher',
-    },
-    {
-        name: 'Sister Paige Nagtikaura',
-        calling: 'Sunday School Teacher',
+        name: 'Sister Genesis Toki',
+        calling: 'Primary Worker',
     },
 ];
 DATA.sustaining = [
     {
-        name: "Brother Ricky Tu'ihalangingie",
-        calling: 'Sunday School Teacher',
+        name: 'Sister Lisa Fotu',
+        calling: 'YW President',
     },
     {
-        name: "Sister Bailey Tu'ihalangingie",
-        calling: 'Sunday School Teacher',
+        name: 'Sister Lute Mataele',
+        calling: 'YW 1st Counselor',
     },
     {
-        name: 'Brother Wil Kaimikua',
-        calling: 'Sunday School Teacher',
+        name: 'Sister Genesis Toki',
+        calling: 'YW 2nd Counselor',
     },
     {
-        name: 'Sister Teuila Kaimikua',
-        calling: 'Sunday School Teacher',
+        name: 'Sister Rina Asher',
+        calling: 'YW Advisor',
+    },
+    {
+        name: 'Brother Auka Fifita',
+        calling: 'Primary Worker',
+    },
+    {
+        name: 'Sister Sue Unutoa',
+        calling: 'Primary Primary Worker',
+    },
+    {
+        name: 'Sister Candice Kalamafoni',
+        calling: 'Primary Worker (Music Coordinator)',
+    },
+    {
+        name: 'Sister Siosiana Kalamafoni',
+        calling: 'Primary Worker (Music Coordinator)',
+    },
+    {
+        name: 'Sister Paige Ngatikaura',
+        calling: 'Primary Worker',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [
@@ -984,9 +999,12 @@ DATA.newMembers = [
 // { name: 'Brother Joshua Cifuentes' },
 ];
 DATA.baptisms = [
-    { name: 'Brother Marvin Uyema' },
+// { name: 'Brother Marvin Uyema' },
+// { name: 'Mya Mereani Kaleolaʻihoʻikemaupono Teriipaia' },
+// { name: 'William Christopher Pita' },
+// { name: 'Isileli George Pita' },
 ];
-DATA.babyBlessing = [{ name: 'Neiufi Family' }];
+DATA.babyBlessing = [{ name: 'None' }];
 DATA.missionaries = [
     {
         name: 'Seamus Fitzgerald',
@@ -1018,52 +1036,28 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 8, 4),
+        date: new Date(2022, 8, 11),
         startTime: '9:00 AM',
         endTime: '11:00 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp,
+        presiding: DATA.people.bp1stc,
         conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[5],
-        sacramentSong: DATA.hymns[191],
+        openingSong: DATA.hymns[2],
+        sacramentSong: DATA.hymns[193],
         // restSong: DATA.hymns[226],
-        testimonySunday: true,
+        testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Brother Pono Turner' },
+                person: { name: 'Ward Primary Program' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Malik Sika' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Sister Alana Teriipaia' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Teriipaia Family- All of my heart' },
-                role: 'musical',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Sister Amiee Endicott' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[187],
+        closingSong: DATA.hymns[1930],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
