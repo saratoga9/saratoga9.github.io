@@ -191,12 +191,12 @@ DATA.broadcastLinks = [
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
     chorister1: { name: 'Sister Salome Pita' },
-    chorister2: { name: 'Brother Meke Finau' },
+    chorister2: { name: 'Brother Fui Kinikini' },
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Ann Uluilakepa' },
-    pray2: { name: 'Sister Meghan Funn' },
+    pray1: { name: 'Brother Lucky Mataele' },
+    pray2: { name: "Sister Bailey Tu'ihalangingie" },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -901,56 +901,84 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-    {
-        name: 'Sister Hika Rarick',
-        calling: 'YW President',
-    },
-    {
-        name: 'Sister Sue Unutoa',
-        calling: 'YW 1st counselor',
-    },
-    {
-        name: 'Sister Candice Kalamafoni',
-        calling: 'YW 2nd Counselor',
-    },
-    {
-        name: 'Sister Genesis Toki',
-        calling: 'Primary Worker',
-    },
+// {
+//   name: 'Sister Hika Rarick',
+//   calling: 'YW President',
+// },
+// {
+//   name: 'Sister Sue Unutoa',
+//   calling: 'YW 1st counselor',
+// },
+// {
+//   name: 'Sister Candice Kalamafoni',
+//   calling: 'YW 2nd Counselor',
+// },
+// {
+//   name: 'Sister Genesis Toki',
+//   calling: 'Primary Worker',
+// },
+// {
+//   name: 'Sister Paige Nagtikaura',
+//   calling: 'Sunday School Teacher',
+// },
+// // {
+//   name: 'Brother Alipate Prescott',
+//   calling: 'Sunday School President',
+// },
+// {
+//   name: 'Brother Stan Raas',
+//   calling: '1st Counselor Sunday School Presidency',
+// },
+// {
+//   name: 'Brother Eric Funn',
+//   calling: '2nd Counselor Sunday School Presidency',
+// },
+// {
+//   name: 'Brother Esafe Mile',
+//   calling: 'Secretary Sunday School Presidency',
+// },
+// {
+//   name: 'Brother Joe Hafoka',
+//   calling: 'Sunday School Teacher',
+// },
+// {
+//   name: 'Sister Shelli Hafoka',
+//   calling: 'Sunday School Teacher',
+// },
 ];
 DATA.sustaining = [
-    {
-        name: 'Sister Lisa Fotu',
-        calling: 'YW President',
-    },
-    {
-        name: 'Sister Lute Mataele',
-        calling: 'YW 1st Counselor',
-    },
-    {
-        name: 'Sister Genesis Toki',
-        calling: 'YW 2nd Counselor',
-    },
+    // {
+    //   name: 'Sister Lisa Fotu',
+    //   calling: 'YW President',
+    // },
+    // {
+    //   name: 'Sister Lute Mataele',
+    //   calling: 'YW 1st Counselor',
+    // },
+    // {
+    //   name: 'Sister Genesis Toki',
+    //   calling: 'YW 2nd Counselor',
+    // },
     {
         name: 'Sister Rina Asher',
         calling: 'YW Advisor',
     },
-    {
-        name: 'Brother Auka Fifita',
-        calling: 'Primary Worker',
-    },
-    {
-        name: 'Sister Sue Unutoa',
-        calling: 'Primary Primary Worker',
-    },
-    {
-        name: 'Sister Candice Kalamafoni',
-        calling: 'Primary Worker (Music Coordinator)',
-    },
-    {
-        name: 'Sister Siosiana Kalamafoni',
-        calling: 'Primary Worker (Music Coordinator)',
-    },
+    // {
+    //   name: 'Brother Auka Fifita',
+    //   calling: 'Primary Worker',
+    // },
+    // {
+    //   name: 'Sister Sue Unutoa',
+    //   calling: 'Primary Primary Worker',
+    // },
+    // {
+    //   name: 'Sister Candice Kalamafoni',
+    //   calling: 'Primary Worker (Music Coordinator)',
+    // },
+    // {
+    //   name: 'Sister Siosiana Kalamafoni',
+    //   calling: 'Primary Worker (Music Coordinator)',
+    // },
     {
         name: 'Sister Paige Ngatikaura',
         calling: 'Primary Worker',
@@ -1036,28 +1064,28 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 8, 11),
+        date: new Date(2022, 8, 18),
         startTime: '9:00 AM',
         endTime: '11:00 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp1stc,
+        presiding: DATA.people.bp,
         conducting: DATA.people.bp2ndc,
-        chorister: DATA.people.chorister1,
+        chorister: DATA.people.chorister2,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[2],
-        sacramentSong: DATA.hymns[193],
+        openingSong: DATA.hymns[37],
+        sacramentSong: DATA.hymns[172],
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Ward Primary Program' },
+                person: { name: 'High Councilman' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[1930],
+        closingSong: DATA.hymns[48],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
