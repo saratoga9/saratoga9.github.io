@@ -1079,10 +1079,40 @@ DATA.cheatSheet = {
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'High Councilman' },
+                person: { name: "Brother Maika Tu'ifua" },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
+            },
+            {
+                person: { name: "Brother Manoa Tu'ifua" },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: "Brother Jacob Tu'ifua" },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            // {
+            //   person: { name: 'Teriipaia Family- All of my heart' },
+            //   role: 'musical',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
+            {
+                person: { name: "Sister Brooke Tu'ifua" },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: false,
+            },
+            {
+                person: { name: "Brother Vakameilalo Tu'ifua" },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: false,
             },
         ],
         closingSong: DATA.hymns[48],
