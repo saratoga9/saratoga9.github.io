@@ -195,8 +195,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Sister Manu Harris' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Luis Vasquez' },
-    pray2: { name: 'Sister Genesis Toki' },
+    pray1: { name: 'Brother Seamus Fitzgerald' },
+    pray2: { name: 'Brother Girish Rajaratnam' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -502,6 +502,11 @@ DATA.hymns = {
         title: 'Where Can I Turn for Peace?',
         page: 129,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/where-can-i-turn-for-peace?lang=eng',
+    },
+    130: {
+        title: 'Be Thou Humble',
+        page: 130,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/be-thou-humble?lang=eng',
     },
     131: {
         title: 'More Holiness Give Me',
@@ -947,50 +952,22 @@ DATA.releases = [
 // },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Sister Lisa Fotu',
-//   calling: 'YW President',
-// },
-// {
-//   name: 'Sister Lute Mataele',
-//   calling: 'YW 1st Counselor',
-// },
-// {
-//   name: 'Sister Genesis Toki',
-//   calling: 'YW 2nd Counselor',
-// },
-// {
-//   name: 'Sister Rina Asher',
-//   calling: 'YW Advisor',
-// },
-// {
-//   name: 'Brother Auka Fifita',
-//   calling: 'Primary Worker',
-// },
-// {
-//   name: 'Sister Sue Unutoa',
-//   calling: 'Primary Primary Worker',
-// },
-// {
-//   name: 'Sister Candice Kalamafoni',
-//   calling: 'Primary Worker (Music Coordinator)',
-// },
-// {
-//   name: 'Sister Siosiana Kalamafoni',
-//   calling: 'Primary Worker (Music Coordinator)',
-// },
-// {
-//   name: 'Sister Paige Ngatikaura',
-//   calling: 'Primary Worker',
-// },
-// {
-//   name: 'Sister Holly Terrell',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
+    {
+        name: 'Sister Oriana Faimalo',
+        calling: 'RS Assistant Activity Coordinator',
+    },
+    {
+        name: 'Sister Kathy Moleni',
+        calling: 'RS Assistant Activity Coordinator',
+    },
+    {
+        name: 'Sister Jessica Wertner',
+        calling: 'RS Teacher',
+    },
+    {
+        name: 'Sister Shelli Hafoka',
+        calling: 'RS Assistant Secretary',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
@@ -1013,15 +990,12 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: 'Brother Cameron Pearson' },
-    { name: 'Sister Kalolaine Pearson' },
-    { name: 'Sister Vikolia Pearson' },
-    { name: 'Sister Makana Ah Quin' },
+    { name: 'Brother Romney Tuiloma' },
 ];
 DATA.baptisms = [
-    { name: 'Brother Liam Asher' },
+    { name: 'Pearson Family Members' },
 ];
-DATA.babyBlessing = [{ name: 'Fifita Family' }];
+DATA.babyBlessing = [{ name: 'None' }];
 DATA.missionaries = [
     {
         name: 'Seamus Fitzgerald',
@@ -1053,63 +1027,34 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 8, 25),
+        date: new Date(2022, 9, 9),
         startTime: '9:00 AM',
         endTime: '11:00 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp,
-        conducting: DATA.people.bp2ndc,
+        presiding: DATA.people.bp1stc,
+        conducting: DATA.people.bp1stc,
         chorister: DATA.people.chorister2,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[10],
-        sacramentSong: DATA.hymns[96],
+        openingSong: DATA.hymns[18],
+        sacramentSong: DATA.hymns[92],
         // restSong: DATA.hymns[226],
-        testimonySunday: true,
+        testimonySunday: false,
         speakers: [
-        // {
-        //   person: { name: "Brother Maika Tu'ifua" },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: true,
-        // } as Speaker,
-        // {
-        //   person: { name: "Brother Manoa Tu'ifua" },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: true,
-        // } as Speaker,
-        // {
-        //   person: { name: "Brother Jacob Tu'ifua" },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: true,
-        // } as Speaker,
-        // {
-        //   person: { name: 'Teriipaia Family- All of my heart' },
-        //   role: 'musical',
-        //   index: 1,
-        //   beforeRestHymn: true,
-        // } as Speaker,
-        // {
-        //   person: { name: "Sister Brooke Tu'ifua" },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: false,
-        // } as Speaker,
-        // {
-        //   person: { name: "Brother Vakameilalo Tu'ifua" },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: false,
-        // } as Speaker,
-        // person: { name: "Brother Vakameilalo Tu'ifua" },
-        // role: 'speaker',
-        // index: 1,
-        // beforeRestHymn: false,
-        // } as Speaker,
+            {
+                person: { name: "Sis. Bailey Ann Tu'ihalangingie" },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: "Brother Roderick Tu'ihalangingie" },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
         ],
-        closingSong: DATA.hymns[116],
+        closingSong: DATA.hymns[130],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
