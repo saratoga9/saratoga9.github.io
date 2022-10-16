@@ -191,12 +191,12 @@ DATA.broadcastLinks = [
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
     chorister1: { name: 'Sister Salome Pita' },
-    chorister2: { name: 'Brother Rockey Kalamafoni' },
+    chorister2: { name: 'Brother Fui Kinikini' },
     organist1: { name: "Sister Keili Malohifo'ou" },
-    organist2: { name: 'Sister Manu Harris' },
+    organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Seamus Fitzgerald' },
-    pray2: { name: 'Brother Girish Rajaratnam' },
+    pray1: { name: 'Brother Likio Pope' },
+    pray2: { name: 'TBD' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -953,20 +953,12 @@ DATA.releases = [
 ];
 DATA.sustaining = [
     {
-        name: 'Sister Oriana Faimalo',
+        name: 'Sister Anau Lavaka',
         calling: 'RS Assistant Activity Coordinator',
     },
     {
-        name: 'Sister Kathy Moleni',
-        calling: 'RS Assistant Activity Coordinator',
-    },
-    {
-        name: 'Sister Jessica Wertner',
-        calling: 'RS Teacher',
-    },
-    {
-        name: 'Sister Shelli Hafoka',
-        calling: 'RS Assistant Secretary',
+        name: 'Sister Brooke Molisi',
+        calling: 'RS Activity Committee',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [
@@ -990,10 +982,22 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: 'Brother Romney Tuiloma' },
+    { name: 'Alisi Fiefia' },
+    { name: 'Daphne Fiefia' },
+    { name: 'Isileli Fiefia' },
+    { name: 'Siosiua Fiefia' },
+    { name: 'Paula Lasike' },
+    { name: 'Ani Lasike' },
+    { name: 'Kaike Lasike' },
+    { name: 'Mele Lasike' },
+    { name: 'Paul Lasike' },
+    { name: 'Yuri Lasike' },
 ];
 DATA.baptisms = [
-    { name: 'Pearson Family Members' },
+// { name: 'None' },
+// { name: 'Mya Mereani Kaleolaʻihoʻikemaupono Teriipaia' },
+// { name: 'William Christopher Pita' },
+// { name: 'Isileli George Pita' },
 ];
 DATA.babyBlessing = [{ name: 'None' }];
 DATA.missionaries = [
@@ -1027,34 +1031,58 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 9, 9),
+        date: new Date(2022, 9, 16),
         startTime: '9:00 AM',
         endTime: '11:00 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp1stc,
-        conducting: DATA.people.bp1stc,
+        presiding: DATA.people.bp,
+        conducting: DATA.people.bp,
         chorister: DATA.people.chorister2,
-        organist: DATA.people.organist1,
+        organist: DATA.people.organist2,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[18],
-        sacramentSong: DATA.hymns[92],
+        openingSong: DATA.hymns[277],
+        sacramentSong: DATA.hymns[191],
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: "Sis. Bailey Ann Tu'ihalangingie" },
+                person: { name: 'Brother Monson Mataele' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: "Brother Roderick Tu'ihalangingie" },
+                person: { name: 'Sister Kylie Beaver' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
+            {
+                person: { name: 'Sister Siulolovao Mataele' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Sister Lute Mataele' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Sister Nyoka Mataele' },
+                role: 'musical',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Brother Lucky Mataele' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: false,
+            },
         ],
-        closingSong: DATA.hymns[130],
+        closingSong: DATA.hymns[1930],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
