@@ -916,50 +916,10 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: 'Sister Hika Rarick',
-//   calling: 'YW President',
-// },
-// {
-//   name: 'Sister Sue Unutoa',
-//   calling: 'YW 1st counselor',
-// },
-// {
-//   name: 'Sister Candice Kalamafoni',
-//   calling: 'YW 2nd Counselor',
-// },
-// {
-//   name: 'Sister Genesis Toki',
-//   calling: 'Primary Worker',
-// },
-// {
-//   name: 'Sister Paige Nagtikaura',
-//   calling: 'Sunday School Teacher',
-// },
-// // {
-//   name: 'Brother Alipate Prescott',
-//   calling: 'Sunday School President',
-// },
-// {
-//   name: 'Brother Stan Raas',
-//   calling: '1st Counselor Sunday School Presidency',
-// },
-// {
-//   name: 'Brother Eric Funn',
-//   calling: '2nd Counselor Sunday School Presidency',
-// },
-// {
-//   name: 'Brother Esafe Mile',
-//   calling: 'Secretary Sunday School Presidency',
-// },
-// {
-//   name: 'Brother Joe Hafoka',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: 'Sister Shelli Hafoka',
-//   calling: 'Sunday School Teacher',
-// },
+    {
+        name: 'Sister Jaiden Kaka',
+        calling: 'Priamary Worker',
+    },
 ];
 DATA.sustaining = [
     {
@@ -1017,13 +977,13 @@ DATA.baptisms = [
 ];
 DATA.babyBlessing = [{ name: 'None' }];
 DATA.missionaries = [
-    {
-        name: 'Seamus Fitzgerald',
-        mission: 'Arizona Gilbert',
-        startDate: new Date(2020, 9, 14),
-        endDate: new Date(2022, 8, 28),
-        photoUrl: './assets/people/elder-fitzgerald.png',
-    },
+    // {
+    //   name: 'Seamus Fitzgerald',
+    //   mission: 'Arizona Gilbert',
+    //   startDate: new Date(2020, 9, 14),
+    //   endDate: new Date(2022, 8, 28),
+    //   photoUrl: './assets/people/elder-fitzgerald.png',
+    // },
     {
         name: 'Kaleinani Fitzgerald',
         mission: 'Utah St. George',
@@ -1047,7 +1007,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 9, 16),
+        date: new Date(2022, 9, 30),
         startTime: '9:00 AM',
         endTime: '11:00 AM',
         address: DATA.addresses.chapel,
