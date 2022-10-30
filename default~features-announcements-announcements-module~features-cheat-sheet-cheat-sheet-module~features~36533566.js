@@ -195,7 +195,7 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Mariah Pope' },
+    pray1: { name: 'Sister Siosiana Kalamafoni' },
     pray2: { name: 'TBD' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
@@ -375,6 +375,11 @@ DATA.hymns = {
         title: 'Ko e Lotu Lilo (Secret Prayer)',
         page: 74,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/secret-prayer?lang=ton',
+    },
+    78: {
+        title: 'Monū ka ko ha Monū ne Tō',
+        page: 78,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/of-all-blessings-received?lang=por&clang=ton',
     },
     81: {
         title: 'Press Forward Saints',
@@ -794,6 +799,11 @@ DATA.hymns = {
         page: 220,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/lord-i-would-follow-thee?lang=eng',
     },
+    221: {
+        title: 'Dear to the Heart of the Shepherd',
+        page: 221,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/dear-to-the-heart-of-the-shepherd?lang=eng',
+    },
     223: {
         title: 'Have I Done Any Good?',
         page: 223,
@@ -953,8 +963,8 @@ DATA.releases = [
 ];
 DATA.sustaining = [
     {
-        name: "Sister Katie Tu'ivai",
-        calling: 'RS Ministering',
+        name: 'Nyoka Mataele',
+        calling: 'Music Committee Member, Chorister',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [
@@ -978,13 +988,26 @@ DATA.aaronicPriesthoodAdvancements = [
 //   { name: 'Brother Zealyn Unutoa' },
 // ];
 DATA.newMembers = [
-    { name: 'Eathyn Manumaleuna' },
-    { name: 'Vea Manumaleuna' },
-    { name: 'Benson Manumaleuna' },
-    { name: 'Saane Manumaleuna' },
-    { name: 'Ephraim Manumaleuna' },
-    { name: 'Donavon Defang' },
-    { name: 'Elisapeta Defang' },
+// { name: 'Eathyn Manumaleuna' },
+// { name: 'Vea Manumaleuna' },
+// { name: 'Benson Manumaleuna' },
+// { name: 'Saane Manumaleuna' },
+// { name: 'Ephraim Manumaleuna' },
+// { name: 'Donavon Defang' },
+// { name: 'Elisapeta Defang' },
+// { name: 'Mele Lasike' },
+// { name: 'Paul Lasike' },
+// { name: 'Yuri Lasike' },
+// { name: 'Brother Manoa Scott Terrell' },
+// { name: 'Brother Lucky Mataele' },
+// { name: 'Sister Lute Mataele' },
+// { name: 'Sister Nyoka Mataele' },
+// { name: 'Brother Lucky III Mataele' },
+// { name: 'Sister Sioulolovao Faletanu Mataele' },
+// { name: 'Brother Monson Moroni Mahonri Morancumer Mataele' },
+// { name: "Brother Samiuela Fungakava Fusitu'a Mataele" },
+// { name: 'Sister Kylie Rae Beaver' },
+// { name: 'Brother Joshua Cifuentes' },
 ];
 DATA.baptisms = [
 // { name: 'None' },
@@ -1028,22 +1051,22 @@ DATA.cheatSheet = {
         startTime: '9:00 AM',
         endTime: '11:00 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp,
-        conducting: DATA.people.bp,
-        chorister: DATA.people.chorister2,
+        presiding: DATA.people.bp1stc,
+        conducting: DATA.people.bp2ndc,
+        chorister: DATA.people.chorister1,
         organist: DATA.people.organist2,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[227],
-        sacramentSong: DATA.hymns[105],
+        openingSong: DATA.hymns[221],
+        sacramentSong: DATA.hymns[181],
         // restSong: DATA.hymns[226],
-        testimonySunday: false,
+        testimonySunday: true,
         speakers: [
-            {
-                person: { name: 'Sister Jessica Casuga' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
+            // {
+            //   person: { name: 'Sister Jessica Casuga' },
+            //   role: 'speaker',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
             // {
             //   person: { name: 'Sister Kylie Beaver' },
             //   role: 'speaker',
@@ -1075,7 +1098,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[184],
+        closingSong: DATA.hymns[78],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
