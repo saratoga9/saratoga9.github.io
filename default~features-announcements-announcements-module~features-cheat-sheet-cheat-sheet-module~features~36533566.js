@@ -190,13 +190,13 @@ DATA.broadcastLinks = [
 ];
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
-    chorister1: { name: 'Sister Salome Pita' },
+    chorister1: { name: 'Sister Nyoka Mataele' },
     chorister2: { name: 'Brother Rockey Kalamafoni' },
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Siosiana Kalamafoni' },
-    pray2: { name: 'TBD' },
+    pray1: { name: 'Sister Janelle Prescott' },
+    pray2: { name: 'Brother Alipate Prescott' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -649,17 +649,17 @@ DATA.hymns = {
         page: 182,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/well-sing-all-hail-to-jesus-name?lang=eng',
     },
+    184: {
+        title: 'Upon the Cross of Calvary',
+        page: 184,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/upon-the-cross-of-calvary?lang=eng',
+    },
     // 184: {
-    //   title: 'Upon the Cross of Calvary',
+    //   title: 'Fakahā ʻe he ʻOtua',
     //   page: 184,
     //   link:
-    //     'https://www.churchofjesuschrist.org/music/library/hymns/upon-the-cross-of-calvary?lang=eng',
+    //     'https://www.churchofjesuschrist.org/study/manual/hymns/god-is-willing-to-gather?lang=ton',
     // },
-    184: {
-        title: 'Fakahā ʻe he ʻOtua',
-        page: 184,
-        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/god-is-willing-to-gather?lang=ton',
-    },
     185: {
         title: 'E Tamai i Hevavni e',
         page: 185,
@@ -916,16 +916,96 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-    {
-        name: 'Sister Jaiden Kaka',
-        calling: 'Priamary Worker',
-    },
+// {
+//   name: '',
+//   calling: '',
+// },
+// {
+//   name: 'Sister Sue Unutoa',
+//   calling: 'YW 1st counselor',
+// },
+// {
+//   name: 'Sister Candice Kalamafoni',
+//   calling: 'YW 2nd Counselor',
+// },
+// {
+//   name: 'Sister Genesis Toki',
+//   calling: 'Primary Worker',
+// },
+// {
+//   name: 'Sister Paige Nagtikaura',
+//   calling: 'Sunday School Teacher',
+// },
+// // {
+//   name: 'Brother Alipate Prescott',
+//   calling: 'Sunday School President',
+// },
+// {
+//   name: 'Brother Stan Raas',
+//   calling: '1st Counselor Sunday School Presidency',
+// },
+// {
+//   name: 'Brother Eric Funn',
+//   calling: '2nd Counselor Sunday School Presidency',
+// },
+// {
+//   name: 'Brother Esafe Mile',
+//   calling: 'Secretary Sunday School Presidency',
+// },
+// {
+//   name: 'Brother Joe Hafoka',
+//   calling: 'Sunday School Teacher',
+// },
+// {
+//   name: 'Sister Shelli Hafoka',
+//   calling: 'Sunday School Teacher',
+// },
 ];
 DATA.sustaining = [
-    {
-        name: 'Nyoka Mataele',
-        calling: 'Music Committee Member, Chorister',
-    },
+// {
+//   name: 'Nyoka Mataele',
+//   calling: 'Music Committee Member, Chorister',
+// },
+// {
+//   name: 'Sister Brooke Molisi',
+//   calling: 'RS Activity Committee',
+// },
+// {
+//   name: 'Sister Jessica Wertner',
+//   calling: 'RS Teacher',
+// },
+// {
+//   name: 'Sister Shelli Hafoka',
+//   calling: 'RS Assistant Secretary',
+// },
+// {
+//   name: 'Brother Auka Fifita',
+//   calling: 'Primary Worker',
+// },
+// {
+//   name: 'Sister Sue Unutoa',
+//   calling: 'Primary Primary Worker',
+// },
+// {
+//   name: 'Sister Candice Kalamafoni',
+//   calling: 'Primary Worker (Music Coordinator)',
+// },
+// {
+//   name: 'Sister Siosiana Kalamafoni',
+//   calling: 'Primary Worker (Music Coordinator)',
+// },
+// {
+//   name: 'Sister Paige Ngatikaura',
+//   calling: 'Primary Worker',
+// },
+// {
+//   name: 'Sister Holly Terrell',
+//   calling: 'Sunday School Teacher',
+// },
+// {
+//   name: '',
+//   calling: '',
+// },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
@@ -1007,19 +1087,19 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 9, 30),
-        startTime: '9:00 AM',
-        endTime: '11:00 AM',
+        date: new Date(2022, 10, 13),
+        startTime: '11:30 AM',
+        endTime: '12:30 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp1stc,
-        conducting: DATA.people.bp2ndc,
+        presiding: DATA.people.bp,
+        conducting: DATA.people.bp1stc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist2,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[221],
-        sacramentSong: DATA.hymns[181],
+        openingSong: DATA.hymns[187],
+        sacramentSong: DATA.hymns[184],
         // restSong: DATA.hymns[226],
-        testimonySunday: true,
+        testimonySunday: false,
         speakers: [
             // {
             //   person: { name: 'Sister Jessica Casuga' },
@@ -1045,20 +1125,20 @@ DATA.cheatSheet = {
             //   index: 1,
             //   beforeRestHymn: true,
             // } as Speaker,
+            // {
+            //   person: { name: 'Brother Jackson Kaka' },
+            //   role: 'musical',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
             {
-                person: { name: 'Brother Jackson Kaka' },
-                role: 'musical',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Nico Casuga' },
+                person: { name: '' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[78],
+        closingSong: DATA.hymns[220],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
