@@ -195,8 +195,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Janelle Prescott' },
-    pray2: { name: 'Brother Alipate Prescott' },
+    pray1: { name: 'Brother Viliami Pita' },
+    pray2: { name: 'Sister Janelle Prescott' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Jackson Kaka' },
@@ -1101,24 +1101,24 @@ DATA.cheatSheet = {
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
-            // {
-            //   person: { name: 'Sister Jessica Casuga' },
-            //   role: 'speaker',
-            //   index: 1,
-            //   beforeRestHymn: true,
-            // } as Speaker,
-            // {
-            //   person: { name: 'Sister Kylie Beaver' },
-            //   role: 'speaker',
-            //   index: 1,
-            //   beforeRestHymn: true,
-            // } as Speaker,
-            // {
-            //   person: { name: 'Sister Siulolovao Mataele' },
-            //   role: 'speaker',
-            //   index: 1,
-            //   beforeRestHymn: true,
-            // } as Speaker,
+            {
+                person: { name: 'Sister Bailey Tuihalangingie' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Brother Ricky Tuihalangingie' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Brother Seamus Fitzgerald' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
             // {
             //   person: { name: 'Sister Lute Mataele' },
             //   role: 'speaker',
