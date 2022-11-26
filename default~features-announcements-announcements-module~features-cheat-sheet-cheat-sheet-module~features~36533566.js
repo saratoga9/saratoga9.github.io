@@ -13,15 +13,16 @@ __webpack_require__.r(__webpack_exports__);
 const DATA = {};
 //This is for the announcement section
 DATA.announcements = [
-    {
-        title: 'Utah County Emergency Rental Assistance Program',
-        //date: new Date(2021, 1, 4).toUTCString(),
-        description: 'The Utah County Commission has reached out to make everyone aware of the Utah County Emergency Rental Assistance Programs. Our County has been allocated funds ' +
-            'from the federal government specifically to assist individuals and families who are struggling to pay their rent and utilities. Information for this program and a link' +
-            'to apply can be found at <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://https://rentrelief.utah.gov" target="_blank">rentrelief.utah.gov</a> ' +
-            '<br />Application assistance can be found by contacting the Community Action Services at <b>(801)373-8200</b> or by walking in at the following address: ' +
-            '<a href="https://goo.gl/maps/Q1sLyYcY6eh9J16m7" target="_blank"><b>815 S Freedom Blvd #100, Provo, UT 84601</b></a>',
-    },
+    // {
+    //   title: 'Utah County Emergency Rental Assistance Program',
+    //   //date: new Date(2021, 1, 4).toUTCString(),
+    //   description:
+    //     'The Utah County Commission has reached out to make everyone aware of the Utah County Emergency Rental Assistance Programs. Our County has been allocated funds ' +
+    //     'from the federal government specifically to assist individuals and families who are struggling to pay their rent and utilities. Information for this program and a link' +
+    //     'to apply can be found at <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://https://rentrelief.utah.gov" target="_blank">rentrelief.utah.gov</a> ' +
+    //     '<br />Application assistance can be found by contacting the Community Action Services at <b>(801)373-8200</b> or by walking in at the following address: ' +
+    //     '<a href="https://goo.gl/maps/Q1sLyYcY6eh9J16m7" target="_blank"><b>815 S Freedom Blvd #100, Provo, UT 84601</b></a>',
+    // },
     {
         title: 'Protecting Children and Youth Training',
         //date: new Date(2021, 1, 4).toUTCString(),
@@ -29,15 +30,16 @@ DATA.announcements = [
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     {
-        title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2022, 7, 25).toUTCString(),
-        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
-            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions.<br /><br />' +
-            '<b>7:00pm - YSA Institute</b>' +
-            '<br />Stake Office,' +
-            '<a href="https://goo.gl/maps/7P6XidTpcAGkFcAFA" target="_blank">680 E Cedar Hollow Road, Lehi</a>/Via Zoom',
+        title: '8:00am - Stake Baptism at Ward Level',
+        date: new Date(2022, 11, 3).toUTCString(),
+        description: 'Lehi YSA Stake Building, ' +
+            '<a href="https://goo.gl/maps/42tAnxMzUrME5yeY9" target="_blank">1550 South  1100 West, Lehi</a>, ',
+    },
+    {
+        title: '6:00pm - First Presidency’s Christmas Devotional',
+        date: new Date(2022, 11, 4).toUTCString(),
+        description: 'Devoutional will be avaiable online, use the link below, ' +
+            '<a href="https://www.churchofjesuschrist.org/broadcasts?lang=eng&video=14489152232603217988&mode=watch" target="_blank">Access Live Broadcast</a>, ',
     },
 ];
 DATA.broadcastLinks = [
@@ -54,13 +56,13 @@ DATA.broadcastLinks = [
         meetingId: '931 1791 9917',
     },
     //4th Sundays
-    {
-        active: true,
-        label: 'Sunday 7:30am - Youth Council Meeting',
-        link: 'https://zoom.us/j/94703693144?pwd=ZHdLZkQ4WHBsRXd4TUFiazJUSFByUT09',
-        passcode: '821617',
-        meetingId: '947 0369 3144',
-    },
+    // {
+    //   active: true,
+    //   label: 'Sunday 7:30am - Youth Council Meeting',
+    //   link: 'https://zoom.us/j/94703693144?pwd=ZHdLZkQ4WHBsRXd4TUFiazJUSFByUT09',
+    //   passcode: '821617',
+    //   meetingId: '947 0369 3144',
+    // },
     {
         active: false,
         label: 'Sunday 10:00am - 2nd/4th Sunday Primary Singing Time',
@@ -191,16 +193,16 @@ DATA.broadcastLinks = [
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
     chorister1: { name: 'Sister Nyoka Mataele' },
-    chorister2: { name: 'Brother Rockey Kalamafoni' },
+    //chorister2: { name: 'Brother Rockey Kalamafoni' },
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Viliami Pita' },
-    pray2: { name: 'Sister Janelle Prescott' },
+    pray1: { name: 'Brother Andre Ngatukaura' },
+    pray2: { name: 'Sister Theresa Peni' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
-    bp2ndc: { name: 'Brother Jackson Kaka' },
-    wc: { name: 'Brother Adam Chase' },
+    bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
+    wc: { name: 'Brother Eathyn Manumaleuna' },
     bp: { name: 'Bishop Wayne Tarawhiti' },
     stkpresc2: { name: 'President Spencer Reid' },
     stkpresc1: { name: 'President Darren Harris' },
@@ -1087,7 +1089,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 10, 13),
+        date: new Date(2022, 10, 27),
         startTime: '11:30 AM',
         endTime: '12:30 AM',
         address: DATA.addresses.chapel,
@@ -1096,31 +1098,43 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist2,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[187],
-        sacramentSong: DATA.hymns[184],
+        openingSong: DATA.hymns[146],
+        sacramentSong: DATA.hymns[96],
         // restSong: DATA.hymns[226],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Bailey Tuihalangingie' },
+                person: { name: 'Sister Ann Uluilakepa' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Ricky Tuihalangingie' },
+                person: { name: 'Brother Taki Uluilakepa' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
+            // {
+            //   person: { name: 'Sister Lute Mataele' },
+            //   role: 'speaker',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
+            // {
+            //   person: { name: 'Brother Jackson Kaka' },
+            //   role: 'musical',
+            //   index: 1,
+            //   beforeRestHymn: true,
+            // } as Speaker,
             {
-                person: { name: 'Brother Seamus Fitzgerald' },
+                person: { name: '' },
                 role: 'speaker',
                 index: 1,
-                beforeRestHymn: true,
+                beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[220],
+        closingSong: DATA.hymns[131],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
