@@ -38,7 +38,7 @@ DATA.announcements = [
     {
         title: '6:00pm - First Presidency’s Christmas Devotional',
         date: new Date(2022, 11, 4).toUTCString(),
-        description: 'Devoutional will be avaiable online, use the link below, ' +
+        description: 'Devotional will be avaiable online, use the link below, ' +
             '<a href="https://www.churchofjesuschrist.org/broadcasts?lang=eng&video=14489152232603217988&mode=watch" target="_blank">Access Live Broadcast</a>, ',
     },
 ];
