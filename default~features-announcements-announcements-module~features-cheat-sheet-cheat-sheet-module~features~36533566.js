@@ -41,6 +41,11 @@ DATA.announcements = [
         description: 'Devotional will be avaiable online, use the link below, ' +
             '<a href="https://www.churchofjesuschrist.org/broadcasts?lang=eng&video=14489152232603217988&mode=watch" target="_blank">Access Live Broadcast</a>, ',
     },
+    {
+        title: '6:00pm - 9pm Ward Christmas Party Dinner and Dancing',
+        date: new Date(2022, 11, 10).toUTCString(),
+        description: 'Theme: Aloha Christmas, ' + 'Location: Our Chapel, ',
+    },
 ];
 DATA.broadcastLinks = [
     // ---------------------------------------------------------------------
