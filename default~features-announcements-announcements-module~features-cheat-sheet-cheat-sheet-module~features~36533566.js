@@ -216,8 +216,8 @@ DATA.people = {
 };
 DATA.addresses = {
     chapel: {
-        reference: '220 W 200 S, Lehi, UT 84043',
-        link: 'https://goo.gl/maps/UCX6H9QWRjoZPNTt9',
+        reference: '1178 S Pondside Dr, Saratoga Springs, UT 84045',
+        link: 'https://goo.gl/maps/7vHGQT6v1RU4VdgG9',
     },
 };
 DATA.hymns = {
@@ -1096,12 +1096,12 @@ DATA.cheatSheet = {
         id: 1,
         date: new Date(2022, 11, 4),
         startTime: '11:30 AM',
-        endTime: '12:30 AM',
+        endTime: '12:30 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
         conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister1,
-        organist: DATA.people.organist2,
+        organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
         openingSong: DATA.hymns[203],
         sacramentSong: DATA.hymns[194],
