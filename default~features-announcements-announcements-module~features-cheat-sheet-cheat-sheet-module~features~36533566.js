@@ -1126,7 +1126,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Genesis Fitzgerald' },
+                person: { name: 'Sister Genesis Toki' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
