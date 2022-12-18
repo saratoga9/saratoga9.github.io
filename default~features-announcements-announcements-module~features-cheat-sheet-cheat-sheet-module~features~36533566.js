@@ -31,20 +31,9 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Stake Baptism at Ward Level',
-        date: new Date(2022, 11, 3).toUTCString(),
+        date: new Date(2022, 11, 31).toUTCString(),
         description: 'Lehi YSA Stake Building, ' +
             '<a href="https://goo.gl/maps/42tAnxMzUrME5yeY9" target="_blank">1550 South  1100 West, Lehi</a>, ',
-    },
-    {
-        title: '6:00pm - First Presidency’s Christmas Devotional',
-        date: new Date(2022, 11, 4).toUTCString(),
-        description: 'Devotional will be avaiable online, use the link below, ' +
-            '<a href="https://www.churchofjesuschrist.org/broadcasts?lang=eng&video=14489152232603217988&mode=watch" target="_blank">Access Live Broadcast</a>, ',
-    },
-    {
-        title: '6:00pm - 9pm Ward Christmas Party Dinner and Dancing',
-        date: new Date(2022, 11, 10).toUTCString(),
-        description: 'Theme: Aloha Christmas, ' + 'Location: Our Chapel, ',
     },
 ];
 DATA.broadcastLinks = [
@@ -202,8 +191,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Sai Soakai' },
-    pray2: { name: 'Sister Tami Teriipaia' },
+    pray1: { name: 'Brother Liki Pope' },
+    pray2: { name: 'Sister Felisha Funn' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -499,6 +488,11 @@ DATA.hymns = {
         title: 'Come, Follow Me',
         page: 116,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-follow-me?lang=eng',
+    },
+    119: {
+        title: 'Nae ofo a e kau poto',
+        page: 119,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/with-wondering-awe?lang=ton',
     },
     124: {
         title: 'Be Still, My Soul',
@@ -1099,7 +1093,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 11, 11),
+        date: new Date(2022, 11, 18),
         startTime: '11:30 AM',
         endTime: '12:30 PM',
         address: DATA.addresses.chapel,
@@ -1108,25 +1102,25 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[202],
-        sacramentSong: DATA.hymns[92],
-        // restSong: DATA.hymns[226],
+        openingSong: DATA.hymns[119],
+        sacramentSong: DATA.hymns[172],
+        restSong: DATA.hymns[209],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Vikolia Pearson' },
+                person: { name: 'Sister Ryanna' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Fitzgerald' },
+                person: { name: 'Sister Les Halafuka' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Genesis Toki' },
+                person: { name: 'Brother Gabe Toki' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
