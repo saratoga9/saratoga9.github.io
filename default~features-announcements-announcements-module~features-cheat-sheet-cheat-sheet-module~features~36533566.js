@@ -35,6 +35,12 @@ DATA.announcements = [
         description: 'Lehi YSA Stake Building, ' +
             '<a href="https://goo.gl/maps/42tAnxMzUrME5yeY9" target="_blank">1550 South  1100 West, Lehi</a>, ',
     },
+    {
+        title: 'Ward Conference 2023',
+        date: new Date(2023, 0, 2).toUTCString(),
+        description: 'Program is available on the link below, ' +
+            '<a href="https://drive.google.com/file/d/1zLxRxpj0kPj7g_Bm-ym6jyd3rw1nEe6m/view?usp=sharing" target="_blank">Click Here</a>, ',
+    },
 ];
 DATA.broadcastLinks = [
     // ---------------------------------------------------------------------
@@ -191,8 +197,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Liki Pope' },
-    pray2: { name: 'Sister Felisha Funn' },
+    pray1: { name: 'Brother Sunia Halafuka' },
+    pray2: { name: 'Sister Haley Sika' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -1093,9 +1099,9 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2022, 11, 18),
-        startTime: '11:30 AM',
-        endTime: '12:30 PM',
+        date: new Date(2022, 11, 25),
+        startTime: '12:00 PM',
+        endTime: '1:00 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
         conducting: DATA.people.bp2ndc,
