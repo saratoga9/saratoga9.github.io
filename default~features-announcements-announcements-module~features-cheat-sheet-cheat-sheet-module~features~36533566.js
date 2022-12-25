@@ -36,10 +36,45 @@ DATA.announcements = [
             '<a href="https://goo.gl/maps/42tAnxMzUrME5yeY9" target="_blank">1550 South  1100 West, Lehi</a>, ',
     },
     {
-        title: 'Ward Conference 2023',
+        title: 'Ward Conference 2023 - Day 1',
         date: new Date(2023, 0, 2).toUTCString(),
-        description: 'Program is available on the link below, ' +
-            '<a href="https://drive.google.com/file/d/1zLxRxpj0kPj7g_Bm-ym6jyd3rw1nEe6m/view?usp=sharing" target="_blank">Click Here</a>, ',
+        description: 'FAMILY HOME EVENING, ' +
+            '<a>Introduce 2023 Ward Theme at Home: Doctrine & Covernants 121:7-8 </a> ' +
+            '<a href="https://drive.google.com/file/d/1zLxRxpj0kPj7g_Bm-ym6jyd3rw1nEe6m/view?usp=sharing">Click Here for Details of the Conference Agenda</a>, ',
+    },
+    {
+        title: 'Ward Conference 2023 - Day 2',
+        date: new Date(2023, 0, 3).toUTCString(),
+        description: 'STAKE TEMPLE NIGHT @8:3pm, ' + '<a>Mt. Timpanogos Temple</a> ',
+    },
+    {
+        title: 'Ward Conference 2023 - Day 3',
+        date: new Date(2023, 0, 4).toUTCString(),
+        description: 'LEADERS MEMBERS VISITS @6:30pm, ' +
+            '<a>Meet at the chapel: 1178 Ponside Drive ... </a> ',
+    },
+    {
+        title: 'Ward Conference 2023 - Day 4',
+        date: new Date(2023, 0, 5).toUTCString(),
+        description: 'Combined YM/YW Activity, ' +
+            '<a>TBA - Fat Cats or Lehi Jack & Jill</a> ',
+    },
+    {
+        title: 'Ward Conference 2023 - Day 5',
+        date: new Date(2023, 0, 6).toUTCString(),
+        description: 'DATE NIGHT with your SPOUSE, ' + '<a>Treat your wife</a> ',
+    },
+    {
+        title: 'Ward Conference 2023 - Day 6',
+        date: new Date(2023, 0, 7).toUTCString(),
+        description: 'SERVICE PROJECT @8:30AM, Chapel Cleanup ' +
+            '<a>Address: 1178 Pondside Drive, Saratoga Springs, UT 84045</a> ',
+    },
+    {
+        title: 'Ward Conference 2023 - Day 7',
+        date: new Date(2023, 0, 8).toUTCString(),
+        description: 'SUNDAY SERVICES starting @1:30pm, ' +
+            '<a>Address: 1178 Pondside Drive, Saratoga Springs, UT 84045 </a> ',
     },
 ];
 DATA.broadcastLinks = [
