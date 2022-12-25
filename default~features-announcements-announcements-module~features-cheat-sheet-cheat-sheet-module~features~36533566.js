@@ -515,6 +515,11 @@ DATA.hymns = {
         page: 107,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/jesus-once-of-humble-birth?lang=por&clang=ton',
     },
+    110: {
+        title: 'Fiefia Ki Mamani',
+        page: 110,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/joy-to-the-world?lang=ton',
+    },
     111: {
         title: 'Mou Haʻu Kāinga',
         page: 111,
@@ -534,6 +539,11 @@ DATA.hymns = {
         title: 'Nae ofo a e kau poto',
         page: 119,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/with-wondering-awe?lang=ton',
+    },
+    122: {
+        title: 'Hiva a e Kau Angelo',
+        page: 122,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/the-first-noel?lang=ton',
     },
     124: {
         title: 'Be Still, My Soul',
@@ -963,96 +973,24 @@ DATA.hymns = {
     },
 };
 DATA.releases = [
-// {
-//   name: '',
-//   calling: '',
-// },
-// {
-//   name: 'Sister Sue Unutoa',
-//   calling: 'YW 1st counselor',
-// },
-// {
-//   name: 'Sister Candice Kalamafoni',
-//   calling: 'YW 2nd Counselor',
-// },
-// {
-//   name: 'Sister Genesis Toki',
-//   calling: 'Primary Worker',
-// },
-// {
-//   name: 'Sister Paige Nagtikaura',
-//   calling: 'Sunday School Teacher',
-// },
-// // {
-//   name: 'Brother Alipate Prescott',
-//   calling: 'Sunday School President',
-// },
-// {
-//   name: 'Brother Stan Raas',
-//   calling: '1st Counselor Sunday School Presidency',
-// },
-// {
-//   name: 'Brother Eric Funn',
-//   calling: '2nd Counselor Sunday School Presidency',
-// },
-// {
-//   name: 'Brother Esafe Mile',
-//   calling: 'Secretary Sunday School Presidency',
-// },
-// {
-//   name: 'Brother Joe Hafoka',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: 'Sister Shelli Hafoka',
-//   calling: 'Sunday School Teacher',
-// },
+    // {
+    //   name: '',
+    //   calling: '',
+    // },
+    {
+        name: 'Brother AJ Tuineau',
+        calling: 'Teachers Quorum Advisor',
+    },
+    {
+        name: 'Brother Veni Tuivai',
+        calling: 'Teachers Quorum Specialist',
+    },
 ];
 DATA.sustaining = [
-// {
-//   name: 'Nyoka Mataele',
-//   calling: 'Music Committee Member, Chorister',
-// },
-// {
-//   name: 'Sister Brooke Molisi',
-//   calling: 'RS Activity Committee',
-// },
-// {
-//   name: 'Sister Jessica Wertner',
-//   calling: 'RS Teacher',
-// },
-// {
-//   name: 'Sister Shelli Hafoka',
-//   calling: 'RS Assistant Secretary',
-// },
-// {
-//   name: 'Brother Auka Fifita',
-//   calling: 'Primary Worker',
-// },
-// {
-//   name: 'Sister Sue Unutoa',
-//   calling: 'Primary Primary Worker',
-// },
-// {
-//   name: 'Sister Candice Kalamafoni',
-//   calling: 'Primary Worker (Music Coordinator)',
-// },
-// {
-//   name: 'Sister Siosiana Kalamafoni',
-//   calling: 'Primary Worker (Music Coordinator)',
-// },
-// {
-//   name: 'Sister Paige Ngatikaura',
-//   calling: 'Primary Worker',
-// },
-// {
-//   name: 'Sister Holly Terrell',
-//   calling: 'Sunday School Teacher',
-// },
-// {
-//   name: '',
-//   calling: '',
-// },
+    {
+        name: 'Brother Langi Hola',
+        calling: 'Teachers Quorum Advisor',
+    },
 ];
 DATA.aaronicPriesthoodAdvancements = [
 // { name: 'Brother Zealyn Unutoa', calling: 'Deacon' },
@@ -1143,41 +1081,41 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[119],
-        sacramentSong: DATA.hymns[172],
-        restSong: DATA.hymns[209],
+        openingSong: DATA.hymns[122],
+        sacramentSong: DATA.hymns[193],
+        restSong: DATA.hymns[204],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Sister Ryanna' },
+                person: { name: 'Bell Family - Musical Number' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Sister Les Halafuka' },
+                person: { name: 'Sister Holly Terrel - Testimony' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Gabe Toki' },
+                person: { name: 'Sister Keili Malohifoou - Testimony' },
                 role: 'speaker',
                 index: 1,
-                beforeRestHymn: true,
+                beforeRestHymn: false,
             },
-            // {
-            //   person: { name: 'Sister Lute Mataele' },
-            //   role: 'speaker',
-            //   index: 1,
-            //   beforeRestHymn: true,
-            // } as Speaker,
-            // {
-            //   person: { name: 'Brother Jackson Kaka' },
-            //   role: 'musical',
-            //   index: 1,
-            //   beforeRestHymn: true,
-            // } as Speaker,
+            {
+                person: { name: 'Sister Manu Harris - Musical Number' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: false,
+            },
+            {
+                person: { name: 'Brother Salesi Sika' },
+                role: 'musical',
+                index: 1,
+                beforeRestHymn: false,
+            },
             {
                 person: { name: '' },
                 role: 'speaker',
@@ -1185,7 +1123,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[113],
+        closingSong: DATA.hymns[110],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
