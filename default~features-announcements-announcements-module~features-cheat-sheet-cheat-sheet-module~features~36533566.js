@@ -31,50 +31,21 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Stake Baptism at Ward Level',
-        date: new Date(2022, 11, 31).toUTCString(),
+        date: new Date(2023, 1, 4).toUTCString(),
         description: 'Lehi YSA Stake Building, ' +
             '<a href="https://goo.gl/maps/42tAnxMzUrME5yeY9" target="_blank">1550 South  1100 West, Lehi</a>, ',
     },
+    // {
+    //   title: '6:00pm - 9pm Ward Christmas Party Dinner and Dancing',
+    //   date: new Date(2022, 11, 10).toUTCString(),
+    //   description: 'Theme: Aloha Christmas, ' + 'Location: Our Chapel, ',
+    // },
     {
-        title: 'Ward Conference 2023 - Day 1',
-        date: new Date(2023, 0, 2).toUTCString(),
-        description: 'FAMILY HOME EVENING, ' +
-            '<a>Introduce 2023 Ward Theme at Home: Doctrine & Covernants 121:7-8 </a> ' +
-            '<a href="https://drive.google.com/file/d/1zLxRxpj0kPj7g_Bm-ym6jyd3rw1nEe6m/view?usp=sharing">Click Here for Details of the Conference Agenda</a>, ',
-    },
-    {
-        title: 'Ward Conference 2023 - Day 2',
-        date: new Date(2023, 0, 3).toUTCString(),
-        description: 'STAKE TEMPLE NIGHT @8:3pm, ' + '<a>Mt. Timpanogos Temple</a> ',
-    },
-    {
-        title: 'Ward Conference 2023 - Day 3',
-        date: new Date(2023, 0, 4).toUTCString(),
-        description: 'LEADERS MEMBERS VISITS @6:30pm, ' +
-            '<a>Meet at the chapel: 1178 Ponside Drive ... </a> ',
-    },
-    {
-        title: 'Ward Conference 2023 - Day 4',
-        date: new Date(2023, 0, 5).toUTCString(),
-        description: 'Combined YM/YW Activity, ' +
-            '<a>TBA - Fat Cats or Lehi Jack & Jill</a> ',
-    },
-    {
-        title: 'Ward Conference 2023 - Day 5',
-        date: new Date(2023, 0, 6).toUTCString(),
-        description: 'DATE NIGHT with your SPOUSE, ' + '<a>Treat your wife</a> ',
-    },
-    {
-        title: 'Ward Conference 2023 - Day 6',
-        date: new Date(2023, 0, 7).toUTCString(),
-        description: 'SERVICE PROJECT @8:30AM, Chapel Cleanup ' +
-            '<a>Address: 1178 Pondside Drive, Saratoga Springs, UT 84045</a> ',
-    },
-    {
-        title: 'Ward Conference 2023 - Day 7',
-        date: new Date(2023, 0, 8).toUTCString(),
-        description: 'SUNDAY SERVICES starting @1:30pm, ' +
-            '<a>Address: 1178 Pondside Drive, Saratoga Springs, UT 84045 </a> ',
+        title: '8:00am - Utah Food Bank Delivery',
+        date: new Date(2023, 0, 19).toUTCString(),
+        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
+            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+            '8:00am. If you like to volunteer, be there at 6:30am.',
     },
 ];
 DATA.broadcastLinks = [
@@ -232,8 +203,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Kathy Moleni' },
-    pray2: { name: 'Brother Andrea Ngatikaura' },
+    pray1: { name: 'Brother Junior Peni' },
+    pray2: { name: 'Sister Jelaire Fitzgerald' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -382,6 +353,11 @@ DATA.hymns = {
         title: 'Ka Faingataʻa Ho Hala Feinga',
         page: 58,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/if-the-way-be-full-of-trial?lang=ton',
+    },
+    60: {
+        title: 'Battle Hymn of the Republic',
+        page: 60,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/battle-hymn-of-the-republic?lang=eng',
     },
     62: {
         title: 'All Creatures of Our God and King',
@@ -1072,7 +1048,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2023, 0, 1),
+        date: new Date(2023, 0, 15),
         startTime: '1:30 PM',
         endTime: '2:30 PM',
         address: DATA.addresses.chapel,
@@ -1081,49 +1057,19 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[122],
-        sacramentSong: DATA.hymns[193],
-        restSong: DATA.hymns[204],
-        testimonySunday: true,
+        openingSong: DATA.hymns[60],
+        sacramentSong: DATA.hymns[92],
+        restSong: DATA.hymns[22],
+        testimonySunday: false,
         speakers: [
-        // {
-        //   person: { name: 'Bell Family - Musical Number' },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: true,
-        // } as Speaker,
-        // {
-        //   person: { name: 'Sister Holly Terrel - Testimony' },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: true,
-        // } as Speaker,
-        // {
-        //   person: { name: 'Sister Keili Malohifoou - Testimony' },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: false,
-        // } as Speaker,
-        // {
-        //   person: { name: 'Sister Manu Harris - Musical Number' },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: false,
-        // } as Speaker,
-        // {
-        //   person: { name: 'Brother Salesi Sika' },
-        //   role: 'musical',
-        //   index: 1,
-        //   beforeRestHymn: false,
-        // } as Speaker,
-        // {
-        //   person: { name: '' },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: false,
-        // } as Speaker,
+            {
+                person: { name: 'Von Santiago - Member of Stake High Council' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
         ],
-        closingSong: DATA.hymns[110],
+        closingSong: DATA.hymns[15],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
