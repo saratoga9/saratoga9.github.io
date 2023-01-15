@@ -1063,10 +1063,16 @@ DATA.cheatSheet = {
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Von Santiago - Member of Stake High Council' },
+                person: { name: 'Summer Santiago - Wife of Von Santiago' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
+            },
+            {
+                person: { name: 'Von Santiago - Stake High Council Member' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: false,
             },
         ],
         closingSong: DATA.hymns[15],
