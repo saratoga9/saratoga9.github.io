@@ -35,6 +35,11 @@ DATA.announcements = [
         description: 'Lehi YSA Stake Building, ' +
             '<a href="https://goo.gl/maps/42tAnxMzUrME5yeY9" target="_blank">1550 South  1100 West, Lehi</a>, ',
     },
+    {
+        title: '7:00pm - YSA Institute',
+        date: new Date(2023, 1, 2).toUTCString(),
+        description: 'Stake Center ',
+    },
     // {
     //   title: '6:00pm - 9pm Ward Christmas Party Dinner and Dancing',
     //   date: new Date(2022, 11, 10).toUTCString(),
@@ -42,10 +47,15 @@ DATA.announcements = [
     // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2023, 0, 19).toUTCString(),
+        date: new Date(2023, 1, 2).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there at 6:30am.',
+    },
+    {
+        title: '4pm MDT - Worldwide Event for Youth',
+        date: new Date(2023, 0, 29).toUTCString(),
+        description: 'Ways to Watch Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/media/broadcasts/worldwide-event-for-youth?lang=eng" target="_blank">click here!</a>',
     },
 ];
 DATA.broadcastLinks = [
@@ -203,8 +213,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Kenneth Moleni' },
-    pray2: { name: 'Girish Rajaratnam' },
+    pray1: { name: 'Seamus Fitzgerald' },
+    pray2: { name: 'TBA' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -531,6 +541,11 @@ DATA.hymns = {
         page: 124,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/be-still-my-soul?lang=eng',
     },
+    125: {
+        title: 'How Gentle Gods Commands',
+        page: 125,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/how-gentle-gods-commands?lang=eng',
+    },
     126: {
         title: 'Kuo Lahi Hoku Tapuaki',
         page: 126,
@@ -692,17 +707,17 @@ DATA.hymns = {
         page: 182,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/well-sing-all-hail-to-jesus-name?lang=eng',
     },
+    //184: {
+    //  title: 'Upon the Cross of Calvary',
+    //  page: 184,
+    //  link:
+    //   'https://www.churchofjesuschrist.org/music/library/hymns/upon-the-cross-of-calvary?lang=eng',
+    //}
     184: {
-        title: 'Upon the Cross of Calvary',
+        title: 'Fakahā ʻe he ʻOtua',
         page: 184,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/upon-the-cross-of-calvary?lang=eng',
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/god-is-willing-to-gather?lang=ton',
     },
-    // 184: {
-    //   title: 'Fakahā ʻe he ʻOtua',
-    //   page: 184,
-    //   link:
-    //     'https://www.churchofjesuschrist.org/study/manual/hymns/god-is-willing-to-gather?lang=ton',
-    // },
     185: {
         title: 'E Tamai i Hevavni e',
         page: 185,
@@ -1058,7 +1073,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2023, 0, 22),
+        date: new Date(2023, 0, 29),
         startTime: '1:30 PM',
         endTime: '2:30 PM',
         address: DATA.addresses.chapel,
@@ -1067,43 +1082,25 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[144],
-        sacramentSong: DATA.hymns[103],
-        restSong: DATA.hymns[308],
+        openingSong: DATA.hymns[184],
+        sacramentSong: DATA.hymns[195],
+        restSong: DATA.hymns[125],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Ephraim Manumaleuna' },
+                person: { name: 'Kaylee Mahoney Tuione' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Ilaisaane Manumaleuna' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Benson Manumaleuna' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Vea Manumaleuna' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Eathyn Manumaleuna' },
+                person: { name: 'Hamaua Blake Tuione' },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[86],
+        closingSong: DATA.hymns[25],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
