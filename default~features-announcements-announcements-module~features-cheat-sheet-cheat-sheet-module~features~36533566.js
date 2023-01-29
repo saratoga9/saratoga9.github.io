@@ -214,7 +214,7 @@ DATA.people = {
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
     pray1: { name: 'Seamus Fitzgerald' },
-    pray2: { name: 'TBA' },
+    pray2: { name: 'Kalolaine Toroca' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
