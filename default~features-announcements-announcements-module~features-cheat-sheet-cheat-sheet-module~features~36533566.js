@@ -31,13 +31,13 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Stake Baptism at Ward Level',
-        date: new Date(2023, 1, 4).toUTCString(),
+        date: new Date(2023, 2, 4).toUTCString(),
         description: 'Lehi YSA Stake Building, ' +
             '<a href="https://goo.gl/maps/42tAnxMzUrME5yeY9" target="_blank">1550 South  1100 West, Lehi</a>, ',
     },
     {
         title: '7:00pm - YSA Institute',
-        date: new Date(2023, 1, 2).toUTCString(),
+        date: new Date(2023, 1, 16).toUTCString(),
         description: 'Stake Center ',
     },
     // {
@@ -47,15 +47,10 @@ DATA.announcements = [
     // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2023, 1, 2).toUTCString(),
+        date: new Date(2023, 1, 16).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there at 6:30am.',
-    },
-    {
-        title: '4pm MDT - Worldwide Event for Youth',
-        date: new Date(2023, 0, 29).toUTCString(),
-        description: 'Ways to Watch Live <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/media/broadcasts/worldwide-event-for-youth?lang=eng" target="_blank">click here!</a>',
     },
 ];
 DATA.broadcastLinks = [
@@ -213,8 +208,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Raymond Terrell' },
-    pray2: { name: 'Jamie Soakai' },
+    pray1: { name: 'TBA' },
+    pray2: { name: 'Brother Conway Kaka' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -1078,7 +1073,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2023, 1, 5),
+        date: new Date(2023, 1, 12),
         startTime: '1:30 PM',
         endTime: '2:30 PM',
         address: DATA.addresses.chapel,
@@ -1089,33 +1084,31 @@ DATA.cheatSheet = {
         invocation: DATA.people.pray1,
         openingSong: DATA.hymns[27],
         sacramentSong: DATA.hymns[96],
-        //restSong: DATA.hymns[125],
-        testimonySunday: true,
+        restSong: DATA.hymns[125],
+        testimonySunday: false,
         speakers: [
-        // {
-        //   person: { name: 'Sister Keili Malohifoou - Testimony' },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: false,
-        // } as Speaker,
-        // {
-        //   person: { name: 'Sister Manu Harris - Musical Number' },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: false,
-        // } as Speaker,
-        // {
-        //   person: { name: 'Brother Salesi Sika' },
-        //   role: 'musical',
-        //   index: 1,
-        //   beforeRestHymn: false,
-        // } as Speaker,
-        // {
-        //   person: { name: '' },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: false,
-        // } as Speaker,
+            {
+                person: { name: 'Leilani Uluilakepa - thought from CFM-Testimony' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: {
+                    name: 'Sis. Lupi Pulotu - Jesus Christ Is the Strength of Youth - Dieter F. Uchdorf',
+                },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: {
+                    name: 'Bro. Nesi Pulotu - Lifted Up upon the Cross - Jeffrey R. Holland',
+                },
+                role: 'musical',
+                index: 1,
+                beforeRestHymn: false,
+            },
         ],
         closingSong: DATA.hymns[300],
         benediction: DATA.people.pray2,
