@@ -26,7 +26,7 @@ DATA.announcements = [
     {
         title: 'Protecting Children and Youth Training',
         //date: new Date(2021, 1, 4).toUTCString(),
-        description: 'All leaders and teachers of children or youth are to complete this training within one month of being called. We also invite the parents to do the same.' +
+        description: 'All leaders and teachers of children or youth are to complete this training within one month of being called. We also invite the parents to do the same. This Training is good for 3 years' +
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     {
@@ -51,6 +51,23 @@ DATA.announcements = [
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there at 6:30am.',
+    },
+    {
+        title: 'YM basketball tournament and YW Saturday volleyball tournament',
+        date: new Date(2023, 2, 17).toUTCString(),
+        description: 'March 17th-18th @ Skyridge High School, ' +
+            '<a href="https://drive.google.com/file/d/1s_ewM72GxUPYcRjSxVrVzmqnPPph6_pa/view?usp=sharing" target="_blank">Click Here for the Young Women Flyer</a>, ' +
+            '<a href="https://drive.google.com/file/d/1CiojRijU-D9Fc5aoTcb3b7WZB_1LtujY/view?usp=sharing" target="_blank">Click Here for the Young Men Flyer</a>,',
+    },
+    {
+        title: 'General Conference, April 1-2',
+        date: new Date(2023, 3, 1).toUTCString(),
+        description: 'Broadcasted over the Internet',
+    },
+    {
+        title: 'Stake Conference, April 29-30',
+        date: new Date(2023, 3, 29).toUTCString(),
+        description: 'Stake Center ',
     },
 ];
 DATA.broadcastLinks = [
@@ -208,8 +225,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'TBA' },
-    pray2: { name: 'Brother Conway Kaka' },
+    pray1: { name: 'Brother Conway Kaka' },
+    pray2: { name: 'Brother Travis Tuiloma' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -232,10 +249,16 @@ DATA.hymns = {
         page: 0,
         link: 'null',
     },
+    // 2: {
+    //   title: 'Ko e Laumālie ʻo e ʻOtuá',
+    //   page: 2,
+    //   link:
+    //     'https://www.churchofjesuschrist.org/study/manual/hymns/the-spirit-of-god?lang=ton',
+    // },
     2: {
-        title: 'Ko e Laumālie ʻo e ʻOtuá',
+        title: 'The Spirit of God',
         page: 2,
-        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/the-spirit-of-god?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/the-spirit-of-god?lang=eng',
     },
     3: {
         title: 'Now Let Us Rejoice',
@@ -770,17 +793,17 @@ DATA.hymns = {
         page: 195,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/how-great-the-wisdom-and-the-love?lang=eng',
     },
-    //196: {
-    //title: 'Jesus, Once of Humble Birth',
-    //page: 196,
-    //link:
-    //'https://www.churchofjesuschrist.org/music/library/hymns/jesus-once-of-humble-birth?lang=eng',
-    //},
     196: {
-        title: 'Akoʻi Au ke U ʻEva he Māmá',
+        title: 'Jesus, Once of Humble Birth',
         page: 196,
-        link: 'https://www.churchofjesuschrist.org/music/text/hymns/teach-me-to-walk-in-the-light?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/jesus-once-of-humble-birth?lang=eng',
     },
+    // 196: {
+    //   title: 'Akoʻi Au ke U ʻEva he Māmá',
+    //   page: 196,
+    //   link:
+    //     'https://www.churchofjesuschrist.org/music/text/hymns/teach-me-to-walk-in-the-light?lang=ton',
+    // },
     199: {
         title: 'He Is Risen!',
         page: 199,
@@ -926,6 +949,11 @@ DATA.hymns = {
         title: 'As I Search The Holy Scriptures',
         page: 277,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/as-i-search-the-holy-scriptures?lang=eng',
+    },
+    284: {
+        title: 'If you Could Hie to Colob',
+        page: 284,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/if-you-could-hie-to-kolob?lang=eng',
     },
     286: {
         title: 'Oh, What Songs of the Heart',
@@ -1082,9 +1110,9 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[27],
-        sacramentSong: DATA.hymns[96],
-        restSong: DATA.hymns[125],
+        openingSong: DATA.hymns[2],
+        sacramentSong: DATA.hymns[196],
+        //restSong: DATA.hymns[125],
         testimonySunday: false,
         speakers: [
             {
@@ -1110,7 +1138,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[300],
+        closingSong: DATA.hymns[284],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
