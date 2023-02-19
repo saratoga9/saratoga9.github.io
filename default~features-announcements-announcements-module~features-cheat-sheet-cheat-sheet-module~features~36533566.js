@@ -30,15 +30,25 @@ DATA.announcements = [
             ' To take the training, <a class="btn btn-sm btn-info font-size-14 text-capitalize" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng&cid=rdb_v_protectingchildren" target="_blank">Click Here!</a> ',
     },
     {
+        title: '7:00pm - YSA Institute',
+        date: new Date(2023, 1, 23).toUTCString(),
+        description: 'Stake Center ',
+    },
+    {
         title: '8:00am - Stake Baptism at Ward Level',
         date: new Date(2023, 2, 4).toUTCString(),
         description: 'Lehi YSA Stake Building, ' +
             '<a href="https://goo.gl/maps/42tAnxMzUrME5yeY9" target="_blank">1550 South  1100 West, Lehi</a>, ',
     },
     {
-        title: '7:00pm - YSA Institute',
-        date: new Date(2023, 1, 16).toUTCString(),
-        description: 'Stake Center ',
+        title: 'Fast Sunday',
+        date: new Date(2023, 2, 5).toUTCString(),
+        description: 'Fast Sunday',
+    },
+    {
+        title: '6:00am - EQ and RS Presidency training ',
+        date: new Date(2023, 2, 5).toUTCString(),
+        description: 'Stake Center',
     },
     // {
     //   title: '6:00pm - 9pm Ward Christmas Party Dinner and Dancing',
@@ -47,10 +57,15 @@ DATA.announcements = [
     // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2023, 1, 16).toUTCString(),
+        date: new Date(2023, 1, 23).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there at 6:30am.',
+    },
+    {
+        title: '6:00pm - Old Testament Tabernacle Devoutional',
+        date: new Date(2023, 2, 12).toUTCString(),
+        description: 'Provo YSA Stake Center - 350 900 E, Provo, UT 84606',
     },
     {
         title: 'YM basketball tournament and YW Saturday volleyball tournament',
@@ -225,8 +240,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Conway Kaka' },
-    pray2: { name: 'Brother Travis Tuiloma' },
+    pray1: { name: 'Brother Sean McKenna' },
+    pray2: { name: 'Sister Lute Mataele' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -270,10 +285,16 @@ DATA.hymns = {
         page: 4,
         link: 'https://www.churchofjesuschrist.org/study/manual/hymns/high-on-the-mountain-top?lang=ton',
     },
+    // 5: {
+    //   title: 'Huhuʻi ʻo ʻIsileli',
+    //   page: 5,
+    //   link:
+    //     'https://www.churchofjesuschrist.org/music/library/hymns/redeemer-of-israel?lang=ton',
+    // },
     5: {
-        title: 'Huhuʻi ʻo ʻIsileli',
+        title: 'High on the mountain top',
         page: 5,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/redeemer-of-israel?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/high-on-the-mountain-top?lang=eng',
     },
     6: {
         title: 'Redeemer of Israel',
@@ -1085,13 +1106,6 @@ DATA.missionaries = [
         endDate: new Date(2023, 7, 16),
         photoUrl: './assets/people/SisFitzgerald.jpg',
     },
-    {
-        name: 'ʻAmelia & Panasai Soakai',
-        mission: 'Oregon Portland',
-        startDate: new Date(2022, 1, 28),
-        endDate: new Date(2024, 0, 28),
-        photoUrl: './assets/people/SoakaiSr.jpg',
-    },
 ];
 //THIS IS THE TEMPLATE OF THE SACRAMENT PROGRAM WHICH ALSO GOES TO THE CHEAT SHEET.
 //UPDATE THE FOLLOWING: date, conducting, chorister, organist, invocation & benediction, hymns, speakers/testimonies
@@ -1101,44 +1115,36 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2023, 1, 12),
+        date: new Date(2023, 1, 19),
         startTime: '1:30 PM',
         endTime: '2:30 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
         conducting: DATA.people.bp1stc,
         chorister: DATA.people.chorister1,
-        organist: DATA.people.organist1,
+        organist: DATA.people.organist2,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[2],
-        sacramentSong: DATA.hymns[196],
+        openingSong: DATA.hymns[5],
+        sacramentSong: DATA.hymns[169],
         //restSong: DATA.hymns[125],
         testimonySunday: false,
         speakers: [
             {
-                person: { name: 'Leilani Uluilakepa - thought from CFM-Testimony' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
                 person: {
-                    name: 'Sis. Lupi Pulotu - Jesus Christ Is the Strength of Youth - Dieter F. Uchdorf',
+                    name: 'Elder Lucky Mataele Jr - Missionary Homecoming Testimony',
                 },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: {
-                    name: 'Bro. Nesi Pulotu - Lifted Up upon the Cross - Jeffrey R. Holland',
-                },
-                role: 'musical',
+                person: { name: 'Brother Folau Kaveinga - Stake High Council' },
+                role: 'speaker',
                 index: 1,
-                beforeRestHymn: false,
+                beforeRestHymn: true,
             },
         ],
-        closingSong: DATA.hymns[284],
+        closingSong: DATA.hymns[2],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
