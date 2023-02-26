@@ -31,8 +31,9 @@ DATA.announcements = [
     },
     {
         title: '7:00pm - YSA Institute',
-        date: new Date(2023, 1, 23).toUTCString(),
-        description: 'Stake Center ',
+        date: new Date(2023, 2, 2).toUTCString(),
+        description: 'Stake Center, ' +
+            '<a href="https://goo.gl/maps/RvUDX51bqqeHVh8r7" target="_blank">680 North 350 West, American Fork</a>,',
     },
     {
         title: '8:00am - Stake Baptism at Ward Level',
@@ -57,7 +58,7 @@ DATA.announcements = [
     // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2023, 1, 23).toUTCString(),
+        date: new Date(2023, 2, 2).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there at 6:30am.',
@@ -240,8 +241,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Sean McKenna' },
-    pray2: { name: 'Sister Lute Mataele' },
+    pray1: { name: 'Brother Hamaua Tuione' },
+    pray2: { name: 'Sister Mariah Pope' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -616,10 +617,16 @@ DATA.hymns = {
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/improve-the-shining-moments?lang=ton',
     },
     134: {
-        title: 'Let Us All Press On',
+        title: 'Teke lava fakaha',
         page: 134,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/let-us-all-press-on?lang=eng',
+        link: 'https://www.churchofjesuschrist.org/music/text/hymns/you-can-make-the-pathway-bright?lang=ton',
     },
+    // 134: {
+    //   title: 'Let Us All Press On',
+    //   page: 134,
+    //   link:
+    //     'https://www.churchofjesuschrist.org/music/library/hymns/let-us-all-press-on?lang=eng',
+    // },
     136: {
         title: 'I Know That My Redeemer Lives',
         page: 136,
@@ -1115,36 +1122,44 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2023, 1, 19),
+        date: new Date(2023, 1, 26),
         startTime: '1:30 PM',
         endTime: '2:30 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
         conducting: DATA.people.bp1stc,
         chorister: DATA.people.chorister1,
-        organist: DATA.people.organist2,
+        organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[5],
-        sacramentSong: DATA.hymns[169],
-        //restSong: DATA.hymns[125],
+        openingSong: DATA.hymns[6],
+        sacramentSong: DATA.hymns[194],
+        restSong: DATA.hymns[59],
         testimonySunday: false,
         speakers: [
             {
+                person: { name: 'S. Teriipaia. - thought from seminary/CFM-Testimony' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
                 person: {
-                    name: 'Elder Lucky Mataele Jr - Missionary Homecoming Testimony',
+                    name: 'Sis. M. Tauteoli  - Wholehearted - Sis. Michelle D Craig',
                 },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
             },
             {
-                person: { name: 'Brother Folau Kaveinga - Stake High Council' },
+                person: {
+                    name: 'Bro. R. Tauteoli - Be True to God and His work - Quentin L. Cook',
+                },
                 role: 'speaker',
                 index: 1,
-                beforeRestHymn: true,
+                beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[2],
+        closingSong: DATA.hymns[134],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
