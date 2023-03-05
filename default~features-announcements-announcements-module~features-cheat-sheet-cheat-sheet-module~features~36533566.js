@@ -31,7 +31,7 @@ DATA.announcements = [
     },
     {
         title: '7:00pm - YSA Institute',
-        date: new Date(2023, 2, 2).toUTCString(),
+        date: new Date(2023, 2, 9).toUTCString(),
         description: 'Stake Center, ' +
             '<a href="https://goo.gl/maps/RvUDX51bqqeHVh8r7" target="_blank">680 North 350 West, American Fork</a>,',
     },
@@ -58,7 +58,7 @@ DATA.announcements = [
     // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2023, 2, 2).toUTCString(),
+        date: new Date(2023, 2, 9).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there at 6:30am.',
@@ -66,7 +66,7 @@ DATA.announcements = [
     {
         title: '6:00pm - Old Testament Tabernacle Devoutional',
         date: new Date(2023, 2, 12).toUTCString(),
-        description: 'Provo YSA Stake Center - 350 900 E, Provo, UT 84606',
+        description: 'Provo YSA Stake Center - 350 N 900 E, Provo, UT 84606',
     },
     {
         title: 'YM basketball tournament and YW Saturday volleyball tournament',
@@ -237,12 +237,12 @@ DATA.broadcastLinks = [
 DATA.people = {
     memberOfBishopric: { name: 'Member of Bishopric' },
     chorister1: { name: 'Sister Nyoka Mataele' },
-    //chorister2: { name: 'Brother Rockey Kalamafoni' },
+    chorister2: { name: 'TBA' },
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Hamaua Tuione' },
-    pray2: { name: 'Sister Mariah Pope' },
+    pray1: { name: 'Brother Paul Kongaika' },
+    pray2: { name: 'Sister Janelle Prescott' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -1122,44 +1122,51 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2023, 1, 26),
+        date: new Date(2023, 2, 5),
         startTime: '1:30 PM',
         endTime: '2:30 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp1stc,
-        chorister: DATA.people.chorister1,
-        organist: DATA.people.organist1,
+        conducting: DATA.people.bp2ndc,
+        chorister: DATA.people.chorister2,
+        organist: DATA.people.organist2,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[6],
-        sacramentSong: DATA.hymns[194],
-        restSong: DATA.hymns[59],
-        testimonySunday: false,
+        openingSong: DATA.hymns[142],
+        sacramentSong: DATA.hymns[193],
+        //restSong: DATA.hymns[140],
+        testimonySunday: true,
         speakers: [
-            {
-                person: { name: 'S. Teriipaia. - thought from seminary/CFM-Testimony' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: {
-                    name: 'Sis. M. Tauteoli  - Wholehearted - Sis. Michelle D Craig',
-                },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: {
-                    name: 'Bro. R. Tauteoli - Be True to God and His work - Quentin L. Cook',
-                },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: false,
-            },
+        //   {
+        //     person: { name: 'S. Teriipaia. - thought from seminary/CFM-Testimony' },
+        //     role: 'speaker',
+        //     index: 1,
+        //     beforeRestHymn: true,
+        //   } as Speaker,
+        //   {
+        //     person: {
+        //       name: 'Sis. M. Tauteoli  - Wholehearted - Sis. Michelle D Craig',
+        //     },
+        //     role: 'speaker',
+        //     index: 1,
+        //     beforeRestHymn: true,
+        //   } as Speaker,
+        //   {
+        //     person: {
+        //       name:
+        //         'Bro. R. Tauteoli - Be True to God and His work - Quentin L. Cook',
+        //     },
+        //     role: 'speaker',
+        //     index: 1,
+        //     beforeRestHymn: false,
+        //   } as Speaker,
+        // {
+        //   person: { name: '' },
+        //   role: 'speaker',
+        //   index: 1,
+        //   beforeRestHymn: false,
+        // } as Speaker,
         ],
-        closingSong: DATA.hymns[134],
+        closingSong: DATA.hymns[140],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
