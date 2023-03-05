@@ -1035,18 +1035,18 @@ DATA.releases = [
     //   calling: '',
     // },
     {
-        name: 'Brother AJ Tuineau',
-        calling: 'Teachers Quorum Advisor',
+        name: '',
+        calling: '',
     },
     {
-        name: 'Brother Veni Tuivai',
-        calling: 'Teachers Quorum Specialist',
+        name: '',
+        calling: '',
     },
 ];
 DATA.sustaining = [
     {
-        name: 'Brother Langi Hola',
-        calling: 'Teachers Quorum Advisor',
+        name: '',
+        calling: '',
     },
 ];
 DATA.aaronicPriesthoodAdvancements = [
@@ -1092,12 +1092,10 @@ DATA.newMembers = [
 // { name: 'Brother Joshua Cifuentes' },
 ];
 DATA.baptisms = [
-// { name: 'None' },
-// { name: 'Mya Mereani Kaleolaʻihoʻikemaupono Teriipaia' },
-// { name: 'William Christopher Pita' },
-// { name: 'Isileli George Pita' },
+    { name: 'Vaoahi Prescott' },
+    { name: 'Elliot Martin' },
 ];
-DATA.babyBlessing = [{ name: 'None' }];
+DATA.babyBlessing = [{ name: '' }];
 DATA.missionaries = [
     // {
     //   name: 'Seamus Fitzgerald',
