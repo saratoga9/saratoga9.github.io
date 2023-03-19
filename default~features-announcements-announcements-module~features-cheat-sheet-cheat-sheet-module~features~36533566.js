@@ -31,25 +31,20 @@ DATA.announcements = [
     },
     {
         title: '7:00pm - YSA Institute',
-        date: new Date(2023, 2, 9).toUTCString(),
+        date: new Date(2023, 2, 23).toUTCString(),
         description: 'Stake Center, ' +
             '<a href="https://goo.gl/maps/RvUDX51bqqeHVh8r7" target="_blank">680 North 350 West, American Fork</a>,',
     },
     {
         title: '8:00am - Stake Baptism at Ward Level',
-        date: new Date(2023, 2, 4).toUTCString(),
+        date: new Date(2023, 2, 25).toUTCString(),
         description: 'Lehi YSA Stake Building, ' +
             '<a href="https://goo.gl/maps/42tAnxMzUrME5yeY9" target="_blank">1550 South  1100 West, Lehi</a>, ',
     },
     {
         title: 'Fast Sunday',
-        date: new Date(2023, 2, 5).toUTCString(),
+        date: new Date(2023, 2, 26).toUTCString(),
         description: 'Fast Sunday',
-    },
-    {
-        title: '6:00am - EQ and RS Presidency training ',
-        date: new Date(2023, 2, 5).toUTCString(),
-        description: 'Stake Center',
     },
     // {
     //   title: '6:00pm - 9pm Ward Christmas Party Dinner and Dancing',
@@ -58,23 +53,16 @@ DATA.announcements = [
     // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2023, 2, 9).toUTCString(),
+        date: new Date(2023, 2, 23).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there at 6:30am.',
     },
-    {
-        title: '6:00pm - Old Testament Tabernacle Devoutional',
-        date: new Date(2023, 2, 12).toUTCString(),
-        description: 'Provo YSA Stake Center - 350 N 900 E, Provo, UT 84606',
-    },
-    {
-        title: 'YM basketball tournament and YW Saturday volleyball tournament',
-        date: new Date(2023, 2, 17).toUTCString(),
-        description: 'March 17th-18th @ Skyridge High School, ' +
-            '<a href="https://drive.google.com/file/d/1s_ewM72GxUPYcRjSxVrVzmqnPPph6_pa/view?usp=sharing" target="_blank">Click Here for the Young Women Flyer</a>, ' +
-            '<a href="https://drive.google.com/file/d/1CiojRijU-D9Fc5aoTcb3b7WZB_1LtujY/view?usp=sharing" target="_blank">Click Here for the Young Men Flyer</a>,',
-    },
+    // {
+    //   title: '6:00pm - Old Testament Tabernacle Devoutional',
+    //   date: new Date(2023, 2, 12).toUTCString(),
+    //   description: 'Provo YSA Stake Center - 350 N 900 E, Provo, UT 84606',
+    // },
     {
         title: 'General Conference, April 1-2',
         date: new Date(2023, 3, 1).toUTCString(),
@@ -241,7 +229,7 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'TBA' },
+    pray1: { name: 'Brother Kaleo Teriipaia' },
     pray2: { name: 'Sister Kara Martin' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
@@ -1092,8 +1080,10 @@ DATA.newMembers = [
 // { name: 'Brother Joshua Cifuentes' },
 ];
 DATA.baptisms = [
-    { name: 'Vaoahi Prescott' },
-    { name: 'Elliot Martin' },
+// { name: 'Vaoahi Prescott' },
+// { name: 'Elliot Martin' },
+// { name: 'William Christopher Pita' },
+// { name: 'Isileli George Pita' },
 ];
 DATA.babyBlessing = [{ name: '' }];
 DATA.missionaries = [
