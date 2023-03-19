@@ -241,8 +241,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Paul Kongaika' },
-    pray2: { name: 'Sister Janelle Prescott' },
+    pray1: { name: 'TBA' },
+    pray2: { name: 'Sister Kara Martin' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -393,17 +393,17 @@ DATA.hymns = {
         page: 57,
         link: 'https://www.churchofjesuschrist.org/music/text/hymns/come-follow-me?lang=ton',
     },
-    //58: {
-    //title: 'Come, Ye Children of the Lord',
-    //page: 58,
-    //link:
-    //'https://www.churchofjesuschrist.org/music/library/hymns/come-ye-children-of-the-lord?lang=eng',
-    //},
     58: {
-        title: 'Ka Faingataʻa Ho Hala Feinga',
+        title: 'Come, Ye Children of the Lord',
         page: 58,
-        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/if-the-way-be-full-of-trial?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/come-ye-children-of-the-lord?lang=eng',
     },
+    // 58: {
+    //   title: 'Ka Faingataʻa Ho Hala Feinga',
+    //   page: 58,
+    //   link:
+    //     'https://www.churchofjesuschrist.org/study/manual/hymns/if-the-way-be-full-of-trial?lang=ton',
+    // },
     60: {
         title: 'Battle Hymn of the Republic',
         page: 60,
@@ -1120,7 +1120,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2023, 2, 5),
+        date: new Date(2023, 2, 19),
         startTime: '1:30 PM',
         endTime: '2:30 PM',
         address: DATA.addresses.chapel,
@@ -1129,42 +1129,27 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister2,
         organist: DATA.people.organist2,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[142],
-        sacramentSong: DATA.hymns[193],
-        //restSong: DATA.hymns[140],
-        testimonySunday: true,
+        openingSong: DATA.hymns[7],
+        sacramentSong: DATA.hymns[191],
+        restSong: DATA.hymns[143],
+        testimonySunday: false,
         speakers: [
-        //   {
-        //     person: { name: 'S. Teriipaia. - thought from seminary/CFM-Testimony' },
-        //     role: 'speaker',
-        //     index: 1,
-        //     beforeRestHymn: true,
-        //   } as Speaker,
-        //   {
-        //     person: {
-        //       name: 'Sis. M. Tauteoli  - Wholehearted - Sis. Michelle D Craig',
-        //     },
-        //     role: 'speaker',
-        //     index: 1,
-        //     beforeRestHymn: true,
-        //   } as Speaker,
-        //   {
-        //     person: {
-        //       name:
-        //         'Bro. R. Tauteoli - Be True to God and His work - Quentin L. Cook',
-        //     },
-        //     role: 'speaker',
-        //     index: 1,
-        //     beforeRestHymn: false,
-        //   } as Speaker,
-        // {
-        //   person: { name: '' },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: false,
-        // } as Speaker,
+            {
+                person: { name: 'Taelor Holdcraft(RM) - Stake High Council' },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: true,
+            },
+            {
+                person: {
+                    name: 'Uati Afele (A Framework for Revelation - Elder Dale G. Renlund)',
+                },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: false,
+            },
         ],
-        closingSong: DATA.hymns[140],
+        closingSong: DATA.hymns[58],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
