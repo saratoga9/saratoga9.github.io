@@ -31,7 +31,7 @@ DATA.announcements = [
     },
     {
         title: '7:00pm - YSA Institute',
-        date: new Date(2023, 2, 23).toUTCString(),
+        date: new Date(2023, 2, 30).toUTCString(),
         description: 'Stake Center, ' +
             '<a href="https://goo.gl/maps/RvUDX51bqqeHVh8r7" target="_blank">680 North 350 West, American Fork</a>,',
     },
@@ -53,7 +53,7 @@ DATA.announcements = [
     // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2023, 2, 23).toUTCString(),
+        date: new Date(2023, 2, 30).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there at 6:30am.',
@@ -229,8 +229,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Brother Kaleo Teriipaia' },
-    pray2: { name: 'Sister Kara Martin' },
+    pray1: { name: 'Kendra Tarawhiti' },
+    pray2: { name: 'TBA' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -350,6 +350,11 @@ DATA.hymns = {
         title: 'ʻE Kāinga Kuo Langa Ha Tuʻunga (How Firm a Foundation)',
         page: 37,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/how-firm-a-foundation?lang=ton',
+    },
+    34: {
+        title: 'O Ye Mountains High',
+        page: 34,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/o-ye-mountains-high?lang=eng',
     },
     44: {
         title: 'Beautiful Zion, Built Above',
@@ -509,10 +514,16 @@ DATA.hymns = {
         page: 99,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/upon-the-cross-of-calvary?lang=ton',
     },
+    // 100: {
+    //   title: 'ʻE Vakai Naʻe Pekia',
+    //   page: 100,
+    //   link:
+    //     'https://www.churchofjesuschrist.org/music/library/hymns/behold-the-great-redeemer-die?lang=ton',
+    // },
     100: {
-        title: 'ʻE Vakai Naʻe Pekia',
+        title: 'Nearer my god to thee',
         page: 100,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/behold-the-great-redeemer-die?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/nearer-my-god-to-thee?lang=eng',
     },
     102: {
         title: 'ʻOku Fakaofo (I Stand All Amazed)',
@@ -1110,36 +1121,28 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2023, 2, 19),
+        date: new Date(2023, 2, 26),
         startTime: '1:30 PM',
         endTime: '2:30 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
         conducting: DATA.people.bp2ndc,
-        chorister: DATA.people.chorister2,
-        organist: DATA.people.organist2,
+        chorister: DATA.people.chorister1,
+        organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[7],
-        sacramentSong: DATA.hymns[191],
-        restSong: DATA.hymns[143],
-        testimonySunday: false,
+        openingSong: DATA.hymns[34],
+        sacramentSong: DATA.hymns[92],
+        restSong: DATA.hymns[125],
+        testimonySunday: true,
         speakers: [
             {
                 person: { name: 'Taelor Holdcraft(RM) - Stake High Council' },
                 role: 'speaker',
                 index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: {
-                    name: 'Uati Afele (A Framework for Revelation - Elder Dale G. Renlund)',
-                },
-                role: 'speaker',
-                index: 1,
                 beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[58],
+        closingSong: DATA.hymns[100],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
