@@ -274,7 +274,7 @@ function CheatSheetComponent_div_0_section_73_div_3_li_4_Template(rf, ctx) { if 
 } if (rf & 2) {
     const person_r32 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](person_r32.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("", person_r32.name, " ");
 } }
 function CheatSheetComponent_div_0_section_73_div_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
