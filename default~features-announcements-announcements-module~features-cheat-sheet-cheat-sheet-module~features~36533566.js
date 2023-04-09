@@ -31,29 +31,20 @@ DATA.announcements = [
     },
     {
         title: '7:00pm - YSA Institute',
-        date: new Date(2023, 2, 30).toUTCString(),
+        date: new Date(2023, 3, 13).toUTCString(),
         description: 'Stake Center, ' +
             '<a href="https://goo.gl/maps/RvUDX51bqqeHVh8r7" target="_blank">680 North 350 West, American Fork</a>,',
     },
-    {
-        title: '8:00am - Stake Baptism at Ward Level',
-        date: new Date(2023, 2, 25).toUTCString(),
-        description: 'Lehi YSA Stake Building, ' +
-            '<a href="https://goo.gl/maps/42tAnxMzUrME5yeY9" target="_blank">1550 South  1100 West, Lehi</a>, ',
-    },
-    {
-        title: 'Fast Sunday',
-        date: new Date(2023, 2, 26).toUTCString(),
-        description: 'Fast Sunday',
-    },
     // {
-    //   title: '6:00pm - 9pm Ward Christmas Party Dinner and Dancing',
-    //   date: new Date(2022, 11, 10).toUTCString(),
-    //   description: 'Theme: Aloha Christmas, ' + 'Location: Our Chapel, ',
+    //   title: '8:00am - Stake Baptism at Ward Level',
+    //   date: new Date(2023, 2, 25).toUTCString(),
+    //   description:
+    //     'Lehi YSA Stake Building, ' +
+    //     '<a href="https://goo.gl/maps/42tAnxMzUrME5yeY9" target="_blank">1550 South  1100 West, Lehi</a>, ',
     // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2023, 2, 30).toUTCString(),
+        date: new Date(2023, 3, 13).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there at 6:30am.',
@@ -63,11 +54,11 @@ DATA.announcements = [
     //   date: new Date(2023, 2, 12).toUTCString(),
     //   description: 'Provo YSA Stake Center - 350 N 900 E, Provo, UT 84606',
     // },
-    {
-        title: 'General Conference, April 1-2',
-        date: new Date(2023, 3, 1).toUTCString(),
-        description: 'Broadcasted over the Internet',
-    },
+    // {
+    //   title: 'General Conference, April 1-2',
+    //   date: new Date(2023, 3, 1).toUTCString(),
+    //   description: 'Broadcasted over the Internet',
+    // },
     {
         title: 'Stake Conference, April 29-30',
         date: new Date(2023, 3, 29).toUTCString(),
