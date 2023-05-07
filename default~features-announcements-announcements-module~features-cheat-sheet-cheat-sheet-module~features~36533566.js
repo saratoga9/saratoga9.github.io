@@ -1123,9 +1123,9 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[2],
-        sacramentSong: DATA.hymns[172],
-        restSong: DATA.hymns[27],
+        openingSong: DATA.hymns[140],
+        sacramentSong: DATA.hymns[182],
+        restSong: DATA.hymns[300],
         testimonySunday: true,
         speakers: [
         // {
@@ -1153,7 +1153,7 @@ DATA.cheatSheet = {
         //   beforeRestHymn: false,
         // } as Speaker,
         ],
-        closingSong: DATA.hymns[219],
+        closingSong: DATA.hymns[139],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
