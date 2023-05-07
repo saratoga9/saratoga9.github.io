@@ -31,7 +31,7 @@ DATA.announcements = [
     },
     {
         title: '7:00pm - YSA Institute',
-        date: new Date(2023, 3, 13).toUTCString(),
+        date: new Date(2023, 4, 11).toUTCString(),
         description: 'Stake Center, ' +
             '<a href="https://goo.gl/maps/RvUDX51bqqeHVh8r7" target="_blank">680 North 350 West, American Fork</a>,',
     },
@@ -44,10 +44,28 @@ DATA.announcements = [
     // },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2023, 3, 13).toUTCString(),
+        date: new Date(2023, 4, 11).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there at 6:30am.',
+    },
+    {
+        title: '7:00pm - 10:00pm: Seminary Graduation Dance',
+        date: new Date(2023, 4, 20).toUTCString(),
+        description: 'AF2 Building, ' +
+            '<a href="https://goo.gl/maps/T1vbbbV4PmntC7ww6" target="_blank">825 E 500 N American Fork</a>, ',
+    },
+    {
+        title: 'Worldwide Devotional for Young Adults for North and South America Areas',
+        date: new Date(2023, 4, 21).toUTCString(),
+        description: 'Broadcast Live on YouTube, ' +
+            '<a href="https://www.churchofjesuschrist.org/media/broadcasts?lang=eng" target="_blank">Click Here</a>, ',
+    },
+    {
+        title: '6:30pm: Seminary Graduation Dance',
+        date: new Date(2023, 4, 24).toUTCString(),
+        description: 'AF2 Building, ' +
+            '<a href="https://goo.gl/maps/T1vbbbV4PmntC7ww6" target="_blank">825 E 500 N American Fork</a>, ',
     },
     // {
     //   title: '6:00pm - Old Testament Tabernacle Devoutional',
@@ -220,8 +238,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Sister Faaliliu' },
-    pray2: { name: 'Brother Kitchen' },
+    pray1: { name: 'TBA' },
+    pray2: { name: 'TBA' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -1111,32 +1129,44 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2023, 3, 23),
+        date: new Date(2023, 4, 7),
         startTime: '1:30 PM',
         endTime: '2:30 PM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.bp2ndc,
-        conducting: DATA.people.bp2ndc,
+        presiding: DATA.people.bp1stc,
+        conducting: DATA.people.bp1stc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
         openingSong: DATA.hymns[2],
         sacramentSong: DATA.hymns[172],
         restSong: DATA.hymns[27],
-        testimonySunday: false,
+        testimonySunday: true,
         speakers: [
-            {
-                person: { name: 'Sister Kalo Toroca ' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: { name: 'Brother Pate Prescott' },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: false,
-            },
+        // {
+        //   person: {
+        //     name:
+        //       'Uati Afele (A Framework for Revelation - Elder Dale G. Renlund)',
+        //   },
+        //   role: 'speaker',
+        //   index: 1,
+        //   beforeRestHymn: false,
+        // } as Speaker,
+        //   {
+        //     person: {
+        //       name:
+        //         'Bro. R. Tauteoli - Be True to God and His work - Quentin L. Cook',
+        //     },
+        //     role: 'speaker',
+        //     index: 1,
+        //     beforeRestHymn: false,
+        //   } as Speaker,
+        // {
+        //   person: { name: '' },
+        //   role: 'speaker',
+        //   index: 1,
+        //   beforeRestHymn: false,
+        // } as Speaker,
         ],
         closingSong: DATA.hymns[219],
         benediction: DATA.people.pray2,
