@@ -67,21 +67,6 @@ DATA.announcements = [
         description: 'AF2 Building, ' +
             '<a href="https://goo.gl/maps/T1vbbbV4PmntC7ww6" target="_blank">825 E 500 N American Fork</a>, ',
     },
-    // {
-    //   title: '6:00pm - Old Testament Tabernacle Devoutional',
-    //   date: new Date(2023, 2, 12).toUTCString(),
-    //   description: 'Provo YSA Stake Center - 350 N 900 E, Provo, UT 84606',
-    // },
-    // {
-    //   title: 'General Conference, April 1-2',
-    //   date: new Date(2023, 3, 1).toUTCString(),
-    //   description: 'Broadcasted over the Internet',
-    // },
-    {
-        title: 'Stake Conference, April 29-30',
-        date: new Date(2023, 3, 29).toUTCString(),
-        description: 'Stake Center ',
-    },
 ];
 DATA.broadcastLinks = [
     // ---------------------------------------------------------------------
