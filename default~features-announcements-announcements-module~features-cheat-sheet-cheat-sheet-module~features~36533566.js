@@ -1114,7 +1114,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2023, 4, 7),
+        date: new Date(2023, 4, 14),
         startTime: '1:30 PM',
         endTime: '2:30 PM',
         address: DATA.addresses.chapel,
@@ -1123,37 +1123,37 @@ DATA.cheatSheet = {
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[140],
-        sacramentSong: DATA.hymns[182],
-        restSong: DATA.hymns[300],
-        testimonySunday: true,
+        openingSong: DATA.hymns[227],
+        sacramentSong: DATA.hymns[194],
+        //restSong: DATA.hymns[304],
+        testimonySunday: false,
         speakers: [
-        // {
-        //   person: {
-        //     name:
-        //       'Uati Afele (A Framework for Revelation - Elder Dale G. Renlund)',
-        //   },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: false,
-        // } as Speaker,
-        //   {
-        //     person: {
-        //       name:
-        //         'Bro. R. Tauteoli - Be True to God and His work - Quentin L. Cook',
-        //     },
-        //     role: 'speaker',
-        //     index: 1,
-        //     beforeRestHymn: false,
-        //   } as Speaker,
-        // {
-        //   person: { name: '' },
-        //   role: 'speaker',
-        //   index: 1,
-        //   beforeRestHymn: false,
-        // } as Speaker,
+            {
+                person: {
+                    name: 'Ema Harris (Devine Role of Mothers)',
+                },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: false,
+            },
+            {
+                person: {
+                    name: 'Elder Reams (Influence and strength of mothers during mission)',
+                },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: false,
+            },
+            {
+                person: {
+                    name: 'AJ Tuineau (Mothers and Daughters - Eld. M. Russell Ballard)',
+                },
+                role: 'speaker',
+                index: 1,
+                beforeRestHymn: false,
+            },
         ],
-        closingSong: DATA.hymns[139],
+        closingSong: DATA.hymns[304],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
