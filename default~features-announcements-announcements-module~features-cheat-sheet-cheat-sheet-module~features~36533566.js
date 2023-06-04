@@ -31,7 +31,7 @@ DATA.announcements = [
     },
     {
         title: '7:00pm - YSA Institute',
-        date: new Date(2023, 5, 1).toUTCString(),
+        date: new Date(2023, 5, 8).toUTCString(),
         description: 'Stake Center, ' +
             '<a href="https://goo.gl/maps/RvUDX51bqqeHVh8r7" target="_blank">680 North 350 West, American Fork</a>,',
     },
@@ -43,10 +43,16 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2023, 5, 1).toUTCString(),
+        date: new Date(2023, 5, 8).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there at 6:30am.',
+    },
+    {
+        title: 'June 14 - June 17 - Stake Youth Trek',
+        date: new Date(2023, 5, 14).toUTCString(),
+        description: 'Contact Youth Presidencies if you child wants to go, have to be age 13 and up, ' +
+            '<a href="https://www.churchofjesuschrist.org/learn/locations/martins-cove-mormon-trail-site?lang=eng" target="_blank">Martins Cove, Wyoming</a>, ',
     },
 ];
 DATA.broadcastLinks = [
@@ -204,8 +210,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'Nicko Casuga' },
-    pray2: { name: 'Eathyn Manumaleuna' },
+    pray1: { name: 'TBA' },
+    pray2: { name: 'TBA' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -1100,14 +1106,14 @@ DATA.cheatSheet = {
         endTime: '2:30 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp1stc,
+        conducting: DATA.people.bp2ndc,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[2],
-        sacramentSong: DATA.hymns[174],
+        openingSong: DATA.hymns[3],
+        sacramentSong: DATA.hymns[92],
         restSong: DATA.hymns[125],
-        testimonySunday: false,
+        testimonySunday: true,
         speakers: [
             {
                 person: {
@@ -1134,7 +1140,7 @@ DATA.cheatSheet = {
                 beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[27],
+        closingSong: DATA.hymns[187],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
