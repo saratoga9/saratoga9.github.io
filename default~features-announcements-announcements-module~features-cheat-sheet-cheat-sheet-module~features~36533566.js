@@ -31,7 +31,7 @@ DATA.announcements = [
     },
     {
         title: '7:00pm - YSA Institute',
-        date: new Date(2023, 5, 8).toUTCString(),
+        date: new Date(2023, 5, 22).toUTCString(),
         description: 'Stake Center, ' +
             '<a href="https://goo.gl/maps/RvUDX51bqqeHVh8r7" target="_blank">680 North 350 West, American Fork</a>,',
     },
@@ -43,16 +43,28 @@ DATA.announcements = [
     },
     {
         title: '8:00am - Utah Food Bank Delivery',
-        date: new Date(2023, 5, 8).toUTCString(),
+        date: new Date(2023, 5, 22).toUTCString(),
         description: 'Saratoga Spring 12 Branch Parking Lot, ' +
             '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
             '8:00am. If you like to volunteer, be there at 6:30am.',
     },
     {
-        title: 'June 14 - June 17 - Stake Youth Trek',
-        date: new Date(2023, 5, 14).toUTCString(),
-        description: 'Contact Youth Presidencies if you child wants to go, have to be age 13 and up, ' +
-            '<a href="https://www.churchofjesuschrist.org/learn/locations/martins-cove-mormon-trail-site?lang=eng" target="_blank">Martins Cove, Wyoming</a>, ',
+        title: 'Stake Youth Trek - Fireside: 6:30pm',
+        date: new Date(2023, 5, 25).toUTCString(),
+        description: 'Stake Center, ' +
+            '<a href="https://goo.gl/maps/RvUDX51bqqeHVh8r7" target="_blank">680 North 350 West, American Fork</a>,',
+    },
+    {
+        title: 'Stake Primary Training - Fireside: 6:00am',
+        date: new Date(2023, 6, 16).toUTCString(),
+        description: 'Stake Center, ' +
+            '<a href="https://goo.gl/maps/RvUDX51bqqeHVh8r7" target="_blank">680 North 350 West, American Fork</a>,',
+    },
+    {
+        title: 'Stake Temple Night every Tuesday at 8:30pm: 1st and 2nd Tuesday of the Month will be in Tongan and Samoan: Schedule appointments online walkin also available',
+        date: new Date(2023, 6, 4).toUTCString(),
+        description: 'Click Here for Direction, ' +
+            '<a href="https://goo.gl/maps/nM3xqwEthviETCE8A" target="_blank">Mount Timpanogos Temple</a>,',
     },
 ];
 DATA.broadcastLinks = [
@@ -210,8 +222,8 @@ DATA.people = {
     organist1: { name: "Sister Keili Malohifo'ou" },
     organist2: { name: 'Brother Travis Tuiloma' },
     tbd: { name: 'TBD' },
-    pray1: { name: 'TBA' },
-    pray2: { name: 'TBA' },
+    pray1: { name: 'Leslie Halafuka' },
+    pray2: { name: 'Janelle Prescott' },
     hc: { name: '(Stake High Councilman)' },
     bp1stc: { name: 'Brother Salesi Sika' },
     bp2ndc: { name: 'Brother Ricky Tuihalangingie' },
@@ -1101,46 +1113,30 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2023, 4, 28),
+        date: new Date(2023, 5, 18),
         startTime: '1:30 PM',
         endTime: '2:30 PM',
         address: DATA.addresses.chapel,
         presiding: DATA.people.bp,
-        conducting: DATA.people.bp2ndc,
+        conducting: DATA.people.bp,
         chorister: DATA.people.chorister1,
         organist: DATA.people.organist1,
         invocation: DATA.people.pray1,
-        openingSong: DATA.hymns[3],
+        openingSong: DATA.hymns[256],
         sacramentSong: DATA.hymns[92],
-        restSong: DATA.hymns[125],
-        testimonySunday: true,
+        //restSong: DATA.hymns[125],
+        testimonySunday: false,
         speakers: [
             {
                 person: {
-                    name: 'Uinise Prescott (Testimony on Come Follow Me)',
+                    name: 'Stake High Council',
                 },
                 role: 'speaker',
                 index: 1,
                 beforeRestHymn: true,
-            },
-            {
-                person: {
-                    name: 'Ana Tuiloma (Jesus Christ is Relief - Sis. Camille N Johnson)',
-                },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: true,
-            },
-            {
-                person: {
-                    name: 'Kaleo Teriipaia (One in Christ - D Todd Christopherson)',
-                },
-                role: 'speaker',
-                index: 1,
-                beforeRestHymn: false,
             },
         ],
-        closingSong: DATA.hymns[187],
+        closingSong: DATA.hymns[270],
         benediction: DATA.people.pray2,
     },
     stakeVisitors: [],
