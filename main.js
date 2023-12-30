@@ -37,7 +37,7 @@ PagesModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineInject
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\mormo\C\saratoga9\website\apps\web\src\main.ts */"mNEa");
+module.exports = __webpack_require__(/*! /Users/joshtune/workspace/church/ss9/website/apps/web/src/main.ts */"mNEa");
 
 
 /***/ }),
@@ -154,16 +154,16 @@ const routes = [
         children: [
             {
                 path: 'home',
-                loadChildren: () => Promise.all(/*! import() | features-home-home-module */[__webpack_require__.e("default~features-announcements-announcements-module~features-cheat-sheet-cheat-sheet-module~features~36533566"), __webpack_require__.e("features-home-home-module")]).then(__webpack_require__.bind(null, /*! ./features/home/home.module */ "SVLU")).then((m) => m.HomeModule),
+                loadChildren: () => Promise.all(/*! import() | features-home-home-module */[__webpack_require__.e("default~features-announcements-announcements-module~features-cheat-sheet-cheat-sheet-module~features~ee05dabe"), __webpack_require__.e("default~features-announcements-announcements-module~features-cheat-sheet-cheat-sheet-module~features~0cdde832"), __webpack_require__.e("features-home-home-module")]).then(__webpack_require__.bind(null, /*! ./features/home/home.module */ "SVLU")).then((m) => m.HomeModule),
             },
             {
-                path: 'sacrament',
-                loadChildren: () => Promise.all(/*! import() | features-sacrament-sacrament-module */[__webpack_require__.e("default~features-announcements-announcements-module~features-cheat-sheet-cheat-sheet-module~features~36533566"), __webpack_require__.e("features-sacrament-sacrament-module")]).then(__webpack_require__.bind(null, /*! ./features/sacrament/sacrament.module */ "6nWV")).then((m) => m.SacramentModule),
+                path: 'sacrament-program',
+                loadChildren: () => Promise.all(/*! import() | features-sacrament-program-sacrament-program-module */[__webpack_require__.e("default~features-announcements-announcements-module~features-cheat-sheet-cheat-sheet-module~features~ee05dabe"), __webpack_require__.e("features-sacrament-program-sacrament-program-module")]).then(__webpack_require__.bind(null, /*! ./features/sacrament-program/sacrament-program.module */ "+r47")).then((m) => m.SacramentProgramModule),
             },
             {
                 path: 'cheat-sheet',
                 canActivate: [_shared_auth_guard__WEBPACK_IMPORTED_MODULE_4__["AuthGuard"]],
-                loadChildren: () => Promise.all(/*! import() | features-cheat-sheet-cheat-sheet-module */[__webpack_require__.e("default~features-announcements-announcements-module~features-cheat-sheet-cheat-sheet-module~features~36533566"), __webpack_require__.e("features-cheat-sheet-cheat-sheet-module")]).then(__webpack_require__.bind(null, /*! ./features/cheat-sheet/cheat-sheet.module */ "Phgp")).then((m) => m.CheatSheetModule),
+                loadChildren: () => Promise.all(/*! import() | features-cheat-sheet-cheat-sheet-module */[__webpack_require__.e("default~features-announcements-announcements-module~features-cheat-sheet-cheat-sheet-module~features~ee05dabe"), __webpack_require__.e("default~features-announcements-announcements-module~features-cheat-sheet-cheat-sheet-module~features~0cdde832"), __webpack_require__.e("features-cheat-sheet-cheat-sheet-module")]).then(__webpack_require__.bind(null, /*! ./features/cheat-sheet/cheat-sheet.module */ "Phgp")).then((m) => m.CheatSheetModule),
             },
             {
                 path: 'trainings',
@@ -171,7 +171,7 @@ const routes = [
             },
             {
                 path: 'announcements',
-                loadChildren: () => Promise.all(/*! import() | features-announcements-announcements-module */[__webpack_require__.e("default~features-announcements-announcements-module~features-cheat-sheet-cheat-sheet-module~features~36533566"), __webpack_require__.e("features-announcements-announcements-module")]).then(__webpack_require__.bind(null, /*! ./features/announcements/announcements.module */ "jESh")).then((m) => m.AnnouncementsModule),
+                loadChildren: () => Promise.all(/*! import() | features-announcements-announcements-module */[__webpack_require__.e("default~features-announcements-announcements-module~features-cheat-sheet-cheat-sheet-module~features~ee05dabe"), __webpack_require__.e("default~features-announcements-announcements-module~features-cheat-sheet-cheat-sheet-module~features~0cdde832"), __webpack_require__.e("features-announcements-announcements-module")]).then(__webpack_require__.bind(null, /*! ./features/announcements/announcements.module */ "jESh")).then((m) => m.AnnouncementsModule),
             },
         ],
     },
@@ -243,9 +243,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "IheW");
 /* harmony import */ var ngx_cookie_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-cookie-service */ "z4EA");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser */ "cUpR");
-/* harmony import */ var _components_video_video_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/video/video.component */ "KXkI");
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "G0yt");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "G0yt");
+/* harmony import */ var _components_video_video_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/video/video.component */ "KXkI");
+/* harmony import */ var _components_hymn_hymn_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/hymn/hymn.component */ "nm6K");
+/* harmony import */ var _components_person_person_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/person/person.component */ "Kuat");
+/* harmony import */ var _components_utah_time_utah_time_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/utah-time/utah-time.component */ "l1DE");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+
+
+
 
 
 
@@ -258,28 +264,34 @@ __webpack_require__.r(__webpack_exports__);
 class SharedModule {
 }
 SharedModule.ɵfac = function SharedModule_Factory(t) { return new (t || SharedModule)(); };
-SharedModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineNgModule"]({ type: SharedModule });
-SharedModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineInjector"]({ providers: [ngx_cookie_service__WEBPACK_IMPORTED_MODULE_4__["CookieService"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__["Title"]], imports: [[
+SharedModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineNgModule"]({ type: SharedModule });
+SharedModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineInjector"]({ providers: [ngx_cookie_service__WEBPACK_IMPORTED_MODULE_4__["CookieService"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__["Title"]], imports: [[
             _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
-            _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_7__["NgbModule"],
+            _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"],
             _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_1__["ReactiveFormsModule"],
             _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"],
         ], _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
-        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_7__["NgbModule"],
+        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"],
         _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_1__["ReactiveFormsModule"],
         _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵsetNgModuleScope"](SharedModule, { declarations: [_components_video_video_component__WEBPACK_IMPORTED_MODULE_6__["VideoComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
-        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_7__["NgbModule"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵsetNgModuleScope"](SharedModule, { declarations: [_components_hymn_hymn_component__WEBPACK_IMPORTED_MODULE_8__["HymnComponent"],
+        _components_person_person_component__WEBPACK_IMPORTED_MODULE_9__["PersonComponent"],
+        _components_utah_time_utah_time_component__WEBPACK_IMPORTED_MODULE_10__["UtahTimeComponent"],
+        _components_video_video_component__WEBPACK_IMPORTED_MODULE_7__["VideoComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
+        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"],
         _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_1__["ReactiveFormsModule"],
         _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"]], exports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
-        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_7__["NgbModule"],
+        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"],
         _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_1__["ReactiveFormsModule"],
         _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"],
-        _components_video_video_component__WEBPACK_IMPORTED_MODULE_6__["VideoComponent"]] }); })();
+        _components_hymn_hymn_component__WEBPACK_IMPORTED_MODULE_8__["HymnComponent"],
+        _components_person_person_component__WEBPACK_IMPORTED_MODULE_9__["PersonComponent"],
+        _components_utah_time_utah_time_component__WEBPACK_IMPORTED_MODULE_10__["UtahTimeComponent"],
+        _components_video_video_component__WEBPACK_IMPORTED_MODULE_7__["VideoComponent"]] }); })();
 
 
 /***/ }),
@@ -382,6 +394,50 @@ VideoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.notSupportedMessage, " ");
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ2aWRlby5jb21wb25lbnQuc2NzcyJ9 */"] });
+
+
+/***/ }),
+
+/***/ "Kuat":
+/*!***********************************************************************!*\
+  !*** ./apps/web/src/app/shared/components/person/person.component.ts ***!
+  \***********************************************************************/
+/*! exports provided: PersonComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PersonComponent", function() { return PersonComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "SVse");
+
+
+function PersonComponent_br_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "br");
+} }
+function PersonComponent_small_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "small");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r1.person.details);
+} }
+class PersonComponent {
+}
+PersonComponent.ɵfac = function PersonComponent_Factory(t) { return new (t || PersonComponent)(); };
+PersonComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PersonComponent, selectors: [["s9-person"]], inputs: { person: "person" }, decls: 3, vars: 3, consts: [[4, "ngIf"]], template: function PersonComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, PersonComponent_br_1_Template, 1, 0, "br", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, PersonComponent_small_2_Template, 2, 1, "small", 0);
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.person.name, "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.person.details);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.person.details);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]], encapsulation: 2 });
 
 
 /***/ }),
@@ -497,6 +553,74 @@ LayoutsModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineInje
 
 /***/ }),
 
+/***/ "l1DE":
+/*!*****************************************************************************!*\
+  !*** ./apps/web/src/app/shared/components/utah-time/utah-time.component.ts ***!
+  \*****************************************************************************/
+/*! exports provided: UtahTimeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtahTimeComponent", function() { return UtahTimeComponent; });
+/* harmony import */ var dayjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! dayjs */ "Wgwc");
+/* harmony import */ var dayjs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(dayjs__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dayjs_plugin_utc__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dayjs/plugin/utc */ "Ds8A");
+/* harmony import */ var dayjs_plugin_utc__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(dayjs_plugin_utc__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var dayjs_plugin_timezone__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dayjs/plugin/timezone */ "GVN3");
+/* harmony import */ var dayjs_plugin_timezone__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dayjs_plugin_timezone__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "SVse");
+
+
+
+
+
+function UtahTimeComponent_div_0_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" UTAH TIME ", ctx_r0.time, " ");
+} }
+class UtahTimeComponent {
+    constructor() {
+        this.utahDate = () => {
+            dayjs__WEBPACK_IMPORTED_MODULE_0__["extend"](dayjs_plugin_utc__WEBPACK_IMPORTED_MODULE_1__);
+            dayjs__WEBPACK_IMPORTED_MODULE_0__["extend"](dayjs_plugin_timezone__WEBPACK_IMPORTED_MODULE_2__);
+            const utahTimeZone = 'America/Denver';
+            return dayjs__WEBPACK_IMPORTED_MODULE_0__["tz"](new Date(), utahTimeZone);
+        };
+        this.utahTimeStr = () => {
+            return this.utahDate().format('hh:mm:ss A');
+        };
+        this.utahDateStr = () => {
+            return this.utahDate().format('YYYY-MM-DD');
+        };
+    }
+    ngOnInit() {
+        this.updateTime();
+    }
+    updateTime() {
+        setTimeout(() => {
+            this.time = this.utahTimeStr();
+            this.date = this.utahDateStr();
+            this.updateTime();
+        }, 1000);
+    }
+}
+UtahTimeComponent.ɵfac = function UtahTimeComponent_Factory(t) { return new (t || UtahTimeComponent)(); };
+UtahTimeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: UtahTimeComponent, selectors: [["s9-utah-time"]], decls: 1, vars: 1, consts: [["class", "font-size-15 d-flex align-items-center text-muted", 4, "ngIf"], [1, "font-size-15", "d-flex", "align-items-center", "text-muted"]], template: function UtahTimeComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](0, UtahTimeComponent_div_0_Template, 2, 1, "div", 0);
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.time == null ? null : ctx.time.length);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"]], encapsulation: 2 });
+
+
+/***/ }),
+
 /***/ "mNEa":
 /*!******************************!*\
   !*** ./apps/web/src/main.ts ***!
@@ -520,6 +644,49 @@ if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].produc
 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["platformBrowser"]()
     .bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
     .catch((err) => console.error(err));
+
+
+/***/ }),
+
+/***/ "nm6K":
+/*!*******************************************************************!*\
+  !*** ./apps/web/src/app/shared/components/hymn/hymn.component.ts ***!
+  \*******************************************************************/
+/*! exports provided: HymnComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HymnComponent", function() { return HymnComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+
+class HymnComponent {
+}
+HymnComponent.ɵfac = function HymnComponent_Factory(t) { return new (t || HymnComponent)(); };
+HymnComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HymnComponent, selectors: [["s9-hymn"]], inputs: { hymn: "hymn" }, decls: 9, vars: 4, consts: [["target", "_blank", 1, "btn", "btn-sm", "btn-secondary", "font-size-10", "text-capitalize", 3, "href"]], template: function HymnComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "small");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "em");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " LYRICS ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.hymn.title);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", ctx.hymn.language, " Hymn No.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.hymn.page, " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", ctx.hymn.link, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    } }, encapsulation: 2 });
 
 
 /***/ }),
