@@ -19637,14 +19637,14 @@ const SACRAMENT_PROGRAM_DATA = {
         name: 'Brother Person',
         details: 'Ward Member',
     },
-    openingSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['122T'],
+    openingSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['28'],
     sacramentSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['202T'],
-    // restSong: HYMNS_DATA[206],
-    testimonySunday: true,
+    restSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"][206],
+    testimonySunday: false,
     speakers: [
         {
             index: 0,
-            role: 'speaker',
+            role: 'testimony',
             beforeRestHymn: true,
             person: {
                 name: 'Youth Person 1',
@@ -19653,7 +19653,7 @@ const SACRAMENT_PROGRAM_DATA = {
         },
         {
             index: 1,
-            role: 'musical',
+            role: 'speaker',
             beforeRestHymn: true,
             person: {
                 name: 'Brother Person 1 - Give Your Love Away',
@@ -19663,7 +19663,7 @@ const SACRAMENT_PROGRAM_DATA = {
         {
             index: 2,
             role: 'speaker',
-            beforeRestHymn: true,
+            beforeRestHymn: false,
             person: {
                 name: 'Sister Person 2',
                 details: 'Ward member',
@@ -19672,7 +19672,7 @@ const SACRAMENT_PROGRAM_DATA = {
         {
             index: 3,
             role: 'musical',
-            beforeRestHymn: true,
+            beforeRestHymn: false,
             person: {
                 name: 'Brother Person 3 - It Came Upon The Midnight Clear',
                 details: 'Ward member',
@@ -20627,6 +20627,12 @@ const HYMNS_DATA = {
         title: 'Praise to the Man',
         page: 27,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/praise-to-the-man?lang=eng',
+        language: _models_hymn__WEBPACK_IMPORTED_MODULE_0__["HymnLanguage"].english,
+    },
+    28: {
+        title: 'Saints Behold How Great Jehovah',
+        page: 28,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/saints-behold-how-great-jehovah?lang=eng',
         language: _models_hymn__WEBPACK_IMPORTED_MODULE_0__["HymnLanguage"].english,
     },
     29: {
