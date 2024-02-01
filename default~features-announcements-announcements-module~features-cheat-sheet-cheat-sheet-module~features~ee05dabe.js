@@ -19640,7 +19640,7 @@ const SACRAMENT_PROGRAM_DATA = {
     openingSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['122T'],
     sacramentSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['202T'],
     // restSong: HYMNS_DATA[206],
-    testimonySunday: false,
+    testimonySunday: true,
     speakers: [
         {
             index: 0,
