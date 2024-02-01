@@ -319,7 +319,7 @@ DATA.missionaries = [
         photoUrl: './assets/people/malungahu.JPG',
     },
     {
-        name: 'Allan Teriipaia',
+        name: 'Allana Teriipaia',
         mission: 'North Carolina Charlotte Mission',
         startDate: new Date(2023, 1, 22),
         endDate: new Date(2023, 12, 12),
