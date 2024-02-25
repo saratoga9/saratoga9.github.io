@@ -19618,28 +19618,28 @@ const SACRAMENT_PROGRAM_DATA = {
         link: 'https://maps.app.goo.gl/4LxgucSVvEYa7pem7',
     },
     presiding: {
-        name: 'Bishop Name',
+        name: 'Bishop Wayne Tarawhiti',
         details: 'Saratoga 9th Ward, Bishop',
     },
     conducting: {
-        name: 'Brother Salesi Sika',
+        name: 'Bishop Wayne Tarawhiti',
         details: 'Saratoga 9th Ward, Bishopric First Counselor',
     },
     chorister: {
-        name: 'Brother Chorister',
+        name: 'Sister Manu Harris',
         details: 'Ward Member',
     },
     organist: {
-        name: 'Sister Pianist',
+        name: 'Sister Keili Malohifoou',
         details: 'Ward Member',
     },
     invocation: {
-        name: 'Brother Person',
+        name: 'Sister Montella Lisa Naa',
         details: 'Ward Member',
     },
-    openingSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['28'],
-    sacramentSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['202T'],
-    restSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"][206],
+    openingSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['259'],
+    sacramentSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['105T'],
+    restSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['252'],
     testimonySunday: false,
     speakers: [
         {
@@ -19647,7 +19647,7 @@ const SACRAMENT_PROGRAM_DATA = {
             role: 'testimony',
             beforeRestHymn: true,
             person: {
-                name: 'Youth Person 1',
+                name: 'Brother Stephan Teriipaia',
                 details: 'Youth ward member',
             },
         },
@@ -19656,7 +19656,7 @@ const SACRAMENT_PROGRAM_DATA = {
             role: 'speaker',
             beforeRestHymn: true,
             person: {
-                name: 'Brother Person 1 - Give Your Love Away',
+                name: 'Sister Allana Teriipaia - Mission Homecoming',
                 details: 'Ward member',
             },
         },
@@ -19665,19 +19665,19 @@ const SACRAMENT_PROGRAM_DATA = {
             role: 'speaker',
             beforeRestHymn: false,
             person: {
-                name: 'Sister Person 2',
+                name: 'Brother Nalu Shortland',
                 details: 'Ward member',
             },
         },
-        {
-            index: 3,
-            role: 'musical',
-            beforeRestHymn: false,
-            person: {
-                name: 'Brother Person 3 - It Came Upon The Midnight Clear',
-                details: 'Ward member',
-            },
-        },
+        // {
+        //   index: 3,
+        //   role: 'musical',
+        //   beforeRestHymn: false,
+        //   person: {
+        //     name: 'Brother Person 3 - It Came Upon The Midnight Clear',
+        //     details: 'Ward member',
+        //   },
+        // },
         {
             index: 4,
             role: 'speaker',
@@ -19688,13 +19688,13 @@ const SACRAMENT_PROGRAM_DATA = {
             },
         },
     ],
-    closingSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"][210],
+    closingSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['27T'],
     benediction: {
-        name: 'Brother Person',
+        name: 'Brothe Kaylee Tuione',
         details: 'Ward Member',
     },
     stakeBusinessAssignment: {
-        name: 'Brother Person',
+        name: 'No Stake Business',
         details: 'Stake High Councilor',
     },
 };
@@ -20620,7 +20620,7 @@ const HYMNS_DATA = {
     '27T': {
         title: 'Folofola Mai ʻa Sīsū',
         page: 27,
-        link: 'https://www.churchofjesuschrist.org/music/library/hymns/thus-sayeth-the-lord?lang=ton',
+        link: 'https://www.churchofjesuschrist.org/music/text/hymns/thus-sayeth-the-lord?lang=ton',
         language: _models_hymn__WEBPACK_IMPORTED_MODULE_0__["HymnLanguage"].tongan,
     },
     27: {
@@ -21389,6 +21389,12 @@ const HYMNS_DATA = {
         title: 'Carry On',
         page: 255,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/carry-on?lang=eng',
+        language: _models_hymn__WEBPACK_IMPORTED_MODULE_0__["HymnLanguage"].english,
+    },
+    259: {
+        title: 'Hope of Israel',
+        page: 259,
+        link: 'https://www.churchofjesuschrist.org/media/music/songs/hope-of-israel?lang=eng',
         language: _models_hymn__WEBPACK_IMPORTED_MODULE_0__["HymnLanguage"].english,
     },
     280: {
