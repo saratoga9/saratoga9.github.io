@@ -19618,15 +19618,15 @@ const SACRAMENT_PROGRAM_DATA = {
         link: 'https://maps.app.goo.gl/4LxgucSVvEYa7pem7',
     },
     presiding: {
-        name: 'Bishop Wayne Tarawhiti',
+        name: 'Bishop Tarawhiti',
         details: 'Saratoga 9th Ward, Bishop',
     },
     conducting: {
-        name: 'Bishop Wayne Tarawhiti',
-        details: 'Saratoga 9th Ward, Bishopric First Counselor',
+        name: 'Bishop Tarawhiti',
+        details: 'Saratoga 9th Ward, Bishop',
     },
     chorister: {
-        name: 'Sister Manu Harris',
+        name: 'Brother Kuli Malohifoou',
         details: 'Ward Member',
     },
     organist: {
@@ -19634,13 +19634,13 @@ const SACRAMENT_PROGRAM_DATA = {
         details: 'Ward Member',
     },
     invocation: {
-        name: 'Sister Montella Lisa Naa',
+        name: 'Sister Kendra Tarawhiti',
         details: 'Ward Member',
     },
-    openingSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['259'],
-    sacramentSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['105T'],
+    openingSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['2'],
+    sacramentSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['103T'],
     restSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['252'],
-    testimonySunday: false,
+    testimonySunday: true,
     speakers: [
         {
             index: 0,
@@ -19669,15 +19669,15 @@ const SACRAMENT_PROGRAM_DATA = {
                 details: 'Ward member',
             },
         },
-        // {
-        //   index: 3,
-        //   role: 'musical',
-        //   beforeRestHymn: false,
-        //   person: {
-        //     name: 'Brother Person 3 - It Came Upon The Midnight Clear',
-        //     details: 'Ward member',
-        //   },
-        // },
+        {
+            index: 3,
+            role: 'musical',
+            beforeRestHymn: false,
+            person: {
+                name: 'Brother Person 3 - It Came Upon The Midnight Clear',
+                details: 'Ward member',
+            },
+        },
         {
             index: 4,
             role: 'speaker',
@@ -19688,9 +19688,9 @@ const SACRAMENT_PROGRAM_DATA = {
             },
         },
     ],
-    closingSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['27T'],
+    closingSong: _hymns_data__WEBPACK_IMPORTED_MODULE_1__["HYMNS_DATA"]['69T'],
     benediction: {
-        name: 'Brothe Kaylee Tuione',
+        name: 'Brother Sunia Halafuka',
         details: 'Ward Member',
     },
     stakeBusinessAssignment: {
@@ -20497,7 +20497,14 @@ const HYMNS_DATA = {
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/the-morning-breaks?lang=eng',
         language: _models_hymn__WEBPACK_IMPORTED_MODULE_0__["HymnLanguage"].english,
     },
-    '2T': {
+    // 2: {
+    //   title: `The Spirit of God`,
+    //   page: 2,
+    //   link:
+    //     'https://www.churchofjesuschrist.org/media/music/songs/the-spirit-of-god?lang=eng',
+    //   language: HymnLanguage.english,
+    // },
+    2: {
         title: `Ko e Laumālie ʻo e ʻOtuá`,
         page: 2,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/the-spirit-of-god?lang=ton',
@@ -20743,6 +20750,12 @@ const HYMNS_DATA = {
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-believe-in-christ?lang=ton',
         language: _models_hymn__WEBPACK_IMPORTED_MODULE_0__["HymnLanguage"].tongan,
     },
+    '69T': {
+        title: 'Koe Fakamooni',
+        page: 69,
+        link: 'https://www.churchofjesuschrist.org/media/music/songs/testimony?crumbs=hymns&lang=ton',
+        language: _models_hymn__WEBPACK_IMPORTED_MODULE_0__["HymnLanguage"].tongan,
+    },
     '70T': {
         title: 'Fai Haʻo Lotu',
         page: 70,
@@ -20936,10 +20949,10 @@ const HYMNS_DATA = {
         language: _models_hymn__WEBPACK_IMPORTED_MODULE_0__["HymnLanguage"].english,
     },
     '107T': {
-        title: 'Sīsū ē Ne ʻAloʻi',
+        title: 'Sīsū ē Ne Aloi',
         page: 107,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/jesus-once-of-humble-birth?lang=ton',
-        language: _models_hymn__WEBPACK_IMPORTED_MODULE_0__["HymnLanguage"].english,
+        language: _models_hymn__WEBPACK_IMPORTED_MODULE_0__["HymnLanguage"].tongan,
     },
     '109T': {
         title: 'Kuo Toe Tuʻu ʻa e ʻEiki',
