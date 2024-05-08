@@ -312,18 +312,11 @@ DATA.missionaries = [
     //   photoUrl: './assets/people/elder-fitzgerald.png',
     // },
     {
-        name: 'Jamie Malungahu',
-        mission: 'Brazil Sao Paulo East Mission',
+        name: 'Kaleinani Fitzgerald',
+        mission: 'Utah St. George',
         startDate: new Date(2022, 1, 22),
-        endDate: new Date(2023, 12, 12),
-        photoUrl: './assets/people/malungahu.JPG',
-    },
-    {
-        name: 'Allana Teriipaia',
-        mission: 'North Carolina Charlotte Mission',
-        startDate: new Date(2023, 1, 22),
-        endDate: new Date(2023, 12, 12),
-        photoUrl: './assets/people/teriipaia.jpg',
+        endDate: new Date(2023, 7, 16),
+        photoUrl: './assets/people/SisFitzgerald.jpg',
     },
 ];
 //THIS IS THE TEMPLATE OF THE SACRAMENT PROGRAM WHICH ALSO GOES TO THE CHEAT SHEET.

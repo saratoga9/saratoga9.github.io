@@ -310,12 +310,12 @@ function SacramentProgramComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](80, "figure", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](81, "blockquote", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](82, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](83, "Think Celestial");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](83, " But be ye doers of the word, and not hearers only, deceiving your own selves. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](84, "figcaption", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](85, "cite", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](86, "President Russell M. Nelson");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](86, "James 1:22");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
